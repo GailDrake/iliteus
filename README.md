@@ -3,7 +3,8 @@ From the command line, in the directory where you want to install this project, 
 
 ```git clone https://github.com/GailDrake/iliteus.git
 cd iliteus
-yarn install```
+yarn install
+```
 
 ## Local development environment:
 From the command line, in the root `ilite` folder, type `yarn start`. This will run a development server, and compile all LESS and JavaScript files. You can view the app on `localhost:8080` in your browser. The dev server will run continuously and will update as you change and save files.
