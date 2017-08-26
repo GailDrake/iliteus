@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/Cellar/node/8.1.4/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.1.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "iliteus",
+    "version": "1.0.0",
+    "description": "Ilite.us homepage",
+    "main": "app/index.html",
+    "repository": "https://github.com/GailDrake/iliteus.git",
+    "author": "DaveSauce <dave@cumulocreative.com>",
+    "license": "unlicensed",
+    "scripts": {
+      "build": "NODE_ENV=production webpack --config webpack.config.js",
+      "start": "webpack-dev-server --progress --inline --hot"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/davebascom/iliteus/package.json: Unexpected token } in JSON at position 400
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/0.27.5/libexec/lib/yarn-cli.js:747:57
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/0.27.5/libexec/lib/yarn-cli.js:91:30)
+      at /usr/local/Cellar/yarn/0.27.5/libexec/lib/yarn-cli.js:102:13
+      at <anonymous>
