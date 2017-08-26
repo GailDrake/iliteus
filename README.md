@@ -1,7 +1,8 @@
 ## Installation
 From the command line, in the directory where you want to install this project, run:
 
-```git clone https://github.com/GailDrake/iliteus.git
+```
+git clone https://github.com/GailDrake/iliteus.git
 cd iliteus
 yarn install
 ```
