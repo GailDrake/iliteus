@@ -18,12 +18,15 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 module.exports = {
-  entry: ['babel-polyfill', './app/index.js'],
+  entry: ['babel-polyfill', './app/pages/home/index.js'],
   resolve: {
     modules: [
       path.resolve('./app'),
       path.resolve('./node_modules'),
     ],
+    alias: {
+      handlebars: 'handlebars/dist/handlebars.min.js',
+    },
   },
   output: {
     path: path.resolve('dist'),
@@ -40,12 +43,19 @@ module.exports = {
       {
         test: /\.js$/,
         use: 'babel-loader',
-        exclude: /node_modules/
+        exclude: /node_modules/,
       },
       {
         test: /\.jsx$/,
         use: 'babel-loader',
-        exclude: /node_modules/
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.handlebars$/,
+        use: [{
+          loader: 'handlebars-loader',
+        }],
+        exclude: /node_modules/,
       },
       {
         test: /\.css$/,
