@@ -22,7 +22,7 @@ From the command line, in the root `ilite` folder, type `yarn start`. This will 
 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) - Great general guidelines, and the style guide I've been seeing many companies use lately.
 
 
-#### Note:
+__Note:__
 Do not touch the `dist` folder. It's regenerated when `yarn build` is executed, and will be completely overwritten.
 
 
@@ -43,7 +43,7 @@ _example template_
 <div id="handlebars__templateName--target"></div>
 ```
 
-__JavaScript:__
+#### JavaScript:
 Each handlebars template in an .html file must be supported by JavaScript.
 
 To render a handlebars template, you should call the custom helper `renderHandlebars`. The syntax is: `renderHandlebars('handlebars-teamplateName', 'handlebars-templateName__target', data);` `data` is an optional JSON object.
@@ -55,9 +55,9 @@ To register a handlebars partial template, you need to pass an object to the cus
 ### WebPack
 __Adding a new page__
 
-1 - Create a new directory in the `/pages` folder
-2 - Add a `.js` file and a `.less` file. `example.js` and `example.import.less`.
-3 - `@import` your newly created `example.import.less` file into `app/style/less/main.less`.
-4 - In `webpack.config.js`:
-    - Create a new `HtmlWebpackPlugin` instance, with your new page's details, at the top of the page (follow the examples). Then add it to the `plugin` array at the bottom of the file. This tells WebPack to generate a new `.html` page, with all of the listed dependencies.
-    - Add a new entry point for your page in `entry` (the first key in the `module.exports` object).
+1. Create a new directory in the `/pages` folder
+2. Add a `.js` file and a `.less` file. `example.js` and `example.import.less`.
+3. `@import` your newly created `example.import.less` file into `app/style/less/main.less`.
+4. In `webpack.config.js`:
+  * Create a new `HtmlWebpackPlugin` instance, with your new page's details, at the top of the page (follow the examples). Then add it to the `plugin` array at the bottom of the file. This tells WebPack to generate a new `.html` page, with all of the listed dependencies.
+  * Add a new entry point for your page in `entry` (the first key in the `module.exports` object).
