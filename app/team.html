@@ -20,15 +20,14 @@
 
 </head>
 
-<body class='home'>
+<body class='team'>
 
-	<h1 id='home__header' class="home__header">This is the Team page</h1>
-
-	<script id="handlebars-demo" type="text/x-handlebars-template">
-		<p class='home__tagline'>My name is {{name}}. I am a {{occupation}}.</p>
+	<script id="handlebars__navbar" type="text/x-handlebars-template">
+		{{> navbar}}
 	</script>
+	<div id="handlebars__navbar__target"></div>
 
-	<div id="handlebars-demo__target"></div>
+	<h1 class="team__header">This is the Team page</h1>
 
 </body>
 </html>

@@ -1,15 +1,8 @@
+// This just fires on index.html
 import Handlebars from 'handlebars';
-import { renderHandlebars, registerPartial } from 'lib/helpers.js';
-import navbar from 'components/navbar';
-// import { renderHandlebars } from 'lib/helpers.js';
+import { renderHandlebars } from 'lib/helpers.js';
 
-// This is the only entry point for less - no need to import less files into JS anywhere else
-import './../../style/less/main.less';
+console.log('index.js (home page)')
+const context = { name: 'Mickey', occupation: 'mouse' };
 
-const context = { name: 'Dave', occupation: 'developer' };
-
-registerPartial(navbar);
-console.log(Handlebars.partials)
-// See helpers.js for API
-renderHandlebars('handlebars-navbar', 'handlebars-navbar__target');
-renderHandlebars('handlebars-demo', 'handlebars-demo__target', context);
+renderHandlebars('handlebars__demo', 'handlebars__demo__target', context);

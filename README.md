@@ -51,3 +51,13 @@ To render a handlebars template, you should call the custom helper `renderHandle
 To register a handlebars partial template, you need to pass an object to the custom helper `registerPartial()`. The object must have the following syntax: `{ name: 'string', body: 'string' }`. IMPORTANT: You must register a partial template before you render the template that calls it.
 
 [intro Handlebars tutorial](https://www.sitepoint.com/a-beginners-guide-to-handlebars/)
+
+### WebPack
+__Adding a new page__
+
+1 - Create a new directory in the `/pages` folder
+2 - Add a `.js` file and a `.less` file. `example.js` and `example.import.less`.
+3 - `@import` your newly created `example.import.less` file into `app/style/less/main.less`.
+4 - In `webpack.config.js`:
+    - Create a new `HtmlWebpackPlugin` instance, with your new page's details, at the top of the page (follow the examples). Then add it to the `plugin` array at the bottom of the file. This tells WebPack to generate a new `.html` page, with all of the listed dependencies.
+    - Add a new entry point for your page in `entry` (the first key in the `module.exports` object).
