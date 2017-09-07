@@ -8,6 +8,14 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   filename: 'index.html',
   favicon: 'app/assets/images/favicon.ico',
   inject: 'body',
+  chunks: ['common', 'index'],
+});
+const TeamHtmlWebpackPluginConfig = new HtmlWebpackPlugin({
+  template: './app/team.html',
+  filename: 'team.html',
+  favicon: 'app/assets/images/favicon.ico',
+  inject: 'body',
+  chunks: ['common', 'team'],
 });
 
 let sourceMap = 'eval-source-map';
@@ -18,21 +26,28 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 module.exports = {
-  entry: ['babel-polyfill', './app/index.js'],
+  entry: {
+    index: ['babel-polyfill', './app/pages/home/index.js'],
+    team: ['babel-polyfill', './app/pages/team/team.js'],
+    common: ['babel-polyfill', './app/lib/common.js'],
+  },
   resolve: {
     modules: [
       path.resolve('./app'),
       path.resolve('./node_modules'),
     ],
+    alias: {
+      handlebars: 'handlebars/dist/handlebars.min.js',
+    },
   },
   output: {
     path: path.resolve('dist'),
-    filename: '[name]',
+    filename: '[name].js',
+    chunkFilename: '[id].chunk.js',
   },
   devtool: sourceMap,
   devServer: {
     compress: true,
-    // public: 'store-client-nestroia1.c9users.io'
     disableHostCheck: true,
   },
   module: {
@@ -40,12 +55,19 @@ module.exports = {
       {
         test: /\.js$/,
         use: 'babel-loader',
-        exclude: /node_modules/
+        exclude: /node_modules/,
       },
       {
         test: /\.jsx$/,
         use: 'babel-loader',
-        exclude: /node_modules/
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.handlebars$/,
+        use: [{
+          loader: 'handlebars-loader',
+        }],
+        exclude: /node_modules/,
       },
       {
         test: /\.css$/,
@@ -69,7 +91,7 @@ module.exports = {
             },
           }, {
             loader: 'less-loader', // compiles LESS to CSS
-          }
+          },
         ],
       },
       {
@@ -88,7 +110,11 @@ module.exports = {
   },
   plugins: [
     HtmlWebpackPluginConfig,
-    new webpack.optimize.CommonsChunkPlugin('common.js'),
+    TeamHtmlWebpackPluginConfig,
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'common',
+      filename: 'common.js',
+    }),
     new webpack.optimize.UglifyJsPlugin({
       compress: {
         warnings: false,

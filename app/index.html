@@ -22,7 +22,18 @@
 
 <body class='home'>
 
-	<h1 id='home__header' class="home__header">This is the homepage</h1>
+	<script id="handlebars__navbar" type="text/x-handlebars-template">
+		{{> navbar}}
+	</script>
+	<div id="handlebars__navbar__target"></div>
+
+	<h1 class="home__header">This is the homepage</h1>
+
+	<script id="handlebars__demo" type="text/x-handlebars-template">
+		<p class='home__tagline'>My name is {{name}}. I am a {{occupation}}.</p>
+	</script>
+
+	<div id="handlebars__demo__target"></div>
 
 </body>
 </html>
