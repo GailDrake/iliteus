@@ -10,12 +10,19 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   inject: 'body',
   chunks: ['common', 'index'],
 });
-const TeamHtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: './app/team.html',
-  filename: 'team.html',
+const RoboticsHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/robotics.html',
+  filename: 'robotics.html',
   favicon: 'app/assets/images/favicon.ico',
   inject: 'body',
-  chunks: ['common', 'team'],
+  chunks: ['common', 'robotics'],
+});
+const RoboticsAboutHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/robotics/about.html',
+  filename: 'robotics/about.html',
+  favicon: 'app/assets/images/favicon.ico',
+  inject: 'body',
+  chunks: ['common', 'roboticsAbout'],
 });
 
 let sourceMap = 'eval-source-map';
@@ -27,8 +34,9 @@ if (process.env.NODE_ENV === 'production') {
 
 module.exports = {
   entry: {
-    index: ['babel-polyfill', './app/pages/home/index.js'],
-    team: ['babel-polyfill', './app/pages/team/team.js'],
+    index: ['babel-polyfill', './app/js/index.js'],
+    robotics: ['babel-polyfill', './app/js/robotics.js'],
+    roboticsAbout: ['babel-polyfill', './app/robotics/js/about.js'],
     common: ['babel-polyfill', './app/lib/common.js'],
   },
   resolve: {
@@ -110,7 +118,8 @@ module.exports = {
   },
   plugins: [
     HtmlWebpackPluginConfig,
-    TeamHtmlWebpackPluginConfig,
+    RoboticsHtmlConfig,
+    RoboticsAboutHtmlConfig,
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common',
       filename: 'common.js',
