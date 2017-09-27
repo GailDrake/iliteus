@@ -61,3 +61,6 @@ __Adding a new page__
 4. In `webpack.config.js`:
   * Create a new `HtmlWebpackPlugin` instance, with your new page's details, at the top of the page (follow the examples). Then add it to the `plugin` array at the bottom of the file. This tells WebPack to generate a new `.html` page, with all of the listed dependencies.
   * Add a new entry point for your page in `entry` (the first key in the `module.exports` object).
+
+### File Structure
+Since this project does not use a router, the site's navigation is determined by the file structure. Each directory will have it's own sub-directories for `less`, `js`, and `assets`
