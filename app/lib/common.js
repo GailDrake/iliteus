@@ -6,7 +6,7 @@ import { renderHandlebars, registerPartial } from 'lib/helpers.js';
 import navbar from 'components/navbar';
 
 // This is the only entry point for less - no need to import less files into JS anywhere else
-import './../style/less/main.less';
+import './../less/main.less';
 
 // See helpers.js for API
 registerPartial(navbar);
