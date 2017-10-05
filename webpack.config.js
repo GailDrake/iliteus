@@ -31,6 +31,13 @@ const OutreachHtmlConfig = new HtmlWebpackPlugin({
   inject: 'body',
   chunks: ['common', 'outreach'],
 });
+const HostedEventsHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/hostedevents.html',
+  filename: 'hostedevents.html',
+  favicon: 'app/assets/images/favicon.ico',
+  inject: 'body',
+  chunks: ['common', 'hostedevents'],
+});
 
 let sourceMap = 'eval-source-map';
 
@@ -46,6 +53,7 @@ module.exports = {
     roboticsAbout: ['babel-polyfill', './app/robotics/js/about.js'],
     common: ['babel-polyfill', './app/lib/common.js'],
     outreach: ['babel-polyfill', './app/js/outreach.js'],
+    hostedevents: ['babel-polyfill', './app/js/hostedevents.js'],
   },
   resolve: {
     modules: [
@@ -129,6 +137,7 @@ module.exports = {
     RoboticsHtmlConfig,
     RoboticsAboutHtmlConfig,
     OutreachHtmlConfig,
+    HostedEventsHtmlConfig,
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common',
       filename: 'common.js',

@@ -5,7 +5,7 @@ const navbar = {
     <a class="navbar__link" href="/">home</a>
     <a class="navbar__link" href="./robotics.html">robotics</a>
     <a class="navbar__link" href="./outreach.html">outreach</a>
-    <a class="navbar__link" href="./hosted-events.html">Hosted Events</a>
+    <a class="navbar__link" href="./hostedevents.html">Hosted Events</a>
   </nav>`,
 };
 
