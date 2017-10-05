@@ -24,6 +24,13 @@ const RoboticsAboutHtmlConfig = new HtmlWebpackPlugin({
   inject: 'body',
   chunks: ['common', 'roboticsAbout'],
 });
+const ComputerScienceHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/computerscience.html',
+  filename: 'computerscience.html',
+  favicon: 'app/assets/images/favicon.ico',
+  inject: 'body',
+  chunks: ['common', 'computerscience'],
+});
 const OutreachHtmlConfig = new HtmlWebpackPlugin({
   template: './app/outreach.html',
   filename: 'outreach.html',
@@ -54,6 +61,7 @@ module.exports = {
     common: ['babel-polyfill', './app/lib/common.js'],
     outreach: ['babel-polyfill', './app/js/outreach.js'],
     hostedevents: ['babel-polyfill', './app/js/hostedevents.js'],
+    computerscience: ['babel-polyfill', './app/js/computerscience.js']
   },
   resolve: {
     modules: [
@@ -138,6 +146,7 @@ module.exports = {
     RoboticsAboutHtmlConfig,
     OutreachHtmlConfig,
     HostedEventsHtmlConfig,
+    ComputerScienceHtmlConfig,
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common',
       filename: 'common.js',
