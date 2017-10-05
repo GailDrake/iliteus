@@ -128,6 +128,7 @@ module.exports = {
     HtmlWebpackPluginConfig,
     RoboticsHtmlConfig,
     RoboticsAboutHtmlConfig,
+    OutreachHtmlConfig,
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common',
       filename: 'common.js',
