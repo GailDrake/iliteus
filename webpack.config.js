@@ -24,6 +24,13 @@ const RoboticsAboutHtmlConfig = new HtmlWebpackPlugin({
   inject: 'body',
   chunks: ['common', 'roboticsAbout'],
 });
+const OutreachHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/outreach.html',
+  filename: 'outreach.html',
+  favicon: 'app/assets/images/favicon.ico',
+  inject: 'body',
+  chunks: ['common', 'outreach'],
+});
 
 let sourceMap = 'eval-source-map';
 
@@ -38,6 +45,7 @@ module.exports = {
     robotics: ['babel-polyfill', './app/js/robotics.js'],
     roboticsAbout: ['babel-polyfill', './app/robotics/js/about.js'],
     common: ['babel-polyfill', './app/lib/common.js'],
+    outreach: ['babel-polyfill', './app/js/outreach.js'],
   },
   resolve: {
     modules: [
