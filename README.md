@@ -66,7 +66,7 @@ __Adding a new page__
 Since this project does not use a router, the site's navigation is determined by the file structure. Each directory will have it's own sub-directories for `less`, `js`, and `assets`
 
 ### Footer
-__Adding a footer
+__Adding a footer__
 
 1. go to the bottem of the body
 2. paste
