@@ -64,3 +64,15 @@ __Adding a new page__
 
 ### File Structure
 Since this project does not use a router, the site's navigation is determined by the file structure. Each directory will have it's own sub-directories for `less`, `js`, and `assets`
+
+### Footer
+__Adding a footer
+
+1. go to the bottem of the body
+2. paste
+```
+<script id="handlebars__footer" type="text/x-handlebars-template">
+ {{> footer}}
+</script>
+<div id="handlebars__footer--target"></div>
+```
