@@ -5,6 +5,7 @@ import Handlebars from 'handlebars';
 import { renderHandlebars, registerPartial } from 'lib/helpers.js';
 import navbar from 'components/navbar';
 import footer from 'components/footer';
+import navigationBox from 'index/components/navigationBox';
 
 // This is the only entry point for less - no need to import less files into JS anywhere else
 import './../less/main.less';
@@ -12,6 +13,8 @@ import './../less/main.less';
 // See helpers.js for API
 registerPartial(footer);
 renderHandlebars('handlebars__footer', 'handlebars__footer--target');
+registerPartial(navigationBox);
+renderHandlebars('handlebars__box', 'handlebars__box--target');
 registerPartial(navbar);
 renderHandlebars('handlebars__navbar', 'handlebars__navbar__target');
 

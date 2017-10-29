@@ -17,60 +17,17 @@
 </head>
 <body>
 	<div class="index__wrapp">
-		<div class="index__navigation-box">
-			<div class="flex-item">
-				<a href="sponsors.html"><img class="index__navigation-box--images" src="app/index/images/sponsorship.png"></a>
-				<hr>
-				<center>
-					<strong>Sponsors</strong>
-				</center>
-			</div>
-			<div class="flex-item">
-				<a href="./frc.html"><img class="index__navigation-box--images" src="app/index/images/frc.png"></a>
-				<hr>
-				<center>
-					<strong>FRC</strong>
-					<center></center>
-				</center>
-			</div>
-			<div class="flex-item">
-				<a href="ftc.html"><img class="index__navigation-box--images" src="app/index/images/ftc.png"></a>
-				<hr>
-				<center>
-					<strong>FTC</strong>
-					<center></center>
-				</center>
-			</div>
-			<div class="flex-item">
-				<a href="cyber.html"><img class="index__navigation-box--images" src="app/index/images/cyber.png"></a>
-				<hr>
-				<center>
-					<strong>Cyber</strong>
-					<center></center>
-				</center>
-			</div>
-			<div class="flex-item">
-				<a href="outreach.html"><img class="index__navigation-box--images" src="app/index/images/outreach.png"></a>
-				<hr>
-				<center>
-					<strong>Outreach</strong>
-				</center>
-			</div>
-			<div class="flex-item">
-				<a href="computerscience.html"><img class="index__navigation-box--images" src="app/index/images/computerscience.png"></a>
-				<hr>
-				<center>
-					<strong>Computer Science</strong>
-				</center>
-			</div>
-			<div class="flex-item">
-				<a href="hostedevents.html"><img class="index__navigation-box--images" src="app/index/images/hostedevents.png"></a>
-				<hr>
-				<center>
-					<strong>Hosted Events</strong>
-				</center>
-			</div>
-		</div>
+			<script id="handlebars__box" type="text/x-handlebars-template">
+					{{>box item="Sponsorship"}}<br>
+					{{>box item="FRC"}}<br>
+					{{>box item="FTC"}}<br>
+					{{>box item="Cyber"}}<br>
+					{{>box item="Outreach"}}<br>
+					{{>box item="Computer Science"}}<br>
+					{{>box item="Hosted Events"}}<br>
+			</script>
+			<div class="index__navigation-box" id="handlebars__box--target"></div>
+
 		<script id="handlebars__footer" type="text/x-handlebars-template">
 		   {{> footer}}
 		</script>
