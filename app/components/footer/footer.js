@@ -23,7 +23,7 @@ const footer = {
 		</div>
 	</div>
 	<div class="footer__copyright">
-		<p>&copy; 2017 ILITE Robotics. All rights reserved.</p>
+		<p>&copy; 2017 ILITE. All rights reserved.</p>
 	</div>
   `,
 };
