@@ -22307,6 +22307,10 @@ caption {
   float: left;
   padding-right: 20px;
 }
+.leftimg1 {
+  width: 20%;
+  height: 20%;
+}
 .raleway-bold {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
