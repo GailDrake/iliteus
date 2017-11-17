@@ -11,7 +11,7 @@ const IndexHtmlnConfig = new HtmlWebpackPlugin({
   chunks: ['common', 'index'],
 });
 const FRCHtmlConfig = new HtmlWebpackPlugin({
-  template: './app/frc.html',
+  template: './app/FRC/frc.html',
   filename: 'frc.html',
   favicon: 'app/assets/images/favicon.ico',
   inject: 'body',
