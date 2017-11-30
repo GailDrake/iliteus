@@ -45,6 +45,13 @@ const HostedEventsHtmlConfig = new HtmlWebpackPlugin({
   inject: 'body',
   chunks: ['common', 'hostedevents'],
 });
+const TemplateHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/template.html',
+  filename: 'template.html',
+  favicon: 'app/assets/images/favicon.ico',
+  inject: 'body',
+  chunks: ['common', 'template'],
+})
 
 let sourceMap = 'eval-source-map';
 
@@ -61,7 +68,8 @@ module.exports = {
     common: ['babel-polyfill', './app/lib/common.js'],
     outreach: ['babel-polyfill', './app/js/outreach.js'],
     hostedevents: ['babel-polyfill', './app/js/hostedevents.js'],
-    computerscience: ['babel-polyfill', './app/js/computerscience.js']
+    computerscience: ['babel-polyfill', './app/js/computerscience.js'],
+    template: ['babel-polyfill', './app/js/template.js'],
   },
   resolve: {
     modules: [
@@ -147,6 +155,7 @@ module.exports = {
     OutreachHtmlConfig,
     HostedEventsHtmlConfig,
     ComputerScienceHtmlConfig,
+    TemplateHtmlConfig,
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common',
       filename: 'common.js',
