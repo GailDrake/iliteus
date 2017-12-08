@@ -114,6 +114,12 @@ module.exports = {
           loader: 'file-loader',
         }],
       },
+      {
+        test: /\.jpg/,
+        use: [{
+          loader: 'file-loader',
+        }],
+      },
     ],
   },
   plugins: [
