@@ -35,4 +35,15 @@
 		min-height: 250px;
 		border-radius: 10px;
 	}
+	.zoom-twist {
+		overflow: hidden;
+		img {
+			-webkit-transition: .5s ease-in-out;
+			transition: .5s ease-in-out;
+		}
+		img:hover {
+			-webkit-transform: rotate(360deg) scale(1.1);
+			transform: rotate(2deg) scale(1.2);
+		}
+	}
 }
