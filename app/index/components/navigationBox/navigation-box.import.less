@@ -24,7 +24,7 @@
 		border-top-right-radius: 10px;
 		border-top-left-radius: 10px;
 	}
-	.flex-item {
+	.index__navigation-box--flex-item {
 		text-align: center;
 		width: 320px;
 		height: auto;
@@ -34,16 +34,12 @@
 		margin-top: 20px;
 		min-height: 250px;
 		border-radius: 10px;
-	}
-	.zoom-twist {
 		overflow: hidden;
-		img {
-			-webkit-transition: .5s ease-in-out;
-			transition: .5s ease-in-out;
-		}
-		img:hover {
-			-webkit-transform: rotate(360deg) scale(1.1);
-			transform: rotate(2deg) scale(1.2);
-		}
+		-webkit-transition: .5s ease-in-out;
+		transition: .5s ease-in-out;
+	}
+	.index__navigation-box--flex-item:hover {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
 	}
 }
