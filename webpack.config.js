@@ -24,6 +24,27 @@ const RoboticsAboutHtmlConfig = new HtmlWebpackPlugin({
   inject: 'body',
   chunks: ['common', 'roboticsAbout'],
 });
+const ComputerScienceHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/computerscience.html',
+  filename: 'computerscience.html',
+  favicon: 'app/assets/images/favicon.ico',
+  inject: 'body',
+  chunks: ['common', 'computerscience'],
+});
+const OutreachHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/outreach.html',
+  filename: 'outreach.html',
+  favicon: 'app/assets/images/favicon.ico',
+  inject: 'body',
+  chunks: ['common', 'outreach'],
+});
+const HostedEventsHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/hostedevents.html',
+  filename: 'hostedevents.html',
+  favicon: 'app/assets/images/favicon.ico',
+  inject: 'body',
+  chunks: ['common', 'hostedevents'],
+});
 
 let sourceMap = 'eval-source-map';
 
@@ -38,6 +59,9 @@ module.exports = {
     robotics: ['babel-polyfill', './app/js/robotics.js'],
     roboticsAbout: ['babel-polyfill', './app/robotics/js/about.js'],
     common: ['babel-polyfill', './app/lib/common.js'],
+    outreach: ['babel-polyfill', './app/js/outreach.js'],
+    hostedevents: ['babel-polyfill', './app/js/hostedevents.js'],
+    computerscience: ['babel-polyfill', './app/js/computerscience.js']
   },
   resolve: {
     modules: [
@@ -113,13 +137,16 @@ module.exports = {
         use: [{
           loader: 'file-loader',
         }],
-      },
+      }
     ],
   },
   plugins: [
     HtmlWebpackPluginConfig,
     RoboticsHtmlConfig,
     RoboticsAboutHtmlConfig,
+    OutreachHtmlConfig,
+    HostedEventsHtmlConfig,
+    ComputerScienceHtmlConfig,
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common',
       filename: 'common.js',
