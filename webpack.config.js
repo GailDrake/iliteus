@@ -3,26 +3,26 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 require('babel-polyfill');
 
-const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
+const IndexHtmlnConfig = new HtmlWebpackPlugin({
   template: './app/index.html',
   filename: 'index.html',
   favicon: 'app/assets/images/favicon.ico',
   inject: 'body',
   chunks: ['common', 'index'],
 });
-const RoboticsHtmlConfig = new HtmlWebpackPlugin({
-  template: './app/robotics.html',
-  filename: 'robotics.html',
+const FRCHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/FRC/frc.html',
+  filename: 'frc.html',
   favicon: 'app/assets/images/favicon.ico',
   inject: 'body',
-  chunks: ['common', 'robotics'],
+  chunks: ['common', 'frc'],
 });
-const RoboticsAboutHtmlConfig = new HtmlWebpackPlugin({
-  template: './app/robotics/about.html',
-  filename: 'robotics/about.html',
+const FRCAboutHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/frc/about.html',
+  filename: 'frc/about.html',
   favicon: 'app/assets/images/favicon.ico',
   inject: 'body',
-  chunks: ['common', 'roboticsAbout'],
+  chunks: ['common', 'frcAbout'],
 });
 const ComputerScienceHtmlConfig = new HtmlWebpackPlugin({
   template: './app/computerscience.html',
@@ -55,9 +55,9 @@ if (process.env.NODE_ENV === 'production') {
 
 module.exports = {
   entry: {
-    index: ['babel-polyfill', './app/js/index.js'],
-    robotics: ['babel-polyfill', './app/js/robotics.js'],
-    roboticsAbout: ['babel-polyfill', './app/robotics/js/about.js'],
+    index: ['babel-polyfill', './app/index/js/index.js'],
+    frc: ['babel-polyfill', './app/frc/js/FRC.js'],
+    frcAbout: ['babel-polyfill', './app/frc/js/about.js'],
     common: ['babel-polyfill', './app/lib/common.js'],
     outreach: ['babel-polyfill', './app/js/outreach.js'],
     hostedevents: ['babel-polyfill', './app/js/hostedevents.js'],
@@ -137,16 +137,19 @@ module.exports = {
         use: [{
           loader: 'file-loader',
         }],
-      }
+      },
+      {
+        test: /\.jpg/,
+        use: [{
+          loader: 'file-loader',
+        }],
+      },
     ],
   },
   plugins: [
-    HtmlWebpackPluginConfig,
-    RoboticsHtmlConfig,
-    RoboticsAboutHtmlConfig,
-    OutreachHtmlConfig,
-    HostedEventsHtmlConfig,
-    ComputerScienceHtmlConfig,
+    IndexHtmlnConfig,
+    FRCHtmlConfig,
+    FRCAboutHtmlConfig,
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common',
       filename: 'common.js',
