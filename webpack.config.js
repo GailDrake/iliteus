@@ -24,6 +24,27 @@ const FRCAboutHtmlConfig = new HtmlWebpackPlugin({
   inject: 'body',
   chunks: ['common', 'frcAbout'],
 });
+const ComputerScienceHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/computerscience.html',
+  filename: 'computerscience.html',
+  favicon: 'app/assets/images/favicon.ico',
+  inject: 'body',
+  chunks: ['common', 'computerscience'],
+});
+const OutreachHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/outreach.html',
+  filename: 'outreach.html',
+  favicon: 'app/assets/images/favicon.ico',
+  inject: 'body',
+  chunks: ['common', 'outreach'],
+});
+const HostedEventsHtmlConfig = new HtmlWebpackPlugin({
+  template: './app/hostedevents.html',
+  filename: 'hostedevents.html',
+  favicon: 'app/assets/images/favicon.ico',
+  inject: 'body',
+  chunks: ['common', 'hostedevents'],
+});
 
 let sourceMap = 'eval-source-map';
 
@@ -38,6 +59,9 @@ module.exports = {
     frc: ['babel-polyfill', './app/frc/js/FRC.js'],
     frcAbout: ['babel-polyfill', './app/frc/js/about.js'],
     common: ['babel-polyfill', './app/lib/common.js'],
+    outreach: ['babel-polyfill', './app/js/outreach.js'],
+    hostedevents: ['babel-polyfill', './app/js/hostedevents.js'],
+    computerscience: ['babel-polyfill', './app/js/computerscience.js']
   },
   resolve: {
     modules: [
