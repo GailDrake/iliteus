@@ -55,8 +55,8 @@ To register a handlebars partial template, you need to pass an object to the cus
 ### WebPack
 __Adding a new page__
 
-1. Create a new directory in the `/pages` folder
-2. Add a `.js` file and a `.less` file. `example.js` and `example.import.less`.
+1. Create a new `.html` file where you want the page to reside. We're not using a router, so it must fit in relation to `index.html` the same way that it will be accessed by the url.
+2. Add a `.js` file and a `.less` file into the corresponding sub directories. `app/js/example.js` and `app/less/example.import.less`, or `app/robotics/js/example.js` and `app/robotics/less/example.import.less`.
 3. `@import` your newly created `example.import.less` file into `app/style/less/main.less`.
 4. In `webpack.config.js`:
   * Create a new `HtmlWebpackPlugin` instance, with your new page's details, at the top of the page (follow the examples). Then add it to the `plugin` array at the bottom of the file. This tells WebPack to generate a new `.html` page, with all of the listed dependencies.
