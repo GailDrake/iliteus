@@ -61,7 +61,7 @@ module.exports = {
     common: ['babel-polyfill', './app/lib/common.js'],
     outreach: ['babel-polyfill', './app/js/outreach.js'],
     hostedevents: ['babel-polyfill', './app/js/hostedevents.js'],
-    computerscience: ['babel-polyfill', './app/js/computerscience.js']
+    computerscience: ['babel-polyfill', './app/js/computerscience.js'],
   },
   resolve: {
     modules: [
