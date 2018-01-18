@@ -115,7 +115,7 @@ module.exports = {
           }, {
             loader: 'postcss-loader',
             options: {
-              plugins: function () {
+              plugins: () => {
                 return [
                   require('autoprefixer')
                 ];
@@ -150,6 +150,9 @@ module.exports = {
     IndexHtmlnConfig,
     FRCHtmlConfig,
     FRCAboutHtmlConfig,
+    ComputerScienceHtmlConfig,
+    OutreachHtmlConfig,
+    HostedEventsHtmlConfig,
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common',
       filename: 'common.js',
