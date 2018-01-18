@@ -57,6 +57,9 @@ module.exports = {
   devServer: {
     compress: true,
     disableHostCheck: true,
+    inline:true,
+    port:8080,
+    host: "Adeels-MacBook-Pro.local"
   },
   module: {
     rules: [

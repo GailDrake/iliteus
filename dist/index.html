@@ -3,37 +3,144 @@
 <!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="en-gb" class="no-js"> <!--<![endif]-->
+
+<html class="no-js" lang="en-gb">
+<!--<![endif]-->
+
+
 <head>
-	<title>ILITE</title>
-	<meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="keywords" content="ILITE, first robotics, Battlefield HS" />
-	<meta name="description" content="ILITE stands for " />
-
-	<!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Raleway:300,400,500" rel="stylesheet">
-
+  <title>ILITE</title>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="ILITE, first robotics, Battlefield HS" name="keywords">
+  <meta content="ILITE stands for" name="description"><!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"><!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Raleway:300,400,500" rel="stylesheet">
 <link rel="shortcut icon" href="favicon.ico"></head>
 
 <body class='home'>
+  <script id="handlebars__navbar" type="text/x-handlebars-template">
+     {{> navbar}}
+  </script>
 
-	<script id="handlebars__navbar" type="text/x-handlebars-template">
-		{{> navbar}}
-	</script>
-	<div id="handlebars__navbar__target"></div>
+  <div id="handlebars__navbar--target">
+  </div>
 
-	<h1 class="home__header">This is the homepage</h1>
 
-	<script id="handlebars__demo" type="text/x-handlebars-template">
-		<p class='home__tagline'>My name is {{name}}. I am a {{occupation}}.</p>
-	</script>
+  <h1 class="home__header">This is the homepage</h1>
+  <!--<script id="handlebars__mediatiles" type="text/x-handlebars-template">
+    {{> mediatiles}}
+  </script>
+  <div id="handlebars__mediatiles==target"></div>-->
 
-	<div id="handlebars__demo__target"></div>
 
+  <div class="imageGrid">
+    <div class="mediatiles">
+      <a href="https://www.dropbox.com/sh/bbr2288z656ubhm/AADWSERCz8P0Ki5G4Wg93TOJa/FRC%20Robotics/2017%20World%20Championships?dl=0">
+      <div class="tile" style="background-image: url('./app/images/generic-header.jpg');">
+        <div class="textWrapper">
+          <h2>World Championship 2017</h2>
+
+
+          <div class="content">
+          </div>
+        </div>
+      </div></a> <a href="https://www.dropbox.com/sh/bbr2288z656ubhm/AAC3coZ6kps9M0sx7SwWxyBZa/FRC%20Robotics/Chesapeake%20District%20Championships?dl=0">
+      <div class="tile" style="background-image: url('./images/generic-header.jpg');">
+        <div class="textWrapper">
+          <h2>Chesapeake District Championships 2017</h2>
+
+
+          <div class="content">
+          </div>
+        </div>
+      </div></a> <a href="https://www.dropbox.com/sh/wck7mcgzcbv42qr/AADP_ez0oJeDZSYkUoq5gqSXa?dl=0">
+      <div class="tile" style="background-image: url('./images/generic-header.jpg');">
+        <div class="textWrapper">
+          <h2>IROC 2016</h2>
+
+
+          <div class="content">
+          </div>
+        </div>
+      </div></a> <a href="https://www.dropbox.com/sh/e54shc5s5fnoi48/AACkh9a7XvxGkllzuJn7NTZba?dl=0">
+      <div class="tile" style="background-image: url('./images/generic-header.jpg');">
+        <div class="textWrapper">
+          <h2>DC United 2016</h2>
+
+
+          <div class="content">
+          </div>
+        </div>
+      </div></a> <a href="https://www.dropbox.com/sh/jf3h2t6nborid9s/AADhUeMrDa7RpB0KDkxtJm4Ka?dl=0">
+      <div class="tile" style="background-image: url('./images/generic-header.jpg');">
+        <div class="textWrapper">
+          <h2>World Championship 2016</h2>
+
+
+          <div class="content">
+          </div>
+        </div>
+      </div></a> <a href="https://www.dropbox.com/sh/v7vzw69wnsn9sp7/AABcLQ560lXzyZKHNFUQoNoZa?dl=0">
+      <div class="tile" style="background-image: url('./images/generic-header.jpg');">
+        <div class="textWrapper">
+          <h2>Portsmouth FRC District 2016</h2>
+
+
+          <div class="content">
+          </div>
+        </div>
+      </div></a> <a href="https://www.dropbox.com/sh/nan3z5cw8w6jy2d/AACAj4koZIgp4ZPRkMMuOutta?dl=0">
+      <div class="tile" style="background-image: url('./images/generic-header.jpg');">
+        <div class="textWrapper">
+          <h2>Bethesda FRC District 2016</h2>
+
+
+          <div class="content">
+          </div>
+        </div>
+      </div></a> <a href="https://www.dropbox.com/sh/pl93yligwwxi79k/AACXnbKK1uly5si-rY4w_BbQa?dl=0">
+      <div class="tile" style="background-image: url('./images/generic-header.jpg');">
+        <div class="textWrapper">
+          <h2>Haymarket Day 2016</h2>
+
+
+          <div class="content">
+          </div>
+        </div>
+      </div></a> <a href="https://www.dropbox.com/sh/eiyrij42zkwfgbg/AABoaTOrG5zPs23rbvw1lRhNa?dl=0">
+      <div class="tile" style="background-image: url('/images/generic-header.jpg');">
+        <div class="textWrapper">
+          <h2>Holiday Party 2015</h2>
+
+
+          <div class="content">
+          </div>
+        </div>
+      </div></a> <a href="https://www.dropbox.com/sh/rrslobv7qt7v819/AABq_zFgvb_QP7PRxK3ME1Qxa?dl=0">
+      <div class="tile" style="background-image: url('./images/generic-header.jpg');">
+        <div class="textWrapper">
+          <h2>Haymarket Day 2015</h2>
+
+
+          <div class="content">
+          </div>
+        </div>
+      </div></a> <a href="https://www.dropbox.com/sh/rad7iytt71r2d6j/AACArDXkXrF5Pho-4wrUqSFBa?dl=0">
+      <div class="tile" style="background-image: url('./images/generic-header.jpg');">
+        <div class="textWrapper">
+          <h2>Battle of Baltimore 2015</h2>
+
+
+          <div class="content">
+          </div>
+        </div>
+      </div></a>
+    </div>
+  </div>
+  <script src="/webpack-dev-server.js">
+  </script>
 <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="index.js"></script></body>
 </html>
