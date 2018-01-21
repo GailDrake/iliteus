@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "name": "ilite",
+  "description": "ilite.us website repo, built on Gatsby, LESS, React, and Contentful",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
