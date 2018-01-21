@@ -1,0 +1,25 @@
+@primary: #eee;
+@secondary: #222;
+
+.navigation {
+  background: @primary;
+  color: @secondary;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  ul li {
+    list-style-type: none;
+    float: right;
+    margin: 0 20px;
+  }
+  p {
+    float: left;
+  }
+}
+
+.list-item {
+  text-decoration: none;
+  color: @secondary;
+  &:hover {
+    border-bottom: 1px solid @secondary;
+  }
+}

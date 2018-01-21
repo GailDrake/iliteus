@@ -1,13 +1,12 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+import Button from '../components/button';
 
-const IndexPage = () => (
+export default () =>
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>Hello Gatsby</h1>
+    <p>ILITE Robotics</p>
+    <img src = "https://source.unsplash.com/random/400x200" />
+    <br />
+    <Button link = "/about">About Us</Button>
   </div>
-)
-
-export default IndexPage
