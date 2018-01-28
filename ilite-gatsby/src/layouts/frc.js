@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Navbar from '../components/Navbar'
+import FRCNavbar from '../components/frc/navbar';
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -12,7 +12,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'Inspring Leaders in Technology and Engineering' },
       ]}
     />
-    <Navbar />
+    <FRCNavbar />
     <div
       style={{
         margin: '0 auto',

@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import './navbar.less';
 
-const Navbar = () =>
+const FRCNavbar = () =>
   <nav className = "navigation">
     <p>ILITE Robotics</p>
     <ul>
@@ -15,4 +15,4 @@ const Navbar = () =>
     </ul>
   </nav>
 
-export default Navbar;
+export default FRCNavbar;
