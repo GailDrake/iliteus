@@ -3,5 +3,5 @@ import Link from 'gatsby-link';
 
 export default () =>
   <div>
-    <h1>Hello from the ILITE Homepage</h1>
+    <h1>This the team page</h1>
   </div>
