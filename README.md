@@ -14,7 +14,7 @@ If you are contributing to this repository, then you need to have a few other to
 
 To install [NodeJS](https://nodejs.org/en/), head to their website and select the latest version that fits your operating system. The installer will install both NodeJS and the NPM package manager. This repository doesn't use NodeJS, but we do use NPM very frequently. We will use NPM as a method of building the project and running development servers.
 
-To install [Yarn])(https://yarnpkg.com/en/), install the executable from their website. We consider Yarn to be a superior package manager, but we install NPM anyway because Yarn relies on NodeJS.
+To install [Yarn](https://yarnpkg.com/en/), install the executable from their website. We consider Yarn to be a superior package manager, but we install NPM anyway because Yarn relies on NodeJS.
 
 To install [Gatsby](https://www.gatsbyjs.org/), run the following command in your terminal.
 ```
