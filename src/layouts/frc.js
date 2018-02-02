@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import FRCNavbar from '../components/frc/navbar';
+import Overbar from '../components/general/overbar';
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -12,6 +13,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'Inspring Leaders in Technology and Engineering' },
       ]}
     />
+    <Overbar />
     <FRCNavbar />
     <div
       style={{
