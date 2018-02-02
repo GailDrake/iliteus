@@ -1,25 +1,45 @@
-@primary: #eee;
-@secondary: #222;
+@primary: #000;
+@secondary: #FFF;
 
 .navigation {
   background: @primary;
   color: @secondary;
   padding: 20px 30px;
   margin-bottom: 20px;
-  ul li {
-    list-style-type: none;
-    float: right;
-    margin: 0 20px;
-  }
-  p {
-    float: left;
-  }
+  border: none;
+  box-shadow: none;
+  opacity: 0.5;
+  z-index: 9;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 23px;
+}
+
+ul li {
+  list-style-type: none;
+  float: right;
+  margin: 0px 20px;
+  display: inline-block;
 }
 
 .list-item {
   text-decoration: none;
   color: @secondary;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
   &:hover {
-    border-bottom: 1px solid @secondary;
+    color: #959595;
+    transition: all 0.3s ease;
   }
+}
+
+.logo {
+  display: inline-block;
+  height: 71px;
+  width: 129px;
+  background-image: url(../../../assets/images/frc/ilite-logo__white.png);
+  background-repeat: no-repeat;
+  margin: 0px 10px;
+  float: left;
 }
