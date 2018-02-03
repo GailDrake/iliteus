@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 
 const FRCNavbar = () =>
   <nav className="navigation">
-    <Link to="/frc/"> <div className="logo"> </div></Link>
+    <Link to="/frc/" className="logo"></Link>
     <ul>
       <li><Link to="/frc/getinvolved" className="list-item">Get Involved</Link></li>
       <li><Link to="/frc/competition" className="list-item">Competition</Link></li>
