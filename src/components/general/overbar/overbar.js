@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import './overbar.less';
 
-const Overbar = ({ theme }) =>
+const Overbar = ({ theme }) => {
   <nav>
     <ul className={`overbar__list ${theme}`}>
       <li><Link to="/" className="overbar__list-item">Robotics</Link></li>
@@ -11,7 +11,6 @@ const Overbar = ({ theme }) =>
       <li><Link to="/" className="overbar__list-item">Hosted Events</Link></li>
     </ul>
   </nav>
-
-
+}
 
 export default Overbar;
