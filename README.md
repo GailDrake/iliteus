@@ -1,78 +1,48 @@
-## Installation
-From the command line, in the directory where you want to install this project, run:
+# ILITE
+This is the ILITE website code repository, powered by React, Gatsby, GraphQL, and Contentful. This page will describe the overall site 
 
+****
+
+#### Buzzwords
+This team (and this guide) will often use buzzwords that you should know before working on the rest of the website. 
+
+* *HTML5* - There are different version of HTML, and like most sites, we use the latest standard. This includes the `nav`, `article`, `section`, etc.
+* *CSS3* - Similar to HTML, there are different versions of CSS, and we use this as the baseline for our styles.
+* *CSS4* - This is the unofficial name of the latest release of CSS. The new version of CSS includes things such as grid layouts, variables, and selectors.
+* *LESS* - In simple terms, this is a more dynamic version of CSS. Unlike in CSS3, we can use conditional structures such as for loops and if statements, nest selectors, and use variables.
+* *Browser Support* - Some browsers do not support our advanced use of JavaScript, most notably Internet Explorer. This is simply our way of making sure that we don't accdidentally lose support for a browser by implementing a certain feature.
+* *React* - This is our way of making our website dynamic and create reusable components.
+* *JSX* - React's way of allowing us to implement HTML inside JavaScript files.
+* *Components* - These are parts of the site that we can reuse, or supply parameters. For example, the navbar, footer, and banners are among the dozens of reusable components. 
+* *State* - We use state to affect the actions of components based on conditions that we supply.
+* *Props* - We can supply properties to React components to define actions of the component based on the properties supplied to it. Unlike state, we pass these props externally instead of internally.
+* *Stateless Functional Components* - These components make up the majority of all the components. They do not have state, and only use props.
+* *Stateful Components* - These components use state to make internal decisions within the component.
+* *Content Management System (CMS)* - This is our way of editing the website by using text areas and input boxes without having to dive into the code, ensuring that those without a code based background do not have to edit with the code. We will be using Contentful as our CMS this year.
+* *ES6* - Similar to how HTML and CSS have standards, JavaScript has a variety of versions that come out annually. The codebase is written entirely using ES6 syntax - this means we use `const`/`let`, destructuring, imperative programming, and other syntax.
+
+***
+
+### Getting Started
+If you contributing to this repo, then you are most likely a member of the ILITE Robotics team. To contribute to this repository, you need to have a text editor. We recommend Visual Studio Code and Atom.
+
+If you are contributing to this repository, then you need to have a few other tools that you need to have installed.
+* NodeJS - server side javascript
+* NPM - node package manager
+* Yarn - a superior package manager
+* Git Bash - a Linux style terminal
+* Gatsby - the platform 
+
+To install [NodeJS](https://nodejs.org/en/), head to their website and select the latest version that fits your operating system. The installer will install both NodeJS and the NPM package manager. This repository doesn't use NodeJS, but we do use NPM scripts very frequently. We will use NPM as a method of building the project and running development servers.
+
+To install [Yarn](https://yarnpkg.com/en/), install the executable from their website. We consider Yarn to be a superior package manager because of its speed and consistency, but we install NPM anyway because Yarn relies on NodeJS.
+
+We also use the terminal very frequently. If you are on Windows, then install [Git Bash](https://git-scm.com/downloads). If you are on Mac, then the default terminal is fine. Having either of these terminals allows you to run some of the Linux styled commands, which are invaluable when coding. These include `ls` and `rm -rf`.
+
+To install [Gatsby](https://www.gatsbyjs.org/), run the following command in your terminal.
 ```
-git clone https://github.com/GailDrake/iliteus.git
-cd iliteus
-yarn install
+yarn install --global gatsby-cli
 ```
-
-## Local development environment:
-From the command line, in the root `ilite` folder, type `yarn start`. This will run a development server, and compile all LESS and JavaScript files. You can view the app on `localhost:8080` in your browser. The dev server will run continuously and will update as you change and save files.
-
-# Style guides
-
-### LESS style guide
-[ilite style guide](https://github.com/GailDrake/ilite/wiki/Less-Style-guide) - A short, but authoritative style guide. Memorize it. Follow it. Teach it to your friends.
-
-[Airbnb CSS Style Guide](https://github.com/airbnb/css) - A very well written and comprehensive guide to CSS and Sass. We're using Less, but they're basically the same. For any conflicts with the ilite style guide, this loses.
+This is the platform we will build our website on. 
 
 
-### Javascript style guide
-[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) - Great general guidelines, and the style guide I've been seeing many companies use lately.
-
-
-__Note:__
-Do not touch the `dist` folder. It's regenerated when `yarn build` is executed, and will be completely overwritten.
-
-
-### Handlebars.js
-__HTML:__
-Handlebars templates are included inside of `<script id="handlebars__templateName" type="text/x-handlebars-template"></script>` tags. Like all ids, the `id` must be unique, and by convention, prefixed with `handlebars__`. Since the id's are handles for JavaScript, by convention they should be camelCase.
-
-There must be an accompanying `<div>` with the same id plus the suffix `--target`. This is required so that JavaScript has a place to render the template.
-
-Variables that correspond to JSON object keys can be passed to the template in double curly braces: `{{variableName}}`. Partial templates can be included with the addition of a caret: `{{> templateName}}`.
-
-_example template_
-```
-<script id="handlebars__templateName" type="text/x-handlebars-template">
-  {{> partialName}}
-  <p>My name is {{firstName}} {{lastName}}. I am a {{role}} on team {{teamNumber}}.</p>
-</script>
-<div id="handlebars__templateName--target"></div>
-```
-
-#### JavaScript:
-Each handlebars template in an .html file must be supported by JavaScript.
-
-To render a handlebars template, you should call the custom helper `renderHandlebars`. The syntax is: `renderHandlebars('handlebars-teamplateName', 'handlebars-templateName__target', data);` `data` is an optional JSON object.
-
-To register a handlebars partial template, you need to pass an object to the custom helper `registerPartial()`. The object must have the following syntax: `{ name: 'string', body: 'string' }`. IMPORTANT: You must register a partial template before you render the template that calls it.
-
-[intro Handlebars tutorial](https://www.sitepoint.com/a-beginners-guide-to-handlebars/)
-
-### WebPack
-__Adding a new page__
-
-1. Create a new `.html` file where you want the page to reside. We're not using a router, so it must fit in relation to `index.html` the same way that it will be accessed by the url.
-2. Add a `.js` file and a `.less` file into the corresponding sub directories. `app/js/example.js` and `app/less/example.import.less`, or `app/robotics/js/example.js` and `app/robotics/less/example.import.less`.
-3. `@import` your newly created `example.import.less` file into `app/style/less/main.less`.
-4. In `webpack.config.js`:
-  * Create a new `HtmlWebpackPlugin` instance, with your new page's details, at the top of the page (follow the examples). Then add it to the `plugin` array at the bottom of the file. This tells WebPack to generate a new `.html` page, with all of the listed dependencies.
-  * Add a new entry point for your page in `entry` (the first key in the `module.exports` object).
-
-### File Structure
-Since this project does not use a router, the site's navigation is determined by the file structure. Each directory will have it's own sub-directories for `less`, `js`, and `assets`
-
-### Footer
-__Adding a footer__
-
-1. go to the bottem of the body
-2. paste
-```
-<script id="handlebars__footer" type="text/x-handlebars-template">
- {{> footer}}
-</script>
-<div id="handlebars__footer--target"></div>
-```
