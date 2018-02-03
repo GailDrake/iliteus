@@ -12,7 +12,54 @@ The `Members` component is used as an *HTML tag*, similar to other components on
 The `name` attribute displays the persons full name. The `year` attribute displays the year during which the person first joined ILITE. The `fact` attribute displays a fun fact about the person. The `memory` attribute displays the person's favorite memory in ILITE. Finally, the `image` attribute contains the relative url for the picture of the person.
 
 ##### Leaders and Mentors
-When used for student leaders or subteam mentors the `Members` component has two not required attributes called `leader` and `mentor`. The `leader` attribute is used to add a title description to the person, containing their leader title. The `mentor` attribute is used to add a subteam description to the mentor, containing which subteam they mentor.
+When used for student leaders or subteam mentors the `Members` component has two optional attributes called `leader` and `mentor`. The `leader` attribute is used to add a title description to the person, containing their leader title. The `mentor` attribute is used to add a subteam description to the mentor, containing which subteam they mentor.
+
+##### Implementation
+When using the `Members` component on a page we must first import the component usin the following line of code.
+```JS
+import Members from './../../components/general/members';
+```
+The `Team` page uses a list or array of objects, each one containing the information for a member. This list is defined as a `const` variable.
+```JS
+const teamList = [
+  {
+    image: 'Dylan F..jpg',
+    name: 'Dylan Fernandes',
+    fact: 'Blah',
+    memory: 'Blah',
+    year: 2015
+  },
+  {
+    /*Continue list with more members*/
+  }
+]
+```
+Then, inside of the `export default () => {}` page declaration we loop through the list using the `map` function and set it to a  new `const` variable.
+  ```JS
+  const memberList = teamList.map(member => {});
+  ```
+  The `map` function works as a *For Each* loop, it loops through the *teamList* variable setting the variable *member* to each object in the list respectively. Next, inside the curly brackets we define a `let` variable that uses the `require` function to find each image in a set path.
+  ```JS
+  let image = require(`./../../assets/images/frc/${member.image}`);
+  ```
+  After that, inside a return statement, we call the `Members` component and set each attribute to its respective variable inside the `member` object.
+  ```JS
+  return (
+    <Members
+      name= {member.name}
+      year= {member.year}
+      fact= {member.fact}
+      memory= {member.memory}
+      image= {image} /*The image variable is defined outside the member object*/
+      leader= {member.leader}/*If no leader of mentor value is given this is ignored*/
+      mentor= {member.mentor}
+    />
+  );
+  ```
+  Finally, we call the `const` variable *memberList* inside the *HTML* of the page.
+  ```HTML
+  <div>{memberList}</div>
+  ```
 
 ## How it Works
 This guide will demonstrate how the `Members` component works and the code behind it.
