@@ -13,8 +13,8 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'Inspring Leaders in Technology and Engineering' },
       ]}
     />
-    <Overbar />
-    <FRCNavbar />
+    <Overbar theme="hosted-events"/>
+    <FRCNavbar/>
     <div
       style={{
         margin: '0 auto',
