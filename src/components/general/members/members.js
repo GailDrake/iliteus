@@ -7,11 +7,11 @@ const Members = ({name, year, fact, memory, image, leader, mentor}) => {
   const subteam = mentor ? <span><br/><b>Subteam:</b> {mentor}</span> : '';
   return (
     <div className="members-container">
-      <div className="member-img">
+      <div className="members-img">
         <img src={image} alt="Member Image" />
       </div>
-      <div className="content">
-        <h3 className="title">{name}</h3>{title}
+      <div className="members-content">
+        <h3 className="members-title">{name}</h3>{title}
         <b>Year Joined:</b> {year}
         {subteam}
         <br/>

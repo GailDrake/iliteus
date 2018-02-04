@@ -1,8 +1,23 @@
 .container {
   background-color: #F7F7F7;
   padding: 0px;
+  width: 100vw;
+}
+
+.content {
+  padding-top: 1em;
   max-width: 85%;
   margin: 0 auto;
+  background-color: #FFF;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  -moz-border-radius: 0 5px 5px 5px;
+  -webkit-border-radius: 0 5px 5px 5px;
+  border-top: 5px;
+  -moz-box-shadow: 5px 0 rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+  box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
 }
 
 .tabs {
@@ -39,4 +54,8 @@
       background: #FFF;
     }
   }
+}
+
+.tabs-content {
+  /*display: none;*/
 }

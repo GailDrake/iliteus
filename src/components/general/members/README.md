@@ -34,13 +34,21 @@ const teamList = [
   }
 ]
 ```
-Then, inside of the `export default () => {}` page declaration we loop through the list using the `map` function and set it to a  new `const` variable.
+Then, we define a `const` variable with a *subteam* parameter.
+```JS
+const getMember = (subteam) => {}
+```
+This variable returns a loop through the list using the `map` function.
   ```JS
   const memberList = teamList.map(member => {});
   ```
-  The `map` function works as a *For Each* loop, it loops through the *teamList* variable setting the variable *member* to each object in the list respectively. Next, inside the curly brackets we define a `let` variable that uses the `require` function to find each image in a set path.
+  The `map` function works as a *For Each* loop, it loops through the *teamList* variable setting the variable *member* to each object in the list respectively. Inside the curly brackets we use an `if` statement to determine the subteam of the object. This allows us to specify individual subteams to use.
   ```JS
-  let image = require(`./../../assets/images/frc/${member.image}`);
+  if(member.subteam === subteam) {}
+  ```
+  Next, inside the `if` statement, we define a `let` variable that uses the `require` function to find each image in a set path depending on the subteam.
+  ```JS
+  let image = require(`./../../assets/images/frc/members/${subteam}/${member.image}`);
   ```
   After that, inside a return statement, we call the `Members` component and set each attribute to its respective variable inside the `member` object.
   ```JS
@@ -56,9 +64,9 @@ Then, inside of the `export default () => {}` page declaration we loop through t
     />
   );
   ```
-  Finally, we call the `const` variable *memberList* inside the *HTML* of the page.
-  ```HTML
-  <div>{memberList}</div>
+  Finally, we call the `const` variable `getMember(subteam)` inside the *HTML* of the page.
+  ```JS
+  <div>{getMember("Web")}</div> /*You can use any subteam interchangeably.*/
   ```
 
 ## How it Works
