@@ -1,5 +1,5 @@
 import React from 'react';
-import './event.less';
+// import './event.less';
 
 const Event = () =>
   <div>
