@@ -10,6 +10,7 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'ILITE' },
         { name: 'keywords', content: 'Inspring Leaders in Technology and Engineering' },
+        { name: 'viewport', content: 'width=device-width'},
       ]}
     />
     <FRCNavbar />

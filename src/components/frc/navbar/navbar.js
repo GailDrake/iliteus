@@ -12,6 +12,7 @@ const FRCNavbar = () =>
       <li><Link to="/frc/media" className="list-item">Media</Link></li>
       <li><Link to="/frc/about" className="list-item">About</Link></li>
     </ul>
+    <Link to="/frc/" className="burger"></Link>
   </nav>
 
   export default FRCNavbar;
