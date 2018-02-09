@@ -1,7 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import GetInvolved from '../../pageLayouts/frc/GetInvolved';
 
-export default () =>
-  <div>
-    <p>Hello World from the Second Gatsby page</p>
-  </div>
+export default () => <GetInvolved />
