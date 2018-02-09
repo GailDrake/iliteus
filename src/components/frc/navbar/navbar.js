@@ -1,18 +1,36 @@
-import React from 'react';
+import React, { Component } from 'react';
+import "./navbar.less";
 import Link from 'gatsby-link';
-import './navbar.less';
 
-const FRCNavbar = () =>
-  <nav className = "navigation">
-    <p>ILITE Robotics</p>
-    <ul>
-      <li><Link to = "/frc/" className = "list-item">Home</Link></li>
-      <li><Link to = "/frc/getinvolved" className = "list-item">Get Involved</Link></li>
-      <li><Link to="/frc/competition" className="list-item">Competition</Link></li>
-      <li><Link to="/frc/team" className="list-item">Team</Link></li>
-      <li><Link to="/frc/media" className="list-item">Media</Link></li>
-      <li><Link to="/frc/about" className="list-item">About</Link></li>
-    </ul>
-  </nav>
+class FRCNavbar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      clicked: false,
+    };
+  }
 
-export default FRCNavbar;
+  render() {
+    const { links } = this.props;
+    const getLinks = () => {
+      return links.map(link => {
+        let filePath = `/${links.section}/${link.file}`;
+        return (
+          <li><Link to={filePath} className="list-item">{links.name}</Link></li>
+        );
+      });
+    };
+
+    return (
+      <nav className="navigation">
+        <Link to="/frc/" className="logo"></Link>
+        <ul>
+          {getLinks()}
+        </ul>
+        <div id="burger" onClick={() => this.setState({clicked: !clicked})}></div>
+      </nav>
+    );
+  }
+}
+
+  export default FRCNavbar;

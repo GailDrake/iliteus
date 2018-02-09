@@ -4,6 +4,34 @@ import Helmet from 'react-helmet'
 import FRCNavbar from '../components/frc/navbar';
 import Overbar from '../components/general/overbar';
 
+const links = [
+  {
+    name: "Get Involved",
+    section: "frc",
+    file: "getinvolved",
+  },
+  {
+    name: "Competition",
+    section: "frc",
+    file: "competition",
+  },
+  {
+    name: "Team",
+    section: "frc",
+    file: "team",
+  },
+  {
+    name: "Media",
+    section: "frc",
+    file: "media",
+  },
+  {
+    name: "About",
+    section: "frc",
+    file: "about",
+  },
+];
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -11,10 +39,12 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'ILITE' },
         { name: 'keywords', content: 'Inspring Leaders in Technology and Engineering' },
+        { name: 'viewport', content: 'width=device-width' },
       ]}
     />
-    <Overbar theme="hosted-events"/>
-    <FRCNavbar/>
+
+    <Overbar theme="hosted-events" />
+    <FRCNavbar links={links} />
     <div
       style={{
         margin: '0 auto',
