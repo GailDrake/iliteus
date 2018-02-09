@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import './navbar.less';
 
-const FRCNavbar = () =>
+const FRCNavbar = ({ url, img }) =>
   <nav className="navigation">
     <p>ILITE Robotics</p>
     <ul>
