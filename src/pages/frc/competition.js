@@ -1,4 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import Competition from '../../pageLayouts/frc/Competition';
 
-export default () => <h1>This is the competition page</h1>
+export default () => <Competition />

@@ -1,5 +1,4 @@
 import React from 'react';
-import './media.less';
 
 const Mediatiles = ({ name, url }) => (
   <div className='mediatiles'>

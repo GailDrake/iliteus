@@ -4,6 +4,9 @@ import Helmet from 'react-helmet'
 import FRCNavbar from '../components/frc/navbar';
 import Overbar from '../components/general/overbar';
 
+// import less here - once, for the whole app
+import './../config/main.less';
+
 const links = [
   {
     name: "Get Involved",
@@ -42,6 +45,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'viewport', content: 'width=device-width' },
       ]}
     />
+
 
     <Overbar theme="hosted-events" />
     <FRCNavbar links={links} />
