@@ -10,7 +10,7 @@ const About = (props) => {
 };
 
 About.propTypes = {
-
+  name: PropTypes.string.required
 };
 
 export default About;
