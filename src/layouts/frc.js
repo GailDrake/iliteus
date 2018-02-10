@@ -41,18 +41,11 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'ILITE' },
         { name: 'keywords', content: 'Inspring Leaders in Technology and Engineering' },
-        { name: 'viewport', content: 'width=device-width'},
+        { name: 'viewport', content: 'width=device-width' },
       ]}
     />
-    <FRCNavbar links={links}/>
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: '100vw',
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <FRCNavbar links={links} />
+    <div>
       {children()}
     </div>
   </div>
