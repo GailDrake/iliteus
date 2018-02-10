@@ -1,5 +1,5 @@
 # ILITE
-This is the ILITE website code repository, powered by React, Gatsby, GraphQL, and Contentful. This page will describe the overall site
+This is the ILITE website code repository, powered by React, Gatsby, GraphQL, and Contentful. This page will describe the overall site 
 
 ****
 
@@ -13,7 +13,7 @@ This team (and this guide) will often use buzzwords that you should know before 
 * *Browser Support* - Some browsers do not support our advanced use of JavaScript, most notably Internet Explorer. This is simply our way of making sure that we don't accdidentally lose support for a browser by implementing a certain feature.
 * *React* - This is our way of making our website dynamic and create reusable components.
 * *JSX* - React's way of allowing us to implement HTML inside JavaScript files.
-* *Components* - These are parts of the site that we can reuse, or supply parameters. For example, the navbar, footer, and banners are among the dozens of reusable components.
+* *Components* - These are parts of the site that we can reuse, or supply parameters. For example, the navbar, footer, and banners are among the dozens of reusable components. 
 * *State* - We use state to affect the actions of components based on conditions that we supply.
 * *Props* - We can supply properties to React components to define actions of the component based on the properties supplied to it. Unlike state, we pass these props externally instead of internally.
 * *Stateless Functional Components* - These components make up the majority of all the components. They do not have state, and only use props.

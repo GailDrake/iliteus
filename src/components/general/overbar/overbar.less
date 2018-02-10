@@ -1,0 +1,74 @@
+/* 
+  Just a thought -> 
+  Could we have the navbar color change entirely based
+  on what we hover over? We can default the navbar to the
+  theme of the site and change it based on the item we hover
+  on the overbar.
+*/
+ul.overbar__list {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.overbar__list-item {
+  font-family: 'Lato';
+  color: #fcfdff;
+  text-decoration: none;
+  transition: all 0.3s;
+  &:hover {
+    /* Change per subdivision */
+    color:#3CC177;
+  }
+}
+
+/* Determines navbar color by subdivision */
+.overbar__list.frc {
+  background-color: rebeccapurple;
+  .overbar__list-item {
+    color: #fcfdff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    &:hover {
+      color: #999;
+    }
+  }
+}
+
+.overbar__list.cyber {
+  background-color: #222;
+  .overbar__list-item {
+    color: #fcfdff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    &:hover {
+      color: gold;
+    }
+  }
+}
+
+.overbar__list.computer-science {
+  background-color: blue;
+  .overbar__list-item {
+    color: #fcfdff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    &:hover {
+      color: orange;
+    }
+  }
+}
+
+.overbar__list.hosted-events {
+  background-color: #fcfdff;
+  .overbar__list-item {
+    color: #222;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    &:hover {
+      color: navy;
+    }
+  }
+}
