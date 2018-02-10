@@ -1,5 +1,4 @@
 import React from "react";
-import "./members.less";
 //import image from "./../../../assets/images/frc/home-hero-lg.jpg";
 
 const Members = ({name, year, fact, memory, image, leader, mentor}) => {

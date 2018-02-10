@@ -2,6 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import FRCNavbar from '../components/frc/navbar';
+import Overbar from '../components/general/overbar';
+
+// import less here - once, for the whole app
+import './../config/main.less';
 
 const links = [
   {
@@ -38,10 +42,13 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'ILITE' },
         { name: 'keywords', content: 'Inspring Leaders in Technology and Engineering' },
-        { name: 'viewport', content: 'width=device-width'},
+        { name: 'viewport', content: 'width=device-width' },
       ]}
     />
-    <FRCNavbar links={links}/>
+
+
+    <Overbar theme="hosted-events" />
+    <FRCNavbar links={links} />
     <div
       style={{
         margin: '0 auto',
