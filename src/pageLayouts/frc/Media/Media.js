@@ -1,5 +1,4 @@
 import React from 'react';
-import classnames from 'classnames';
 import Mediatiles from '../../../components/general/media/mediatiles'
 
 
