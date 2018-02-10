@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import FRCNavbar from '../components/navbar';
+import Navbar from '../components/navbar';
 
 // import less here - once, for the whole app
 import './../config/main.less';
@@ -32,6 +32,11 @@ const links = [
     section: "frc",
     file: "about",
   },
+  {
+    name: "Home",
+    section: "frc",
+    file: "",
+  }
 ];
 
 const TemplateWrapper = ({ children }) => (
@@ -44,7 +49,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'viewport', content: 'width=device-width' },
       ]}
     />
-    <FRCNavbar links={links} />
+    <Navbar links={links} />
     <div>
       {children()}
     </div>
