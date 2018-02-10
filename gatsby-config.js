@@ -6,6 +6,16 @@ module.exports = {
       options: {
         pathToConfigModule: 'src/utils/typography.js'
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Open Sans`,
+          `Lato`,
+          `Verdana` // you can also specify font weights and styles
+        ]
+      }
     }
   ]
 };

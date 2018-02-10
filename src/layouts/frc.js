@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import FRCNavbar from '../components/frc/navbar';
+import Overbar from '../components/general/overbar';
 
 // import less here - once, for the whole app
 import './../config/main.less';
@@ -44,8 +45,18 @@ const TemplateWrapper = ({ children }) => (
         { name: 'viewport', content: 'width=device-width' },
       ]}
     />
+
+
+    <Overbar theme="hosted-events" />
     <FRCNavbar links={links} />
-    <div>
+    <div
+      style={{
+        margin: '0 auto',
+        maxWidth: '100vw',
+        padding: '0px 1.0875rem 1.45rem',
+        paddingTop: 0,
+      }}
+    >
       {children()}
     </div>
   </div>
