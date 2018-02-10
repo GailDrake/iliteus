@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import "./navbar.less";
 import Link from 'gatsby-link';
 
 class FRCNavbar extends Component {
@@ -27,10 +26,10 @@ class FRCNavbar extends Component {
         <ul>
           {getLinks()}
         </ul>
-        <div id="burger" onClick={() => this.setState({clicked: !clicked})}></div>
+        <div id="burger" onClick={() => this.setState({ clicked: !clicked })}></div>
       </nav>
     );
   }
 }
 
-  export default FRCNavbar;
+export default FRCNavbar;

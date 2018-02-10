@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import FRCNavbar from '../components/frc/navbar';
+import FRCNavbar from '../components/navbar';
 
 // import less here - once, for the whole app
 import './../config/main.less';
