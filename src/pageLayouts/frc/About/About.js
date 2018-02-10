@@ -1,5 +1,6 @@
 import React from 'react';
 // import classnames from 'classnames';
+import Banner from '../../../components/banner';
 
 const About = (props) => {
   return (
@@ -7,10 +8,6 @@ const About = (props) => {
       <h1>This is the about page</h1>
     </div>
   );
-};
-
-About.propTypes = {
-  name: PropTypes.string.required
 };
 
 export default About;
