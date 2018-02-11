@@ -1,3 +1,3 @@
-import FRCNavbar from './navbar';
+import Navbar from './navbar';
 
-export default FRCNavbar;
+export default Navbar;

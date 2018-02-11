@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import FRCNavbar from '../components/navbar';
+import Navbar from '../components/navbar';
 import Overbar from '../components/overbar';
 
 // import less here - once, for the whole app
@@ -33,6 +33,11 @@ const links = [
     section: "frc",
     file: "about",
   },
+  {
+    name: "Home",
+    section: "frc",
+    file: "",
+  }
 ];
 
 const TemplateWrapper = ({ children }) => (
@@ -46,7 +51,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
 
-    <FRCNavbar links={links} />
+    <Navbar links={links} />
     <Overbar theme="hosted-events" />
     <div>
       {children()}
