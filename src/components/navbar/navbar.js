@@ -12,10 +12,10 @@ class FRCNavbar extends Component {
   render() {
     const { links } = this.props;
     const getLinks = () => {
-      return links.map(link => {
+      return links.map((link, index) => {
         let filePath = `/${links.section}/${link.file}`;
         return (
-          <li><Link to={filePath} className="list-item">{links.name}</Link></li>
+          <li key={index}><Link to={filePath} className="list-item">{links.name}</Link></li>
         );
       });
     };
