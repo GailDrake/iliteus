@@ -51,8 +51,8 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
 
+    <Overbar theme="frc" />
     <Navbar links={links} />
-    <Overbar theme="hosted-events" />
     <div>
       {children()}
     </div>

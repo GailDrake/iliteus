@@ -1,5 +1,5 @@
-@primary: #000;
-@secondary: #FFF;
+@primary: #F7F7F7;
+@secondary: #000;
 
 .navigation {
   background: @primary;
@@ -8,7 +8,7 @@
   margin-bottom: 20px;
   border: none;
   box-shadow: none;
-  opacity: 0.5;
+  opacity: 1;
   z-index: 9;
   font-size: 1.1em;
   font-weight: 700;
@@ -16,7 +16,8 @@
   line-height: 23px;
   width: 100vw;
   height: 65px;
-  position: fixed;
+  position: sticky;
+  top: 0px;
 }
 ul li {
   list-style-type: none;
@@ -24,7 +25,7 @@ ul li {
   margin: 0px 20px;
 }
 
-.list-item {
+.navigation__list-item {
   text-decoration: none;
   color: @secondary;
   cursor: pointer;
@@ -35,22 +36,16 @@ ul li {
   }
 }
 
-.logo {
+.navigation__logo {
   height: 65px;
   width: 118px;
-  background-image: url("../../assets/images/logos/ilite-logo__white.png");
+  background-image: url("../../assets/images/logos/ilite-logo.png");
   background-repeat: no-repeat;
   margin: 0px 10px;
   float: left;
   z-index: 99;
   position: fixed;
-  top: 0px;
-  opacity: 1;
-}
-
-.burger {
-  opacity: 0;
-  float: right;
+  top: 20px;
 }
 
 @media screen and (max-width: 820px) {
@@ -58,7 +53,7 @@ ul li {
     display: none;
   }
   
-  #burger {
+  #navigation__burger {
     float: right;
     position: fixed;
     background-image: url("../../assets/images/icons/burger.png");
