@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import classnames from 'classnames';
 
 import GetMember from './GetMember.js';
 
@@ -9,7 +8,7 @@ const Team = (props) => {
   return (
     <div className='team'>
       <div className="container">
-        <br/><br/><br/>
+        <br /><br /><br />
 
         <div className="content">
           <ul className="tabs">
@@ -24,7 +23,7 @@ const Team = (props) => {
             <li><a href="#tab2">Mentors</a></li>
           </ul>
 
-          <br/>
+          <br />
 
           <div className="tabs-content">
             <div id="tab1">{GetMember("Leadership", props.teamList)}</div>

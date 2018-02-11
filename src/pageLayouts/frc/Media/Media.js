@@ -1,6 +1,6 @@
 import React from 'react';
-import classnames from 'classnames';
-import Mediatiles from '../../../components/general/media/mediatiles';
+import Mediatiles from '../../../components/media'
+
 
 const Media = (props) => {
 	return (
