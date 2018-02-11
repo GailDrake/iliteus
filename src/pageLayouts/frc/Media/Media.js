@@ -1,5 +1,5 @@
 import React from 'react';
-import Mediatiles from '../../../components/media'
+import Mediatiles from '../../../components/mediatiles'
 
 
 const Media = (props) => {
