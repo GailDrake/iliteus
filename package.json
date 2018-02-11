@@ -15,6 +15,7 @@
     "gatsby-plugin-less": "^1.0.8",
     "gatsby-plugin-typography": "^1.7.10",
     "prop-types": "^15.6.0",
+    "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0"
   }
 }
