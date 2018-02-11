@@ -18,16 +18,6 @@ class Navbar extends Component {
 
   render() {
     const { links } = this.props;
-<<<<<<< HEAD
-    const getLinks = () => {
-      return links.map((link, index) => {
-        let filePath = `/${links.section}/${link.file}`;
-        return (
-          <li key={index}><Link to={filePath} className="list-item">{links.name}</Link></li>
-        );
-      });
-    };
-=======
 
     const getLinks = links.map((link, index) => {
       let filePath = `/${link.section}/${link.file}`;
@@ -35,7 +25,6 @@ class Navbar extends Component {
         <li key={index}><Link to={filePath} className="list-item">{link.name}</Link></li>
       );
     });
->>>>>>> master
 
     return (
       <nav className="navigation">
