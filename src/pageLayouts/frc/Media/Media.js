@@ -1,6 +1,6 @@
 import React from 'react';
 import Mediatiles from '../../../components/mediatiles'
-import Container from '../../../templates/container';
+import Container from '../../../templates/Container';
 
 const Media = (props) => {
 	return (
