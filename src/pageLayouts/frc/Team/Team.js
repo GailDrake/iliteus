@@ -6,7 +6,7 @@ import GetMember from './GetMember.js';
 
 const Team = (props) => {
   return (
-    <Container division="frc">
+    <Container division="frc" title="Banner" subtitle="This is a banner for the team page.">
       <div className="team">
         <ul className="tabs">
           <li><a href="#tab1">Student Leaders</a></li>
