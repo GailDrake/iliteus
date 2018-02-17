@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../../components/banner';
+import PropTypes from 'prop-types';
 
 const Container = ({ division, title, subtitle, children }) => {
   return (

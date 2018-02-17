@@ -1,16 +1,19 @@
 import React from 'react';
+import Container from '../../../../templates/Container';
 // import classnames from 'classnames';
 
-const Competition = (props) => {
+const Calendar = (props) => {
   return (
-    <div className='competition'>
-      <p>This is the competition page</p>
-    </div>
+    <Container division="frc" title="Calendar" subtitle="Our schedule for the 2018 year!">
+      <div class="calendar">
+
+      </div>
+    </Container>
   );
 };
 
-Competition.propTypes = {
+Calendar.propTypes = {
 
 };
 
-export default Competition;
+export default Calendar;
