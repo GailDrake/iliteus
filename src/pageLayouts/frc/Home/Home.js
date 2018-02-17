@@ -1,6 +1,6 @@
 import React from 'react';
 // import classnames from 'classnames';
-
+import Events from '../../../components/events';
 
 const Home = (props) => {
   return (
