@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () =>
   <div className="className">
     <div className="footer">
-      <div className="footerInfo">
+      <div className="footer__info">
         <div className="col">
           <h5 className="footer__header">CONTACT US</h5><a className="footer__link" href="mailto:gddrake@gmail.com">drakegd@pwcs.edu</a>
           <p className="footer__text">Coach Gail Drake</p>
