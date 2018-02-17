@@ -22,17 +22,17 @@ class Navbar extends Component {
     const getLinks = links.map((link, index) => {
       let filePath = `/${link.section}/${link.file}`;
       return (
-        <li key={index}><Link to={filePath} className="list-item">{link.name}</Link></li>
+        <li key={index}><Link to={filePath} className="navigation__list-item">{link.name}</Link></li>
       );
     });
 
     return (
       <nav className="navigation">
-        <Link to="/frc/" className="logo"></Link>
+        <Link to="/frc/" className="navigation__logo"></Link>
         <ul>
           {getLinks}
         </ul>
-        <div id="burger" onClick={this.toggle}></div>
+        <div id="navigation__burger" onClick={this.toggle}></div>
       </nav >
     );
   }
