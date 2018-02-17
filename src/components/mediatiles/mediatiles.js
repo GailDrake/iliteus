@@ -4,9 +4,9 @@ const Mediatiles = ({ name, url }) => (
   <div className='mediatiles'>
     <a href={url}>
       <div className="mediatiles__tile">
-        <div className="textWrapper">
+        <div className="mediatiles__textWrapper">
           <h2>{name}</h2>
-          <div className="content">
+          <div className="media__content">
           </div>
         </div>
       </div>
