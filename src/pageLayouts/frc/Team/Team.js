@@ -3,23 +3,26 @@ import PropTypes from 'prop-types';
 import Container from '../../../templates/Container';
 import GetMember from './GetMember.js';
 import Tabs from '../../../components/Tabs';
+import teamList from '../../../lib/teamList';
 
-const tabs = ["Student Leaders", "Build", "Outreach", "Sponsorship", "Electronics", "Graphics", "Programming", "Web"];
+const tabs = ["Student Leaders", "Build", "Outreach", "Sponsorship", "Electronics", "Graphics", "Programming", "Web", "Mentors"];
+const content = [
+  GetMember("Leadership", teamList),
+  GetMember("Build", teamList),
+  GetMember("Outreach", teamList),
+  GetMember("Sponsorship", teamList),
+  GetMember("Electronics", teamList),
+  GetMember("Graphics", teamList),
+  GetMember("Programming", teamList),
+  GetMember("Web", teamList),
+  GetMember("Mentors", teamList)
+];
 
 const Team = (props) => {
   return (
     <Container division="frc" title="Banner" subtitle="This is a banner for the team page.">
       <div className="team">
-        <Tabs tabs={tabs}>
-          <div id="tab1">{GetMember("Leadership", props.teamList)}</div>
-          <div id="tab2">{GetMember("Mentors", props.teamList)}</div>
-          <div id="tab3">{GetMember("Build", props.teamList)}</div>
-          <div id="tab4">{GetMember("Outreach", props.teamList)}</div>
-          <div id="tab5">{GetMember("Sponsorship", props.teamList)}</div>
-          <div id="tab6">{GetMember("Electronics", props.teamList)}</div>
-          <div id="tab7">{GetMember("Graphics", props.teamList)}</div>
-          <div id="tab8">{GetMember("Programming", props.teamList)}</div>
-          <div id="tab9">{GetMember("Web", props.teamList)}</div>
+        <Tabs tabs={tabs} content={content}>
         </Tabs>
       </div >
     </Container >
