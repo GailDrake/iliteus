@@ -1,11 +1,18 @@
 import React from 'react';
-// import classnames from 'classnames';
+import Container from '../../../templates/container';
 
 const GetInvolved = (props) => {
   return (
-    <div className='get-involved'>
-      <p>Get involved, man!</p>
-    </div>
+    <Container division="frc" title="Get Involved" subtitle="Help the Team">
+      <div className='get-involved'>
+        <h1 className="get-involved__header">Join the Team</h1>
+        <h2 className="get-involved__subheader">Membership</h2>
+        <h2 className="get-involved__subheader">Mentorship</h2>
+        <br />
+        <h1 className="get-involved__header">Volunteer Portal</h1>
+        <h2 className="get-involved__subheader">Feed the Team</h2>
+      </div>
+    </Container>
   );
 };
 
