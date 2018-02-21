@@ -1,5 +1,9 @@
 import React from 'react';
 import Banner from '../../components/banner';
+<<<<<<< HEAD
+import PropTypes from 'prop-types';
+=======
+>>>>>>> origin/nicholas-template
 
 const Container = ({ division, title, subtitle, children }) => {
   return (
