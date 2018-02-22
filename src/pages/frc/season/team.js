@@ -1,4 +1,4 @@
 import React from 'react';
-import Team from '../../../pageLayouts/frc/Season/Team';
+import Team from '../../../pageLayouts/frc/Team';
 
-export default () => <Team />
+export default () => <TeamContainer />
