@@ -1,29 +1,32 @@
 .sponsor {
+  display: flex;
+  flex: 1;
   clear: both;
-  height: auto;
   min-height: 200px;
   overflow: hidden;
-  vertical-align: middle;
   .sponsor__image-holder {
-    display: flex;
     float: left;
-    width: 200px;
-    height: 200px;
+    flex: 2;
+    margin-right: @margin-horizontal-lg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .sponsor__image {
     display: block;
-    margin: auto;
-    height: auto;
-    width: 100%;
-    float: left;
+    max-height: 200px;
   }
   .sponsor__text {
-    font-weight: normal;
-    font-style: normal;
-    line-height: 23px;
-    color: #727272;
-    float: left;
-    display: flex;
+    line-height: @line-height;
+    color: @text;
+    font-size: 14px;
+    font-family: @open-sans;
+    flex: 6;
     min-height: 200px;
+    display: flex;
+    align-items: center;
+  }
+  .sponsor__image--large {
+    min-height: 350px;
   }
 }
