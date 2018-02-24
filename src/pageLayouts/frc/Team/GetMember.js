@@ -20,6 +20,7 @@ const GetMember = (subteam, teamList) => {
       );
     }
   });
+
 };
 
 export default GetMember;
