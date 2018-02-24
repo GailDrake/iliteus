@@ -9,58 +9,58 @@ import Footer from '../components/footer';
 import './../config/main.less';
 
 const links = [
-{
-name: "Get Involved",
-section: "frc",
-file: "getinvolved",
-},
-{
-name: "Competition",
-section: "frc",
-file: "competition",
-},
-{
-name: "Team",
-section: "frc",
-file: "team",
-},
-{
-name: "Media",
-section: "frc",
-file: "media",
-},
-{
-name: "About",
-section: "frc",
-file: "about",
-},
-{
-name: "Home",
-section: "frc",
-file: "",
-}
+  {
+    name: "Get Involved",
+    section: "frc",
+    file: "getinvolved",
+  },
+  {
+    name: "Competition",
+    section: "frc",
+    file: "competition",
+  },
+  {
+    name: "Team",
+    section: "frc",
+    file: "team",
+  },
+  {
+    name: "Media",
+    section: "frc",
+    file: "media",
+  },
+  {
+    name: "About",
+    section: "frc",
+    file: "about",
+  },
+  {
+    name: "Home",
+    section: "frc",
+    file: "",
+  }
 ];
 
 const TemplateWrapper = ({ children }) => (
-<div>
-<Helmet
-  title="ILITE"
-  meta={[
-    { name: 'description', content: 'ILITE' },
-    { name: 'keywords', content: 'Inspring Leaders in Technology and Engineering' },
-    { name: 'viewport', content: 'width=device-width' },
-  ]}
-/>
+  <div>
+    <Helmet
+      title="ILITE"
+      meta={[
+        { name: 'description', content: 'ILITE' },
+        { name: 'keywords', content: 'Inspring Leaders in Technology and Engineering' },
+        { name: 'viewport', content: 'width=device-width' },
+      ]}
+    />
 
-<Overbar theme="frc" />
-<Navbar links={links} />
-<div>{children()}</div>
-<Footer />
-</div>
+    <Overbar theme="frc" />
+    <Navbar links={links} />
+    <div>{children()}</div>
+    <Footer />
+  </div>
 )
 
 TemplateWrapper.propTypes = {
-children: PropTypes.func,
+  children: PropTypes.func,
 }
 
 export default TemplateWrapper;
