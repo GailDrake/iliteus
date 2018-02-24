@@ -2,12 +2,17 @@ import React from 'react';
 import Mediatiles from '../../../components/mediatiles'
 import Container from '../../../templates/container';
 
+
 const Media = (props) => {
 	return (
-		<Container division="frc" title="Banner" subtitle="This is a banner for the media page.">
+		<Container division="frc" title="Media" subtitle="Pictures for all ILITE events.">
 			<div className="media">
-				<h1>This is the media page</h1>
-				<div className="media__mediatiles-container">
+				<p>
+					At ILITE Robotics, we have promising videographers who take lots of film of our team’s activities.
+					They capture our effervescent and interesting teammates working, learning, and even playing.
+					ILITE media can be viewed below.
+				</p>
+				<div>
 					<Mediatiles
 						url={`https://www.dropbox.com/sh/bbr2288z656ubhm/AADWSERCz8P0Ki5G4Wg93TOJa/FRC%20Robotics/2017%20World%20Championships?dl=0`}
 						name="World Championship 2017"
