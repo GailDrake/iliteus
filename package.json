@@ -17,5 +17,8 @@
     "prop-types": "^15.6.0",
     "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1"
   }
 }

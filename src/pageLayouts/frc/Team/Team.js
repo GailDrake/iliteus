@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Container from '../../../templates/container';
 import GetMember from './GetMember.js';
 
-
 const Team = (props) => {
   return (
     <Container division="frc" title="Banner" subtitle="This is a banner for the team page.">

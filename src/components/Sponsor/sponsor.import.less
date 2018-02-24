@@ -1,0 +1,32 @@
+.sponsor {
+  display: flex;
+  flex: 1;
+  clear: both;
+  min-height: 200px;
+  overflow: hidden;
+  .sponsor__image-holder {
+    float: left;
+    flex: 2;
+    margin-right: @margin-horizontal-lg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sponsor__image {
+    display: block;
+    max-height: 200px;
+  }
+  .sponsor__text {
+    line-height: @line-height;
+    color: @text;
+    font-size: 14px;
+    font-family: @open-sans;
+    flex: 6;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+  }
+  .sponsor__image--large {
+    min-height: 350px;
+  }
+}
