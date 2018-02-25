@@ -13,7 +13,9 @@ module.exports = {
         fonts: [
           `Open Sans`,
           `Lato`,
-          `Verdana` // you can also specify font weights and styles
+          `Verdana`,
+          `Raleway`,
+          `Raleway ExtraLight` // you can also specify font weights and styles
         ]
       }
     }

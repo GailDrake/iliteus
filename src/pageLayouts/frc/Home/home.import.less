@@ -1,3 +1,57 @@
-.home {
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
 
+.home {
+  margin: 0;
+  padding: 0;
+  .home__banner {
+    width: 100%;
+    height: 80vh;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url('../../../assets/images/frc/home-hero-lg.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    /*@media (min-width: 1200px) {
+      background-image: url('../../../assets/images/frc/home-hero-sm.jpg');
+    }
+    @media (min-width: 768px) {
+      padding-top: 10%;
+      padding-bottom: 200px;
+      background-image: url('../../../assets/images/frc/home-hero-med.jpg');
+    }*/
+    .home__banner-title {
+      font-family: @raleway;
+      font-weight: 600;
+      font-size: 50px;
+      color: @white;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      padding: 0 5vw;
+      margin: 0.67em 0;
+    }
+    .home__banner-subtitle {
+      color: @off-white;
+      font-family: 'Raleway ExtraLight', sans-serif;
+      font-size: 25px;
+      font-weight: 200;
+      line-height: 32px;
+      margin-top: -20px;
+      margin-bottom: 20px;
+    }
+    .home__banner-description {
+      font-family: @raleway;
+      letter-spacing: 0.8px;
+      font-size: 18px;
+      line-height: 200%;
+      margin-bottom: 20px;
+      color: @white;
+    }
+  }
 }
