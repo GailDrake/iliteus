@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../../../components/Button';
+import Events from '../../../components/events';
 
 const Home = (props) => {
   return (
@@ -15,6 +16,29 @@ const Home = (props) => {
           <Button division='frc' link="/about">
             Learn More About Us!
           </Button>
+        </div>
+      </div>
+      <div className="home__events">
+        <h1 className="home__events-header">ILITE Events</h1>
+        <p className="home__events-description">
+          Come support Team 1885 and our STEM leaders at work in the community.
+        </p>
+        <div className="home__events-container">
+          <Events
+            name="FIRST Relic Recovery"
+            eventLink="ftc.ilite.us"
+            date="December 2nd, 2017"
+            image="logos/first-relic-recovery__logo.png" />
+          <Events
+            name="FIRST Relic Recovery"
+            eventLink="ftc.ilite.us"
+            date="December 2nd, 2017"
+            image="logos/first-relic-recovery__logo.png" />
+          <Events
+            name="FIRST Relic Recovery"
+            eventLink="ftc.ilite.us"
+            date="December 2nd, 2017"
+            image="logos/first-relic-recovery__logo.png" />
         </div>
       </div>
     </div>

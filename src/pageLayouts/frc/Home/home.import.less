@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   .home__banner {
-    height: 80vh;
-    width: 100vw;
     background-image: url('../../../assets/images/frc/home-hero-lg.jpg');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
     overflow: hidden;
     display: flex;
     flex: 1;
@@ -17,13 +17,13 @@
     .home__banner-text-container {
       max-width: 800px;
       .home__banner-title {
+        color: @white;
         font-family: @raleway;
         font-weight: 600;
         font-size: 50px;
-        color: @white;
         letter-spacing: 3px;
-        text-transform: uppercase;
         margin-bottom: 0.67em;
+        text-transform: uppercase;
       }
       .home__banner-subtitle {
         color: @off-white;
@@ -35,13 +35,35 @@
         margin-bottom: 20px;
       }
       .home__banner-description {
+        color: @white;
         font-family: @raleway;
-        letter-spacing: 0.8px;
         font-size: 18px;
+        letter-spacing: 0.8px;
         line-height: 200%;
         margin-bottom: 20px;
-        color: @white;
       }
+    }
+  }
+  .home__events {
+    background-color: @off-white;
+    width: 100vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    .home__events-header {
+      color: @text-dark;
+      font-size: 30px;
+      font-weight: 600;
+      font-family: @raleway;
+      letter-spacing: 0.0625em;
+      text-transform: uppercase;
+      margin-bottom: 1em;
+      padding: 5px;
+    }
+    .home__events-description {
+      font-size: 18px;
     }
   }
 }
