@@ -1,9 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD:src/pageLayouts/frc/About/Calendar/Calendar.js
-import Container from '../../../../templates/container';
-=======
 import Container from '../../../templates/container';
->>>>>>> master:src/pageLayouts/frc/Calendar/Calendar.js
 // import classnames from 'classnames';
 
 const Calendar = () => {
