@@ -10,6 +10,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "gatsby": "^1.9.158",
+    "gatsby-cli": "^1.1.44",
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-google-fonts": "0.0.3",
     "gatsby-plugin-less": "^1.0.8",
@@ -17,5 +18,9 @@
     "prop-types": "^15.6.0",
     "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
