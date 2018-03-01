@@ -20,6 +20,11 @@ const links = [
     file: "competition",
   },
   {
+    name: "Calendar",
+    section: "frc",
+    file: "calendar",
+  },
+  {
     name: "Team",
     section: "frc",
     file: "team",
