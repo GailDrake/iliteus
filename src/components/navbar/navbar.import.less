@@ -10,22 +10,25 @@
   opacity: 1;
   z-index: 9;
   font-size: 1.1em;
-  font-weight: 700;
   line-height: 23px;
   width: 100vw;
   height: 65px;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
   position: sticky;
-  top: 5vh;
+  top: 0px;
   ul li {
     list-style-type: none;
     float: right;
     margin: 0px 20px;
   }
   .navigation__list-item {
+    font-weight: 400;
     text-decoration: none;
     color: @secondary;
     cursor: pointer;
-    font-weight: 400;
     font-family: 'Lato', sans-serif;
     &:hover {
       color: #3DC67A;
