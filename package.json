@@ -22,7 +22,7 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
   "devDependencies": {
     "eslint": "^4.18.1"
   }
