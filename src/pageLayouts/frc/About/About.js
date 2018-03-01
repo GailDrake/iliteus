@@ -9,7 +9,7 @@ import books from '../../../assets/images/frc/about/books.jpg'
 import stemexpo2 from '../../../assets/images/frc/about/stemexpo2.jpg'
 import ussstem from '../../../assets/images/frc/about/usstemfoundation.jpg'
 import history from '../../../assets/images/frc/about/history.jpg'
-import kid from '../../../assets/images/frc/about/kid.jpg'
+import trophy from '../../../assets/images/frc/about/trophy.jpg'
 import pits from '../../../assets/images/frc/about/pitspeaking.jpg'
 import experiment from '../../../assets/images/frc/about/experiment.jpg'
 import gather from '../../../assets/images/frc/about/gather.jpg'
@@ -62,7 +62,7 @@ const About = (props) => {
         </p>
         <h1 className='about__header'>Team History</h1>
         <p className='about__text'></p>
-        <img className='about__image' src={kid} />
+        <img className='about__image' src={trophy} />
         <img className='about__image' src={pits} />
         <img className='about__image' src={history} />
         <p className='about__text'>FIRST Team 1885, “ILITE Robotics”, is a FIRST Robotics Team based in Haymarket, Virginia.
