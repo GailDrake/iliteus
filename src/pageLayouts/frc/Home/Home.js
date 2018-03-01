@@ -20,15 +20,13 @@ const Home = (props) => {
       </div>
       <div className="home__events">
         <h1 className="home__events-header">ILITE Events</h1>
-        <p className="home__events-description">
-          Come support Team 1885 and our STEM leaders at work in the community.
-        </p>
+        <br />
         <div className="home__events-container">
           <Events
             name="FIRST Relic Recovery"
             eventLink="ftc.ilite.us"
             date="December 2nd, 2017"
-            image="logos/first-relic-recovery__logo.png" />
+            image="images/frc/iroc-group-photo.png" />
           <Events
             name="FIRST Relic Recovery"
             eventLink="ftc.ilite.us"
