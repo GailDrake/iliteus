@@ -5,6 +5,7 @@
   theme of the site and change it based on the item we hover
   on the overbar.
 */
+
 ul.overbar__list {
   list-style-type: none;
   text-align: center;
@@ -24,11 +25,12 @@ ul.overbar__list {
   transition: all 0.3s;
   &:hover {
     /* Change per subdivision */
-    color:#3CC177;
+    color: #3CC177;
   }
 }
 
 /* Determines navbar color by subdivision */
+
 .overbar__list.frc {
   background-color: rebeccapurple;
   .overbar__list-item {
@@ -70,5 +72,11 @@ ul.overbar__list {
     &:hover {
       color: navy;
     }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .overbar__list {
+    display: none;
   }
 }
