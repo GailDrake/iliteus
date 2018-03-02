@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../../../components/Button';
 import Events from '../../../components/events';
+import NewsCard from '../../../components/NewsCard/';
 
 const Home = (props) => {
   return (
@@ -37,6 +38,21 @@ const Home = (props) => {
             eventLink="ftc.ilite.us"
             date="December 2nd, 2017"
             image="logos/first-relic-recovery__logo.png" />
+        </div>
+      </div>
+      <div className="home__news">
+        <h1 className="home__news-header">ILITE Events</h1>
+        <br />
+        <div className="home__news-container">
+          <NewsCard title="FIRST Fuel!" image={require('../../../assets/images/frc/iroc-group-photo.png')}>
+            FIRST Fuel Sign-Ups Team-members and parents should be aware of the FIRST Fuel page. We thank you for your continued support of ILITE!
+          </NewsCard>
+          <NewsCard title="IROC Competition is the Largest Ever Held!" image={require('../../../assets/images/frc/iroc-group-photo.png')}>
+            With 33 registered teams, the 2016 ILITE Robotics Off-Season Challenge was the largest ever held. The winning alliance was composed of FRC Teams 384, Sparky Robotics, 5338, RoboLoCos, and 2363, Triple Helix. Congratulations teams!
+          </NewsCard>
+          <NewsCard>
+            FIRST Fuel Sign-Ups Team-members and parents should be aware of the FIRST Fuel page. We thank you for your continued support of ILITE!
+          </NewsCard>
         </div>
       </div>
     </div>

@@ -10,8 +10,8 @@ html {
   margin: 0;
   padding: 0;
   .home__banner {
-    background-image: url('../../../assets/images/frc/home-hero-lg.jpg');
-    background-position: top center;
+    background-image: url('../../../assets/images/frc/background/home-hero-lg.jpg');
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -78,5 +78,30 @@ html {
       }
     }
   }
-  .home__news {}
+  .home__news {
+    background-color: @text-dark;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    .home__news-header {
+      color: @off-white;
+      font-size: 38px;
+      font-weight: 600;
+      margin-bottom: -10px;
+      font-family: @raleway;
+      letter-spacing: 0.0625em;
+      text-transform: uppercase;
+      padding: 5px;
+    }
+    .home__news-container {
+      text-align: center;
+      padding-right: 5vw;
+      padding-left: 5vw;
+      display: flex;
+      flex: 1;
+      @media screen and (max-width: 768px) {
+        display: block;
+      }
+    }
+  }
 }
