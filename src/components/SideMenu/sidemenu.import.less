@@ -1,12 +1,22 @@
 .sidemenu {
-  background-color: black;
-  width: 50%;
-  height: 100vh;
-  margin-left: 50%;
-  .sidemenu__link-list {
-    width: 80%;
-    li {
-      color: white;
-    }
+  font-family: "Arial", serif;
+  background-color: #f4f4f4;
+  .sidemenu__burger {
+    position: sticky;
+    right: 20px;
+    margin-top: 20px;
+    float: right;
+  }
+  .sidemenu__nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
   }
 }

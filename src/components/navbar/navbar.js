@@ -5,21 +5,10 @@ import SideMenu from '../SideMenu';
 class Navbar extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      clicked: false,
-    };
-  }
-
-  toggle = () => {
-    const value = this.state.clicked ? false : true;
-    this.setState({
-      clicked: value
-    })
   }
 
   render() {
     const { links } = this.props;
-    const sidemenu = this.state.clicked === true ? <SideMenu id="navigation__sidemenu" /> : "";
     const getLinks = links.map((link, index) => {
       let filePath = `/${link.section}/${link.file}`;
       return (
@@ -33,8 +22,9 @@ class Navbar extends Component {
         <ul>
           {getLinks}
         </ul>
-        <div className={`navigation__burger ${this.state.clicked}`} onClick={this.toggle}></div>
-        {sidemenu}
+        <div className="navigation__sidemenu">
+          <SideMenu />
+        </div>
       </nav >
     );
   }

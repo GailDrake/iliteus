@@ -43,33 +43,15 @@
     position: fixed;
     top: 20px;
   }
+  .navigation__sidemenu {
+    display: none;
+  }
   @media screen and (max-width: 1000px) {
     ul {
       display: none;
     }
-    .navigation__burger.false {
-      position: sticky;
-      background-image: url("../../assets/images/icons/burger.png");
-      z-index: 999;
-      width: 50px;
-      height: 50px;
-      opacity: 1;
-      right: 20px;
-      margin: 0px;
-      top: 7px;
-      float: right;
-    }
-    .navigation__burger.true {
-      position: sticky;
-      background-image: url("../../assets/images/icons/burger-white.png");
-      z-index: 999;
-      width: 50px;
-      height: 50px;
-      opacity: 1;
-      right: 20px;
-      margin: 0px;
-      top: 7px;
-      float: right;
+    .navigation__sidemenu {
+      display: block;
     }
   }
 }
