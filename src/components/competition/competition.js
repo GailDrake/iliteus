@@ -1,7 +1,7 @@
 import React from "react";
 //import image from "./../../../assets/images/frc/home-hero-lg.jpg";
 
-const competition = ({ name, award, video, competition }) => {
+const Competition = ({ name, award, video, competition }) => {
   return (
     <div className="competition">
       <div className="competition__containernew">

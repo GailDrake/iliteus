@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Container from '../../../templates/Container';
 import competition from '../../../components/Competition';
 
-const Competition = () => {
+const CompetitionEvent = () => {
   return (
     <Container division="frc" title="Competition" subtitle="This is a banner for the competition page.">
       <div className="competition-event">
