@@ -1,6 +1,6 @@
-// import CompetitionContainer from './CompetitionContainer.js';
-import Competition from './Competition.js';
+import CompetitionContainer from './CompetitionContainer.js';
+import Competition from './CompetitionEvent.js';
 
-// export { Competition };
-// export default CompetitionContainer;
+export { Competition };
+//export CompetitionContainer;
 export default Competition;
