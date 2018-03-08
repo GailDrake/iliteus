@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Container from '../../../templates/Container';
-import competition from '../../../components/competition';
+import competition from '../../../components/Competition';
 
 const Competition = () => {
   return (

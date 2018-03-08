@@ -1,13 +1,13 @@
 import React from "react";
 //import image from "./../../../assets/images/frc/home-hero-lg.jpg";
 
-const competition = ({ name, award, vid, comp }) => {
+const competition = ({ name, award, video, competition }) => {
   return (
     <div className="competition">
-      <div className="containernew">
-        <div className="contentcontent">
+      <div className="competition__containernew">
+        <div className="competition__contentcontent">
           <h1>{name}</h1>
-          <iframe width="100%" height="315" src={vid} frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
+          <iframe width="100%" height="315" src={video} frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
           </iframe>
           <h3>Awards</h3>
           <p>
@@ -16,7 +16,7 @@ const competition = ({ name, award, vid, comp }) => {
 
           <h3>Competitions attended</h3>
           <p>
-            {comp}
+            {competition}
           </p>
         </div>
       </div>
@@ -24,7 +24,7 @@ const competition = ({ name, award, vid, comp }) => {
   )
 };
 
-export default competition;
+export default Competition;
 
 
 

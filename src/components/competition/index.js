@@ -1,3 +1,3 @@
-import Competition from './competition';
+import Competition from './Competition';
 
 export default Competition;
