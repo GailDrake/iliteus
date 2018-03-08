@@ -346,8 +346,8 @@ const Competition = () => {
   );
 };
 
-Competition.propTypes = {
+CompetitionEvent.propTypes = {
 
 };
 
-export default Competition;
+export default CompetitionEvent;
