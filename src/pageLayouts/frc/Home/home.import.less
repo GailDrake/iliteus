@@ -7,6 +7,7 @@ html {
 
 .home {
   overflow-x: hidden;
+  overflow-y: hidden;
   margin: 0;
   padding: 0;
   .home__banner {
@@ -22,6 +23,9 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
+    @media (max-width: @screen-sm) {
+      height: 100vh;
+    }
     .home__banner-text-container {
       max-width: 800px;
       .home__banner-title {
@@ -102,6 +106,31 @@ html {
       @media screen and (max-width: 768px) {
         display: block;
       }
+    }
+  }
+  .home__sponsors {
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-bottom: -10px;
+    .home__sponsors-header {
+      color: @text-dark;
+      font-size: 38px;
+      font-weight: 600;
+      font-family: @raleway;
+      letter-spacing: 0.0625em;
+      text-transform: uppercase;
+      padding: 5px;
+    }
+    .home__sponsors-description {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .home__sponsors-container {
+      text-align: center;
+      padding-right: 5vw;
+      padding-left: 5vw;
     }
   }
 }

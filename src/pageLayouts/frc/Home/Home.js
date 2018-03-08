@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../../../components/Button';
 import Events from '../../../components/events';
 import NewsCard from '../../../components/NewsCard/';
+import SponsorTag from '../../../components/SponsorTag/SponsorTag';
 
 const Home = (props) => {
   return (
@@ -41,7 +42,7 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home__news">
-        <h1 className="home__news-header">ILITE Events</h1>
+        <h1 className="home__news-header">News</h1>
         <br />
         <div className="home__news-container">
           <NewsCard title="FIRST Fuel!" image={require('../../../assets/images/frc/iroc-group-photo.png')}>
@@ -53,6 +54,20 @@ const Home = (props) => {
           <NewsCard>
             FIRST Fuel Sign-Ups Team-members and parents should be aware of the FIRST Fuel page. We thank you for your continued support of ILITE!
           </NewsCard>
+        </div>
+      </div>
+      <div className="home__sponsors">
+        <h1 className="home__sponsors-header">Sponsors</h1>
+        <p className="home__sponsors-description">
+          We thank our Sponsors for their continued support
+        </p>
+        <br />
+        <div className="home__sponsors-container">
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/floodtech.png')}
+            url="http://www.a1floodtech.com">
+            A1 Floodtech
+          </SponsorTag>
         </div>
       </div>
     </div>
