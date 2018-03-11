@@ -21,6 +21,10 @@ class SideMenu extends Component {
     })
   }
 
+  dropDown = () => {
+
+  }
+
   render() {
     const sidemenu = this.state.sidemenu ? "250px" : "0px";
 
@@ -37,11 +41,21 @@ class SideMenu extends Component {
         </span>
 
         <div id="sidemenu__menu" className="sidemenu__nav" style={{ width: sidemenu }}>
-          <a href="#" className="sidemenu__close" onClick={() => this.closeSideMenu()}>&times;</a>
-          <a href="#">FRC</a>
-          <a href="#">FTC</a>
-          <a href="#">Hosted Events</a>
-          <a href="#">Outreach</a>
+          <div className="sidemenu__top">
+            <a href="#" className="sidemenu__close" onClick={() => this.closeSideMenu()}>&times;</a>
+          </div>
+          <div className="sidemenu__list">
+            <a href="#" className="sidemenu__dropdown-title" onClick={() => this.dropDown()}>FRC Robotics</a>
+            <br />
+            <br />
+            <a href="#">FTC Robotics</a>
+            <br />
+            <br />
+            <a href="#">Hosted Events</a>
+            <br />
+            <br />
+            <a href="#">Outreach</a>
+          </div>
         </div>
       </div>
     );
