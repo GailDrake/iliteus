@@ -12,6 +12,7 @@ module.exports = {
       options: {
         fonts: [
           `Open Sans`,
+          `Montserrat`,
           `Lato`,
           `Verdana`,
           `Raleway`,
