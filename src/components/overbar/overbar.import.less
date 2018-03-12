@@ -31,6 +31,19 @@ ul.overbar__list {
 /* Determines navbar color by subdivision */
 
 .overbar__list.frc {
+  background: linear-gradient(to bottom right, @purple-5, @purple-6);
+  background: -webkit-linear-gradient(to bottom right, @purple-5, @purple-6);
+  .overbar__list-item {
+    color: #fcfdff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    &:hover {
+      padding-bottom: 10px;
+      border-bottom: 2px solid white;
+    }
+  }
+}
+
+.overbar__list.frc {
   background: linear-gradient(to bottom right, @purple-1, @purple-2);
   background: -webkit-linear-gradient(to bottom right, @purple-1, @purple-2);
   .overbar__list-item {
