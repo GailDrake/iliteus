@@ -52,7 +52,7 @@ const FrcHome = (props) => {
           <NewsCard title="IROC Competition is the Largest Ever Held!" image={require('../../../assets/images/frc/iroc-group-photo.png')}>
             With 33 registered teams, the 2016 ILITE Robotics Off-Season Challenge was the largest ever held. The winning alliance was composed of FRC Teams 384, Sparky Robotics, 5338, RoboLoCos, and 2363, Triple Helix. Congratulations teams!
           </NewsCard>
-          <NewsCard>
+          <NewsCard title="IROC Competition is the Largest Ever Held!" image={require('../../../assets/images/frc/iroc-group-photo.png')}>
             FIRST Fuel Sign-Ups Team-members and parents should be aware of the FIRST Fuel page. We thank you for your continued support of ILITE!
           </NewsCard>
         </div>
@@ -64,6 +64,43 @@ const FrcHome = (props) => {
         </p>
         <br />
         <div className="frcHome__sponsors-container">
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/floodtech.png')}
+            url="http://www.a1floodtech.com">
+            A1 Floodtech
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/floodtech.png')}
+            url="http://www.a1floodtech.com">
+            A1 Floodtech
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/floodtech.png')}
+            url="http://www.a1floodtech.com">
+            A1 Floodtech
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/floodtech.png')}
+            url="http://www.a1floodtech.com">
+            A1 Floodtech
+          </SponsorTag><SponsorTag
+            image={require('../../../assets/images/sponsors/floodtech.png')}
+            url="http://www.a1floodtech.com">
+            A1 Floodtech
+          </SponsorTag><SponsorTag
+            image={require('../../../assets/images/sponsors/floodtech.png')}
+            url="http://www.a1floodtech.com">
+            A1 Floodtech
+          </SponsorTag><SponsorTag
+            image={require('../../../assets/images/sponsors/floodtech.png')}
+            url="http://www.a1floodtech.com">
+            A1 Floodtech
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/floodtech.png')}
+            url="http://www.a1floodtech.com">
+            A1 Floodtech
+          </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/floodtech.png')}
             url="http://www.a1floodtech.com">

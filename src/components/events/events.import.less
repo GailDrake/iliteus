@@ -3,13 +3,20 @@
   text-align: left;
   margin: 20px;
   border-radius: 3px;
-  .event__image {
+  .event__image-holder {
+    width: 100%;
     background-color: @white;
     height: 250px;
-    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .event__image {
+    background-color: @white;
     border-radius: 0;
-    border: 0;
     margin-bottom: -6px;
+    object-fit: cover;
+    height: 100%;
+    max-width: 100%;
   }
   .event__header {
     background-color: @white;
@@ -24,8 +31,7 @@
     padding: 15px 20px;
   }
   .event__divider {
-    background-color: @white;
-    color: @text-3;
+    color: @gray-2;
     width: 100%;
     margin: 0;
   }
