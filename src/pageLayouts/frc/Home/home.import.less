@@ -11,7 +11,7 @@ html {
   margin: 0;
   padding: 0;
   .home__banner {
-    background-image: url('../../../assets/images/frc/background/home-hero-lg.jpg');
+    background-image: url('../../../assets/images/frc/background/home-background.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    @media (max-width: @screen-sm) {
+    @media (max-width: 468px) {
       height: 100vh;
     }
     .home__banner-text-container {
@@ -62,7 +62,7 @@ html {
     padding-top: 10vh;
     padding-bottom: 10vh;
     .home__events-header {
-      color: @text-dark;
+      color: @text-1;
       font-size: 38px;
       font-weight: 600;
       margin-bottom: -10px;
@@ -77,13 +77,10 @@ html {
       padding-left: 5vw;
       display: flex;
       flex: 1;
-      @media screen and (max-width: 768px) {
-        display: block;
-      }
     }
   }
   .home__news {
-    background-color: @text-dark;
+    background-color: @text-1;
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -103,9 +100,6 @@ html {
       padding-left: 5vw;
       display: flex;
       flex: 1;
-      @media screen and (max-width: 768px) {
-        display: block;
-      }
     }
   }
   .home__sponsors {
@@ -114,7 +108,7 @@ html {
     padding-bottom: 10vh;
     margin-bottom: -10px;
     .home__sponsors-header {
-      color: @text-dark;
+      color: @text-1;
       font-size: 38px;
       font-weight: 600;
       font-family: @raleway;

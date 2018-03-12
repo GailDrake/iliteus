@@ -1,15 +1,13 @@
-@primary: #F7F7F7;
-@secondary: #000;
 .navigation {
-  background: @primary;
-  color: @secondary;
+  background: @off-white;
+  color: @text-1;
   padding: 20px 30px;
   margin: 0px;
   border: none;
   box-shadow: none;
   opacity: 1;
   z-index: 9;
-  font-size: 1.1em;
+  font-size: 18px;
   line-height: 23px;
   width: 100vw;
   height: 65px;
@@ -27,12 +25,12 @@
   .navigation__list-item {
     font-weight: 400;
     text-decoration: none;
-    color: @secondary;
-    cursor: pointer;
+    color: @text-1;
     font-family: 'Lato', sans-serif;
     &:hover {
-      color: #3DC67A;
+      color: @text-3;
       transition: all 0.3s ease;
+      cursor: pointer;
     }
   }
   .navigation__logo {
@@ -46,7 +44,7 @@
     top: 20px;
     position: fixed;
   }
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 830px) {
     ul {
       display: none;
     }
