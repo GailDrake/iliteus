@@ -1,4 +1,4 @@
 import React from 'react';
-import Home from '../../pageLayouts/frc/Home';
+import FrcHome from '../../pageLayouts/frc/FrcHome';
 
-export default () => <Home />
+export default () => <FrcHome />
