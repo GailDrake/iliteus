@@ -1,7 +1,13 @@
 import React from 'react';
+// import classnames from 'classnames';
+// import components
+
 import Container from '../../../templates/Container'
 import QuoteLeft from '../../../IconComponents/Quoteleft'
 import QuoteRight from '../../../IconComponents/Quoteright'
+
+// import images
+
 import haymarketday from '../../../assets/images/frc/about/haymarketday.jpg'
 import stemexpo1 from '../../../assets/images/frc/about/stemexpo1.jpg'
 import teddy from '../../../assets/images/frc/about/teddy.jpg'
@@ -14,7 +20,7 @@ import pits from '../../../assets/images/frc/about/pitspeaking.jpg'
 import experiment from '../../../assets/images/frc/about/experiment.jpg'
 import gather from '../../../assets/images/frc/about/gather.jpg'
 import stemexpo3 from '../../../assets/images/frc/about/stemexpo3.jpg'
-// import classnames from 'classnames';
+
 
 const About = (props) => {
   return (
