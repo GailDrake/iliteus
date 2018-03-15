@@ -18,23 +18,32 @@
     overflow-x: hidden;
     transition: 0.5s;
   }
-  .sidemenu__top {
-    background-color: #666;
-    height: 65px;
-    width: 100%;
-  }
   .sidemenu__close {
     color: white;
-    left: 10px;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 40px;
+    cursor: pointer;
   }
   .sidemenu__list {
+    padding: 10px;
+    margin-top: 40px;
     a {
       color: white;
       text-decoration: none;
+      float: left;
+      margin-left: 20px;
+      font-weight: 600;
+      font-family: 'raleway', sans-serif;
+      font-size: 13px;
     }
-    margin-left: 50px;
-    margin-top: 50px;
+    span {
+      color: white;
+      float: right;
+      margin-right: 10px;
+      font-size: 10px;
+    }
   }
 }

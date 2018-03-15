@@ -41,20 +41,26 @@ class SideMenu extends Component {
         </span>
 
         <div id="sidemenu__menu" className="sidemenu__nav" style={{ width: sidemenu }}>
-          <div className="sidemenu__top">
-            <a href="#" className="sidemenu__close" onClick={() => this.closeSideMenu()}>&times;</a>
-          </div>
+          <span className="sidemenu__close" onClick={() => this.closeSideMenu()}>&times;</span>
           <div className="sidemenu__list">
-            <a href="#" className="sidemenu__dropdown-title" onClick={() => this.dropDown()}>&#9662; FRC Robotics</a>
+            <div class="sidemenu__droptitle" onClick={() => this.dropDown()}>
+              <a href="#">FRC Robotics</a><span>&#9660;</span>
+            </div>
             <br />
             <br />
-            <a href="#">&#9662; FTC Robotics</a>
+            <div class="sidemenu__droptitle" onClick="">
+              <a href="#">FTC Robotics</a><span>&#9660;</span>
+            </div>
             <br />
             <br />
-            <a href="#">&#9662; Hosted Events</a>
+            <div class="sidemenu__droptitle" onClick="">
+              <a href="#">Hosted Events</a><span>&#9660;</span>
+            </div>
             <br />
             <br />
-            <a href="#">&#9662; Outreach</a>
+            <div class="sidemenu__droptitle" onClick="">
+              <a href="#">Outreach</a><span>&#9660;</span>
+            </div>
           </div>
         </div>
       </div >
