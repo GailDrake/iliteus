@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Container from '../../../templates/container';
+import Container from '../../../templates/Container';
 import GetMember from './GetMember.js';
 
 const Team = (props) => {

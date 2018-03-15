@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../../../templates/container';
+import Container from '../../../templates/Container';
 
 const GetInvolved = (props) => {
   return (
