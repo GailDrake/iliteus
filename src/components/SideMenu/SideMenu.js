@@ -33,7 +33,7 @@ class SideMenu extends Component {
 
   render() {
     const sidemenu = this.state.sidemenu ? "250px" : "0px";
-    const dropdown1 = this.state.dropdown1 ? "block" : "none";
+    const dropdown1 = this.state.dropdown1 ? "279px" : "0px";
 
     return (
       <div className="sidemenu" >
@@ -53,7 +53,7 @@ class SideMenu extends Component {
             <div className="sidemenu__droptitle" onClick={() => this.dropDown1()}>
               <span className="sidemenu--title">FRC Robotics</span><span className="sidemenu--arrow">&#9660;</span>
             </div>
-            <div className="sidemenu__dropcontent" style={{ display: dropdown1 }}>
+            <div className="sidemenu__dropcontent" style={{ height: dropdown1 }}>
               <Link onClick={() => this.closeSideMenu()} to="/frc">Home</Link>
               <Link onClick={() => this.closeSideMenu()} to="/frc/about">About</Link>
               <Link onClick={() => this.closeSideMenu()} to="/frc/media">Media</Link>
@@ -64,12 +64,12 @@ class SideMenu extends Component {
             <br />
             <br />
             <div className="sidemenu__droptitle">
-              <a href="http://irocoffseason.org/" target="_blank">IROC</a>
+              <a href="http://irocoffseason.org/" target="_blank" onClick={() => this.closeSideMenu()}>IROC</a>
             </div>
             <br />
             <br />
             <div className="sidemenu__droptitle">
-              <a href="http://www.haymakerstemexpo.org/" target="_blank">STEAM Expo</a>
+              <a href="http://www.haymakerstemexpo.org/" target="_blank" onClick={() => this.closeSideMenu()}>STEAM Expo</a>
             </div>
           </div>
         </div>
