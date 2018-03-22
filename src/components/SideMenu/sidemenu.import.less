@@ -1,17 +1,21 @@
 .sidemenu {
   font-family: "Arial", serif;
   background-color: #f4f4f4;
+  z-index: 99999999;
   .sidemenu__burger {
     position: sticky;
     right: 20px;
     margin-top: 20px;
     float: right;
+    &:hover {
+      cursor: pointer;
+    }
   }
   .sidemenu__nav {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 9;
+    z-index: 100;
     top: 0;
     right: 0;
     background-color: #333;
@@ -30,42 +34,45 @@
   .sidemenu__list {
     padding: 10px;
     margin-top: 40px;
-    a {
+  }
+  .sidemenu__droptitle {
+    z-index: 101;
+    color: white;
+    padding: 20px 0;
+    a,
+    span.sidemenu--title {
       color: white;
       text-decoration: none;
       float: left;
       margin-left: 20px;
       font-weight: 600;
       font-family: 'raleway', sans-serif;
-      font-size: 13px;
+      font-size: 20px;
     }
-    span {
+    .sidemenu--arrow {
       color: white;
       float: right;
       margin-right: 10px;
-      font-size: 10px;
+      font-size: 15px;
     }
-  }
-  .sidemenu__droptitle {
-    z-index: 99;
     &:hover {
-      a,
+      color: gray;
       span {
         color: gray;
       }
       cursor: pointer;
     }
-    .sidemenu__dropcontent {
-      display: none;
-      position: absolute;
-      min-width: 160px;
-      background-color: white;
-      a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-      }
+  }
+  .sidemenu__dropcontent {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: white;
+    a {
+      padding: 12px auto;
+      text-decoration: none;
+      display: block;
+      color: black;
     }
   }
 }
