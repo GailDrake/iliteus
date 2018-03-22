@@ -1,11 +1,26 @@
 .sponsor {
-  height: 300px;
-  position: relative;
+  display: flex;
+  flex: 1;
+  clear: both;
+  min-height: 200px;
+  overflow: hidden;
   .sponsor__image-holder {
-    height: 100%;
+    float: left;
+    flex: 2;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .sponsor__image {}
+  .sponsor__image {
+    display: block;
+    max-height: 200px;
+  }
   .sponsor__text {
+    flex: 6;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
     &:extend(.text);
   }
 }
