@@ -66,30 +66,30 @@ class SideMenu extends Component {
         <div id="sidemenu__menu" className="sidemenu__nav" style={{ width: sidemenu }}>
           <span className="sidemenu__close" onClick={() => this.closeSideMenu()}>&times;</span>
           <div className="sidemenu__list">
-            <div class="sidemenu__droptitle" onClick={() => this.dropDown1()}>
+            <div className="sidemenu__droptitle" onClick={() => this.dropDown1()}>
               <a href="#">FRC Robotics</a><span>&#9660;</span>
             </div>
-            <div class="sidemenu__dropcontent" style={{ display: dropdown1 }}>
+            <div className="sidemenu__dropcontent" style={{ display: dropdown1 }}>
               <a href="#">Link</a>
               <a href="#">Link</a>
               <a href="#">Link</a>
             </div>
             <br />
             <br />
-            <div class="sidemenu__droptitle" onClick={() => this.dropDown2()}>
+            <div className="sidemenu__droptitle" onClick={() => this.dropDown2()}>
               <a href="#">Hosted Events</a><span>&#9660;</span>
             </div>
-            <div class="sidemenu__dropcontent" style={{ display: dropdown2 }}>
+            <div className="sidemenu__dropcontent" style={{ display: dropdown2 }}>
               <a href="#">Link</a>
               <a href="#">Link</a>
               <a href="#">Link</a>
             </div>
             <br />
             <br />
-            <div class="sidemenu__droptitle" onClick={() => this.dropDown3()}>
+            <div className="sidemenu__droptitle" onClick={() => this.dropDown3()}>
               <a href="#">Outreach</a><span>&#9660;</span>
             </div>
-            <div class="sidemenu__dropcontent" style={{ display: dropdown3 }}>
+            <div className="sidemenu__dropcontent" style={{ display: dropdown3 }}>
               <a href="#">Link</a>
               <a href="#">Link</a>
               <a href="#">Link</a>
