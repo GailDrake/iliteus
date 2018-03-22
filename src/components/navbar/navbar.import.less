@@ -1,20 +1,20 @@
-@primary: #F7F7F7;
-@secondary: #000;
 .navigation {
-  background: @primary;
-  color: @secondary;
+  background: @off-white;
+  color: @text-1;
   padding: 20px 30px;
   margin: 0px;
   border: none;
   box-shadow: none;
   opacity: 1;
-  z-index: 90;
-  font-size: 1.1em;
-  font-weight: 700;
-  text-transform: uppercase;
+  z-index: 9;
+  font-size: 18px;
   line-height: 23px;
   width: 100vw;
   height: 65px;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
   position: sticky;
   top: 0px;
   ul li {
@@ -23,13 +23,14 @@
     margin: 0px 20px;
   }
   .navigation__list-item {
+    font-weight: 400;
     text-decoration: none;
-    color: @secondary;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
+    color: @text-1;
+    font-family: 'Lato', sans-serif;
     &:hover {
-      color: #3DC67A;
+      color: @text-3;
       transition: all 0.3s ease;
+      cursor: pointer;
     }
   }
   .navigation__logo {
@@ -40,8 +41,8 @@
     margin: 0px 10px;
     float: left;
     z-index: 99;
-    position: fixed;
     top: 20px;
+    position: fixed;
   }
   .navigation__sidemenu {
     display: none;
