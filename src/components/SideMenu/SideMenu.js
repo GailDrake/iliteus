@@ -64,12 +64,12 @@ class SideMenu extends Component {
             <br />
             <br />
             <div className="sidemenu__droptitle">
-              <a href="http://irocoffseason.org/" target="_blank" onClick={() => this.closeSideMenu()}>IROC</a>
+              <a href="http://irocoffseason.org/" onClick={() => this.closeSideMenu()}>IROC</a>
             </div>
             <br />
             <br />
             <div className="sidemenu__droptitle">
-              <a href="http://www.haymakerstemexpo.org/" target="_blank" onClick={() => this.closeSideMenu()}>STEAM Expo</a>
+              <a href="http://www.haymakerstemexpo.org/" onClick={() => this.closeSideMenu()}>STEAM Expo</a>
             </div>
           </div>
         </div>
