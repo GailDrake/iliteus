@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '../../../templates/Container'
 import QuoteLeft from '../../../IconComponents/Quoteleft'
 import QuoteRight from '../../../IconComponents/Quoteright'
+
 import haymarketday from '../../../assets/images/frc/about/haymarketday.jpg'
 import stemexpo1 from '../../../assets/images/frc/about/stemexpo1.jpg'
 import teddy from '../../../assets/images/frc/about/teddy.jpg'
@@ -14,7 +15,6 @@ import pits from '../../../assets/images/frc/about/pitspeaking.jpg'
 import experiment from '../../../assets/images/frc/about/experiment.jpg'
 import gather from '../../../assets/images/frc/about/gather.jpg'
 import stemexpo3 from '../../../assets/images/frc/about/stemexpo3.jpg'
-// import classnames from 'classnames';
 
 const About = (props) => {
   return (
@@ -36,36 +36,60 @@ const About = (props) => {
           <br />
           Whether it be through our summer camps that teach hundreds of students about STEM, or our annually-hosted FIRST competitions,
           ILITE continuously inspires those around them. We strive to embody the FIRST mission of "More than Robots" in all we do."
-          </p>
-        <h1 className='about__subheader'>Our Mission:</h1>
-        <img className='about__image' src={haymarketday} />
-        <img className='about__image' src={stemexpo1} />
-        <img className='about__image' src={teddy} />
-        <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='pink' /></span> To inspire young people to become leaders in science, technology, engineering,
+        </p>
+
+        <h1 className='about__subheader'>Our Mission</h1>
+        <div className="about__image-container">
+          <div><img className='about__image' src={haymarketday} /></div>
+          <div><img className='about__image' src={stemexpo1} /></div>
+          <div><img className='about__image' src={teddy} /></div>
+        </div>
+        <p className='about__greybox'>
+          <span className='about__quotes'><QuoteRight fill='gray' /></span>
+          To inspire young people to become leaders in science, technology, engineering,
           and mathematics by providing them with hands-on engineering challenges with the mentorship of industry professionals,
-                 to build a foundation of both technical and social skills and values, to create leaders in technology and engineering.<span className='about__quotes'><QuoteLeft fill='pink' /></span>
+          to build a foundation of both technical and social skills and values, to create leaders in technology and engineering.
+          <span className='about__quotes'><QuoteLeft fill='gray' /></span>
         </p>
-        <h1 className='about__subheader'>Our Vision:</h1>
-        <img className='about__image' src={books} />
-        <img className='about__image' src={stemexpo2} />
-        <img className='about__image' src={ussstem} />
-        <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='pink' /></span> A community of learning where persons, young and old, share a common goal of problem solving through science,
-                technology, engineering, and mathematics to improve the world in which we live for all persons.<span className='about__quotes'><QuoteLeft fill='pink' /></span>
+
+        <h1 className='about__subheader'>Our Vision</h1>
+        <div className="about__image-container">
+          <div><img className='about__image' src={books} /></div>
+          <div><img className='about__image' src={stemexpo2} /></div>
+          <div><img className='about__image' src={ussstem} /></div>
+        </div>
+        <p className='about__greybox'>
+          <span className='about__quotes'><QuoteRight fill='pink' /></span>
+          A community of learning where persons, young and old, share a common goal of problem solving
+          through science, technology, engineering, and mathematics to improve the world in which we live
+          for all persons.
+          <span className='about__quotes'><QuoteLeft fill='pink' /></span>
         </p>
-        <h1 className='about__subheader'>ILITE-ism:</h1>
-        <img className='about__image' src={stemexpo3} />
-        <img className='about__image' src={gather} />
-        <img className='about__image' src={experiment} />
-        <p className='about__text'>Outreach is an effort which requires an adverse plan of attack to reach the greatest number of persons,
+
+        <h1 className='about__subheader'>Outreach</h1>
+        <div className="about__image-container">
+          <div><img className='about__image' src={stemexpo3} /></div>
+          <div><img className='about__image' src={gather} /></div>
+          <div><img className='about__image' src={experiment} /></div>
+        </div>
+        <p className='about__text'>
+          Outreach is an effort which requires an adverse plan of attack to reach the greatest number of persons,
           all of whom come from different backgrounds. ILITE holds a core value it calls “ILITE-ism” which is the belief that everyone,
           regardless of background or profession can be an advocate for technology and engineering.
         </p>
+
+        <br />
+        <br />
+
         <h1 className='about__header'>Team History</h1>
         <p className='about__text'></p>
-        <img className='about__image' src={trophy} />
-        <img className='about__image' src={pits} />
-        <img className='about__image' src={history} />
-        <p className='about__text'>FIRST Team 1885, “ILITE Robotics”, is a FIRST Robotics Team based in Haymarket, Virginia.
+        <div className="about__image-container">
+          <div><img className='about__image' src={history} /></div>
+          <div><img className='about__image' src={pits} /></div>
+          <div><img className='about__image' src={trophy} /></div>
+        </div>
+        <p className='about__text'>
+          FIRST Team 1885, “ILITE Robotics”, is a FIRST Robotics Team based in Haymarket, Virginia.
           It consists of students from high schools across Prince William County, Virginia. ILITE stands for Inspiring Leaders in Technology and Engineering.
           <br />
           <br />
@@ -114,7 +138,8 @@ const About = (props) => {
           FIRST Team 1885 is now spread across the county with student representation from five of the eleven high schools in the district.
           The team plays host to SEAPerch, FLL, and FTC events, and hosted its first off-season FRC scrimmage, IROC, the ILITE Robotics Off-Season Challenge.
           Alumni have gone on to earn full scholarships at top engineering schools across the country,
-        and have spoken at technical conferences on behalf of the phenomenal results from the team including the Naval STEM Forum in 2011.</p>
+          and have spoken at technical conferences on behalf of the phenomenal results from the team including the Naval STEM Forum in 2011.
+        </p>
       </div>
     </Container>
   );
