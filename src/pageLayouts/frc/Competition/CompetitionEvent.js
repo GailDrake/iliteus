@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Container from '../../../templates/container';
-import competition from '../../../components/Competition';
 
 const CompetitionEvent = () => {
   return (
@@ -20,6 +19,7 @@ const CompetitionEvent = () => {
           <li><a href="#tab3">2008</a></li>
           <li><a href="#tab2">2007</a></li>
           <li><a href="#tab1">2006</a></li>
+          
           <br></br>
           <br></br>
 

@@ -1,38 +1,22 @@
-.competition-event {
+.competition {
   .tabs {
-    overflow: hidden;
+    display: flex;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+    list-style-type: none;
+    justify-content: space-around;
+    border-bottom: 1px solid @purple-ws-2;
     li {
-      float: left;
-      margin: 0px 0.5em 0px 0px;
-    }
-    a {
-      position: relative;
-      background: #ddd;
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
-      background-image: -webkit-linear-gradient(top, #fff, #ddd);
-      background-image: -moz-linear-gradient(top, #fff, #ddd);
-      background-image: -ms-linear-gradient(top, #fff, #ddd);
-      background-image: -o-linear-gradient(top, #fff, #ddd);
-      background-image: linear-gradient(to bottom, #fff, #ddd);
-      padding: .2em 1em;
-      float: left;
-      text-decoration: none;
-      color: #444;
-      text-shadow: 0 1px 0 rgba(255, 255, 255, .8);
-      -webkit-border-radius: 5px 0 0 0;
-      -moz-border-radius: 5px 0 0 0;
-      border-radius: 5px 0 0 0;
-      -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
-      -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
-      box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
-      &:hover {
-        background: #FFF;
+      width: 100%;
+      text-align: center;
+      padding: 10px 15px;
+      a {
+        color: @text-1;
+        text-decoration: none;
+        transition: all 0.4s;
+        &:hover {
+          color: @purple-ws-2;
+        }
       }
     }
   }
-  .content {}
 }
