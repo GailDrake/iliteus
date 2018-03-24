@@ -5,6 +5,7 @@
     list-style-type: none;
     justify-content: space-around;
     border-bottom: 1px solid @purple-ws-2;
+    margin-bottom: 30px;
     li {
       width: 100%;
       text-align: center;
@@ -17,6 +18,32 @@
           color: @purple-ws-2;
         }
       }
+    }
+  }
+  .competition__event {
+    .competition__event-container {
+      display: flex;
+      flex: 1;
+      width: 100%;
+      margin-top: 20px;
+      div {
+        flex: 2;
+        text-align: center;
+      }
+      li {
+        text-align: left;
+        list-style-type: none;
+      }
+    }
+    .competition__event-header {
+      .title();
+    }
+    .competition__event-subheader {
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-size: 24px;
+      font-weight: 450;
+      color: @text-2;
     }
   }
 }
