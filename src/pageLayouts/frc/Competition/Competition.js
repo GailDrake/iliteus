@@ -249,6 +249,176 @@ const Competition = () => {
             </div>
           </div>
         </div>
+        <div className="competition__event" id="tab6">
+          <h1 className="competition__event-header">2011 - Logomotion</h1>
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/aH_9QHZpsfs"
+            frameborder="0"
+            gesture="media"
+            allow="encrypted-media"
+            allowfullscreen />
+          <div className="competition__event-container">
+            <div>
+              <h3 className="competition__event-subheader">Awards</h3>
+              <ul>
+                <li>Washington DC Regional: Engineering Inspiration Award</li>
+                <li>Virginia Regional: Regional Chairman’s Award</li>
+                <li>Virginia Regional: Best Website Award</li>
+                <li>Virginia Regional: Quarterfinalist</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="competition__event-subheader">Competitions Attended</h3>
+              <ul>
+                <li>Virginia Regional</li>
+                <li>Washington DC Regional</li>
+                <li>FIRST World Championship, Galileo Division</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="competition__event" id="tab5">
+          <h1 className="competition__event-header">2010 - Breakaway</h1>
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/Bb1P43OSfOU"
+            frameborder="0"
+            gesture="media"
+            allow="encrypted-media"
+            allowfullscreen />
+          <div className="competition__event-container">
+            <div>
+              <h3 className="competition__event-subheader">Awards</h3>
+              <ul>
+                <li>Washington DC Regional: Engineering Inspiration Award</li>
+                <li>Washington DC Regional: Finalist</li>
+                <li>Washington DC Regional: Woodie Flowers Finalist Award (Professor Gail Drake) </li>
+                <li>Virginia Regional: Engineering Inspiration Award</li>
+                <li>Virginia Regional: Finali</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="competition__event-subheader">Competitions Attended</h3>
+              <ul>
+                <li>Washington DC Regional</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="competition__event" id="tab4">
+          <h1 className="competition__event-header">2009 - Lunacy</h1>
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/nEh3Wzd1jDI"
+            frameborder="0"
+            gesture="media"
+            allow="encrypted-media"
+            allowfullscreen />
+          <div className="competition__event-container">
+            <div>
+              <h3 className="competition__event-subheader">Awards</h3>
+              <ul>
+                <li>Washington DC Regional: Quarterfinalist</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="competition__event-subheader">Competitions Attended</h3>
+              <ul>
+                <li>Washington DC Regional</li>
+                <li>Florida Regional</li>
+                <li>FIRST World Championship, Galileo Division</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="competition__event" id="tab3">
+          <h1 className="competition__event-header">2008 - Overdrive</h1>
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/D5oL7aLH0T4"
+            frameborder="0"
+            gesture="media"
+            allow="encrypted-media"
+            allowfullscreen />
+          <div className="competition__event-container">
+            <div>
+              <h3 className="competition__event-subheader">Awards</h3>
+              <ul>
+                <li>Washington DC Regional: Engineering Inspiration Award</li>
+                <li>Florida Regional: Imagery Award</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="competition__event-subheader">Competitions Attended</h3>
+              <ul>
+                <li>NASA/VCU Regional </li>
+                <li>Philadelphia Regional</li>
+                <li>FIRST World Championship, Galileo Division</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="competition__event" id="tab2">
+          <h1 className="competition__event-header">2007 - Rack n' Roll</h1>
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/khTGSKvDyS4"
+            frameborder="0"
+            gesture="media"
+            allow="encrypted-media"
+            allowfullscreen />
+          <div className="competition__event-container">
+            <div>
+              <h3 className="competition__event-subheader">Awards</h3>
+              <ul>
+                <li>NASA/VCU Regional: Regional Engineering Inspiration Award</li>
+                <li>NASA/VCU Regional: Quarterfinalist</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="competition__event-subheader">Competitions Attended</h3>
+              <ul>
+                <li>NASA/VCU Regional </li>
+                <li>Las Vegas Regional</li>
+                <li>FIRST World Championship, Newton Division</li>
+              </ul>
+            </div>
+          </div>
+        </div><div className="competition__event" id="tab2">
+          <h1 className="competition__event-header">2006 - Aim High</h1>
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/1Vuwjse90AA"
+            frameborder="0"
+            gesture="media"
+            allow="encrypted-media"
+            allowfullscreen />
+          <div className="competition__event-container">
+            <div>
+              <h3 className="competition__event-subheader">Awards</h3>
+              <ul>
+                <li>NASA/VCU Regional: Quarterfinalist</li>
+                <li>Las Vegas Regional: Best Website Award</li>
+                <li>Las Vegas Regional: Quarterfinalist</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="competition__event-subheader">Competitions Attended</h3>
+              <ul>
+                <li>NASA/VCU Regional </li>
+                <li>Palmetto Regional</li>
+                <li>FIRST World Championship, Curie Division</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </Container>
   );
