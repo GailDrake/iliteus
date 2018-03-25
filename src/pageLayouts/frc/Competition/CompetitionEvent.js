@@ -19,7 +19,7 @@ const CompetitionEvent = () => {
           <li><a href="#tab3">2008</a></li>
           <li><a href="#tab2">2007</a></li>
           <li><a href="#tab1">2006</a></li>
-          
+
           <br></br>
           <br></br>
 
@@ -153,8 +153,7 @@ const CompetitionEvent = () => {
             <h3>Awards</h3>
             <br></br>
             <p>
-              Washington DC Regional: Regional Chairman’s Award<br></br>
-              Washington DC Regional: Dean's List Finalist (David Powell)<br></br>
+
             </p>
             <br></br>
 
