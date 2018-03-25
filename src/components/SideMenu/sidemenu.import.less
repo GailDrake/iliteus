@@ -12,8 +12,8 @@
   }
   .sidemenu__background {
     display: none;
-    background-color: black;
-    opacity: 0.2;
+    background-color: #000;
+    opacity: 0.4;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -26,17 +26,20 @@
     z-index: 4;
     top: 0;
     right: -250px;
-    background-color: @text-1; // overflow: hidden;
+    background-color: #180744; // overflow: hidden;
     transition: 0.5s;
   }
   .sidemenu__close {
-    color: white;
+    color: #d2d2d2;
     margin-left: 10px;
     position: absolute;
     top: 10px;
     text-decoration: none;
     font-size: 40px;
     cursor: pointer;
+    &:hover {
+      color: #fff;
+    }
   }
   .sidemenu__list {
     padding: 10px;
@@ -45,7 +48,7 @@
   .sidemenu--link {
     display: block;
     z-index: 5;
-    color: white;
+    color: #d2d2d2;
     padding: 20px 0;
     text-decoration: none;
     float: left;
@@ -55,12 +58,12 @@
     font-size: 20px;
     width: 100%;
     &:hover {
-      color: gray;
+      color: #fff;
       cursor: pointer;
     }
   }
   .sidemenu--link.title {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
   }
   .sidemenu__sublinks {
     display: block;
@@ -68,11 +71,11 @@
     margin-left: 40px;
     width: 100%;
     a {
+      display: block;
       text-decoration: none;
-      color: white;
-      padding: 10px 0;
+      color: #d2d2d2;
       &:hover {
-        color: gray;
+        color: #fff;
         cursor: pointer;
       }
     }
