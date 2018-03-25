@@ -44,26 +44,24 @@
     top: 20px;
     position: fixed;
   }
-  @media screen and (max-width: 830px) {
+  .navigation__sidemenu {
+    display: none;
+  }
+  @media screen and (max-width: 1000px) {
     ul {
       display: none;
     }
-    #navigation__burger {
-      position: sticky;
-      background-image: url("../../assets/images/icons/burger.png");
-      z-index: 999;
-      width: 50px;
-      height: 50px;
-      opacity: 1;
-      right: 20px;
-      margin: 0px;
-      top: 7px;
-      float: right;
+    .navigation__sidemenu {
+      display: block;
+    }
+    .navigation__logo {
+      position: fixed;
+      top: 0px;
     }
   }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1000px) {
   .navigation {
     padding: 0px;
   }

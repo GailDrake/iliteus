@@ -1,0 +1,85 @@
+.sidemenu {
+  font-family: "Arial", serif;
+  background-color: #f4f4f4;
+  z-index: 99999999;
+  .sidemenu__burger {
+    position: sticky;
+    right: 20px;
+    margin-top: 20px;
+    float: right;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .sidemenu__nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .sidemenu__close {
+    color: white;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+    text-decoration: none;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  .sidemenu__list {
+    padding: 10px;
+    margin-top: 40px;
+  }
+  .sidemenu__droptitle {
+    z-index: 101;
+    color: white;
+    padding: 20px 0;
+    a,
+    span.sidemenu--title {
+      color: white;
+      text-decoration: none;
+      float: left;
+      margin-left: 20px;
+      font-weight: 600;
+      font-family: 'raleway', sans-serif;
+      font-size: 20px;
+    }
+    .sidemenu--arrow {
+      color: white;
+      float: right;
+      margin-right: 10px;
+      font-size: 15px;
+    }
+    &:hover {
+      color: gray;
+      span {
+        color: gray;
+      }
+      cursor: pointer;
+    }
+  }
+  .sidemenu__dropcontent {
+    height: 0px;
+    position: absolute;
+    min-width: 200px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    transition: 0.5s;
+    a {
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      color: black;
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+}
