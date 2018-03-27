@@ -1,7 +1,6 @@
 .sidemenu {
   font-family: "Arial", serif;
-  background-color: #f4f4f4;
-  z-index: 99999999;
+  z-index: 6;
   .sidemenu__burger {
     position: sticky;
     right: 20px;
@@ -11,74 +10,73 @@
       cursor: pointer;
     }
   }
+  .sidemenu__background {
+    display: none;
+    background-color: #000;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 3;
+  }
   .sidemenu__nav {
     height: 100%;
-    width: 0;
+    width: 250px;
     position: fixed;
-    z-index: 100;
+    z-index: 4;
     top: 0;
-    right: 0;
-    background-color: #333;
-    overflow: hidden;
+    right: -250px;
+    background-color: #180744; // overflow: hidden;
     transition: 0.5s;
   }
   .sidemenu__close {
-    color: white;
+    color: #d2d2d2;
     margin-left: 10px;
     position: absolute;
     top: 10px;
     text-decoration: none;
     font-size: 40px;
     cursor: pointer;
+    &:hover {
+      color: #fff;
+    }
   }
   .sidemenu__list {
     padding: 10px;
     margin-top: 40px;
   }
-  .sidemenu__droptitle {
-    z-index: 101;
-    color: white;
+  .sidemenu--link {
+    display: block;
+    z-index: 5;
+    color: #d2d2d2;
     padding: 20px 0;
-    a,
-    span.sidemenu--title {
-      color: white;
-      text-decoration: none;
-      float: left;
-      margin-left: 20px;
-      font-weight: 600;
-      font-family: 'raleway', sans-serif;
-      font-size: 20px;
-    }
-    .sidemenu--arrow {
-      color: white;
-      float: right;
-      margin-right: 10px;
-      font-size: 15px;
-    }
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 'raleway', sans-serif;
+    font-size: 20px;
+    width: 100%;
     &:hover {
-      color: gray;
-      span {
-        color: gray;
-      }
+      color: #fff;
       cursor: pointer;
     }
   }
-  .sidemenu__dropcontent {
-    height: 0px;
-    position: absolute;
-    min-width: 200px;
-    background-color: white;
-    margin-left: 20px;
-    margin-top: 5px;
-    overflow: hidden;
-    transition: 0.5s;
+  .sidemenu--link.title {
+    padding-bottom: 10px;
+  }
+  .sidemenu__sublinks {
+    display: block;
+    float: left;
+    margin-left: 40px;
+    width: 100%;
     a {
-      padding: 12px 16px;
-      text-decoration: none;
       display: block;
-      color: black;
+      text-decoration: none;
+      color: #d2d2d2;
       &:hover {
-        color: gray;
+        color: #fff;
+        cursor: pointer;
       }
     }
   }

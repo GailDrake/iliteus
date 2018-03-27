@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../../../templates/Container'
+import Container from '../../../templates/container'
 import QuoteLeft from '../../../IconComponents/Quoteleft'
 import QuoteRight from '../../../IconComponents/Quoteright'
 import haymarketday from '../../../assets/images/frc/about/haymarketday.jpg'
