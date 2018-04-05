@@ -22,8 +22,8 @@ class SideMenu extends Component {
   }
 
   render() {
-    const sidemenu = this.state.sidemenu ? "translateX(-250px)" : "translateX(0px)";
-    const background = this.state.sidemenu ? "block" : "none";
+    const sidemenuSlide = this.state.sidemenu ? "sidemenu--slide" : "";
+    const backgroundFade = this.state.sidemenu ? "sidemenu--fade" : "";
 
     return (
       <div className="sidemenu" >
@@ -37,11 +37,11 @@ class SideMenu extends Component {
           </div>
         </span>
 
-        <div className="sidemenu__background" onClick={() => this.closeSideMenu()} style={{ display: background }}></div>
-        <div className="sidemenu__nav" style={{ transform: sidemenu }}>
+        <div className={`sidemenu__background ${backgroundFade}`} onClick={() => this.closeSideMenu()}></div>
+        <div className={`sidemenu__nav ${sidemenuSlide}`}>
           <span className="sidemenu__close" onClick={() => this.closeSideMenu()}>&times;</span>
           <div className="sidemenu__list">
-            <Link onClick={() => this.closeSideMenu()} to="/frc" className="sidemenu--link title">FRC Robotics</Link>
+            <Link onClick={() => this.closeSideMenu()} to="/frc" className="sidemenu__link title">FRC Robotics</Link>
             <div className="sidemenu__sublinks">
               <Link onClick={() => this.closeSideMenu()} to="/frc">Home</Link>
               <br />
@@ -57,7 +57,7 @@ class SideMenu extends Component {
             </div>
             <br />
             <br />
-            <Link onClick={() => this.closeSideMenu()} to="/outreach" className="sidemenu--link title">Outreach</Link>
+            <Link onClick={() => this.closeSideMenu()} to="/outreach" className="sidemenu__link title">Outreach</Link>
             <div className="sidemenu__sublinks">
               <Link onClick={() => this.closeSideMenu()} to="/outreach">Home</Link>
               <br />
@@ -69,10 +69,10 @@ class SideMenu extends Component {
             </div>
             <br />
             <br />
-            <a href="http://irocoffseason.org/" onClick={() => this.closeSideMenu()} className="sidemenu--link">IROC</a>
+            <a href="http://irocoffseason.org/" onClick={() => this.closeSideMenu()} className="sidemenu__link">IROC</a>
             <br />
             <br />
-            <a href="http://www.haymakerstemexpo.org/" onClick={() => this.closeSideMenu()} className="sidemenu--link">STEAM Expo</a>
+            <a href="http://www.haymakerstemexpo.org/" onClick={() => this.closeSideMenu()} className="sidemenu__link">STEAM Expo</a>
           </div>
         </div>
       </div>
