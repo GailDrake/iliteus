@@ -20,8 +20,8 @@ const teamList = [
     image: 'Kavya A..jpg',
     name: 'Kavya Annapareddy',
     subteam: 'Graphics',
-    fact: 'BLAAAAAAH',
-    memory: 'HAAAAAALB',
+    fact: 'I can draw. No, I won’t draw you. I can, but I won’t.',
+    memory: 'Being too small to fit in the barrels at the corn maze an just falling out.',
     year: 2017,
   },
   {
