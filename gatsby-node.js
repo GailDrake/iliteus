@@ -8,6 +8,10 @@ exports.onCreatePage = async ({ page, boundActionCreators }) => {
       page.layout = "frc";
       createPage(page);
     }
+    else if (page.path.match(/^\/outreach/)) {
+      page.layout = "outreach";
+      createPage(page);
+    }
     resolve();
   });
 };
