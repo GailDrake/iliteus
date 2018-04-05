@@ -5,15 +5,19 @@
   theme of the site and change it based on the item we hover
   on the overbar.
 */
+
 ul.overbar__list {
   list-style-type: none;
   text-align: center;
   margin: 0;
-  padding: 10px;
+  padding: 20px;
   li {
     display: inline;
     margin-right: 20px;
     margin-left: 20px;
+  }
+  @media screen and (max-width: 920px) {
+    display: none;
   }
 }
 
@@ -22,20 +26,35 @@ ul.overbar__list {
   color: #fcfdff;
   text-decoration: none;
   transition: all 0.3s;
-  &:hover {
-    /* Change per subdivision */
-    color:#3CC177;
-  }
 }
 
 /* Determines navbar color by subdivision */
-.overbar__list.frc {
-  background-color: rebeccapurple;
+
+.overbar__list.index {
+  background: @purple-ws-2;
+  background: linear-gradient(to bottom right, @purple-ws-2, @purple-ws-3);
+  background: -webkit-linear-gradient(to bottom right, @purple-2, @purple-2);
+  text-align: right;
   .overbar__list-item {
     color: #fcfdff;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
     &:hover {
-      color: #999;
+      padding-bottom: 10px;
+      border-bottom: 2px solid white;
+    }
+  }
+}
+
+.overbar__list.frc {
+  background: @purple-ws-2;
+  background: linear-gradient(to bottom right, @purple-ws-1, @purple-ws-2);
+  background: -webkit-linear-gradient(to bottom right, @purple-ws-1, @purple-ws-2);
+  .overbar__list-item {
+    color: #fcfdff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    &:hover {
+      padding-bottom: 10px;
+      border-bottom: 2px solid white;
     }
   }
 }
@@ -55,7 +74,7 @@ ul.overbar__list {
   background-color: blue;
   .overbar__list-item {
     color: #fcfdff;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
     &:hover {
       color: orange;
     }
@@ -70,5 +89,11 @@ ul.overbar__list {
     &:hover {
       color: navy;
     }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .overbar__list {
+    display: none;
   }
 }

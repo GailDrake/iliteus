@@ -1,59 +1,57 @@
 .event {
-  width: 30.65%;
-  position: relative;
-  margin: 4%;
-  float: left;
-  line-height: 23px;
-  color: @text;
-  box-sizing: border-box;
-  .event__img {
-    display: flex;
-    height: 300px;
+  flex: 3;
+  text-align: left;
+  margin: 20px;
+  border-radius: 3px;
+  .event__image-holder {
     width: 100%;
+    background-color: @white;
+    height: 250px; // overflow: hidden;
+    text-align: center;
+  }
+  .event__image {
+    background-color: @white;
+    border-radius: 0;
+    margin-bottom: -6px;
+    object-fit: cover;
     height: 100%;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    max-width: 100%;
   }
-  .event__content {
-    float: left;
-    width: 100%;
-    padding: 14px 10px 14px 27px;
-    background: #fff;
-    color: #181818;
-    font-size: 12px;
-    line-height: 18px;
-    margin-bottom: 18px;
-  }
-  .event__location-link {
-    font-family: @roboto;
-    float: right;
-    font-style: normal;
-    width: 75px;
-    color: #23AD37;
-    font-size: 12px;
-    line-height: 12px;
-    text-transform: uppercase;
-    text-decoration: none;
-    &:hover {
-      color: #ccc;
-    }
-  }
-  .event__link {
-    font-family: @open-sans;
-    font-size: 14px;
-    color: #477A43;
-    text-decoration: none;
-    font-weight: 600;
-    line-height: 18px;
-    &:hover {
-      color: #43eb85;
-    }
+  .event__header {
+    background-color: @white;
+    color: @text-1;
+    font-size: 24px;
+    font-weight: 400;
   }
   .event__details {
-    font-size: 14px;
-    line-height: 18px;
-    color: #181818;
+    background-color: @white;
+    width: 100%;
+    font-size: 15px;
+    padding: 15px 20px;
+  }
+  .event__divider {
+    color: @gray-2;
+    width: 100%;
+    margin: 0;
+  }
+  .event__links {
+    background-color: @white;
+    width: 100%;
     font-family: @open-sans;
+    padding: 20px 20px 40px 20px;
+    .event__url {
+      background-color: @white;
+      font-weight: 500;
+      color: @purple-ws-1;
+      text-decoration: none;
+      float: left;
+      margin-right: 23px;
+    }
+    .event__location {
+      color: @purple-ws-1;
+      font-weight: 500;
+      text-decoration: none;
+      float: left;
+    }
   }
 }

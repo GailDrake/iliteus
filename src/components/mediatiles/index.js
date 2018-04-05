@@ -1,3 +1,3 @@
-import Mediatiles from './mediatiles';
+import Mediatiles from './Mediatiles';
 
 export default Mediatiles;

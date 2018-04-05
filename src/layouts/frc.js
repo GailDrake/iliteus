@@ -20,6 +20,11 @@ const links = [
     file: "competition",
   },
   {
+    name: "Calendar",
+    section: "frc",
+    file: "calendar",
+  },
+  {
     name: "Team",
     section: "frc",
     file: "team",
@@ -54,9 +59,7 @@ const TemplateWrapper = ({ children }) => (
 
     <Overbar theme="frc" />
     <Navbar links={links} />
-    <div>
-      {children()}
-    </div>
+    <div>{children()}</div>
     <Footer />
   </div>
 )

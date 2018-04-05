@@ -1,24 +1,14 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
+import SideMenu from '../SideMenu';
 
 class Navbar extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      clicked: false,
-    };
-  }
-
-  toggle = () => {
-    const value = this.state.clicked ? false : true;
-    this.setState({
-      clicked: value
-    })
   }
 
   render() {
     const { links } = this.props;
-
     const getLinks = links.map((link, index) => {
       let filePath = `/${link.section}/${link.file}`;
       return (
@@ -28,11 +18,13 @@ class Navbar extends Component {
 
     return (
       <nav className="navigation">
-        <Link to="/frc/" className="navigation__logo"></Link>
+        <Link to="/" className="navigation__logo"></Link>
         <ul>
           {getLinks}
         </ul>
-        <div id="navigation__burger" onClick={this.toggle}></div>
+        <div className="navigation__sidemenu">
+          <SideMenu />
+        </div>
       </nav >
     );
   }

@@ -1,0 +1,25 @@
+.button {
+  text-transform: uppercase;
+  border-radius: 3px;
+  white-space: no-wrap;
+  text-align: center;
+  padding: 15px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+  Link,
+  a {
+    letter-spacing: 1px;
+    color: @off-white;
+    font-size: 18px;
+    font-family: @roboto;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+}
+
+.button.frc {
+  background-color: @green-2;
+  &:hover {
+    background-color: @green-1;
+  }
+}

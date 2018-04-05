@@ -1,0 +1,25 @@
+.sponsor {
+  display: flex;
+  flex: 1;
+  clear: both;
+  min-height: 310px;
+  .sponsor__image-holder {
+    float: left;
+    flex: 3;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sponsor__image {
+    display: block;
+    max-height: 250px;
+  }
+  .sponsor__text {
+    flex: 6;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    &:extend(.text);
+  }
+}
