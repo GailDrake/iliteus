@@ -38,36 +38,44 @@ const About = (props) => {
           ILITE continuously inspires those around them. We strive to embody the FIRST mission of "More than Robots" in all we do."
           </p>
         <h1 className='about__subheader'>Our Mission:</h1>
-        <img className='about__image' src={haymarketday} />
-        <img className='about__image' src={stemexpo1} />
-        <img className='about__image' src={teddy} />
+        <div className="about__image-container">
+          <div><img className='about__image' src={haymarketday} /></div>
+          <div><img className='about__image' src={stemexpo1} /></div>
+          <div><img className='about__image' src={teddy} /></div>
+        </div>
         <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='pink' /></span> To inspire young people to become leaders in science, technology, engineering,
           and mathematics by providing them with hands-on engineering challenges with the mentorship of industry professionals,
                  to build a foundation of both technical and social skills and values, to create leaders in technology and engineering.<span className='about__quotes'><QuoteLeft fill='pink' /></span>
         </p>
         <h1 className='about__subheader'>Our Vision:</h1>
-        <img className='about__image' src={books} />
-        <img className='about__image' src={stemexpo2} />
-        <img className='about__image' src={ussstem} />
+        <div className="about__image-container">
+          <div><img className='about__image' src={books} /></div>
+          <div><img className='about__image' src={stemexpo2} /></div>
+          <img className='about__image' src={ussstem} />
+        </div>
         <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='pink' /></span> A community of learning where persons, young and old, share a common goal of problem solving through science,
                 technology, engineering, and mathematics to improve the world in which we live for all persons.<span className='about__quotes'><QuoteLeft fill='pink' /></span>
         </p>
         <h1 className='about__subheader'>ILITE-ism:</h1>
-        <img className='about__image' src={stemexpo3} />
-        <img className='about__image' src={gather} />
-        <img className='about__image' src={experiment} />
+        <div className="about__image-container">
+          <div><img className='about__image' src={stemexpo3} /></div>
+          <div><img className='about__image' src={gather} /></div>
+          <div><img className='about__image' src={experiment} /></div>
+        </div>
         <p className='about__text'>Outreach is an effort which requires an adverse plan of attack to reach the greatest number of persons,
           all of whom come from different backgrounds. ILITE holds a core value it calls “ILITE-ism” which is the belief that everyone,
           regardless of background or profession can be an advocate for technology and engineering.
         </p>
         <h1 className='about__header'>Team History</h1>
         <p className='about__text'></p>
-        <img className='about__image' src={trophy} />
-        <img className='about__image' src={pits} />
-        <img className='about__image' src={history} />
+        <div className = "about__image-container">
+          <div><img className='about__image' src={trophy} /></div>
+          <div><img className='about__image' src={pits} /></div>
+          <div><img className='about__image' src={history} /></div>
+        </div>
         <p className='about__text'>FIRST Team 1885, “ILITE Robotics”, is a FIRST Robotics Team based in Haymarket, Virginia.
           It consists of students from high schools across Prince William County, Virginia. ILITE stands for Inspiring Leaders in Technology and Engineering.
-          <br />
+          <br />  
           <br />
           In the fall of 2004, Battlefield High School officially opened as the ninth high school in Prince William County.
           The doors opened to clean classrooms, brand new books, and a newly established Information Technology specialty program,
