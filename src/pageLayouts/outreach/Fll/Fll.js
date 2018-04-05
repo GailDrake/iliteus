@@ -3,7 +3,7 @@ import Container from '../../../templates/Container'
 
 const Fll = (props) => {
   return (
-    <Container division="outreach" title="Fll" subtitle="First Lego League">
+    <Container division="outreach" title="FLL" subtitle="First Lego League">
       <p>This is the Fll page.</p>
     </Container>
   );
