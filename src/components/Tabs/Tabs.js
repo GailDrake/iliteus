@@ -4,14 +4,14 @@ export default class Tabs extends React.Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
-      activeTabIndex: 'Leadership'
+      activeTabIndex: 0
     };
     this.handleTabClick = this.handleTabClick.bind(this);
   }
 
   handleTabClick(tabIndex) {
     this.setState({
-      activeTabIndex: tabIndex === this.state.activeTabIndex ? 'Leadership' : tabIndex
+      activeTabIndex: tabIndex === this.state.activeTabIndex ? 0 : tabIndex
     });
   }
 
