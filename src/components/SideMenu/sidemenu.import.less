@@ -62,17 +62,21 @@
     display: block;
     z-index: 5;
     color: @gray-2;
-    padding: 20px 0;
+    background-color: @purple-7;
+    margin: 20px 0;
     text-decoration: none;
     float: left;
-    margin-left: 20px;
     font-weight: 600;
     font-family: 'raleway', sans-serif;
     font-size: 20px;
     width: 100%;
     transition: 350ms ease-out 50ms;
+    span {
+      margin-left: 20px;
+    }
     &:hover {
       color: @white;
+      background-color: black;
       cursor: pointer;
       transition: 350ms ease-out 50ms;
     }
@@ -83,16 +87,21 @@
   .sidemenu__sublinks {
     display: block;
     float: left;
-    margin-left: 40px;
     width: 100%;
     a {
       display: block;
+      width: 100%;
       text-decoration: none;
       color: @gray-2;
+      background-color: @purple-7;
       transition: 350ms ease-out 50ms;
+      span {
+        margin-left: 40px;
+      }
       &:hover {
         color: @white;
         cursor: pointer;
+        background-color: black;
         transition: 350ms ease-out 50ms;
       }
     }
