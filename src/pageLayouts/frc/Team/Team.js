@@ -6,7 +6,7 @@ import Tabs, { Tab } from '../../../components/Tabs';
 
 const Team = ({ teamList }) => {
   return (
-    <Container division="frc" title="Banner" subtitle="This is a banner for the team page.">
+    <Container division="frc" title="Team Organization & Members" subtitle="ILITE has a team structure that emphasises student leadership and mentorship.">
       <div className="team">
         <Tabs>
           <Tab name="Leadership">
@@ -34,10 +34,10 @@ const Team = ({ teamList }) => {
             <div>{GetMember("Web", teamList)}</div>
           </Tab>
           <Tab name="Graphics">
-            <div>{GetMember("", teamList)}</div>
+            <div>{GetMember("Graphics", teamList)}</div>
           </Tab>
           <Tab name="Mentors">
-            <div>{GetMember("", teamList)}</div>
+            <div>{GetMember("Mentors", teamList)}</div>
           </Tab>
         </Tabs>
       </div>
