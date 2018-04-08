@@ -15,6 +15,7 @@ const GetMember = (subteam, teamList) => {
           image={image}
           leader={member.leader}
           mentor={member.mentor}
+          old={member.old}
         />
       );
     }
