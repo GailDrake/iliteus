@@ -11,6 +11,7 @@ class Navbar extends Component {
     const { links } = this.props;
     const getLinks = links.map((link, index) => {
       let filePath = `/${link.section}/${link.file}`;
+
       return (
         <li key={index}><Link to={filePath} className="navigation__list-item">{link.name}</Link></li>
       );

@@ -18,7 +18,7 @@ import stemexpo3 from '../../../assets/images/frc/about/stemexpo3.jpg'
 
 const About = (props) => {
   return (
-    <Container division="frc" title="About" subtitle="About team 1885.">
+    <Container title="About" subtitle="About team 1885.">
       <div className='about'>
         <h1 className='about__header'>Mission & Vision</h1>
         <p className='about__text'>
@@ -68,14 +68,14 @@ const About = (props) => {
         </p>
         <h1 className='about__header'>Team History</h1>
         <p className='about__text'></p>
-        <div className = "about__image-container">
+        <div className="about__image-container">
           <div><img className='about__image' src={trophy} /></div>
           <div><img className='about__image' src={pits} /></div>
           <div><img className='about__image' src={history} /></div>
         </div>
         <p className='about__text'>FIRST Team 1885, “ILITE Robotics”, is a FIRST Robotics Team based in Haymarket, Virginia.
           It consists of students from high schools across Prince William County, Virginia. ILITE stands for Inspiring Leaders in Technology and Engineering.
-          <br />  
+          <br />
           <br />
           In the fall of 2004, Battlefield High School officially opened as the ninth high school in Prince William County.
           The doors opened to clean classrooms, brand new books, and a newly established Information Technology specialty program,

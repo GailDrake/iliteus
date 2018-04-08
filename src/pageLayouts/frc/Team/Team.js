@@ -6,7 +6,7 @@ import Tabs, { Tab } from '../../../components/Tabs';
 
 const Team = ({ teamList }) => {
   return (
-    <Container division="frc" title="Banner" subtitle="This is a banner for the team page.">
+    <Container title="Banner" subtitle="This is a banner for the team page.">
       <div className="team">
         <Tabs>
           <Tab name="Leadership">

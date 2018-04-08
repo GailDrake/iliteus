@@ -3,7 +3,7 @@ import Container from '../../../templates/container';
 
 const GetInvolved = (props) => {
   return (
-    <Container division="frc" title="Get Involved" subtitle="Help the Team">
+    <Container title="Get Involved" subtitle="Help the Team">
       <div className='get-involved'>
         <h1 className="get-involved__header">Membership</h1>
         <p>

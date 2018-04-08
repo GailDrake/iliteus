@@ -4,7 +4,7 @@ import Container from '../../../templates/container';
 
 const Competition = () => {
   return (
-    <Container division="frc" title="Competitions" subtitle="See all of our competitions from throughout our history">
+    <Container title="Competitions" subtitle="See all of our competitions from throughout our history">
       <div className="competition">
         <div className="competition__tabs">
           <li><a href="#tab12">2017</a></li>
