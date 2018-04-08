@@ -10,40 +10,21 @@ import './../config/main.less';
 
 const links = [
   {
-    name: "Get Involved",
-    section: "frc",
-    file: "getinvolved",
+    name: 'District Competition',
+    url: '/hosted-events/districts'
   },
   {
-    name: "Competition",
-    section: "frc",
-    file: "competition",
+    name: 'Previous District Competition',
+    url: '/hosted-events/predistricts'
   },
   {
-    name: "Calendar",
-    section: "frc",
-    file: "calendar",
+    name: 'Steam Expo',
+    url: 'https://haymakersteamexpo.org'
   },
   {
-    name: "Team",
-    section: "frc",
-    file: "team",
+    name: 'Home',
+    url: '/hosted-events/'
   },
-  {
-    name: "Media",
-    section: "frc",
-    file: "media",
-  },
-  {
-    name: "About",
-    section: "frc",
-    file: "about",
-  },
-  {
-    name: "Home",
-    section: "frc",
-    file: "",
-  }
 ];
 
 const TemplateWrapper = ({ children }) => (
