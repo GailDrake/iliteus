@@ -304,14 +304,14 @@ const teamList = [
     memory: "",
     year: "",
   },
-  {
-    image: 'Temporary.jpg',
-    name: 'Ethan Miles',
-    subteam: 'Electronics',
-    fact: 'I like 3d printing',
-    memory: 'First day of the build season',
-    year: '2017'
-  },
+  // {
+  //   image: 'Temporary.jpg',
+  //   name: 'Ethan Miles',
+  //   subteam: 'Electronics',
+  //   fact: 'I like 3d printing',
+  //   memory: 'First day of the build season',
+  //   year: '2017'
+  // },
   {
     image: 'Stephen W..jpg',
     name: 'Stephen Welch',
@@ -504,14 +504,14 @@ const teamList = [
     memory: "",
     year: '',
   },
-  {
-    image: 'Temporary.jpg',
-    name: 'Caroline',
-    subteam: 'Scouting',
-    fact: '',
-    memory: '',
-    year: ''
-  },
+  // {
+  //   image: 'Temporary.jpg',
+  //   name: 'Caroline',
+  //   subteam: 'Scouting',
+  //   fact: '',
+  //   memory: '',
+  //   year: ''
+  // },
   {
     image: 'Dylan F..jpg',
     name: 'Dylan Fernandes',
@@ -624,14 +624,14 @@ const teamList = [
     memory: 'Being too small to fit in the barrels at the corn maze an just falling out.',
     year: 2017,
   },
-  {
-    image: 'Temporary.jpg',
-    name: 'Maggie Harris',
-    subteam: 'Graphics',
-    fact: '',
-    memory: '',
-    year: '',
-  },
+  // {
+  //   image: 'Temporary.jpg',
+  //   name: 'Maggie Harris',
+  //   subteam: 'Graphics',
+  //   fact: '',
+  //   memory: '',
+  //   year: '',
+  // },
   {
     image: 'Gail D..jpg',
     name: 'Gail Drake',

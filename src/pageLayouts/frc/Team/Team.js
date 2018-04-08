@@ -140,7 +140,7 @@ const Team = ({ teamList }) => {
           <Tab name="Scouting">
             <h1>Scouting</h1>
             <div className="team__greybox"><h2>Subteam Specific Mission Statement</h2><QuoteRight />To efficiently and accurately gather data on various aspects of other teams and effectively present the data to the team to assist in the decision making process for alliance selection.<QuoteLeft /></div>
-            <img src={require('../../../assets/images/frc/members/Scouting/Temporary.jpg')} className="team__img" />
+            {/* <img src={require('../../../assets/images/frc/members/Scouting/Temporary.jpg')} className="team__img" /> */}
             <p>The ILITE Scouting Team is responsible for gathering relevant data on other team's performance according to this year's game. This requires the development and use of organizational, decision making, presentation, and quick thinking skills. The Scouting Team's data helps ensure that informed decisions are made regarding alliance selection and affiliated teams.</p>
             <div className="team__greybox">
               <h2>Goals</h2>
