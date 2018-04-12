@@ -6,7 +6,7 @@ const Competition = () => {
   return (
     <Container division="frc" title="Competitions" subtitle="See all of our competitions from throughout our history">
       <div className="competition">
-        <div className="tabs">
+        <div className="competition__tabs">
           <li><a href="#tab12">2017</a></li>
           <li><a href="#tab11">2016</a></li>
           <li><a href="#tab10">2015</a></li>
