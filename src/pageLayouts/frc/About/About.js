@@ -20,7 +20,7 @@ const About = (props) => {
   return (
     <Container title="About" subtitle="About team 1885.">
       <div className='about'>
-        <h1 className='about__header'>Mission & Vision</h1>
+        <Header>Mission & Vision</Header>
         <p className='about__text'>
           Here at ILITE First Team 1885, we believe that every student is a leader.
           Through our different subteams of business, graphics, electronics,
@@ -66,7 +66,7 @@ const About = (props) => {
           all of whom come from different backgrounds. ILITE holds a core value it calls “ILITE-ism” which is the belief that everyone,
           regardless of background or profession can be an advocate for technology and engineering.
         </p>
-        <h1 className='about__header'>Team History</h1>
+        <Header>Team History</Header>
         <p className='about__text'></p>
         <div className="about__image-container">
           <div><img className='about__image' src={trophy} /></div>

@@ -9,22 +9,10 @@ import Footer from '../components/footer';
 import './../config/main.less';
 
 const links = [
-  {
-    name: 'District Competition',
-    url: '/hosted-events/districts'
-  },
-  {
-    name: 'Previous District Competition',
-    url: '/hosted-events/predistricts'
-  },
-  {
-    name: 'Steam Expo',
-    url: 'https://haymakersteamexpo.org'
-  },
-  {
-    name: 'Home',
-    url: '/hosted-events/'
-  },
+  { name: 'District Competition', url: '/hosted-events/districts' },
+  { name: 'Previous District Competition', url: '/hosted-events/predistricts' },
+  { name: 'Steam Expo', url: 'https://haymakersteamexpo.org' },
+  { name: 'Home', url: '/hosted-events/' },
 ];
 
 const TemplateWrapper = ({ children }) => (

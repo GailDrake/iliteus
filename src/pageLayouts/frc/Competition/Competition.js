@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Container from '../../../templates/container';
+import Header from '../../../components/header';
 
 const Competition = () => {
   return (
@@ -23,7 +24,7 @@ const Competition = () => {
 
         {/* 2017 - Steamworks */}
         <div className="competition__event" id="tab12">
-          <h1 className="competition__event-header">2017 - Steamworks</h1>
+          <Header>2017 - Steamworks</Header>
           <iframe
             width="100%"
             height="315"
@@ -62,7 +63,7 @@ const Competition = () => {
         </div>
         {/* 2016 - Stronghold */}
         <div className="competition__event" id="tab11">
-          <h1 className="competition__event-header">2016 - Stronghold</h1>
+          <Header>2016 - Stronghold</Header>
           <iframe
             width="100%"
             height="315"
@@ -100,7 +101,7 @@ const Competition = () => {
           </div >
         </div>
         <div className="competition__event" id="tab10">
-          <h1 className="competition__event-header">2015 - Recycle Rush</h1>
+          <Header>2015 - Recycle Rush</Header>
           <iframe
             width="100%"
             height="315"
@@ -133,7 +134,7 @@ const Competition = () => {
           </div>
         </div>
         <div className="competition__event" id="tab9">
-          <h1 className="competition__event-header">2014 - Aerial Assist</h1>
+          <Header>2014 - Aerial Assist</Header>
           <iframe
             width="100%"
             height="315"
@@ -165,7 +166,7 @@ const Competition = () => {
           </div>
         </div>
         <div className="competition__event" id="tab8">
-          <h1 className="competition__event-header">2013 - Ultimate Ascent</h1>
+          <Header>2013 - Ultimate Ascent</Header>
           <iframe
             width="100%"
             height="315"
@@ -193,7 +194,7 @@ const Competition = () => {
           </div>
         </div>
         <div className="competition__event" id="tab9">
-          <h1 className="competition__event-header">2013 - Ultimate Ascent</h1>
+          <Header>2013 - Ultimate Ascent</Header>
           <iframe
             width="100%"
             height="315"
@@ -221,7 +222,7 @@ const Competition = () => {
           </div>
         </div>
         <div className="competition__event" id="tab7">
-          <h1 className="competition__event-header">2012 - Rebound Rumble</h1>
+          <Header>2012 - Rebound Rumble</Header>
           <iframe
             width="100%"
             height="315"
@@ -250,7 +251,7 @@ const Competition = () => {
           </div>
         </div>
         <div className="competition__event" id="tab6">
-          <h1 className="competition__event-header">2011 - Logomotion</h1>
+          <Header>2011 - Logomotion</Header>
           <iframe
             width="100%"
             height="315"
@@ -280,7 +281,7 @@ const Competition = () => {
           </div>
         </div>
         <div className="competition__event" id="tab5">
-          <h1 className="competition__event-header">2010 - Breakaway</h1>
+          <Header>2010 - Breakaway</Header>
           <iframe
             width="100%"
             height="315"
@@ -309,7 +310,7 @@ const Competition = () => {
           </div>
         </div>
         <div className="competition__event" id="tab4">
-          <h1 className="competition__event-header">2009 - Lunacy</h1>
+          <Header>2009 - Lunacy</Header>
           <iframe
             width="100%"
             height="315"
@@ -336,7 +337,7 @@ const Competition = () => {
           </div>
         </div>
         <div className="competition__event" id="tab3">
-          <h1 className="competition__event-header">2008 - Overdrive</h1>
+          <Header>2008 - Overdrive</Header>
           <iframe
             width="100%"
             height="315"
@@ -364,7 +365,7 @@ const Competition = () => {
           </div>
         </div>
         <div className="competition__event" id="tab2">
-          <h1 className="competition__event-header">2007 - Rack n' Roll</h1>
+          <Header>2007 - Rack n' Roll</Header>
           <iframe
             width="100%"
             height="315"
@@ -391,7 +392,7 @@ const Competition = () => {
             </div>
           </div>
         </div><div className="competition__event" id="tab2">
-          <h1 className="competition__event-header">2006 - Aim High</h1>
+          <Header>2006 - Aim High</Header>
           <iframe
             width="100%"
             height="315"

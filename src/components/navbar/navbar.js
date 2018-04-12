@@ -36,7 +36,7 @@ class Navbar extends Component {
                 <div className="navigation__sidemenu">
                     <SideMenu />
                 </div>
-            </nav >
+            </nav>
         );
     }
 } 
