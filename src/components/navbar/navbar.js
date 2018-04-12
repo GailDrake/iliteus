@@ -10,6 +10,8 @@ class Navbar extends Component {
     render() {
         const { links } = this.props;
         const getLinks = links.map((link, index) => {
+            console.log(link.url);
+
             return link.url.substring(0, 4) === 'http'
                 ?
                 <li key={index}>
@@ -37,6 +39,6 @@ class Navbar extends Component {
             </nav >
         );
     }
-}
+} 
 
 export default Navbar;
