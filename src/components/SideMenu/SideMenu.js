@@ -11,14 +11,15 @@ class SideMenu extends Component {
 
   openSideMenu = () => {
     this.setState({
-      sidemenu: true
+      sidemenu: true,
     })
   }
 
   closeSideMenu = () => {
     this.setState({
-      sidemenu: false
+      sidemenu: false,
     })
+
   }
 
   render() {
