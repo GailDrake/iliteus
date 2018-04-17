@@ -9,21 +9,10 @@ import Footer from '../components/footer';
 import './../config/main.less';
 
 const links = [
-  {
-    name: "Summer Camps",
-    section: "outreach",
-    file: "SummerCamps",
-  },
-  {
-    name: "FLL",
-    section: "outreach",
-    file: "Fll",
-  },
-  {
-    name: "Home",
-    section: "outreach",
-    file: "",
-  }
+  { name: 'Hosted Events', url: '/outreach/HostedEvents' },
+  { name: 'FLL', url: '/outreach/FLL' },
+  { name: 'Summer Camps', url: '/outreach/Summer Camps' },
+  { name: 'Home', url: '/outreach/' }
 ];
 
 const TemplateWrapper = ({ children }) => (
