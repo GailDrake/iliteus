@@ -17,8 +17,10 @@ const Districts = () =>
       Congratulations teams!
     </p>
     <p>
-      We also had dozens of volunteers
+      We also had dozens of volunteers donate their time to make this event happen.
+      Thank you volunteers!
     </p>
+      
   </Container>
 
 export default Districts;
