@@ -1,0 +1,102 @@
+.summercamps {
+  h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: @text-1;
+    margin: 20px 0;
+  }
+  table {
+    border: 1px solid @text-3;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin: 20px 0;
+    caption {
+      display: table-caption;
+      text-align: center;
+      border: 1px solid @text-3;
+      padding: 10px;
+      background-color: @gray-2;
+      font-weight: bold;
+      color: @text-2;
+    }
+    thead {
+      border: 1px solid @text-3;
+      td {
+        font-weight: bold;
+      }
+    }
+    td {
+      border: 1px solid @text-3;
+      padding: 5px;
+      color: @text;
+      a {
+        text-decoration: none;
+        font-weight: 600;
+        color: @green-1;
+        transition: 350ms ease-out 50ms;
+        &:hover {
+          color: @green-3;
+          transition: 350ms ease-out 50ms;
+        }
+      }
+    }
+    .summercamps__table--times {
+      width: 18%;
+    }
+    .summercamps__table--camps {
+      width: 33%;
+    }
+    .summercamps__table--grade {
+      width: 39%;
+    }
+    .summercamps__table--price {
+      width: 10%;
+    }
+  }
+  .summercamps__signup {
+    width: 30%;
+    display: block;
+    margin: 20px auto;
+  }
+  .summercamps__box {
+    width: 98%;
+    background-color: @gray-3;
+    padding: 30px;
+    margin: 15px auto;
+    border-radius: 3px;
+    overflow: hidden;
+    p {
+      float: left;
+      text-align: center;
+      width: 50%;
+    }
+    h1 {
+      text-align: center;
+      width: 50%;
+    }
+  }
+  img {
+    float: right;
+    height: 250px;
+    width: auto;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+  }
+  @media screen and (max-width: 1000px) {
+    .summercamps__box {
+      p,
+      h1 {
+        width: 100%;
+      }
+      img {
+        margin: 10px auto;
+        text-align: center;
+        bottom: 0;
+      }
+    }
+  }
+}
