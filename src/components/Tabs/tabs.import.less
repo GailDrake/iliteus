@@ -1,0 +1,22 @@
+.tabs {
+  display: block;
+  margin: 0 auto;
+  .tab {
+    list-style-type: none;
+    border-bottom: 1px solid @purple-ws-2;
+    display: inline-block;
+    padding: 15px 10px;
+    .tab__link {
+      color: @text-1;
+      text-decoration: none;
+      transition: all 0.4s;
+      &:hover {
+        color: @purple-ws-2;
+        cursor: pointer;
+      }
+    }
+    .tab__link--active {
+      color: @purple-ws-2;
+    }
+  }
+}
