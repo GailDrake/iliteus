@@ -52,7 +52,7 @@ const SummerCamps = (props) => {
           </tbody>
         </table>
         <table>
-          <caption>Week of: June 18th - June 21th, 2018</caption>
+          <caption>Week of: June 18th - June 21st, 2018</caption>
           <thead>
             <td className="summercamps__table--times">Times</td>
             <td className="summercamps__table--camps">Camp Name</td>
