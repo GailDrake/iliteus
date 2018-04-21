@@ -1,4 +1,5 @@
 import React from 'react';
+import Twitter from '../../IconComponents/Twitter'
 
 const Footer = () =>
   <div className="footer">
@@ -18,7 +19,7 @@ const Footer = () =>
         <h5 className="footer__header">CALENDAR</h5><a className="footer__link" href="/getinvolved/whereisilite.php"><i className="fa fa-calendar-o"></i> Team Events &amp; Schedule</a>
       </div>
       <div className="col">
-        <h5 className="footer__header">GET CONNECTED</h5><a className="footer__social" href="https://www.facebook.com/iliterobotics/" target="_blank"><i className="fa fa-facebook"></i></a> <a className="footer__social" href="https://www.twitter.com/team1885" target="_blank"><i className="fa fa-twitter"></i></a> <a className="footer__social" href="https://www.youtube.com/channel/UCCWs22DHGwRloB613zOJ9UA" target="_blank"><i className="fa fa-youtube"></i></a> <a className="footer__social" href="https://www.instagram.com/team1885" target="_blank"><i className="fa fa-instagram"></i></a>
+        <h5 className="footer__header">GET CONNECTED</h5><a className="footer__social" href="https://www.facebook.com/iliterobotics/" target="_blank"><i className="fa fa-facebook"></i></a> <a className="footer__social" href="https://www.twitter.com/team1885" target="_blank"><i className="fa fa-twitter"><Twitter /></i></a> <a className="footer__social" href="https://www.youtube.com/channel/UCCWs22DHGwRloB613zOJ9UA" target="_blank"><i className="fa fa-youtube"></i></a> <a className="footer__social" href="https://www.instagram.com/team1885" target="_blank"><i className="fa fa-instagram"></i></a>
       </div>
     </div>
     <div className="footer__copyright">
