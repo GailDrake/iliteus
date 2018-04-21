@@ -127,7 +127,7 @@ const OutreachHome = (props) => {
             Battlefield High School
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/afcea.jpg')}
+            image={require('../../../assets/images/sponsors/afcea.png')}
             url="https://www.afcea.org/site/">
             AFCEA
           </SponsorTag>
