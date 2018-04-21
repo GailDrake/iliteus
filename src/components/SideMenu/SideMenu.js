@@ -11,19 +11,20 @@ class SideMenu extends Component {
 
   openSideMenu = () => {
     this.setState({
-      sidemenu: true
+      sidemenu: true,
     })
   }
 
   closeSideMenu = () => {
     this.setState({
-      sidemenu: false
+      sidemenu: false,
     })
+
   }
 
   render() {
-    const sidemenu = this.state.sidemenu ? "translateX(-250px)" : "translateX(0px)";
-    const background = this.state.sidemenu ? "block" : "none";
+    const sidemenuSlide = this.state.sidemenu ? "sidemenu--slide" : "";
+    const backgroundFade = this.state.sidemenu ? "sidemenu--fade" : "";
 
     return (
       <div className="sidemenu" >
@@ -37,30 +38,27 @@ class SideMenu extends Component {
           </div>
         </span>
 
-        <div className="sidemenu__background" onClick={() => this.closeSideMenu()} style={{ display: background }}></div>
-        <div className="sidemenu__nav" style={{ transform: sidemenu }}>
+        <div className={`sidemenu__background ${backgroundFade}`} onClick={() => this.closeSideMenu()}></div>
+        <div className={`sidemenu__nav ${sidemenuSlide}`}>
           <span className="sidemenu__close" onClick={() => this.closeSideMenu()}>&times;</span>
           <div className="sidemenu__list">
-            <Link onClick={() => this.closeSideMenu()} to="/frc" className="sidemenu--link title">FRC Robotics</Link>
+            <Link onClick={() => this.closeSideMenu()} to="/frc" className="sidemenu__link"><span>FRC Robotics</span></Link>
             <div className="sidemenu__sublinks">
-              <Link onClick={() => this.closeSideMenu()} to="/frc">Home</Link>
-              <br />
-              <Link onClick={() => this.closeSideMenu()} to="/frc/about">About</Link>
-              <br />
-              <Link onClick={() => this.closeSideMenu()} to="/frc/media">Media</Link>
-              <br />
-              <Link onClick={() => this.closeSideMenu()} to="/frc/team">Team</Link>
-              <br />
-              <Link onClick={() => this.closeSideMenu()} to="/frc/competition">Competition</Link>
-              <br />
-              <Link onClick={() => this.closeSideMenu()} to="/frc/getinvolved">Get Involved</Link>
+              <Link onClick={() => this.closeSideMenu()} to="/frc"><span>Home</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/frc/about"><span>About</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/frc/media"><span>Media</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/frc/team"><span>Team</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/frc/competition"><span>Competition</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/frc/getinvolved"><span>Get Involved</span></Link>
             </div>
-            <br />
-            <br />
-            <a href="http://irocoffseason.org/" onClick={() => this.closeSideMenu()} className="sidemenu--link">IROC</a>
-            <br />
-            <br />
-            <a href="http://www.haymakerstemexpo.org/" onClick={() => this.closeSideMenu()} className="sidemenu--link">STEAM Expo</a>
+            <Link onClick={() => this.closeSideMenu()} to="/outreach" className="sidemenu__link"><span>Outreach</span></Link>
+            <div className="sidemenu__sublinks">
+              <Link onClick={() => this.closeSideMenu()} to="/outreach"><span>Home</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/outreach/FLL"><span>FLL</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/outreach/SummerCamps"><span>Summer Camps</span></Link>
+            </div>
+            <a href="http://irocoffseason.org/" onClick={() => this.closeSideMenu()} className="sidemenu__link"><span>IROC</span></a>
+            <a href="http://www.haymakerstemexpo.org/" onClick={() => this.closeSideMenu()} className="sidemenu__link"><span>STEAM Expo</span></a>
           </div>
         </div>
       </div>

@@ -46,7 +46,7 @@ const FrcHome = (props) => {
         <h1 className="frcHome__news-header">News</h1>
         <br />
         <div className="frcHome__news-container">
-          <NewsCard title="FIRST Lego League Workshop" image={require('../../../assets/images/frc/summer-camps/fll.png')}>
+          <NewsCard title="FIRST Lego League Workshop" image={require('../../../assets/images/frc/summer-camps/FLL.png')}>
             ILITE Robotics has helped create and foster 60+ FLL teams within the community and planned interactive workshops for teams to gather and develop their knowledge in FLL.
           </NewsCard>
           <NewsCard title="Triple Crown Win at District Championship" image={require('../../../assets/images/frc/district_chairmans.jpeg')}>
