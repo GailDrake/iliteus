@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from '../../../components/Button';
 import Events from '../../../components/events';
-import NewsCard from '../../../components/NewsCard/';
+import NewsCard from '../../../components/newscard/';
 import SponsorTag from '../../../components/SponsorTag/SponsorTag';
 
 const FrcHome = (props) => {

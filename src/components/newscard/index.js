@@ -1,3 +1,3 @@
-import NewsCard from './Newscard';
+import NewsCard from './newscard';
 
 export default NewsCard;

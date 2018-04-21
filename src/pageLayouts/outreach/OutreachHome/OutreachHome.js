@@ -1,6 +1,7 @@
 import React from 'react';
 import Events from '../../../components/events';
 import SponsorTag from '../../../components/SponsorTag';
+import NewsCard from '../../../components/newscard';
 
 const OutreachHome = (props) => {
   return (
@@ -40,10 +41,15 @@ const OutreachHome = (props) => {
         <h1 className="outreachHome__news-header">News</h1>
         <br />
         <div className="outreachHome__news-container">
-          {/* <img src={require("../../../assets/images/outreach/fll")} */}
-          <h1>Puerto Rico</h1>
-          <br />
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius odit iure deserunt nihil aperiam voluptatem unde similique porro. Inventore, tempore? Officiis modi dolor, tempore harum dolores quam ipsam voluptatem ullam, ut eligendi accusamus suscipit reprehenderit quaerat error deserunt vitae. Et saepe, atque magnam quis modi autem voluptas accusantium sit rem temporibus nesciunt beatae vitae nisi cumque in nulla vel quam hic, aperiam veritatis enim expedita aut? Pariatur fuga similique debitis corrupti rerum aliquid non nesciunt alias tempora? Quas quod repellendus exercitationem rem sint rerum voluptatem aperiam laborum commodi dolor, iste odio. Soluta repellat alias assumenda esse omnis porro ullam perspiciatis!</p>
+          <NewsCard title="Coast Guard" image={require('../../../assets/images/outreach/summercamps/stem1.jpg')}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, qui pariatur. Cum illo fugit reiciendis repudiandae ad porro officia earum?
+          </NewsCard>
+          <NewsCard title="Payton's Walk" image={require('../../../assets/images/outreach/summercamps/stem1.jpg')}>
+            ILITE attended the Payton's Walk event on October 15th to support the anti-bullying cause. There we presented about FIRST robotics and continued our mission to inspire interest in STEM.
+          </NewsCard>
+          <NewsCard title="Puerto Rico" image={require('../../../assets/images/outreach/summercamps/stem1.jpg')}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, perspiciatis odio. Sequi quam, qui omnis itaque quasi minus natus ut?
+          </NewsCard>
         </div>
       </div>
       <div className="outreachHome__sponsors">
@@ -57,14 +63,14 @@ const OutreachHome = (props) => {
             A1 Floodtech
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/floodtech.png')}
-            url="http://www.a1floodtech.com">
-            A1 Floodtech
+            image={require('../../../assets/images/sponsors/lockheedmartin.png')}
+            url="http://www.lockheedmartin.com">
+            Lockheed Martin
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/floodtech.png')}
-            url="http://www.a1floodtech.com">
-            A1 Floodtech
+            image={require('../../../assets/images/sponsors/battlefieldhighschool.jpg')}
+            url="http://battlefieldhs.pwcs.edu">
+            Battlefield High School
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/floodtech.png')}
