@@ -1,7 +1,7 @@
 import React from 'react';
-import Competition from './CompetitionEvent.js';
+import Competition from './Competition.js';
 
 
-const CompetitionContainer = () => <Competition compHist={compHist} />
+const CompetitionContainer = () => <Competition />
 
 export default CompetitionContainer;
