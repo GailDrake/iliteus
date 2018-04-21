@@ -2,6 +2,7 @@ import React from 'react';
 import Events from '../../../components/events';
 import SponsorTag from '../../../components/SponsorTag';
 import NewsCard from '../../../components/newscard';
+import Button from '../../../components/Button';
 
 const OutreachHome = (props) => {
   return (
@@ -10,7 +11,10 @@ const OutreachHome = (props) => {
         <div className="outreachHome__banner-text-container">
           <h1 className="outreachHome__banner-title">70,000+ minds reached</h1>
           <h2 className="outreachHome__banner-subtitle">Outreach at ILITE</h2>
-          <p className="outreachHome__banner-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis saepe nobis laborum dolorum facilis? Minima magnam, tempora odio veritatis aliquam eum sit repellendus dolores debitis molestias temporibus, repudiandae reprehenderit rerum.</p>
+          <p className="outreachHome__banner-description">We strive to spread STEM throughout our community and inspire young minds. Through outreach events, seminars, and camps we fulfill our mission of advocating STEM and creating a brighter future.</p>
+          <Button division='frc' link="#news">
+            Learn More!
+          </Button>
         </div>
       </div>
       <div className="outreachHome__events">
@@ -37,17 +41,17 @@ const OutreachHome = (props) => {
           />
         </div>
       </div>
-      <div className="outreachHome__news">
+      <div id="news" className="outreachHome__news">
         <h1 className="outreachHome__news-header">News</h1>
         <br />
         <div className="outreachHome__news-container">
-          <NewsCard title="Coast Guard" image={require('../../../assets/images/outreach/summercamps/stem1.jpg')}>
+          <NewsCard title="Coast Guard" image={require('../../../assets/images/outreach/fll/workshop.jpg')}>
             ILITE sent FLL kits to members of the Coast Guard to introduce engineering and spread STEM to the community. We then hosted a Skype conference to answer questions and offer support.
           </NewsCard>
-          <NewsCard title="Payton's Walk" image={require('../../../assets/images/outreach/summercamps/stem1.jpg')}>
+          <NewsCard title="Payton's Walk" image={require('../../../assets/images/outreach/fll/workshop.jpg')}>
             ILITE attended the Payton's Walk event on October 15th to support the anti-bullying cause. There we presented about FIRST robotics and continued our mission to inspire interest in STEM.
           </NewsCard>
-          <NewsCard title="Fair Oaks Center" image={require('../../../assets/images/outreach/summercamps/stem1.jpg')}>
+          <NewsCard title="Fair Oaks Center" image={require('../../../assets/images/outreach/fll/workshop.jpg')}>
             ILITE went to the Fair Oaks Center for Science to present about STEM. We taught the basics of programming using BOE-BOTS and the BASIC programming language.
           </NewsCard>
         </div>
