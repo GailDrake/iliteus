@@ -63,41 +63,74 @@ const OutreachHome = (props) => {
             A1 Floodtech
           </SponsorTag>
           <SponsorTag
+            image={require('../../../assets/images/sponsors/asco.png')}
+            url="https://www.ascoweb.com/">
+            ASCO
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/bellpumpandwell.jpg')}
+            url="https://www.bellpumpandwell.com/">
+            Bell Pump and Well
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/cathyshometeam.png')}
+            url="https://www.cathyshometeam.com/">
+            Cathy's Home Team
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/incadence.png')}
+            url="http://www.incadencecorp.com/">
+            Incadence
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/khouriortho.jpg')}
+            url="http://khouriortho.com/">
+            Khouri Orthodontist
+          </SponsorTag>
+          <SponsorTag
             image={require('../../../assets/images/sponsors/lockheedmartin.png')}
-            url="http://www.lockheedmartin.com">
+            url="https://www.lockheedmartin.com/us.html">
             Lockheed Martin
           </SponsorTag>
           <SponsorTag
+            image={require('../../../assets/images/sponsors/macedontechnologies.png')}
+            url="http://www.a1floodtech.com">
+            Macedon Technologies
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/micron.png')}
+            url="https://www.micron.com/">
+            Micron
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/novec.jpg')}
+            url="https://www.novec.com/">
+            Novec
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/usstem.png')}
+            url="http://www.usstem.org/">
+            US Stem
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/engility.png')}
+            url="http://www.engility.com/#HIFh85X6P1kKQ0gK.97">
+            US Stem
+          </SponsorTag>
+          <SponsorTag
             image={require('../../../assets/images/sponsors/battlefieldhighschool.jpg')}
-            url="http://battlefieldhs.pwcs.edu">
+            url="http://battlefieldhs.pwcs.edu/">
             Battlefield High School
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/floodtech.png')}
-            url="http://www.a1floodtech.com">
-            A1 Floodtech
-          </SponsorTag><SponsorTag
-            image={require('../../../assets/images/sponsors/floodtech.png')}
-            url="http://www.a1floodtech.com">
-            A1 Floodtech
-          </SponsorTag><SponsorTag
-            image={require('../../../assets/images/sponsors/floodtech.png')}
-            url="http://www.a1floodtech.com">
-            A1 Floodtech
-          </SponsorTag><SponsorTag
-            image={require('../../../assets/images/sponsors/floodtech.png')}
-            url="http://www.a1floodtech.com">
-            A1 Floodtech
+            image={require('../../../assets/images/sponsors/afcea.jpg')}
+            url="https://www.afcea.org/site/">
+            AFCEA
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/floodtech.png')}
-            url="http://www.a1floodtech.com">
-            A1 Floodtech
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/floodtech.png')}
-            url="http://www.a1floodtech.com">
-            A1 Floodtech
+            image={require('../../../assets/images/sponsors/tropicalsmoothie.jpg')}
+            url="https://www.tropicalsmoothiecafe.com/">
+            Tropical Smoothie
           </SponsorTag>
         </div>
       </div>
