@@ -42,13 +42,13 @@ const OutreachHome = (props) => {
         <br />
         <div className="outreachHome__news-container">
           <NewsCard title="Coast Guard" image={require('../../../assets/images/outreach/summercamps/stem1.jpg')}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, qui pariatur. Cum illo fugit reiciendis repudiandae ad porro officia earum?
+            ILITE sent FLL kits to members of the Coast Guard to introduce engineering and spread STEM to the community. We then hosted a Skype conference to answer questions and offer support.
           </NewsCard>
           <NewsCard title="Payton's Walk" image={require('../../../assets/images/outreach/summercamps/stem1.jpg')}>
             ILITE attended the Payton's Walk event on October 15th to support the anti-bullying cause. There we presented about FIRST robotics and continued our mission to inspire interest in STEM.
           </NewsCard>
-          <NewsCard title="Puerto Rico" image={require('../../../assets/images/outreach/summercamps/stem1.jpg')}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, perspiciatis odio. Sequi quam, qui omnis itaque quasi minus natus ut?
+          <NewsCard title="Fair Oaks Center" image={require('../../../assets/images/outreach/summercamps/stem1.jpg')}>
+            ILITE went to the Fair Oaks Center for Science to present about STEM. We taught the basics of programming using BOE-BOTS and the BASIC programming language.
           </NewsCard>
         </div>
       </div>
