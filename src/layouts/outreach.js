@@ -12,7 +12,7 @@ const links = [
   { name: "Summer Camps", url: "/outreach/SummerCamps" },
   { name: "FIRST Lego League", url: "/outreach/Fll" },
   { name: "Hosted Events", url: "/outreach/HostedEvents" },
-  { name: "Home", url: "/outreach/" },
+  { name: "Home", url: "/outreach/" }
 ];
 
 const TemplateWrapper = ({ children }) => (

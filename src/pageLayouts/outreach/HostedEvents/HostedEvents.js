@@ -91,7 +91,7 @@ const HostedEvents = () =>
             <hr />
             <p>
               Every year, ILITE hosts FLL camps to inspire and train the future generations of engineers by
-              preparing teams to take on FLL challenges of the past. This prepares the teams to take on the 
+              preparing teams to take on FLL challenges of the past. This prepares the teams to take on the
               the official FLL challenge that will follow soon after the camp's end.
             </p>
           </div>
