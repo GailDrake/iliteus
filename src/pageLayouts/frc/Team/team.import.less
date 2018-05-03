@@ -1,43 +1,49 @@
   // TODO: fix the class names: should follow BEM
-.team {
-
-  .tabs {
-    overflow: hidden;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    li {
-      float: left;
-      margin: 0px 0.5em 0px 0px;
+  .team {
+    h1 {
+      text-transform: uppercase;
+      font-size: 2em;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 500;
+      color: @text-1;
+      margin: 20px 0;
     }
-    a {
-      position: relative;
-      background: #ddd;
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
-      background-image: -webkit-linear-gradient(top, #fff, #ddd);
-      background-image: -moz-linear-gradient(top, #fff, #ddd);
-      background-image: -ms-linear-gradient(top, #fff, #ddd);
-      background-image: -o-linear-gradient(top, #fff, #ddd);
-      background-image: linear-gradient(to bottom, #fff, #ddd);
-      padding: .2em 1.5em;
-      float: left;
-      text-decoration: none;
-      color: #444;
-      text-shadow: 0 1px 0 rgba(255,255,255,.8);
-      -webkit-border-radius: 5px 0 0 0;
-      -moz-border-radius: 5px 0 0 0;
-      border-radius: 5px 0 0 0;
-      -moz-box-shadow: 0 2px 2px rgba(0,0,0,.4);
-      -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.4);
-      box-shadow: 0 2px 2px rgba(0,0,0,.4);
-      :hover {
-        background: #FFF;
+    p {
+      padding: 10px 0;
+    }
+    img.team__img {
+      display: block;
+      height: 444px;
+      width: 666px;
+      margin: 0 auto;
+      border: 3px solid @text-3;
+    }
+    .team__greybox {
+      width: 95%;
+      background-color: #C9C9C9;
+      color: #787878;
+      padding: 30px;
+      margin: 0 auto 15px auto;
+      font-size: 14px;
+      text-align: left;
+      border-radius: 5px;
+      h2 {
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        color: @text-1;
+      }
+      ol,
+      ul,
+      p {
+        margin-left: 10px;
+      }
+      svg {
+        height: 13px;
+        width: 13px;
+        margin: 0 3px;
       }
     }
-
-    .tabs-content {
-      /*display: none;*/
-    }
   }
-}
