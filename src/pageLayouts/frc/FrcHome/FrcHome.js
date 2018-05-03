@@ -29,7 +29,7 @@ const FrcHome = (props) => {
             name="ILITE Summer Camps"
             eventLink="ilite.us"
             date="June, 2018"
-            image="images/frc/summer-camps/summer-camp__1.jpg" />
+            image="images/outreach/summercamps/stem1.jpg" />
           <Events
             name="FTC Events"
             eventLink="ilite.us"
