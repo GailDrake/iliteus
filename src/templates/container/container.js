@@ -21,4 +21,8 @@ class Container extends Component {
   };
 }
 
+Container.defaultProps = {
+  division: 'frc'
+}
+
 export default Container;

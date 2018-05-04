@@ -1,11 +1,12 @@
 import React from 'react';
 import Container from '../../../templates/container';
+import Header from '../../../components/header/header';
 
 const GetInvolved = (props) => {
   return (
-    <Container division="frc" title="Get Involved" subtitle="Help the Team">
+    <Container title="Get Involved" subtitle="Help the Team">
       <div className='get-involved'>
-        <h1 className="get-involved__header">Membership</h1>
+        <Header>Membership</Header>
         <p>
           Welcome to ILITE Robotics! ILITE Robotics encompasses FLL Robotics Support and Education, FTC Robotics and FRC Team 1885! We are excited to have you as part of our family. ILITE is a community partnership between Battlefield High School, Prince William County Schools, several local colleges and numerous industry sponsors based throughout the DC Metropolitan area. This handbook contains key policies, goals, and expectations for ILITE Robotics and its members along with all other information you will need to become a successful contributor to our program.
         </p>
@@ -44,7 +45,7 @@ const GetInvolved = (props) => {
 
         <br />
 
-        <h1 className="get-involved__header">Mentorship</h1>
+        <Header>Mentorship</Header>
 
         <p>Love engineering and teaching? Demonstrate your passion. Come join us at ILITE Robotics and help our students out! Grow professionally and get experience from other mentors while learning from hands-on building, programming, and teaching. Be part of your academic community. Make an impact on the schools around you! Teach the next generation of engineers! Grow your community toward recognition of intelligence, creativity, and innovation. Our goal at ILITE is to increase awareness of every aspect of engineering in our community. Join us in our mission!</p>
         <br />
@@ -52,7 +53,7 @@ const GetInvolved = (props) => {
 
         <br />
         <div>
-          <h1 className="get-involved__header">Feed the Team</h1>
+          <Header>Feed the Team</Header>
           <div className="get-involved__food-container">
             <img src={require("../../../assets/images/frc/fuel__potluck.jpg")} className="get-involved__img" />
             <p>

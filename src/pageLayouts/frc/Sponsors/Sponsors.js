@@ -4,7 +4,7 @@ import Container from '../../../templates/container';
 
 const Sponsors = () => {
 	return (
-		<Container division="frc" title="Sponsors" subtitle="We couldn't operate without them!">
+		<Container title="Sponsors" subtitle="We couldn't operate without them!">
 			<Sponsor name="US STEM Foundations" url="http://www.usstem.org/" image="usstem.png">
 				<p>Founded in 2011, The US STEM Foundation strives to provide students with hands-on STEM activities and experiences. The programs they set up have the power to engage, educate, develop, and create responsible citizens, to a higher extent than what can be achieved in the classroom.</p>
 			</Sponsor>
