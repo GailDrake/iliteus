@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from '../../../components/Button';
 import Events from '../../../components/events';
-import NewsCard from '../../../components/NewsCard/';
+import NewsCard from '../../../components/newscard/';
 import SponsorTag from '../../../components/SponsorTag/SponsorTag';
 
 const FrcHome = (props) => {
@@ -29,7 +29,7 @@ const FrcHome = (props) => {
             name="ILITE Summer Camps"
             eventLink="ilite.us"
             date="June, 2018"
-            image="images/frc/summer-camps/summer-camp__1.jpg" />
+            image="images/outreach/summercamps/stem1.jpg" />
           <Events
             name="FTC Events"
             eventLink="ilite.us"

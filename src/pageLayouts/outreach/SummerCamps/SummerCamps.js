@@ -52,7 +52,7 @@ const SummerCamps = (props) => {
           </tbody>
         </table>
         <table>
-          <caption>Week of: June 18th - June 21th, 2018</caption>
+          <caption>Week of: June 18th - June 21st, 2018</caption>
           <thead>
             <td className="summercamps__table--times">Times</td>
             <td className="summercamps__table--camps">Camp Name</td>
@@ -80,7 +80,7 @@ const SummerCamps = (props) => {
             </tr>
             <tr>
               <td className="summercamps__table--times">1PM - 5PM</td>
-              <td className="summercamps__table--camps"><Link to="#cyber">Advanced Cyber Defense</Link></td>
+              <td className="summercamps__table--camps"><Link to="#cyber">Advanced Cyber Defense<br />(to June 22nd)</Link></td>
               <td className="summercamps__table--grade">Gr 6 - 12 (requires succesful completion of one cyber patriot season or cyber defense summer camp)</td>
               <td className="summercamps__table--price">$165</td>
             </tr>
