@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '../../../templates/container'
 import QuoteLeft from '../../../IconComponents/Quoteleft'
 import QuoteRight from '../../../IconComponents/Quoteright'
+import Header from '../../../components/header';
 import haymarketday from '../../../assets/images/frc/about/haymarketday.jpg'
 import stemexpo1 from '../../../assets/images/frc/about/stemexpo1.jpg'
 import teddy from '../../../assets/images/frc/about/teddy.jpg'
@@ -18,22 +19,22 @@ import stemexpo3 from '../../../assets/images/frc/about/stemexpo3.jpg'
 
 const About = (props) => {
   return (
-    <Container division="frc" title="About" subtitle="About team 1885.">
+    <Container title="About" subtitle="About team 1885.">
       <div className='about'>
-        <h1 className='about__header'>Mission & Vision</h1>
+        <Header>Mission & Vision</Header>
         <p className='about__text'>
           Here at ILITE First Team 1885, we believe that every student is a leader.
           Through our different subteams of business, graphics, electronics,
           programming, and build, we work very hard to give every team member the opportunity to learn and lead.
           We have created an environment in which FIRST Robotics is so loved that our alumni volunteer across the nation even after graduating.
-          <br />
-          <br />
+        </p>
+        <p>
           Our leadership reaches beyond of FIRST Team 1885. We have created an identity for ourselves in our community,
           county, state, and nation. ILITE reaches out to our community through town festivals, charitable involvement,
           elementary school tutoring, and hosting our annual Haymaker STEM Expo. On a broader scale, ILITE members have
           lobbied politicians through their School Board and meetings at the Capitol to encourage the advancement of STEM in education.
-          <br />
-          <br />
+        </p>
+        <p>
           Whether it be through our summer camps that teach hundreds of students about STEM, or our annually-hosted FIRST competitions,
           ILITE continuously inspires those around them. We strive to embody the FIRST mission of "More than Robots" in all we do."
           </p>
@@ -66,16 +67,16 @@ const About = (props) => {
           all of whom come from different backgrounds. ILITE holds a core value it calls “ILITE-ism” which is the belief that everyone,
           regardless of background or profession can be an advocate for technology and engineering.
         </p>
-        <h1 className='about__header'>Team History</h1>
+        <Header>Team History</Header>
         <p className='about__text'></p>
-        <div className = "about__image-container">
+        <div className="about__image-container">
           <div><img className='about__image' src={trophy} /></div>
           <div><img className='about__image' src={pits} /></div>
           <div><img className='about__image' src={history} /></div>
         </div>
         <p className='about__text'>FIRST Team 1885, “ILITE Robotics”, is a FIRST Robotics Team based in Haymarket, Virginia.
           It consists of students from high schools across Prince William County, Virginia. ILITE stands for Inspiring Leaders in Technology and Engineering.
-          <br />  
+          <br />
           <br />
           In the fall of 2004, Battlefield High School officially opened as the ninth high school in Prince William County.
           The doors opened to clean classrooms, brand new books, and a newly established Information Technology specialty program,

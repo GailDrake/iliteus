@@ -9,41 +9,15 @@ import Footer from '../components/footer';
 import './../config/main.less';
 
 const links = [
-  {
-    name: "Get Involved",
-    section: "frc",
-    file: "getinvolved",
-  },
-  {
-    name: "Competition",
-    section: "frc",
-    file: "competition",
-  },
-  {
-    name: "Calendar",
-    section: "frc",
-    file: "calendar",
-  },
-  {
-    name: "Team",
-    section: "frc",
-    file: "team",
-  },
-  {
-    name: "Media",
-    section: "frc",
-    file: "media",
-  },
-  {
-    name: "About",
-    section: "frc",
-    file: "about",
-  },
-  {
-    name: "Home",
-    section: "frc",
-    file: "",
-  }
+  { name: 'About', url: '/frc/About' },
+  { name: 'Calendar', url: '/frc/Calendar' },
+  { name: 'Competition', url: '/frc/Competition' },
+  { name: 'Get Involved', url: '/frc/GetInvolved' },
+  { name: 'Media', url: '/frc/Media' },
+  { name: 'FRC Season', url: '/frc/Season' },
+  { name: 'Sponsors', url: '/frc/Sponsors' },
+  { name: 'Team', url: '/frc/Team' },
+  { name: 'Home', url: '/frc/Home' }
 ];
 
 const TemplateWrapper = ({ children }) => (
