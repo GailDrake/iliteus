@@ -1,6 +1,6 @@
 //React Imports
 import React from 'react';
-import Container from '../../../templates/Container'
+import Container from '../../../templates/container'
 
 //Component Imports
 

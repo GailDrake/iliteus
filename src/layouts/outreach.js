@@ -15,11 +15,6 @@ const links = [
     file: "SummerCamps",
   },
   {
-    name: "STEAM Expo",
-    section: "outreach",
-    file: "SteamExpo",
-  },
-  {
     name: "FLL",
     section: "outreach",
     file: "Fll",

@@ -1,13 +1,13 @@
 import React from 'react';
 import Mediatiles from '../../../components/mediatiles'
-import Container from '../../../templates/Container';
+import Container from '../../../templates/container';
 
 
 const Media = (props) => {
 	return (
 		<Container division="frc" title="Media" subtitle="Pictures for all ILITE events.">
 			<div className="media">
-				<p>
+				<p className="media__text">
 					At ILITE Robotics, we have promising videographers who take lots of film of our team’s activities.
 					They capture our effervescent and interesting teammates working, learning, and even playing.
 					ILITE media can be viewed below.

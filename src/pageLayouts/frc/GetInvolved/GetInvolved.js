@@ -1,13 +1,11 @@
 import React from 'react';
-import Container from '../../../templates/Container';
+import Container from '../../../templates/container';
 
 const GetInvolved = (props) => {
   return (
     <Container division="frc" title="Get Involved" subtitle="Help the Team">
       <div className='get-involved'>
         <h1 className="get-involved__header">Membership</h1>
-
-        <br />
         <p>
           Welcome to ILITE Robotics! ILITE Robotics encompasses FLL Robotics Support and Education, FTC Robotics and FRC Team 1885! We are excited to have you as part of our family. ILITE is a community partnership between Battlefield High School, Prince William County Schools, several local colleges and numerous industry sponsors based throughout the DC Metropolitan area. This handbook contains key policies, goals, and expectations for ILITE Robotics and its members along with all other information you will need to become a successful contributor to our program.
         </p>
@@ -41,7 +39,7 @@ const GetInvolved = (props) => {
 			  </iframe>
         <div className="get-involved__buttons">
           <a href="https://docs.google.com/document/d/1ElAiufYy49WOX8wY5Z5nODxnJxB0iWm23-Pf2WvJIok/edit#bookmark=id.gjdgxs" className="get-involved__button" target="_blank">Student Handbook</a>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfon-yjYkxPnEfffBKT88eV2etCrcYsjJJUrz2wPdhhVtASlA/viewform" className="get-involved__button" target="_blank">Application Form (Also Below)</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfon-yjYkxPnEfffBKT88eV2etCrcYsjJJUrz2wPdhhVtASlA/viewform" className="get-involved__button" target="_blank">Application Form</a>
         </div>
 
         <br />
@@ -53,18 +51,34 @@ const GetInvolved = (props) => {
         <p>Team 1885 is open to mentors from all community members. To join our family, please contact us at <b>team1885@gmail.com</b>.</p>
 
         <br />
-
-        <h1 className="get-involved__header">Feed the Team</h1>
-
-        <br />
-        <p><strong>Food is important.</strong>That's why we promote (and provide) healthy meals as part of our long hours working together as a team.</p>
-        <br />
-        <img src={require("../../../assets/images/frc/fuel1.jpg")} className="get-involved__img" />
-        <p><b>Parents,</b> in return for your contribution to team fuel, your student will be fed at robotics meetings. Supplying the team with proper fuel is an important group effort, as no student should work as hard as they do an an empty stomach. We aim to provide healthy foods (no sodas) to ensure that students are properly nourished during the season, so please keep the term "brain food" in mind. For our hosted competitions (IROC, FLL, and FTC), we are asking for a parent "grill master" that can work the grill for setup volunteers the Friday before the competition. <b>Please note it is a REQUIREMENT for all team members to supply ONE Meal during the season.</b> However, if you wish to contribute to more meals, it would be greatly appreciated. You are expected to provide food for the whole team, current consisting of 75 students and 15 adults.</p>
-        <img src={require("../../../assets/images/frc/fuel2.jpg")} className="get-involved__img" />
-        <br />
-        <p><b>For the 2018 season, we are asking that student eat breakfast at home every day and that meals brought in by families be lunch, not breakfast as it has been in the past. </b></p>
-        <a href="http://www.signupgenius.com/go/30e084faea929a0fc1-first" className="get-involved__button get-involved--fullwidth" target="_blank">Feed Our Team!</a>
+        <div>
+          <h1 className="get-involved__header">Feed the Team</h1>
+          <div className="get-involved__food-container">
+            <img src={require("../../../assets/images/frc/fuel__potluck.jpg")} className="get-involved__img" />
+            <p>
+              <strong>Food is important.</strong>
+              That's why we promote (and provide) healthy meals as
+              part of our long hours working together as a team.
+            </p>
+            <p>
+              Parents, in return for your contribution to team fuel,
+              your student will be fed at robotics meetings. Supplying the
+              team with proper fuel is an important group effort, as no student
+              should work as hard as they do an an empty stomach.
+              We aim to provide healthy foods (no sodas) to ensure that students
+              are properly nourished during the season, so please keep the term
+              "brain food" in mind. For our hosted competitions (IROC, FLL, and FTC),
+              we are asking for a parent "grill master" that can work the grill for
+              setup volunteers the Friday before the competition. <b>Please note it is
+              a REQUIREMENT for all team members to supply ONE Meal during the season.</b>
+              However, if you wish to contribute to more meals, it would be greatly appreciated.
+              You are expected to provide food for the whole team, current consisting of 75
+              students and 15 adults.
+            </p>
+            <p>For the 2018 season, we are asking that student eat breakfast at home every day and that meals brought in by families be lunch, not breakfast as it has been in the past. </p>
+          </div>
+          <a href="http://www.signupgenius.com/go/30e084faea929a0fc1-first" className="get-involved__button get-involved--fullwidth" target="_blank">Feed Our Team!</a>
+        </div>
       </div >
     </Container >
   );
