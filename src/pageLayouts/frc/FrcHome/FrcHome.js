@@ -34,7 +34,7 @@ const FrcHome = (props) => {
             name="FTC Events"
             eventLink="ilite.us"
             date="December, 2018"
-            image="images/FTC_logo.png" />
+            image="images/RoverRuckus.jpg" />
           <Events
             name="IROC"
             eventLink="ilite.us"

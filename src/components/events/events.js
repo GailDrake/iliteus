@@ -25,12 +25,12 @@ class Events extends Component {
         </Link>
         </li>
     };
-
+    const path = image == 'images/RoverRuckus.jpg' ? 'event__image event__secondImage' : 'event__image';
     return (
       <Fade bottom>
         <div className="event">
           <div className="event__image-holder">
-            <img className="event__image" src={require(`../../assets/${image}`)} />
+            <img className={path} src={require(`../../assets/${image}`)} />
           </div>
           <div className="event__details">
             <h3 className="event__header">{name}</h3>
