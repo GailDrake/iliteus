@@ -16,7 +16,7 @@ class Container extends Component {
         <div className="container__content">
           {children}
         </div>
-      </div >
+      </div>
     );
   };
 }
