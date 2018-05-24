@@ -23,7 +23,11 @@ html {
     align-items: center;
     text-align: center;
     @media (max-width: 468px) {
-      height: 100vh;
+      height: 140vh;
+      padding: 35px;
+    }
+    @media all and (max-width: 320px) {
+      height: 110vh;
     }
     .frcHome__banner-text-container {
       max-width: 800px;
@@ -71,11 +75,14 @@ html {
       padding: 5px;
     }
     .frcHome__events-container {
-      text-align: center;
+      // text-align: center;
       padding-right: 5vw;
       padding-left: 5vw;
       display: flex;
       flex: 1;
+      @media screen and (max-width: 768px) {
+        display: block;
+      }
     }
   }
   .frcHome__news {
@@ -99,6 +106,9 @@ html {
       padding-left: 5vw;
       display: flex;
       flex: 1;
+      @media screen and (max-width: 768px) {
+        display: block;
+      }
     }
   }
   .frcHome__sponsors {

@@ -3,20 +3,36 @@
   border: 3px solid #999;
   min-height: 205px;
   width: 100%;
+  @media all and (max-width: 700px) {
+    border: none;
+    margin: none;
+  }
   .member__img {
     display: block;
     height: 200px;
     max-width: 300px;
     float: left;
     border-right: 3px solid #999;
+    @media all and (max-width: 700px) {
+      border: none;
+      float: left;
+      display: block;
+    }
   }
   .member__img.oldimg {
     background-color: black;
     padding: 0 50px;
+    @media all and (max-width: 700px) {
+      padding: 0 20px;
+    }
   }
   .member__content {
     margin-left: 310px;
     padding-top: 20px;
+    @media all and (max-width: 700px) {
+      float: left;
+      margin-left: 0;
+    }
   }
   .member__title {
     font-weight: bold;

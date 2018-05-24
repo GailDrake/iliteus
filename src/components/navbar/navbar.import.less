@@ -17,6 +17,10 @@
   position: -o-sticky;
   position: sticky;
   top: 0px;
+  @media screen and (max-width: 600px) {
+    position: fixed;
+    padding: 0px;
+  }
   ul li {
     list-style-type: none;
     float: right;
@@ -47,7 +51,7 @@
   .navigation__sidemenu {
     display: none;
   }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 600px) {
     ul {
       display: none;
     }
@@ -58,11 +62,5 @@
       position: fixed;
       top: 0px;
     }
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .navigation {
-    padding: 0px;
   }
 }
