@@ -9,9 +9,9 @@ import Footer from '../components/footer';
 import './../config/main.less';
 
 const links = [
-  { name: "Summer Camps", url: "/outreach/SummerCamps" },
-  { name: "FIRST Lego League", url: "/outreach/Fll" },
-  { name: "Hosted Events", url: "/outreach/HostedEvents" },
+  { name: "Summer Camps", url: "/outreach/summer-camps" },
+  { name: "FIRST Lego League", url: "/outreach/fll" },
+  { name: "Hosted Events", url: "/outreach/hosted-events" },
   { name: "Home", url: "/outreach/" }
 ];
 

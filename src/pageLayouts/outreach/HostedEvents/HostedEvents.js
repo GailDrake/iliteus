@@ -13,13 +13,13 @@ const HostedEvents = () =>
         District Competition, our Summer Camps, FLL workshops, and our FRC offseason
         competition, IROC.
       </p>
-      <Header subheader>Summer Camps</Header>
       <div className="event">
         <div className="event__description">
           <div>
-            <img src={require('../../../assets/images/frc/summer-camps/summer-camp__1.jpg')} alt="" />
+            <img src={require('../../../assets/images/summer-camps/FLL.png')} alt="" />
           </div>
           <div>
+            <Header subheader>Summer Camps</Header>
             <hr />
             <p>
               We here at ILITE firmly believe that all children deserve to learn about the wonders of the world
@@ -31,13 +31,13 @@ const HostedEvents = () =>
         </div>
         <Button division="frc" link="/outreach/SummerCamps">See Our Camps!</Button>
       </div>
-      <Header subheader>FTC Competitions</Header>
       <div className="event">
         <div className="event__description">
           <div>
             <img src={require('../../../assets/logos/first__logo.png')} alt="" />
           </div>
           <div>
+            <Header subheader>FTC Competitions</Header>
             <hr />
             <p>
               Each year, ILITE hosts a district competition for FTC, or the First Tech Challenge.
@@ -46,14 +46,15 @@ const HostedEvents = () =>
             </p>
           </div>
         </div>
+        <Button link="ftc.ilite.us" division="frc">Learn More!</Button>
       </div>
-      <Header subheader>FRC District Events</Header>
       <div className="event">
         <div className="event__description">
           <div>
             <img src={require('../../../assets/images/frc/competitions/competition__1.jpg')} alt="" />
           </div>
           <div>
+            <Header subheader>FRC District Events</Header>
             <hr />
             <p>
               Every year, ILITE Robotics hosts a district event for week one of the FRC season. Like the FTC
@@ -63,13 +64,13 @@ const HostedEvents = () =>
           </div>
         </div>
       </div>
-      <Header subheader>IROC</Header>
       <div className="event">
         <div className="event__description">
           <div>
             <img src={require('../../../assets/images/frc/competitions/iroc__1.jpg')} alt="" />
           </div>
           <div>
+            <Header subheader>IROC</Header>
             <hr />
             <p>
               At the end of October, ILITE Robotics hosts a robotics competition called IROC, or
