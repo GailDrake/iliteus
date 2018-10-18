@@ -10,6 +10,7 @@ html {
   // overflow-y: hidden;
   margin: 0;
   padding: 0;
+
   .frcHome__banner {
     background-image: url('../../../assets/images/frc/background/home-background-ps.jpg');
     background-position: center center;
@@ -22,15 +23,24 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    @media (max-width: 468px) {
-      height: 140vh;
-      padding: 35px;
+
+    @media (max-width: 468px) and (min-width: 331px) {
+      padding: 0 5%;
+      min-height: 100vh;
+      position: relative;
+      top: 65px;
     }
-    @media all and (max-width: 320px) {
-      height: 110vh;
+
+    @media (max-width: 350px) {
+      padding: 0 5%;
+      min-height: 130vh;
+      position: relative;
+      top: 65px;
     }
+
     .frcHome__banner-text-container {
       max-width: 800px;
+
       .frcHome__banner-title {
         color: @white;
         font-family: @raleway;
@@ -40,6 +50,7 @@ html {
         margin-bottom: 0.67em;
         text-transform: uppercase;
       }
+
       .frcHome__banner-subtitle {
         color: @off-white;
         font-family: 'Raleway', sans-serif;
@@ -49,6 +60,7 @@ html {
         margin-top: -20px;
         margin-bottom: 20px;
       }
+
       .frcHome__banner-description {
         color: @white;
         font-family: @raleway;
@@ -57,13 +69,23 @@ html {
         line-height: 200%;
         margin-bottom: 20px;
       }
+
+      @media (max-width: 468px) {
+        margin: auto;
+      }
     }
   }
+
   .frcHome__events {
     background-color: #eee;
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
+
+    @media (max-width: 468px) {
+      padding: 20vh 0;
+    }
+
     .frcHome__events-header {
       color: @text-1;
       font-size: 38px;
@@ -74,22 +96,26 @@ html {
       text-transform: uppercase;
       padding: 5px;
     }
+
     .frcHome__events-container {
       // text-align: center;
       padding-right: 5vw;
       padding-left: 5vw;
       display: flex;
       flex: 1;
-      @media screen and (max-width: 768px) {
+
+      @media screen and (max-width: 468px) {
         display: block;
       }
     }
   }
+
   .frcHome__news {
     background-color: @text-1;
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
+
     .frcHome__news-header {
       color: @off-white;
       font-size: 38px;
@@ -100,22 +126,26 @@ html {
       text-transform: uppercase;
       padding: 5px;
     }
+
     .frcHome__news-container {
       text-align: center;
       padding-right: 5vw;
       padding-left: 5vw;
       display: flex;
       flex: 1;
-      @media screen and (max-width: 768px) {
+
+      @media screen and (max-width: 468px) {
         display: block;
       }
     }
   }
+
   .frcHome__sponsors {
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
     margin-bottom: -10px;
+
     .frcHome__sponsors-header {
       color: @text-1;
       font-size: 38px;
@@ -125,11 +155,13 @@ html {
       text-transform: uppercase;
       padding: 5px;
     }
+
     .frcHome__sponsors-description {
       font-size: 20px;
       margin-top: 20px;
       margin-bottom: 20px;
     }
+
     .frcHome__sponsors-container {
       text-align: center;
       padding-right: 5vw;
