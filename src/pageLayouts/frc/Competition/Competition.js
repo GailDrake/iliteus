@@ -4,7 +4,7 @@ import Container from '../../../templates/container';
 
 const Competition = () => {
   return (
-    <Container division="frc" title="Competitions" subtitle="See all of our competitions from throughout our history">
+    <Container division="frc" title="Competitions" subtitle="See all of our competitions from throughout our history" id="top">
       <div className="competition">
         <div className="competition__tabs">
           <li><a href="#tab12">2017</a></li>
@@ -59,6 +59,8 @@ const Competition = () => {
               </ul>
             </div>
           </div>
+          <a className="competition__top" href="#top">Back To Top</a>
+
         </div>
         {/* 2016 - Stronghold */}
         <div className="competition__event" id="tab11">
@@ -99,6 +101,8 @@ const Competition = () => {
             </div >
           </div >
         </div>
+        <a className="competition__top" href="#top">Back To Top</a>
+
         <div className="competition__event" id="tab10">
           <h1 className="competition__event-header">2015 - Recycle Rush</h1>
           <iframe
@@ -132,6 +136,8 @@ const Competition = () => {
             </div>
           </div>
         </div>
+        <a className="competition__top" href="#top">Back To Top</a>
+
         <div className="competition__event" id="tab9">
           <h1 className="competition__event-header">2014 - Aerial Assist</h1>
           <iframe
@@ -164,6 +170,8 @@ const Competition = () => {
             </div>
           </div>
         </div>
+        <a className="competition__top" href="#top">Back To Top</a>
+
         <div className="competition__event" id="tab8">
           <h1 className="competition__event-header">2013 - Ultimate Ascent</h1>
           <iframe
@@ -192,34 +200,8 @@ const Competition = () => {
             </div>
           </div>
         </div>
-        <div className="competition__event" id="tab9">
-          <h1 className="competition__event-header">2013 - Ultimate Ascent</h1>
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/wa5MGEZNrf0"
-            frameborder="0"
-            gesture="media"
-            allow="encrypted-media"
-            allowfullscreen />
-          <div className="competition__event-container">
-            <div>
-              <h3 className="competition__event-subheader">Awards</h3>
-              <ul>
-                <li>Washington DC Regional: Regional Chairman’s Award</li>
-                <li>Washington DC Regional: Dean's List Finalist (David Powell)</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="competition__event-subheader">Competitions Attended</h3>
-              <ul>
-                <li>Washington DC Regional</li>
-                <li>Chesapeake Regional</li>
-                <li>Newton Division</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <a className="competition__top" href="#top">Back To Top</a>
+
         <div className="competition__event" id="tab7">
           <h1 className="competition__event-header">2012 - Rebound Rumble</h1>
           <iframe
@@ -249,6 +231,8 @@ const Competition = () => {
             </div>
           </div>
         </div>
+        <a className="competition__top" href="#top">Back To Top</a>
+
         <div className="competition__event" id="tab6">
           <h1 className="competition__event-header">2011 - Logomotion</h1>
           <iframe
@@ -279,6 +263,8 @@ const Competition = () => {
             </div>
           </div>
         </div>
+        <a className="competition__top" href="#top">Back To Top</a>
+
         <div className="competition__event" id="tab5">
           <h1 className="competition__event-header">2010 - Breakaway</h1>
           <iframe
@@ -308,6 +294,8 @@ const Competition = () => {
             </div>
           </div>
         </div>
+        <a className="competition__top" href="#top">Back To Top</a>
+
         <div className="competition__event" id="tab4">
           <h1 className="competition__event-header">2009 - Lunacy</h1>
           <iframe
@@ -335,6 +323,8 @@ const Competition = () => {
             </div>
           </div>
         </div>
+        <a className="competition__top" href="#top">Back To Top</a>
+
         <div className="competition__event" id="tab3">
           <h1 className="competition__event-header">2008 - Overdrive</h1>
           <iframe
@@ -363,6 +353,8 @@ const Competition = () => {
             </div>
           </div>
         </div>
+        <a className="competition__top" href="#top">Back To Top</a>
+
         <div className="competition__event" id="tab2">
           <h1 className="competition__event-header">2007 - Rack n' Roll</h1>
           <iframe
@@ -390,7 +382,10 @@ const Competition = () => {
               </ul>
             </div>
           </div>
-        </div><div className="competition__event" id="tab2">
+        </div>
+        <a className="competition__top" href="#top">Back To Top</a>
+
+        <div className="competition__event" id="tab1">
           <h1 className="competition__event-header">2006 - Aim High</h1>
           <iframe
             width="100%"
@@ -419,6 +414,8 @@ const Competition = () => {
             </div>
           </div>
         </div>
+        <a className="competition__top" href="#top">Back To Top</a>
+
       </div>
     </Container>
   );
