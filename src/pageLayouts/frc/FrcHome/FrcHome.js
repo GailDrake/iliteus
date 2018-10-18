@@ -101,7 +101,7 @@ const FrcHome = (props) => {
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/macedontechnologies.png')}
-            url="http://www.a1floodtech.com">
+            url="https://www.macedontechnologies.com/">
             Macedon Technologies
           </SponsorTag>
           <SponsorTag
