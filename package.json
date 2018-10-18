@@ -5,7 +5,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy-staging": "aws s3 rm s3://ilite-staging --recursive && aws s3 cp --cache-control max-age=31536000 public s3://ilite-staging --recursive"
   },
   "dependencies": {
     "classnames": "^2.2.5",
