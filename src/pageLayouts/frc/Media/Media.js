@@ -14,6 +14,22 @@ const Media = (props) => {
 				</p>
 				<div>
 					<Mediatiles
+						url={`https://www.dropbox.com/sh/slw0srbj68cuqce/AAA87ZVnyJmZeh3sOVkzZS7Ya/FRC%20Competition/Worlds?dl=0&subfolder_nav_tracking=1`}
+						name="World Championship 2018"
+					/>
+					<Mediatiles
+						url={`https://www.dropbox.com/sh/slw0srbj68cuqce/AAA4f5wfXL0RLTbhdL2DipWca/FRC%20Competition/District%20Champs?dl=0&subfolder_nav_tracking=1`}
+						name="Chesapeake District Championships 2018"
+					/>
+					<Mediatiles
+						url={`https://www.dropbox.com/sh/slw0srbj68cuqce/AAA-vesfsbGy1d2ga8FkVb4Ra/STEAM%20EXPO?dl=0&subfolder_nav_tracking=1s`}
+						name="STEAM Expo 2018"
+					/>
+					<Mediatiles
+						url={`https://www.dropbox.com/sh/slw0srbj68cuqce/AAAV54Fd78MFhY3AVd4lw_I4a/IROC%202017?dl=0&subfolder_nav_tracking=1`}
+						name="IROC 2017"
+					/>
+					<Mediatiles
 						url={`https://www.dropbox.com/sh/bbr2288z656ubhm/AADWSERCz8P0Ki5G4Wg93TOJa/FRC%20Robotics/2017%20World%20Championships?dl=0`}
 						name="World Championship 2017"
 					/>
