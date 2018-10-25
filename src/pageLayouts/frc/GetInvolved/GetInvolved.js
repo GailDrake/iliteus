@@ -33,15 +33,15 @@ const GetInvolved = (props) => {
           Professor Drake
         </p>
         <br />
-
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfon-yjYkxPnEfffBKT88eV2etCrcYsjJJUrz2wPdhhVtASlA/viewform?embedded=true" className="get-involved__iframe" target="_blank">
-          ILITE Applications
-			  </iframe>
         <div className="get-involved__buttons">
-          <a href="https://docs.google.com/document/d/1ElAiufYy49WOX8wY5Z5nODxnJxB0iWm23-Pf2WvJIok/edit#bookmark=id.gjdgxs" className="get-involved__button" target="_blank">Student Handbook</a>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfon-yjYkxPnEfffBKT88eV2etCrcYsjJJUrz2wPdhhVtASlA/viewform" className="get-involved__button" target="_blank">Application Form</a>
+          <a href="https://docs.google.com/document/d/1SFH2Hs9oXi3cOYfFEArPILBA2U-OafPdp_VbHpdu3SI/edit?usp=sharing" className="get-involved__button" target="_blank">Student Handbook</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0M8P2sX1h9lrTdBvJpn7O0wFtZDFWjgNOHBz4g7WneJiB6g/viewform?usp=sf_link" className="get-involved__button" target="_blank">Application Form</a>
         </div>
 
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc0M8P2sX1h9lrTdBvJpn7O0wFtZDFWjgNOHBz4g7WneJiB6g/viewform?embedded=true" className="get-involved__iframe" target="_blank">
+          ILITE Applications
+			  </iframe>
+        
         <br />
 
         <h1 className="get-involved__header">Mentorship</h1>
