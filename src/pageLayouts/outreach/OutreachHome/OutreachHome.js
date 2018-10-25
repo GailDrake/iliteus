@@ -25,7 +25,7 @@ const OutreachHome = (props) => {
             name="FLL Workshops"
             eventLink="/outreach/fll"
             date="Fall 2018"
-            image="images/outreach/fll/workshop.jpg"
+            image="images/outreach/fll/fll5.jpg"
           />
           <Events
             name="Summer Camps"
