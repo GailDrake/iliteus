@@ -27,17 +27,17 @@ const FrcHome = (props) => {
         <div className="frcHome__events-container">
           <Events
             name="ILITE Summer Camps"
-            eventLink="ilite.us"
+            eventLink="outreach/SummerCamps"
             date="June, 2018"
             image="images/outreach/summercamps/stem1.jpg" />
           <Events
-            name="FTC Events"
-            eventLink="ilite.us"
+            name="FLL Workshops"
+            eventLink="outreach/Fll"
             date="December, 2018"
-            image="images/RoverRuckus.jpg" />
+            image="images/outreach/fll/fairoaks.png" />
           <Events
             name="IROC"
-            eventLink="ilite.us"
+            eventLink="https://www.irocoffseason.org"
             date="October, 2018"
             image="images/frc/iroc-group-photo.png" />
         </div>
