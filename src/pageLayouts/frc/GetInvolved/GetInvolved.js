@@ -1,5 +1,8 @@
 import React from 'react';
 import Container from '../../../templates/container';
+import image1_1 from '../../../assets/images/frc/about/teddy.jpg'
+import image1_2 from '../../../assets/images/outreach/fll8.jpg'
+import image1_3 from '../../../assets/images/frc/district_chairmans.jpeg'
 
 const GetInvolved = (props) => {
   return (
@@ -13,6 +16,10 @@ const GetInvolved = (props) => {
         <p>
           ILITE is a multifaceted program which includes activities in a wide variety of business, technology and engineering challenges. The success of the program is due to the creativity and productivity of our members, both student and adults alike. Your participation is essential to fulfilling our program’s goals. We cannot stress enough the importance of each member’s commitment and responsibility in keeping our team running smoothly. We hope that as a member of ILITE, you will acquire and continue to use such life skills through college and your future career, and continue to give to others in the world.
         </p>
+        <br />
+        <img src={image1_1} alt="" className="getinvolved__image" />
+        <img src={image1_2} alt="" className="getinvolved__image" />
+        <img src={image1_3} alt="" className="getinvolved__image" />
         <br />
         <p>
           At Battlefield High School, we have two courses approved by the Virginia Department of Education in Engineering and Robotics. The ILITE Robotics team supports the course structure of the school. Students are ENCOURAGED to take the Robotics course to learn the Engineering of Robotics to be a member of the ILITE Teams. In a course, students are held accountable, learning is the focus, and skill sets are developed.
@@ -38,10 +45,6 @@ const GetInvolved = (props) => {
           <a href="https://docs.google.com/document/d/1SFH2Hs9oXi3cOYfFEArPILBA2U-OafPdp_VbHpdu3SI/edit?usp=sharing" className="get-involved__button" target="_blank">Student Handbook</a>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0M8P2sX1h9lrTdBvJpn7O0wFtZDFWjgNOHBz4g7WneJiB6g/viewform?usp=sf_link" className="get-involved__button" target="_blank">Application Form</a>
         </div>
-
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc0M8P2sX1h9lrTdBvJpn7O0wFtZDFWjgNOHBz4g7WneJiB6g/viewform?embedded=true" className="get-involved__iframe" target="_blank">
-          ILITE Applications
-			  </iframe>
         
         <br />
 
