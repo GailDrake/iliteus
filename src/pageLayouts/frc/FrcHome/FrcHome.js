@@ -64,10 +64,11 @@ const FrcHome = (props) => {
         </p>
         <br />
         <div className="frcHome__sponsors-container">
+          
           <SponsorTag
-            image={require('../../../assets/images/sponsors/floodtech.png')}
-            url="http://www.a1floodtech.com">
-            A1 Floodtech
+            image={require('../../../assets/images/sponsors/incadence.png')}
+            url="http://www.incadencecorp.com/">
+            Incadence
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/asco.png')}
@@ -85,10 +86,11 @@ const FrcHome = (props) => {
             Cathy's Home Team
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/incadence.png')}
-            url="http://www.incadencecorp.com/">
-            Incadence
+            image={require('../../../assets/images/sponsors/engility.png')}
+            url="http://www.engility.com/#HIFh85X6P1kKQ0gK.97">
+            US Stem
           </SponsorTag>
+          
           <SponsorTag
             image={require('../../../assets/images/sponsors/khouriortho.jpg')}
             url="http://khouriortho.com/">
@@ -105,9 +107,9 @@ const FrcHome = (props) => {
             Macedon Technologies
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/micron.png')}
-            url="https://www.micron.com/">
-            Micron
+            image={require('../../../assets/images/sponsors/floodtech.png')}
+            url="http://www.a1floodtech.com">
+            A1 Floodtech
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/novec.jpg')}
@@ -120,9 +122,9 @@ const FrcHome = (props) => {
             US Stem
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/engility.png')}
-            url="http://www.engility.com/#HIFh85X6P1kKQ0gK.97">
-            US Stem
+            image={require('../../../assets/images/sponsors/micron.png')}
+            url="https://www.micron.com/">
+            Micron
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/battlefieldhighschool.jpg')}
