@@ -64,7 +64,7 @@ const FrcHome = (props) => {
         </p>
         <br />
         <div className="frcHome__sponsors-container">
-          
+
           <SponsorTag
             image={require('../../../assets/images/sponsors/incadence.png')}
             url="http://www.incadencecorp.com/">
@@ -90,7 +90,7 @@ const FrcHome = (props) => {
             url="http://www.engility.com/#HIFh85X6P1kKQ0gK.97">
             US Stem
           </SponsorTag>
-          
+
           <SponsorTag
             image={require('../../../assets/images/sponsors/khouriortho.jpg')}
             url="http://khouriortho.com/">

@@ -24,8 +24,18 @@ html {
     align-items: center;
     text-align: center;
 
-    @media (max-width: 468px) {
-      height: 90vh;
+    @media (max-width: 650px) and (min-width: 350px) {
+      padding: 0 5%;
+      min-height: 100vh;
+      position: relative;
+      top: 65px;
+    }
+
+    @media (max-width: 350px) {
+      padding: 0 5%;
+      min-height: 130vh;
+      position: relative;
+      top: 65px;
     }
 
     .frcHome__banner-text-container {
@@ -71,6 +81,10 @@ html {
           font-size: 12px;
         }
       }
+
+      @media (max-width: 650px) {
+        margin: auto;
+      }
     }
   }
 
@@ -79,6 +93,10 @@ html {
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
+
+    @media (max-width: 650px) {
+      padding: 20vh 0;
+    }
 
     .frcHome__events-header {
       color: @text-1;
@@ -92,11 +110,15 @@ html {
     }
 
     .frcHome__events-container {
-      text-align: center;
+      // text-align: center;
       padding-right: 5vw;
       padding-left: 5vw;
       display: flex;
       flex: 1;
+
+      @media screen and (max-width: 650px) {
+        display: block;
+      }
     }
   }
 
@@ -123,6 +145,10 @@ html {
       padding-left: 5vw;
       display: flex;
       flex: 1;
+
+      @media screen and (max-width: 650px) {
+        display: block;
+      }
     }
   }
 

@@ -4,11 +4,6 @@
   margin: 20px;
   border-radius: 3px;
 
-  @media (max-width: 468px) {
-    display: block;
-    width: 100%;
-  }
-
   .event__image-holder {
     width: 100%;
     background-color: @white;
@@ -23,10 +18,6 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
-  }
-
-  .event__secondImage {
-    object-fit: contain;
   }
 
   .event__header {
@@ -74,5 +65,9 @@
       text-decoration: none;
       float: left;
     }
+  }
+
+  @media (max-width: 950px) {
+    margin-bottom: 10px;
   }
 }

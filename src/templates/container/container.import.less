@@ -1,6 +1,6 @@
 .container {
   padding: 0px;
-  width: 100vw;
+  width: 100%;
 }
 
 .container.frc {
@@ -20,6 +20,9 @@
   height: auto;
   position: relative;
   z-index: 1;
+  @media screen and (max-width: 600px) {
+    max-width: 100%;
+  }
 }
 
 .container__bar {

@@ -21,11 +21,11 @@ const OutreachHome = (props) => {
         <h1 className="outreachHome__events-header">Outreach Events</h1>
         <br />
         <div className="outreachHome__events-container">
-        <Events
+          <Events
             name="FLL Workshops"
             eventLink="/outreach/fll"
             date="Fall 2018"
-            image="images/frc/summer-camps/FLL.png"
+            image="images/outreach/fll/fll5.jpg"
           />
 
           <Events
