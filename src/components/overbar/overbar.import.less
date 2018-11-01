@@ -11,12 +11,14 @@ ul.overbar__list {
   text-align: center;
   margin: 0;
   padding: 20px;
+
   li {
     display: inline;
     margin-right: 20px;
     margin-left: 20px;
   }
-  @media screen and (max-width: 920px) {
+
+  @media screen and (max-width: 950px) {
     display: none;
   }
 }
@@ -35,9 +37,11 @@ ul.overbar__list {
   background: linear-gradient(to bottom right, @purple-ws-2, @purple-ws-3);
   background: -webkit-linear-gradient(to bottom right, @purple-2, @purple-2);
   text-align: right;
+
   .overbar__list-item {
     color: #fcfdff;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+
     &:hover {
       padding-bottom: 10px;
       border-bottom: 2px solid white;
@@ -49,9 +53,11 @@ ul.overbar__list {
   background: @purple-ws-2;
   background: linear-gradient(to bottom right, @purple-ws-1, @purple-ws-2);
   background: -webkit-linear-gradient(to bottom right, @purple-ws-1, @purple-ws-2);
+
   .overbar__list-item {
     color: #fcfdff;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+
     &:hover {
       padding-bottom: 10px;
       border-bottom: 2px solid white;
@@ -61,9 +67,11 @@ ul.overbar__list {
 
 .overbar__list.cyber {
   background-color: #222;
+
   .overbar__list-item {
     color: #fcfdff;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+
     &:hover {
       color: gold;
     }
@@ -72,9 +80,11 @@ ul.overbar__list {
 
 .overbar__list.computer-science {
   background-color: blue;
+
   .overbar__list-item {
     color: #fcfdff;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+
     &:hover {
       color: orange;
     }
@@ -83,16 +93,18 @@ ul.overbar__list {
 
 .overbar__list.hosted-events {
   background-color: #fcfdff;
+
   .overbar__list-item {
     color: #222;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+
     &:hover {
       color: navy;
     }
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
   .overbar__list {
     display: none;
   }

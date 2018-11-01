@@ -5,7 +5,7 @@ import Tabs, { Tab } from '../../../components/Tabs';
 
 const Competition = () => {
   return (
-    <Container division="frc" title="Competitions" subtitle="See all of our competitions from throughout our history">
+    <Container division="frc" title="Competitions" subtitle="See all of our competitions from throughout our history" id="top">
       <div className="competition">
         <Tabs>
           {/* 2018 - Power Up */}

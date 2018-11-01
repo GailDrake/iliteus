@@ -1,15 +1,18 @@
 .sidemenu {
   font-family: "Arial", serif;
   z-index: 6;
+
   .sidemenu__burger {
     position: sticky;
     right: 20px;
     margin-top: 20px;
     float: right;
+
     &:hover {
       cursor: pointer;
     }
   }
+
   .sidemenu__background {
     background-color: @black;
     opacity: 0;
@@ -20,26 +23,30 @@
     z-index: 3;
     transition: opacity 0.5s ease 0s;
   }
+
   .sidemenu--slide {
     transform: translateX(-250px);
   }
+
   .sidemenu--fade {
     pointer-events: all;
     opacity: 0.4;
     transition: opacity 0.5s ease 0.1s;
   }
+
   .sidemenu__nav {
     height: 100%;
     width: 250px;
     position: fixed;
     z-index: 4;
-    overflow-y: scroll;
+    //overflow-y: scroll;
     overflow-x: hidden;
     top: 0;
     right: -250px;
     background-color: @purple-7; // overflow: hidden;
     transition: 0.5s;
   }
+
   .sidemenu__close {
     color: @gray-2;
     margin-left: 10px;
@@ -49,15 +56,18 @@
     font-size: 40px;
     cursor: pointer;
     transition: 350ms ease-out 50ms;
+
     &:hover {
       color: @white;
       transition: 350ms ease-out 50ms;
     }
   }
+
   .sidemenu__list {
     padding: 10 0px;
     margin-top: 40px;
   }
+
   .sidemenu__link {
     display: block;
     z-index: 5;
@@ -71,9 +81,11 @@
     font-size: 20px;
     width: 100%;
     transition: 350ms ease-out 50ms;
+
     span {
       margin-left: 20px;
     }
+
     &:hover {
       color: @white;
       background-color: @purple-6;
@@ -81,10 +93,12 @@
       transition: 350ms ease-out 50ms;
     }
   }
+
   .sidemenu__sublinks {
     display: block;
     float: left;
     width: 100%;
+
     a {
       padding: 10px 0;
       display: block;
@@ -93,9 +107,11 @@
       color: @gray-2;
       background-color: @purple-7;
       transition: 350ms ease-out 50ms;
+
       span {
         margin-left: 60px;
       }
+
       &:hover {
         color: @white;
         cursor: pointer;
