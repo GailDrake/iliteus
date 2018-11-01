@@ -5,7 +5,7 @@ import Link from 'gatsby-link';
 
 const SummerCamps = (props) => {
   return (
-    <Container division="outreach" title="ILITE 2018 Summer Camps" subtitle="Back by popular demand are both old and inaugural camps.">
+    <Container division="outreach" title="ILITE 2019 Summer Camps" subtitle="Back by popular demand are both old and inaugural camps.">
       <div className="summercamps">
         <h1>ILITE Robotics Summer Camps</h1>
         <p>The camps below are hosted by ILITE Robotics. Questions or concerns about these camps should be directed to Gail Drake at drakegd@pwcs.edu.</p>
