@@ -12,6 +12,15 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+
+  @media (max-width: 950px) {
+    width: 32%;
+  }
+
+  @media (max-width: 685px) {
+    width: 48%;
+  }
+
   @media screen and (max-width: 600px) {
     display: block;
     width: 100%;
@@ -50,6 +59,8 @@
 .mediatiles__textWrapper h2 {
   color: #fff;
   font-size: 20px;
+  word-wrap: normal;
+  overflow-x: hidden;
 }
 
 @media (max-width: 1000px) {
