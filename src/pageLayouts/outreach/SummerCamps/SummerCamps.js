@@ -112,6 +112,7 @@ const SummerCamps = (props) => {
             </tr>
           </tbody>
         </table>
+        <p>*Dates have not yet been determined</p>
         <div id="lego" className="summercamps__box">
           <h1>Lego EV3 Robotics</h1>
           <p>Students who attend ILITE’s LEGO EV3 Summer Camp design, build, and program awesome robots using state-of-the-art LEGO robotics technology: the powerful MINDSTORMS EV3 system. This exciting robotics camp challenges students to push robots to the limits by completing various tasks. The capstone of the camp is a mini competition. ILITE’s LEGO EV3 Camp gives students the opportunity to learn and have fun at the same time.</p>
