@@ -35,8 +35,8 @@ class Events extends Component {
           <div className="event__details">
             <h3 className="event__header">{name}</h3>
             <p>{date}</p>
-            15000 Graduation Dr, Haymarket, VA 20169
-      </div>
+            <p>15000 Graduation Dr, Haymarket, VA 20169</p>
+          </div>
           <hr className="event__divider" />
           <div className="event__links">
             {getEventLinks()}
