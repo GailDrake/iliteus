@@ -8,7 +8,7 @@ import QuoteRight from '../../../IconComponents/Quoteright';
 
 const Team = ({ teamList }) => {
   return (
-    <Container division="frc" title="Team Organization & Members" subtitle="ILITE has a team structure that emphasises student leadership and mentorship.">
+    <Container division="frc" title="Team" subtitle="ILITE has a team structure that emphasises student leadership and mentorship.">
       <div className="team">
         <Tabs>
           <Tab name="Leadership">

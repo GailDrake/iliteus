@@ -1,6 +1,7 @@
 .outreachHome {
   padding: 0;
   margin: 0;
+
   .outreachHome__banner {
     background-image: url('../../../assets/images/frc/background/home-background-ps.jpg');
     background-position: center center;
@@ -13,12 +14,17 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    @media (max-width: 600px) {
-      height: 140vh;
-      padding: 30px 10px 10px 10px;
+
+    @media (max-width: 650px) and (min-width: 350px) {
+      padding: 0 5%;
+      position: relative;
+      top: 65px;
     }
+
     .outreachHome__banner-text-container {
       max-width: 800px;
+      padding: 10px;
+
       .outreachHome__banner-title {
         color: @white;
         font-family: @raleway;
@@ -27,7 +33,12 @@
         letter-spacing: 3px;
         margin-bottom: 0.67em;
         text-transform: uppercase;
+
+        @media (max-width: 468px) {
+          font-size: 40px;
+        }
       }
+
       .outreachHome__banner-subtitle {
         color: @off-white;
         font-family: 'Raleway', sans-serif;
@@ -36,7 +47,12 @@
         line-height: 32px;
         margin-top: -20px;
         margin-bottom: 20px;
+
+        @media (max-width: 468px) {
+          font-size: 20px;
+        }
       }
+
       .outreachHome__banner-description {
         color: @white;
         font-family: @raleway;
@@ -44,14 +60,24 @@
         letter-spacing: 0.8px;
         line-height: 200%;
         margin-bottom: 20px;
+
+        @media (max-width: 468px) {
+          font-size: 15px;
+        }
+      }
+
+      @media (max-width: 650px) {
+        margin: auto;
       }
     }
   }
+
   .outreachHome__events {
     background-color: #eee;
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
+
     .outreachHome__events-header {
       color: @text-1;
       font-size: 38px;
@@ -62,22 +88,26 @@
       text-transform: uppercase;
       padding: 5px;
     }
+
     .outreachHome__events-container {
       text-align: center;
       padding-right: 5vw;
       padding-left: 5vw;
       display: flex;
       flex: 1;
+
       @media screen and (max-width: 768px) {
         display: block;
       }
     }
   }
+
   .outreachHome__news {
     background-color: @text-1;
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
+
     .outreachHome__news-header {
       color: @off-white;
       font-size: 38px;
@@ -88,22 +118,26 @@
       text-transform: uppercase;
       padding: 5px;
     }
+
     .outreachHome__news-container {
       text-align: center;
       padding-right: 5vw;
       padding-left: 5vw;
       display: flex;
       flex: 1;
+
       @media screen and (max-width: 768px) {
         display: block;
       }
     }
   }
+
   .outreachHome__sponsors {
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
     margin-bottom: -10px;
+
     .outreachHome__sponsors-header {
       color: @text-1;
       font-size: 38px;
@@ -113,11 +147,13 @@
       text-transform: uppercase;
       padding: 5px;
     }
+
     .outreachHome__sponsors-description {
       font-size: 20px;
       margin-top: 20px;
       margin-bottom: 20px;
     }
+
     .outreachHome__sponsors-container {
       text-align: center;
       padding-right: 5vw;
