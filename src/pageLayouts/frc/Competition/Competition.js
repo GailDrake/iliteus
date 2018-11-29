@@ -21,7 +21,7 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>FIRST World Championship: Woodie Flowers Award(Gail Drake)</li>
@@ -32,7 +32,7 @@ const Competition = () => {
                     <li>CHS Southern Maryland District: Excellence in Engineering Award </li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>FIRST World Championship, Carson Division</li>
@@ -58,7 +58,7 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>FIRST World Championship: Chairman's Award Finalist</li>
@@ -70,7 +70,7 @@ const Competition = () => {
                     <li>CHS Central Virginia District: Industrial Design Award</li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>FIRST World Championship, Darwin Division</li>
@@ -99,7 +99,7 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>FIRST World Championship Curie Division: Industrial Design Award</li>
@@ -112,7 +112,7 @@ const Competition = () => {
                     <li>CHS Central Virginia District: Industrial Design Award</li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>CHS District Greater DC</li>
@@ -140,7 +140,7 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>Greater DC Regional: Regional Chairman’s Award</li>
@@ -151,7 +151,7 @@ const Competition = () => {
                     <li>Greater Pittsburgh Regional: Quarterfinalist</li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>FIRST World Championship, Carson Division</li>
@@ -176,7 +176,7 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>FIRST World Championship Galileo Division: Innovation in Control Award</li>
@@ -187,7 +187,7 @@ const Competition = () => {
                     <li>Chesapeake Regional: Creativity Award</li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>FIRST World Championship, Galileo Division</li>
@@ -211,14 +211,14 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>Washington DC Regional: Regional Chairman’s Award</li>
                     <li>Washington DC Regional: Dean's List Finalist (David Powell)</li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>Washington DC Regional</li>
@@ -242,7 +242,7 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>Washington DC Regional: Engineering Inspiration Award</li>
@@ -250,7 +250,7 @@ const Competition = () => {
                     <li>Virginia Regional: Website Award</li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>Virginia Regional</li>
@@ -274,7 +274,7 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>Washington DC Regional: Engineering Inspiration Award</li>
@@ -283,7 +283,7 @@ const Competition = () => {
                     <li>Virginia Regional: Quarterfinalist</li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>Virginia Regional</li>
@@ -307,7 +307,7 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>Washington DC Regional: Engineering Inspiration Award</li>
@@ -317,7 +317,7 @@ const Competition = () => {
                     <li>Virginia Regional: Finali</li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>Washington DC Regional</li>
@@ -339,13 +339,13 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>Washington DC Regional: Quarterfinalist</li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>Washington DC Regional</li>
@@ -369,14 +369,14 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>Washington DC Regional: Engineering Inspiration Award</li>
                     <li>Florida Regional: Imagery Award</li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>NASA/VCU Regional </li>
@@ -400,14 +400,14 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>NASA/VCU Regional: Regional Engineering Inspiration Award</li>
                     <li>NASA/VCU Regional: Quarterfinalist</li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>NASA/VCU Regional </li>
@@ -431,7 +431,7 @@ const Competition = () => {
                 allow="encrypted-media"
                 allowfullscreen />
               <div className="competition__event-container">
-                <div>
+                <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
                     <li>NASA/VCU Regional: Quarterfinalist</li>
@@ -439,7 +439,7 @@ const Competition = () => {
                     <li>Las Vegas Regional: Quarterfinalist</li>
                   </ul>
                 </div>
-                <div>
+                <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>NASA/VCU Regional </li>

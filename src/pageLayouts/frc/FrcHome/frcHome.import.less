@@ -24,22 +24,15 @@ html {
     align-items: center;
     text-align: center;
 
-    @media (max-width: 650px) and (min-width: 350px) {
+    @media (max-width: 650px) {
       padding: 0 5%;
-      min-height: 100vh;
-      position: relative;
-      top: 65px;
-    }
-
-    @media (max-width: 350px) {
-      padding: 0 5%;
-      min-height: 130vh;
       position: relative;
       top: 65px;
     }
 
     .frcHome__banner-text-container {
       max-width: 800px;
+      padding: 10px;
 
       .frcHome__banner-title {
         color: @white;
@@ -78,7 +71,7 @@ html {
         margin-bottom: 20px;
 
         @media (max-width: 468px) {
-          font-size: 12px;
+          font-size: 15px;
         }
       }
 
@@ -110,14 +103,14 @@ html {
     }
 
     .frcHome__events-container {
-      // text-align: center;
       padding-right: 5vw;
       padding-left: 5vw;
       display: flex;
+      flex-direction: row;
       flex: 1;
 
       @media screen and (max-width: 650px) {
-        display: block;
+        flex-direction: column;
       }
     }
   }
@@ -144,10 +137,11 @@ html {
       padding-right: 5vw;
       padding-left: 5vw;
       display: flex;
+      flex-direction: row;
       flex: 1;
 
       @media screen and (max-width: 650px) {
-        display: block;
+        flex-direction: column;
       }
     }
   }

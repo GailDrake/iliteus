@@ -10,7 +10,7 @@ const Footer = () =>
       <div className="col">
         <h5 className="footer__header">CONTACT US</h5><a className="footer__link" href="mailto:gddrake@gmail.com">drakegd@pwcs.edu</a>
         <p className="footer__text">Coach Gail Drake</p>
-        <p className="footer__text">(571)261-4726</p>
+        <p className="footer__text">(571) 261-4726</p>
       </div>
       <div className="col">
         <h5 className="footer__header">LOCATION</h5><a className="footer__link" href="/frc/about"><i className="fa fa-map-marker"></i> Map &amp; Directions</a>

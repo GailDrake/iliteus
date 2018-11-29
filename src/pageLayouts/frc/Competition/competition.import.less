@@ -35,6 +35,15 @@
       width: 100%;
       margin-top: 20px;
       margin-bottom: 50px;
+      flex-direction: row;
+
+      .competition__awards {
+        margin-right: 5px;
+      }
+
+      .competition__attended {
+        margin-left: 5px;
+      }
 
       div {
         flex: 2;
@@ -51,6 +60,10 @@
           display: block;
           width: 100%;
         }
+      }
+
+      @media (max-width: 850px) {
+        flex-direction: column;
       }
     }
 

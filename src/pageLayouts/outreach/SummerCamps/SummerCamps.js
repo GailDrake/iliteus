@@ -5,89 +5,89 @@ import Link from 'gatsby-link';
 
 const SummerCamps = (props) => {
   return (
-    <Container division="outreach" title="ILITE 2019 Summer Camps" subtitle="Back by popular demand are both old and inaugural camps.">
+    <Container division="outreach" title="Summer Camps" subtitle="Back by popular demand are both old and inaugural camps.">
       <div className="summercamps">
         <h1>ILITE Robotics Summer Camps</h1>
         <p>The camps below are hosted by ILITE Robotics. Questions or concerns about these camps should be directed to Gail Drake at drakegd@pwcs.edu.</p>
-        
+
         <table>
           <caption> </caption>
           <thead>
-            
+
             <td className="summercamps__table--camps">Camp Name</td>
-            <td className="summercamps__table--grade">Grade Levels/Experience Level</td>
+            <td className="summercamps__table--grade">Grade Levels</td>
             <td className="summercamps__table--price">Price</td>
           </thead>
           <tbody>
             <tr>
-              
+
               <td className="summercamps__table--camps"><Link to="#lego">Lego EV3 Robotics</Link></td>
               <td className="summercamps__table--grade">Gr 1 - 8</td>
               <td className="summercamps__table--price">$150</td>
             </tr>
             <tr>
-              
+
               <td className="summercamps__table--camps"><Link to="#boe">Boe-Bot Camp</Link></td>
               <td className="summercamps__table--grade">Gr 6 - 12</td>
               <td className="summercamps__table--price">$150</td>
             </tr>
             <tr>
-              
+
               <td className="summercamps__table--camps"><Link to="#stem1">STEM 1: Matter Hackers</Link></td>
               <td className="summercamps__table--grade">Gr K - 4</td>
               <td className="summercamps__table--price">$150</td>
             </tr>
             <tr>
-              
+
               <td className="summercamps__table--camps"><Link to="#programming">Basics of Programming</Link></td>
               <td className="summercamps__table--grade">Gr 3+</td>
               <td className="summercamps__table--price">$150</td>
             </tr>
-            
+
           </tbody>
         </table>
         <table>
           <caption> </caption>
           <thead>
-            
+
             <td className="summercamps__table--camps">Camp Name</td>
-            <td className="summercamps__table--grade">Grade Levels/Experience Level</td>
+            <td className="summercamps__table--grade">Grade Levels</td>
             <td className="summercamps__table--price">Price</td>
           </thead>
           <tbody>
             <tr>
-               
+
               <td className="summercamps__table--camps"><Link to="#lego">FLL Lego EV3 Robotics</Link></td>
               <td className="summercamps__table--grade">Gr K - 6</td>
               <td className="summercamps__table--price">$150</td>
             </tr>
             <tr>
-               
+
               <td className="summercamps__table--camps"><Link to="#girls">Girls in STEM</Link></td>
               <td className="summercamps__table--grade">Gr 6 - 8</td>
               <td className="summercamps__table--price">$175</td>
             </tr>
             <tr>
-              
+
               <td className="summercamps__table--camps"><Link to="#stem2">STEM 2: Imagination Infusion</Link></td>
               <td className="summercamps__table--grade">Gr 4 - 6</td>
               <td className="summercamps__table--price">$150</td>
             </tr>
-            
+
           </tbody>
         </table>
         <table>
           <caption> </caption>
           <thead>
-            
+
             <td className="summercamps__table--camps">Camp Name</td>
-            <td className="summercamps__table--grade">Grade Levels/Experience Level</td>
+            <td className="summercamps__table--grade">Grade Levels</td>
             <td className="summercamps__table--price">Price</td>
           </thead>
           <tbody>
-            
+
             <tr>
-              
+
               <td className="summercamps__table--camps"><Link to="#cyber">Cyber Defense</Link></td>
               <td className="summercamps__table--grade">Gr 6 - 12</td>
               <td className="summercamps__table--price">$165</td>
@@ -97,15 +97,15 @@ const SummerCamps = (props) => {
         <table>
           <caption> </caption>
           <thead>
-            
+
             <td className="summercamps__table--camps">Camp Name</td>
-            <td className="summercamps__table--grade">Grade Levels/Experience Level</td>
+            <td className="summercamps__table--grade">Grade Levels</td>
             <td className="summercamps__table--price">Price</td>
           </thead>
           <tbody>
-            
+
             <tr>
-              
+
               <td className="summercamps__table--camps"><Link to="#cyber">Advanced Cyber Defense<br />(to June 22nd)</Link></td>
               <td className="summercamps__table--grade">Gr 6 - 12 (requires succesful completion of one cyber patriot season or cyber defense summer camp)</td>
               <td className="summercamps__table--price">$165</td>

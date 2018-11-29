@@ -8,12 +8,12 @@ import QuoteRight from '../../../IconComponents/Quoteright';
 
 const Team = ({ teamList }) => {
   return (
-    <Container division="frc" title="Team Organization & Members" subtitle="ILITE has a team structure that emphasises student leadership and mentorship.">
+    <Container division="frc" title="Team" subtitle="ILITE has a team structure that emphasises student leadership and mentorship.">
       <div className="team">
         <Tabs>
           <Tab name="Leadership">
             <p>ILITE understands that a team structure is a well-defined organizational structure that promotes good communication and is the key to any successful FIRST Robotics team. A very important aspect of our team is building a organizational model which brings together like-minded individuals who share a common interest while pairing them with industry professionals to establish a comfortable environment of mentorship from professionals and peers alike. Our structural style is one that specifically emphasises student leadership and accountability.</p>
-            <div>{GetMember("Leadership", teamList)}</div>
+            <div className="team__members">{GetMember("Leadership", teamList)}</div>
           </Tab>
           <Tab name="Build">
             <h1>Build</h1>
@@ -39,7 +39,7 @@ const Team = ({ teamList }) => {
                 <li>2015 Greater DC Regional: Safety Hard Hat Award</li>
               </ul>
             </div>
-            <div>{GetMember("Build", teamList)}</div>
+            <div className="team__members">{GetMember("Build", teamList)}</div>
           </Tab>
           <Tab name="Electronics">
             <h1>Electronics</h1>
@@ -56,7 +56,7 @@ const Team = ({ teamList }) => {
                 <li>To spread as much knowledge about electronics to our team members and our youth in the community.</li>
               </ol>
             </div>
-            <div>{GetMember("Electronics", teamList)}</div>
+            <div className="team__members">{GetMember("Electronics", teamList)}</div>
           </Tab>
           <Tab name="Programming">
             <h1>Programming</h1>
@@ -78,7 +78,7 @@ const Team = ({ teamList }) => {
                 <li>2014 FIRST World Championship: Innovation In Control Award</li>
               </ul>
             </div>
-            <div>{GetMember("Programming", teamList)}</div>
+            <div className="team__members">{GetMember("Programming", teamList)}</div>
           </Tab>
           <Tab name="Sponsorship">
             <h1>Sponsorship</h1>
@@ -98,7 +98,7 @@ const Team = ({ teamList }) => {
                 <li>2016 Hampton Roads District Event: Entrepreneurship Award</li>
               </ul>
             </div>
-            <div>{GetMember("Sponsorship", teamList)}</div>
+            <div className="team__members">{GetMember("Sponsorship", teamList)}</div>
           </Tab>
           <Tab name="Outreach">
             <h1>Outreach</h1>
@@ -135,7 +135,7 @@ const Team = ({ teamList }) => {
                 <li>2016 Hampton Roads District Event: Entrepreneurship Award</li>
               </ul>
             </div>
-            <div>{GetMember("Outreach", teamList)}</div>
+            <div className="team__members">{GetMember("Outreach", teamList)}</div>
           </Tab>
           <Tab name="Scouting">
             <h1>Scouting</h1>
@@ -150,7 +150,7 @@ const Team = ({ teamList }) => {
                 <li>To design an easily usable and game specific scouting form for implementation during competition.</li>
               </ol>
             </div>
-            <div>{GetMember("Scouting", teamList)}</div>
+            <div className="team__members">{GetMember("Scouting", teamList)}</div>
           </Tab>
           <Tab name="Website">
             <h1>Website</h1>
@@ -179,7 +179,7 @@ const Team = ({ teamList }) => {
                 <li>2005 - Excellence in Website Design</li>
               </ul>
             </div>
-            <div>{GetMember("Web", teamList)}</div>
+            <div className="team__members">{GetMember("Web", teamList)}</div>
           </Tab>
           <Tab name="Graphics">
             <h1>Graphics</h1>
@@ -201,13 +201,13 @@ const Team = ({ teamList }) => {
                 <li>2015 Greater Pittsburgh Regional: Imagery Award in honor of Jack Kamen</li>
               </ul>
             </div>
-            <div>{GetMember("Graphics", teamList)}</div>
+            <div className="team__members">{GetMember("Graphics", teamList)}</div>
           </Tab>
           <Tab name="Mentors">
             <h1>Mentors</h1>
             <img src={require('../../../assets/images/frc/members/Mentors/Mentors.jpg')} className="team__img" />
             <p>The mentors are a group of volunteers who contribute to the team. They are responsible for supporting and assisting the team members in their respective subteams throughout the season. Mentors provide the opportunity for a better learning environment and the development of necessary skills.</p>
-            <div>{GetMember("Mentors", teamList)}</div>
+            <div className="team__members">{GetMember("Mentors", teamList)}</div>
           </Tab>
         </Tabs>
       </div>

@@ -12,7 +12,7 @@ const Media = (props) => {
 					They capture our effervescent and interesting teammates working, learning, and even playing.
 					ILITE media can be viewed below.
 				</p>
-				<div>
+				<div className="media_tiles">
 					<Mediatiles
 						url={`https://www.dropbox.com/sh/slw0srbj68cuqce/AAA87ZVnyJmZeh3sOVkzZS7Ya/FRC%20Competition/Worlds?dl=0&subfolder_nav_tracking=1`}
 						name="World Championship 2018"

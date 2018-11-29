@@ -35,6 +35,7 @@
 
   .get-involved__food-container {
     .get-involved__img {
+      display: block;
       height: 320px;
       max-width: 200px;
       object-fit: cover;
@@ -43,7 +44,9 @@
       margin-right: 30px;
 
       @media (max-width: 468px) {
-        margin-right: 300px;
+        float: none;
+        margin: 0 auto;
+        max-width: 100%;
         margin-bottom: 25px;
       }
     }
@@ -52,8 +55,9 @@
       margin-top: 10px;
       margin-bottom: 10px;
     }
-    
+
   }
+
   .getinvolved__image {
     height: auto;
     width: 33.33%;
@@ -61,5 +65,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 10px;
+  }
+
+  @media screen and (max-width: 425px) {
+    .media__remove {
+      display: none;
+    }
+
+    .media__stay {
+      width: 100%;
+      height: auto;
+    }
   }
 }
