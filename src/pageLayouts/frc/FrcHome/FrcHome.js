@@ -26,7 +26,7 @@ const FrcHome = (props) => {
         <br />
         <div className="frcHome__events-container">
           <Events
-            name="ILITE Summer Camps"
+            name="Summer Camps"
             eventLink="outreach/SummerCamps"
             date="June, 2018"
             image="images/outreach/summercamps/stem1.jpg" />

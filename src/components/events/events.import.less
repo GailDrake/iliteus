@@ -2,21 +2,15 @@
   flex: 3;
   text-align: left;
   margin: 0px 20px;
-  border-radius: 3px;
-
-  .event__image-holder {
-    width: 100%;
-    background-color: @white;
-    height: 250px; // overflow: hidden;
-    text-align: center;
-  }
+  background-color: @white;
+  position: relative;
 
   .event__image {
     background-color: @white;
     border-radius: 0;
     margin-bottom: -6px;
     object-fit: cover;
-    height: 100%;
+    height: 250px;
     width: 100%;
   }
 
@@ -24,6 +18,7 @@
     background-color: @white;
     width: 100%;
     padding: 15px 20px;
+    padding-bottom: 75px;
     text-align: left;
 
     .event__header {
@@ -35,7 +30,15 @@
 
     p {
       font-size: 15px;
+      line-height: 23px;
     }
+  }
+
+  .event__footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 
   .event__divider {
@@ -77,6 +80,6 @@
   }
 
   @media (max-width: 950px) {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
