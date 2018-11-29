@@ -137,7 +137,7 @@ const Sponsors = () => {
       <Sponsor
         name="Armed Forces Communications and Electronics Association"
         url="https://www.afcea.org/site/"
-        image="afcea.jpg"
+        image="afcea.png"
       >
         <p>
           AFCEA, The Armed Forces Communications and Electronics Association, is
