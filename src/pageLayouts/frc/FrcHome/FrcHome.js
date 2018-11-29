@@ -30,6 +30,7 @@ const FrcHome = (props) => {
             eventLink="outreach/SummerCamps"
             date="June, 2018"
             image="images/outreach/summercamps/stem1.jpg" />
+          
           <Events
             name="FLL Workshops"
             eventLink="outreach/Fll"

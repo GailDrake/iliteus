@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
 import Googlemap from '../../IconComponents/Googlemap';
 import Link from 'gatsby-link';
 
@@ -27,7 +26,6 @@ class Events extends Component {
     };
     const path = image == 'images/RoverRuckus.jpg' ? 'event__image event__secondImage' : 'event__image';
     return (
-      <Fade bottom>
         <div className="event">
           <div className="event__image-holder">
             <img className={path} src={require(`../../assets/${image}`)} />
@@ -45,7 +43,6 @@ class Events extends Component {
       </a>
           </div>
         </div>
-      </Fade>
     );
   }
 }
