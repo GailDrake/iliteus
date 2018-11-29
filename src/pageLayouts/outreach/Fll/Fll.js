@@ -28,7 +28,7 @@ const Fll = (props) => {
     <Container division="outreach" title="FLL" subtitle="First Lego League">
       <div className="fll">
         <h1 className="fll__header">FLL Workshops</h1>
-        <h1 className="fll__subheader">Reaserch Workshop</h1>
+        <h1 className="fll__subheader">Research Workshop</h1>
         <img src={fll1} alt="" className="fll__image" />
         <img src={fll2} alt="" className="fll__image" />
         <img src={fll3} alt="" className="fll__image" />
