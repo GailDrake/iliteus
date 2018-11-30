@@ -44,9 +44,9 @@ const About = (props) => {
           <div><img className='about__image' src={stemexpo1} /></div>
           <div><img className='about__image' src={teddy} /></div>
         </div>
-        <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='pink' /></span> To inspire young people to become leaders in science, technology, engineering,
+        <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='#787878' /></span> To inspire young people to become leaders in science, technology, engineering,
           and mathematics by providing them with hands-on engineering challenges with the mentorship of industry professionals,
-                 to build a foundation of both technical and social skills and values, to create leaders in technology and engineering.<span className='about__quotes'><QuoteLeft fill='pink' /></span>
+                 to build a foundation of both technical and social skills and values, to create leaders in technology and engineering.<span className='about__quotes'><QuoteLeft fill='#787878' /></span>
         </p>
         <h1 className='about__subheader'>Our Vision:</h1>
         <div className="about__image-container">
@@ -54,8 +54,8 @@ const About = (props) => {
           <div><img className='about__image' src={stemexpo2} /></div>
           <img className='about__image' src={ussstem} />
         </div>
-        <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='pink' /></span> A community of learning where persons, young and old, share a common goal of problem solving through science,
-                technology, engineering, and mathematics to improve the world in which we live for all persons.<span className='about__quotes'><QuoteLeft fill='pink' /></span>
+        <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='#787878' /></span> A community of learning where persons, young and old, share a common goal of problem solving through science,
+                technology, engineering, and mathematics to improve the world in which we live for all persons.<span className='about__quotes'><QuoteLeft fill='#787878' /></span>
         </p>
         <h1 className='about__subheader'>ILITE-ism:</h1>
         <div className="about__image-container">

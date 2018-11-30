@@ -1,27 +1,55 @@
 .member {
   margin: 20px auto;
   border: 3px solid #999;
-  min-height: 205px;
   width: 100%;
+
+  @media all and (max-width: 1040px) {
+    margin: none;
+    overflow: hidden;
+    max-width: 333px;
+  }
+
   .member__img {
     display: block;
-    height: 200px;
+    max-height: 200px;
     max-width: 300px;
     float: left;
     border-right: 3px solid #999;
+
+    @media all and (max-width: 1040px) {
+      max-width: none;
+      max-height: none;
+      width: 100%;
+      border-right: none;
+      border-bottom: 3px sold #999;
+    }
   }
+
   .member__img.oldimg {
     background-color: black;
     padding: 0 50px;
+
+    @media all and (max-width: 1040px) {
+      padding: 0 20px;
+    }
   }
+
   .member__content {
     margin-left: 310px;
     padding-top: 20px;
+
+    @media all and (max-width: 1040px) {
+      float: left;
+      margin-left: 0;
+      padding: 10px;
+    }
   }
+
   .member__title {
     font-weight: bold;
     font-size: 200%;
   }
+
   .member__leader-title {
     color: green;
   }

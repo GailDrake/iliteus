@@ -16,7 +16,7 @@ const FrcHome = (props) => {
             We are a team founded on the principles of leadership, teamwork, and academic rigor. Through competitions, outreach,
             and mentorship we passionately advocate for science and technology in our schools, communities, and throughout the world.
           </p>
-          <Button division='frc' link="/about">
+          <Button division='frc' link="/frc/about">
             Learn More About Us!
           </Button>
         </div>
@@ -26,18 +26,19 @@ const FrcHome = (props) => {
         <br />
         <div className="frcHome__events-container">
           <Events
-            name="ILITE Summer Camps"
-            eventLink="ilite.us"
+            name="Summer Camps"
+            eventLink="outreach/SummerCamps"
             date="June, 2018"
             image="images/outreach/summercamps/stem1.jpg" />
+          
           <Events
-            name="FTC Events"
-            eventLink="ilite.us"
+            name="FLL Workshops"
+            eventLink="outreach/Fll"
             date="December, 2018"
-            image="images/FTC_logo.png" />
+            image="images/outreach/fll/fairoaks.png" />
           <Events
             name="IROC"
-            eventLink="ilite.us"
+            eventLink="https://www.irocoffseason.org"
             date="October, 2018"
             image="images/frc/iroc-group-photo.png" />
         </div>
@@ -64,10 +65,11 @@ const FrcHome = (props) => {
         </p>
         <br />
         <div className="frcHome__sponsors-container">
+
           <SponsorTag
-            image={require('../../../assets/images/sponsors/floodtech.png')}
-            url="http://www.a1floodtech.com">
-            A1 Floodtech
+            image={require('../../../assets/images/sponsors/incadence.png')}
+            url="http://www.incadencecorp.com/">
+            Incadence
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/asco.png')}
@@ -85,10 +87,11 @@ const FrcHome = (props) => {
             Cathy's Home Team
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/incadence.png')}
-            url="http://www.incadencecorp.com/">
-            Incadence
+            image={require('../../../assets/images/sponsors/engility.png')}
+            url="http://www.engility.com/#HIFh85X6P1kKQ0gK.97">
+            US Stem
           </SponsorTag>
+
           <SponsorTag
             image={require('../../../assets/images/sponsors/khouriortho.jpg')}
             url="http://khouriortho.com/">
@@ -101,13 +104,13 @@ const FrcHome = (props) => {
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/macedontechnologies.png')}
-            url="http://www.a1floodtech.com">
+            url="https://www.macedontechnologies.com/">
             Macedon Technologies
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/micron.png')}
-            url="https://www.micron.com/">
-            Micron
+            image={require('../../../assets/images/sponsors/floodtech.png')}
+            url="http://www.a1floodtech.com">
+            A1 Floodtech
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/novec.jpg')}
@@ -120,9 +123,9 @@ const FrcHome = (props) => {
             US Stem
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/engility.png')}
-            url="http://www.engility.com/#HIFh85X6P1kKQ0gK.97">
-            US Stem
+            image={require('../../../assets/images/sponsors/micron.png')}
+            url="https://www.micron.com/">
+            Micron
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/battlefieldhighschool.jpg')}

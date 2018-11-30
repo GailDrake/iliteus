@@ -1,4 +1,5 @@
 .navigation {
+  display: block;
   background: @off-white;
   color: @text-1;
   padding: 20px 30px;
@@ -17,22 +18,31 @@
   position: -o-sticky;
   position: sticky;
   top: 0px;
+
+  @media screen and (max-width: 950px) {
+    position: fixed;
+    padding: 0px;
+  }
+
   ul li {
     list-style-type: none;
     float: right;
     margin: 0px 20px;
   }
+
   .navigation__list-item {
     font-weight: 400;
     text-decoration: none;
     color: @text-1;
     font-family: 'Lato', sans-serif;
+
     &:hover {
       color: @text-3;
       transition: all 0.3s ease;
       cursor: pointer;
     }
   }
+
   .navigation__logo {
     height: 65px;
     width: 118px;
@@ -44,25 +54,23 @@
     top: 20px;
     position: fixed;
   }
+
   .navigation__sidemenu {
     display: none;
   }
-  @media screen and (max-width: 1000px) {
+
+  @media screen and (max-width: 950px) {
     ul {
       display: none;
     }
+
     .navigation__sidemenu {
       display: block;
     }
+
     .navigation__logo {
       position: fixed;
       top: 0px;
     }
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .navigation {
-    padding: 0px;
   }
 }

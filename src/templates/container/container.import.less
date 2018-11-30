@@ -1,5 +1,9 @@
 .container {
   padding: 0px;
+  width: 100%;
+}
+
+.container.frc {
   background: @gray-1;
   width: 100vw;
 }
@@ -7,16 +11,21 @@
 .container__content {
   max-width: 80%;
   margin: 0 auto;
-  background-color: #FFF;
+  background-color: #fff;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   padding: 50px;
   height: auto;
   position: relative;
   z-index: 1;
+
+  @media screen and (max-width: 600px) {
+    max-width: 100%;
+    padding: 50px 4%;
+  }
 }
 
 .container__bar {
-  background-color: #CECECE;
-  width: 100vw;
+  background-color: #cecece;
+  width: 100%;
   height: 50px;
 }
