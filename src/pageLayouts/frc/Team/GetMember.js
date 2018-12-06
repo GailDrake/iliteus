@@ -1,11 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Members from '../../../components/members';
+import React from "react";
+import PropTypes from "prop-types";
+import Members from "../../../components/members";
 
 const GetMember = (subteam, teamList) => {
   return teamList.map(member => {
     if (member.subteam === subteam) {
-      let image = require(`../../../assets/images/frc/members/${subteam}/${member.image}`);
+      const image =
+        member.image &&
+        require(`../../../assets/images/frc/members/${subteam}/${
+          member.image
+        }`);
       return (
         <Members
           name={member.name}
@@ -20,7 +24,6 @@ const GetMember = (subteam, teamList) => {
       );
     }
   });
-
 };
 
 export default GetMember;
