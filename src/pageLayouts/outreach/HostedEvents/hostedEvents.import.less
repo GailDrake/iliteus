@@ -1,0 +1,54 @@
+.hosted-events {
+  .event {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .hostedevents__header {
+    .title();
+  }
+
+  .hostedevents__subheader {
+    .subtitle();
+  }
+
+  Button {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .event__description {
+    display: flex;
+    padding: 0;
+    flex: 1;
+    text-align: left;
+
+    @media screen and (max-width: 900px) {
+      display: block;
+    }
+
+    hr {
+      width: 75%;
+      background-color: @purple-ws-3;
+      margin-top: 30px;
+    }
+
+    div {
+      flex: 2;
+      height: 100%;
+    }
+
+    div img {
+      margin-top: 25px;
+      height: 200px;
+      width: 500px;
+      object-fit: contain;
+      margin-right: 40px;
+      margin-bottom: 10px;
+    }
+
+    div p {
+      margin-bottom: 10px;
+    }
+  }
+}

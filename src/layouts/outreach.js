@@ -20,6 +20,11 @@ const links = [
     file: "Fll",
   },
   {
+    name: "Hosted Events",
+    section: "outreach",
+    file: "HostedEvents",
+  },
+  {
     name: "Home",
     section: "outreach",
     file: "",
