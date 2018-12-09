@@ -13,7 +13,7 @@ const Footer = () =>
         <p className="footer__text">(571) 261-4726</p>
       </div>
       <div className="col">
-        <h5 className="footer__header">LOCATION</h5><a className="footer__link" href="/frc/about"><i className="fa fa-map-marker"></i> Map &amp; Directions</a>
+        <h5 className="footer__header">LOCATION</h5><a className="footer__link" href="https://www.google.com/maps/place/ILITE+Robotics/@38.8268178,-77.663642,12.57z/data=!4m5!3m4!1s0x89b668950b37d0bb:0x94045c6b6225ce3c!8m2!3d38.8453222!4d-77.6301669" target="_blank"><i className="fa fa-map-marker"></i> Map &amp; Directions</a>
         <p className="footer__text">ILITE Robotics</p>
         <p className="footer__text">15000 Graduation Drive</p>
         <p className="footer__text">Haymarket, VA 20169</p>

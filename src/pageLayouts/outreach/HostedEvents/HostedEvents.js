@@ -15,7 +15,7 @@ const HostedEvents = () =>
       <div className="event">
         <div className="event__description">
           <div>
-            <img src={require('../../../assets/images/frc/summer-camps/FLL.png')} alt="" />
+            <img src={require('../../../assets/images/outreach/fll11.jpg')} alt="" />
           </div>
           <div>
             <h1 className="hostedevents__subheader">Summer Camps</h1>
@@ -33,7 +33,7 @@ const HostedEvents = () =>
       <div className="event">
         <div className="event__description">
           <div>
-            <img src={require('../../../assets/logos/first__logo.png')} alt="" />
+            <img src={require('../../../assets/images/RoverRuckus.jpg')} alt="" />
           </div>
           <div>
             <h1 className="hostedevents__subheader">FTC Competitions</h1>
@@ -41,16 +41,16 @@ const HostedEvents = () =>
             <p>
               Each year, ILITE hosts a district competition for FTC, or the First Tech Challenge.
               We often host 30+ teams every competition, including several of our own. The competition
-              takes place within the first two weekends of December. Checkout <a href="http://ftc.ilite.us">our FTC website</a> for more information.
+              takes place within the first two weekends of December. Checkout <a href="http://www.firstchesapeake.org/northern-virginia-qualifier-1">our FTC website</a> for more information.
             </p>
           </div>
         </div>
-        <Button link="ftc.ilite.us" division="frc">Learn More!</Button>
+        <Button link="http://www.firstchesapeake.org/northern-virginia-qualifier-1" division="frc">Learn More!</Button>
       </div>
       <div className="event">
         <div className="event__description">
           <div>
-            <img src={require('../../../assets/images/frc/iroc-group-photo.png')} alt="" />
+            <img src={require('../../../assets/images/FRC_DeepSpace.jpg')} alt="" />
           </div>
           <div>
             <h1 className="hostedevents__subheader">FRC District Events</h1>
@@ -58,15 +58,16 @@ const HostedEvents = () =>
             <p>
               Every year, ILITE Robotics hosts a district event for week one of the FRC season. Like the FTC
               event, we find ourselves with over three dozen competing teams - a number that has continued to grow
-              since we have started hosting these competitions!
+              since we have started hosting these competitions! Take a look at <a href="http://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va">our upcoming week 1 competitions</a>!
             </p>
           </div>
         </div>
+        <Button link="http://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va" division="frc">Learn More!</Button>
       </div>
       <div className="event">
         <div className="event__description">
           <div>
-            <img src={require('../../../assets/images/frc/iroc-group-photo.png')} alt="" />
+            <img src={require('../../../assets/images/logos/IROC_Logo.jpg')} alt="" />
           </div>
           <div>
             <h1 className="hostedevents__subheader">IROC</h1>
@@ -79,15 +80,15 @@ const HostedEvents = () =>
             </p>
           </div>
         </div>
-        <Button link="http://irocoffseason.org" division="frc">Learn More!</Button>
+        <Button link="http://irocoffseason.org/" division="frc">Learn More!</Button>
       </div>
-      <h1 className="hostedevents__subheader">FLL Workshops</h1>
       <div className="event">
         <div className="event__description">
           <div>
-            <img src={require('../../../assets/logos/first__logo.png')} alt="" />
+            <img src={require('../../../assets/images/frc/summer-camps/FLL.png')} alt="" />
           </div>
           <div>
+            <h1 className="hostedevents__subheader">FLL Workshops</h1>
             <hr />
             <p>
               Every year, ILITE hosts FLL camps to inspire and train the future generations of engineers by
@@ -96,6 +97,7 @@ const HostedEvents = () =>
             </p>
           </div>
         </div>
+        <Button link="/outreach/Fll" division="frc">Learn More!</Button>
       </div>
     </div>
   </Container>
