@@ -3,4 +3,4 @@ import IliteHome from './IliteHome.js';
 
 // export { Home };
 // export default HomeContainer;
-export default FrcHome;
+export default IliteHome;
