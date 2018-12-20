@@ -28,7 +28,7 @@ const GetMember = (subteam, teamList) => {
       );
     }
     else {
-      if (member.subteam === subteam && member.leader == undefined) {
+      if (member.subteam === subteam && member.leader == undefined && member.mentor != true) {
         const image =
           member.image &&
           require(`../../../assets/images/frc/members/${subteam}/${

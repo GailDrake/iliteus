@@ -1,5 +1,115 @@
 {
   "Sheet1": {
+    "Gail Drake": {
+      "name": "Gail Drake",
+      "subteam": "Team Coach",
+      "year": 2004,
+      "mentor": true
+    },
+    "Lakshmi Meyappan": {
+      "name": "Lakshmi Meyappan",
+      "subteam": "Outreach",
+      "year": 2014,
+      "mentor": true
+    },
+    "Chris O'Connell": {
+      "name": "Chris O'Connell",
+      "subteam": "Programming",
+      "mentor": true
+    },
+    "Dave Bascom": {
+      "name": "Dave Bascom",
+      "subteam": "Web",
+      "memory": "Bringing my kids to ILITE events.",
+      "year": 2015,
+      "fact": "I spent 8 years studying painting in art school.",
+      "mentor": true
+    },
+    "Dennis Luban": {
+      "name": "Dennis Luban",
+      "subteam": "Build",
+      "memory": "Participating at FIRST Worlds - 2016.",
+      "year": 2009,
+      "fact": "I love teaching students!",
+      "mentor": true
+    },
+    "Gloria Desautels": {
+      "name": "Gloria Desautels",
+      "subteam": "Outreach",
+      "year": 2014,
+      "mentor": true
+    },
+    "Greg Morton": {
+      "name": "Greg Morton",
+      "subteam": "Build",
+      "mentor": true
+    },
+    "Jamie Lechner": {
+      "name": "Jamie Lechner",
+      "subteam": "Outreach",
+      "year": 2013,
+      "mentor": true
+    },
+    "Jesse Knight": {
+      "name": "Jesse Knight",
+      "subteam": "Build",
+      "memory": "Staying up to 2am figuring out who we should pick at 2017 World Champs.",
+      "fact": "I'm an introvert, until I shouldn't be.",
+      "mentor": true
+    },
+    "Kelly Giesler": {
+      "name": "Kelly Giesler",
+      "subteam": "Outreach",
+      "year": 2014,
+      "mentor": true
+    },
+    "Kimberly Strong": {
+      "name": "Kimberly Strong",
+      "subteam": "Outreach",
+      "year": 2014,
+      "mentor": true
+    },
+    "Marc Sciarrino": {
+      "name": "Marc Sciarrino",
+      "subteam": "Programming",
+      "year": 2010,
+      "mentor": true
+    },
+    "Paul Lahann": {
+      "name": "Paul Lahann",
+      "subteam": "Build",
+      "mentor": true
+    },
+    "Nicholas Lechner": {
+      "name": "Nicholas Lechner",
+      "subteam": "Build",
+      "memory": "During build season, when we pulled an all nighter on Presidents day.",
+      "year": 2013,
+      "fact": "Robotics is Life.",
+      "mentor": true
+    },
+    "Noah Lechner": {
+      "name": "Noah Lechner",
+      "subteam": "Build",
+      "memory": "Teaching the scrubs.",
+      "fact": "I like John Deer",
+      "mentor": true
+    },
+    "Larry Laverty": {
+      "name": "Larry Laverty",
+      "subteam": "Build",
+      "mentor": true
+    },
+    "Leon Davidson": {
+      "name": "Leon Davidson",
+      "subteam": "Build",
+      "mentor": true
+    },
+    "Stephan Lechner": {
+      "name": "Stephan Lechner",
+      "subteam": "Build",
+      "mentor": true
+    },
     "Nicholas Miller": {
       "name": "Nicholas Miller",
       "subteam": "Web",
@@ -152,13 +262,6 @@
       "memory": "Going to Worlds 2017",
       "year": 2017,
       "fact": "I used to be on the Electronics Team"
-    },
-    "Joseph Chang": {
-      "name": "Joseph Chang",
-      "subteam": "Programming",
-      "memory": "My first meal at In-N-Out in Cali",
-      "year": 2018,
-      "fact": "I hate chocolate"
     },
     "Cole Roof": {
       "name": "Cole Roof",
@@ -326,13 +429,6 @@
       "year": 2018,
       "fact": "I dance."
     },
-    "Mischel, Iain": {
-      "name": "Mischel, Iain",
-      "subteam": "Build",
-      "memory": "Hanging out with all the seniors in the gym at worlds",
-      "year": 2017,
-      "fact": "I can play guitar"
-    },
     "Iain Mischel": {
       "name": "Iain Mischel",
       "subteam": "Build",
@@ -370,121 +466,19 @@
       "year": 2015,
       "fact": "I like mango on pizza "
     },
-    "Aiden Lee": {
-      "name": "Aiden Lee",
-      "subteam": "Graphics",
-      "memory": "Getting a ride from Maggie is quite an adventure...",
+    "Trent Marchand": {
+      "name": "Trent Marchand",
+      "subteam": "Outreach",
+      "memory": "Setting up for the competitions",
       "year": 2018,
-      "fact": "I am very intuitive."
+      "fact": "I’ve had a pet shark and jellyfish"
     },
-    "Gail Drake": {
-      "name": "Gail Drake",
-      "subteam": "Team Coach",
-      "year": 2004,
-      "mentor": true
-    },
-    "Lakshmi Meyappan": {
-      "name": "Lakshmi Meyappan",
-      "subteam": "Outreach",
-      "year": 2014,
-      "mentor": true
-    },
-    "Chris O'Connell": {
-      "name": "Chris O'Connell",
-      "subteam": "Programming",
-      "mentor": true
-    },
-    "Dave Bascom": {
-      "name": "Dave Bascom",
-      "subteam": "Web",
-      "memory": "Bringing my kids to ILITE events.",
-      "year": 2015,
-      "fact": "I spent 8 years studying painting in art school.",
-      "mentor": true
-    },
-    "Dennis Luban": {
-      "name": "Dennis Luban",
+    "Lily Khochareun": {
+      "name": "Lily Khochareun",
       "subteam": "Build",
-      "memory": "Participating at FIRST Worlds - 2016.",
-      "year": 2009,
-      "fact": "I love teaching students!",
-      "mentor": true
-    },
-    "Gloria Desautels": {
-      "name": "Gloria Desautels",
-      "subteam": "Outreach",
-      "year": 2014,
-      "mentor": true
-    },
-    "Greg Morton": {
-      "name": "Greg Morton",
-      "subteam": "Build",
-      "mentor": true
-    },
-    "Jamie Lechner": {
-      "name": "Jamie Lechner",
-      "subteam": "Outreach",
-      "year": 2013,
-      "mentor": true
-    },
-    "Jesse Knight": {
-      "name": "Jesse Knight",
-      "subteam": "Build",
-      "memory": "Staying up to 2am figuring out who we should pick at 2017 World Champs.",
-      "fact": "I'm an introvert, until I shouldn't be.",
-      "mentor": true
-    },
-    "Kelly Giesler": {
-      "name": "Kelly Giesler",
-      "subteam": "Outreach",
-      "year": 2014,
-      "mentor": true
-    },
-    "Kimberly Strong": {
-      "name": "Kimberly Strong",
-      "subteam": "Outreach",
-      "year": 2014,
-      "mentor": true
-    },
-    "Marc Sciarrino": {
-      "name": "Marc Sciarrino",
-      "subteam": "Programming",
-      "year": 2010,
-      "mentor": true
-    },
-    "Paul Lahann": {
-      "name": "Paul Lahann",
-      "subteam": "Build",
-      "mentor": true
-    },
-    "Nicholas Lechner": {
-      "name": "Nicholas Lechner",
-      "subteam": "Build",
-      "memory": "During build season, when we pulled an all nighter on Presidents day.",
-      "year": 2013,
-      "fact": "Robotics is Life.",
-      "mentor": true
-    },
-    "Noah Lechner": {
-      "name": "Noah Lechner",
-      "subteam": "Build",
-      "memory": "Teaching the scrubs.",
-      "fact": "I like John Deer",
-      "mentor": true
-    },
-    "Larry Laverty": {
-      "name": "Larry Laverty",
-      "subteam": "Build",
-      "mentor": true
-    },
-    "Leon Davidson": {
-      "name": "Leon Davidson",
-      "subteam": "Build",
-      "mentor": true
-    },
-    "Stephan Lechner": {
-      "name": "Stephan Lechner",
-      "subteam": "Build"
+      "memory": "Worlds",
+      "year": 2017,
+      "fact": "I play 3 instruments."
     },
     "Derek Viator": {
       "name": "Derek Viator",
@@ -493,6 +487,64 @@
       "memory": "Being the new big bod.",
       "year": 2018,
       "fact": "I play an unhealthy amount of League of Legends."
+    },
+    "Michael Haddadin": {
+      "name": "Michael Haddadin",
+      "subteam": "Electronics",
+      "memory": "Seeing my baby brother for the first time.",
+      "year": 2018,
+      "fact": "I've been playing soccer for 10 years."
+    },
+    "Gleb Babahov": {
+      "name": "Gleb Babahov",
+      "subteam": "Programming",
+      "memory": "Hanging out at giant after schol",
+      "year": 2018,
+      "fact": "I was born in Kyrgyzstan"
+    },
+    "Srinitya Allam": {
+      "name": "Srinitya Allam",
+      "subteam": "Outreach",
+      "memory": "Scorekeeping at 2017 IROC",
+      "year": 2017,
+      "fact": "I have a black belt in Tae Kwon Do."
+    },
+    "Catie Gallagher": {
+      "name": "Catie Gallagher",
+      "subteam": "Outreach",
+      "memory": "Going into Washington D.C. with a bunch of friends and doing random things and having fun.",
+      "year": 2018,
+      "fact": "I've been doing Irish step dancing for 10 years."
+    },
+    "Nathaniel Chong": {
+      "name": "Nathaniel Chong",
+      "subteam": "Programming",
+      "leader": "Thread Manager ",
+      "memory": "Eating food.",
+      "year": 2017,
+      "fact": "Eating food."
+    },
+    "Joseph Chang": {
+      "name": "Joseph Chang",
+      "subteam": "Programming",
+      "memory": "Eating food.",
+      "year": 2018,
+      "fact": "I like eating food."
+    },
+    "Faris Syed": {
+      "name": "Faris Syed",
+      "subteam": "Programming",
+      "memory": "Eating food.",
+      "year": 2018,
+      "fact": "I like eating food."
+    },
+    "Chrissi Taylor": {
+      "name": "Chrissi Taylor",
+      "subteam": "Sponsorship",
+      "leader": "Sponsorship co-lead",
+      "memory": "Going to the Association of Old Crows to meet other businesses in technology fields. ",
+      "year": 2018,
+      "fact": "I am left handed!"
     }
   }
 }
