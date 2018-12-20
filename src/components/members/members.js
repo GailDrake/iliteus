@@ -33,4 +33,20 @@ const Members = ({ name, year, fact, memory, image, leader, mentor, old }) => {
   );
 };
 
+function buildMemberFields(leader, year, mentor, fact, memory) {
+  var memberInfo = new Array(0);
+
+  if (leader) {
+    memberInfo.push(
+      <span className="member__leader-title">
+        <b>Title:</b> {leader}
+        <br />
+      </span>);
+  }
+  if (year) {
+    memberInfo.push(
+      <div><b>Year Joined:</b> {year} <br /></div>);
+  }
+}
+
 export default Members;
