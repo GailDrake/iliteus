@@ -8,6 +8,25 @@ const GetInvolved = (props) => {
   return (
     <Container division="frc" title="Get Involved" subtitle="Help the Team">
       <div className='get-involved'>
+        <h1 className="get-involved__header">Sponsorship</h1>
+        <p>
+          Our students work very hard to complete task after task to reach their goal: creating robots that function perfectly. But to make robots, we need many resources. Metal, Plexiglass, bolts and nuts, tools, wires…there is so much we need to make robotics a success.
+        </p>
+        <br />
+        <p>
+          Thanks to the generosity of our sponsors, ILITE is able to continue participating in the US FIRST Program. The investments we receive from supporting companies are extremely valuable. By investing in our team, they are also investing in the future by providing us with the resources necessary to inspire future generations to grow and learn. We are nothing short of extremely grateful for their support.
+        </p>
+        <br />
+        <p>
+          Through their donations our students continue to be a determined, constantly evolving, and award-winning team. The improvement of education in STEM that is developed by this program is securing students’ futures and providing them with everything necessary to achieve. Your commitment as a sponsor is investing in the future generation.
+        </p>
+        <br />
+        <p>
+          <b>Become a sponsor now by <a href="https://ustem.org" >clicking here</a>. Donate through the US STEM Foundation at the bottom of their page.</b>
+        </p>
+
+        <br />
+
         <h1 className="get-involved__header">Membership</h1>
         <p>
           Welcome to ILITE Robotics! ILITE Robotics encompasses FLL Robotics Support and Education, FTC Robotics and FRC Team 1885! We are excited to have you as part of our family. ILITE is a community partnership between Battlefield High School, Prince William County Schools, several local colleges and numerous industry sponsors based throughout the DC Metropolitan area. This handbook contains key policies, goals, and expectations for ILITE Robotics and its members along with all other information you will need to become a successful contributor to our program.
