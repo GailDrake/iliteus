@@ -6,34 +6,23 @@ import Overbar from "../components/overbar";
 import Footer from "../components/footer";
 import Favi from "../assets/icons/favicon.ico";
 
-
 // import less here - once, for the whole app
 import "./../config/main.less";
 
 const links = [
   {
-    name: "Competition",
-    section: "frc",
-    file: "competition"
+    name: "Get Involved",
+    section: "ilite",
+    file: "getinvolved"
   },
   {
-    name: "Team",
-    section: "frc",
-    file: "team"
-  },
-  {
-    name: "Media",
-    section: "frc",
-    file: "media"
-  },
-  {
-    name: "About",
-    section: "frc",
-    file: "about"
+    name: "Sponsors",
+    section: "ilite",
+    file: "sponsors"
   },
   {
     name: "Home",
-    section: "frc",
+    section: "ilite",
     file: ""
   }
 ];

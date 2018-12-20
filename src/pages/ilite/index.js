@@ -1,4 +1,4 @@
 import React from 'react';
-import FrcHome from '../../pageLayouts/frc/FrcHome';
+import IliteHome from '../../pageLayouts/ilite/IliteHome';
 
 export default () => <FrcHome />
