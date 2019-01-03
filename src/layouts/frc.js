@@ -30,11 +30,6 @@ const links = [
     name: "About",
     section: "frc",
     file: "about"
-  },
-  {
-    name: "Home",
-    section: "frc",
-    file: ""
   }
 ];
 
