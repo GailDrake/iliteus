@@ -82,7 +82,7 @@ function getMentors(teamList) {
       const image =
         member.image &&
         require(`../../../assets/images/frc/members/${subteam}/${
-          member.image
+          member.name.replace(" ", "") + ".png"
           }`);
       return (
         <Members
