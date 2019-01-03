@@ -4,6 +4,7 @@ import Button from '../../../components/Button';
 
 const HostedEvents = () =>
   <Container title="Hosted Events" subtitle="Check out all of the events hosted by ILITE">
+  
     <div className="hosted-events">
       <h1 className="hostedevents__header">2018 - 2019 Season</h1>
       <p>
@@ -12,6 +13,45 @@ const HostedEvents = () =>
         District Competition, our Summer Camps, FLL workshops, and our FRC offseason
         competition, IROC.
       </p>
+      <div className="event">
+        <div className="event__description">
+          <div>
+            <img src={require('../../../assets/images/FRC_DeepSpace.jpg')} alt="" />
+          </div>
+          <div>
+            <h1 className="hostedevents__subheader">FRC District Events</h1>
+            <hr />
+            <p>
+              Every year, ILITE Robotics hosts a district event for week one of the FRC season. Like the FTC
+              event, we find ourselves with over three dozen competing teams - a number that has continued to grow
+              since we have started hosting these competitions! Take a look at <a href="http://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va">our upcoming week 1 competitions</a>!
+            </p>
+            {/* <p>For more information and events, <a href="http://www.ilite.info/">click here</a></p> */}
+          </div>
+        </div>
+        <div className="button_contain">
+        <br></br>
+        <Button link="http://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va" division="frc">Learn More!</Button>
+        </div>
+      </div>
+      <div className="event">
+        <div className="event__description">
+          <div>
+            <img src={require('../../../assets/images/outreach/steamexpo/expo.jpg')} alt="" />
+          </div>
+          <div>
+            <h1 className="hostedevents__subheader">Steam Expo</h1>
+            <hr />
+            <p>
+            A unique opportunity to explore the various aspects of science, technology, engineering, art, and mathematics.  In this annual event, we invite a variety of companies, both small and large, to share their knowledge with the community. Activities will include, but are not limited to, logic puzzles, simulations, arts and crafts, and technological demonstrations that are sure to teach everyone something new.
+            </p>
+          </div>
+        </div>
+        <div className="button_contain">
+        <br></br>
+        <Button division="frc" link="http://www.ilite.info/">Learn More!</Button>
+        </div>
+      </div>
       <div className="event">
         <div className="event__description">
           <div>
@@ -29,8 +69,8 @@ const HostedEvents = () =>
           </div>
         </div>
         <div className="button_contain">
-        <Button division="frc" link="/outreach/SummerCamps">See Our Camps!</Button>
-        </div>
+        <br></br>
+        <Button division="frc" link="/outreach/SummerCamps">Learn More!</Button>
         </div>
       </div>
       <div className="event">
@@ -49,26 +89,8 @@ const HostedEvents = () =>
           </div>
         </div>
         <div className="button_contain">
+        <br></br>
         <Button link="http://www.firstchesapeake.org/northern-virginia-qualifier-1" division="frc">Learn More!</Button>
-        </div>
-      </div>
-      <div className="event">
-        <div className="event__description">
-          <div>
-            <img src={require('../../../assets/images/FRC_DeepSpace.jpg')} alt="" />
-          </div>
-          <div>
-            <h1 className="hostedevents__subheader">FRC District Events</h1>
-            <hr />
-            <p>
-              Every year, ILITE Robotics hosts a district event for week one of the FRC season. Like the FTC
-              event, we find ourselves with over three dozen competing teams - a number that has continued to grow
-              since we have started hosting these competitions! Take a look at <a href="http://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va">our upcoming week 1 competitions</a>!
-            </p>
-          </div>
-        </div>
-        <div className="button_contain">
-        <Button link="http://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va" division="frc">Learn More!</Button>
         </div>
       </div>
       <div className="event">
@@ -88,6 +110,7 @@ const HostedEvents = () =>
           </div>
         </div>
         <div className="button_contain">
+        <br></br>
         <Button link="http://irocoffseason.org/" division="frc">Learn More!</Button>
         </div>
       </div>
@@ -107,10 +130,11 @@ const HostedEvents = () =>
           </div>
         </div>
         <div className="button_contain">
+        <br></br>
         <Button link="/outreach/Fll" division="frc">Learn More!</Button>
         
         </div>
-        
+        </div>        
     </div>
   </Container>
 
