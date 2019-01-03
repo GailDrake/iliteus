@@ -1,8 +1,12 @@
-import React from 'react';
-import Team from './Team.js';
+import React from "react";
+import Team from "./Team.js";
 
-import teamList from '../../../lib/teamList';
+import teamListJSON from "../../../lib/teamListJSON.json";
 
-const TeamContainer = () => <Team teamList={teamList} />
+const team = Object.keys(teamListJSON.Sheet1).map(key => {
+  return teamListJSON.Sheet1[key];
+});
+
+const TeamContainer = () => <Team teamList={team} />;
 
 export default TeamContainer;

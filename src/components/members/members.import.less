@@ -1,6 +1,7 @@
 .member {
   margin: 20px auto;
-  border: 3px solid #999;
+  border: none;
+  box-shadow: 0px 5px 25px #DDD;
   width: 100%;
 
   @media all and (max-width: 1040px) {
@@ -14,7 +15,11 @@
     max-height: 200px;
     max-width: 300px;
     float: left;
-    border-right: 3px solid #999;
+
+    img {
+      max-height: 200px;
+      width: 100%;
+    }
 
     @media all and (max-width: 1040px) {
       max-width: none;
@@ -23,6 +28,9 @@
       border-right: none;
       border-bottom: 3px sold #999;
     }
+  }
+  .member__img.noImage {
+    background-color: #c9c9c9;
   }
 
   .member__img.oldimg {
