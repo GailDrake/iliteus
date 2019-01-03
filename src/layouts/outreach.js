@@ -18,11 +18,6 @@ const links = [
     name: "FLL",
     section: "outreach",
     file: "Fll",
-  },
-  {
-    name: "Home",
-    section: "outreach",
-    file: "",
   }
 ];
 

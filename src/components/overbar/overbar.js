@@ -5,6 +5,7 @@ const Overbar = ({ theme }) => {
   return (
     <nav>
       <ul className={`overbar__list ${theme}`}>
+        <li><Link to="/ilite" className="overbar__list-item">About ILITE</Link></li>
         <li><Link to="/frc" className="overbar__list-item">FRC Robotics</Link></li>
         <li><a href="http://irocoffseason.org" className="overbar__list-item">IROC Offseason</a></li>
         <li><a href="http://www.ilite.info" className="overbar__list-item">STEAM Expo</a></li>

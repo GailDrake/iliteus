@@ -18,7 +18,7 @@ class Navbar extends Component {
 
     return (
       <nav className="navigation">
-        <Link to="/frc" className="navigation__logo"></Link>
+        <Link to="/" className="navigation__logo"></Link>
         <ul>
           {getLinks}
         </ul>
