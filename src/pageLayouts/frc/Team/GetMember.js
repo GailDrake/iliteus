@@ -93,6 +93,7 @@ function getMentors(teamList) {
           image={image}
           leader={member.leader}
           mentor={member.mentor}
+          subteam={member.subteam}
           old={member.old}
         />
       );

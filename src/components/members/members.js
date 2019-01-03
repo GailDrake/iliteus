@@ -2,7 +2,7 @@ import React from "react";
 //import image from "./../../../assets/images/frc/home-hero-lg.jpg";
 import userIcon from "./../../assets/images/icons/user.svg";
 
-const Members = ({ name, year, fact, memory, image, leader, mentor, old }) => {
+const Members = ({ name, year, fact, memory, image, leader, mentor, subteam, old }) => {
   const oldPhoto = old ? "oldimg" : "";
   return (
     <div className="member">
@@ -12,41 +12,25 @@ const Members = ({ name, year, fact, memory, image, leader, mentor, old }) => {
       <div className="member__content">
         <h3 className="member__title">{name}</h3>
         {leader && (
-          <span className="member__leader-title">
+          <div className="member__leader-title">
             <b>Title:</b> {leader}
             <br />
-          </span>
+          </div>
         )}
-        <b>Year Joined:</b> {year}
-        {mentor && (
-          <span>
-            <br />
-            <b>Subteam:</b> {mentor}
-          </span>
+        {year && (<span><b>Year Joined:</b> {year}</span>)}
+        {subteam && (
+          <div>
+            <b>Subteam:</b> {subteam}
+          </div>
         )}
-        <br />
-        <b>Fun Fact:</b> {fact}
-        <br />
-        <b>Favorite Memory:</b> {memory}
+        {fact && (
+          <div><b>Fun Fact:</b> {fact} <br /></div>
+        )}
+
+        {memory && (<span><b>Favorite Memory:</b> {memory} </span>)}
       </div>
     </div>
   );
 };
-
-function buildMemberFields(leader, year, mentor, fact, memory) {
-  var memberInfo = new Array(0);
-
-  if (leader) {
-    memberInfo.push(
-      <span className="member__leader-title">
-        <b>Title:</b> {leader}
-        <br />
-      </span>);
-  }
-  if (year) {
-    memberInfo.push(
-      <div><b>Year Joined:</b> {year} <br /></div>);
-  }
-}
 
 export default Members;
