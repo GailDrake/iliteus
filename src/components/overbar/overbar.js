@@ -10,12 +10,7 @@ class Overbar extends Component {
   }
 
   sectionCheck = (url) => {
-    if (url.includes("ilite")) {
-      this.ilite = "overbar--underlined";
-      this.frc = "";
-      this.outreach = "";
-    }
-    else if (url.includes("frc")) {
+    if (url.includes("frc")) {
       this.ilite = "";
       this.frc = "overbar--underlined";
       this.outreach = "";
@@ -24,6 +19,11 @@ class Overbar extends Component {
       this.ilite = "";
       this.frc = "";
       this.outreach = "overbar--underlined";
+    }
+    else if (url.includes("ilite")) {
+      this.ilite = "overbar--underlined";
+      this.frc = "";
+      this.outreach = "";
     }
     else {
       this.ilite = "overbar--underlined";
@@ -41,7 +41,7 @@ class Overbar extends Component {
 
     return (
       <nav>
-        <ul className="overbar__list frc">
+        <ul className="overbar__list">
           <li><Link to="/ilite" className={`overbar__list-item ${this.ilite}`}>About ILITE</Link></li>
           <li><Link to="/frc" className={`overbar__list-item ${this.frc}`}>FRC Robotics</Link></li>
           <li><a href="http://www.ilite.info" className="overbar__list-item">STEAM Expo</a></li>

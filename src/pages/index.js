@@ -38,7 +38,7 @@ const TemplateWrapper = ({ children }) => (
       link={[{ rel: "shortcut icon", type: "image/png", href: `${Favi}` }]}
     />
 
-    <Overbar theme="frc" />
+    <Overbar />
     <Navbar links={links} />
     <IliteHome />
     <Footer />

@@ -1,12 +1,10 @@
-/* 
-  Just a thought -> 
-  Could we have the navbar color change entirely based
-  on what we hover over? We can default the navbar to the
-  theme of the site and change it based on the item we hover
-  on the overbar.
-*/
+.overbar--underlined {
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
 
-ul.overbar__list {
+.overbar__list {
+  background: @purple-ws-3;
   list-style-type: none;
   text-align: center;
   margin: 0;
@@ -21,93 +19,17 @@ ul.overbar__list {
   @media screen and (max-width: 950px) {
     display: none;
   }
-}
-
-.overbar__list-item {
-  font-family: 'Lato', sans-serif;
-  color: #fcfdff;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
-/* Determines navbar color by subdivision */
-
-.overbar__list.index {
-  background: @purple-ws-3;
-  text-align: right;
 
   .overbar__list-item {
     color: #fcfdff;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    transition: all 0.3s;
 
     &:hover {
       padding-bottom: 10px;
-      border-bottom: 2px solid rgba(181, 86, 236, 0.5);
-
+      border-bottom: 2px solid rgba(255, 255, 255, 0.3);
     }
-  }
-}
-
-.overbar--underlined {
-  padding-bottom: 10px;
-  border-bottom: 2px solid white;
-}
-
-.overbar__list.frc {
-  background: @purple-ws-3;
-
-  .overbar__list-item {
-    color: #fcfdff;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
-
-    &:hover {
-      padding-bottom: 10px;
-      border-bottom: 2px solid white;
-    }
-  }
-}
-
-.overbar__list.cyber {
-  background-color: #222;
-
-  .overbar__list-item {
-    color: #fcfdff;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
-
-    &:hover {
-      color: gold;
-    }
-  }
-}
-
-.overbar__list.computer-science {
-  background-color: blue;
-
-  .overbar__list-item {
-    color: #fcfdff;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
-
-    &:hover {
-      color: orange;
-    }
-  }
-}
-
-.overbar__list.hosted-events {
-  background-color: #fcfdff;
-
-  .overbar__list-item {
-    color: #222;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
-
-    &:hover {
-      color: navy;
-    }
-  }
-}
-
-@media screen and (max-width: 950px) {
-  .overbar__list {
-    display: none;
   }
 }
