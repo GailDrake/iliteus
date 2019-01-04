@@ -7,33 +7,18 @@ const GetMember = (subteam, teamList) => {
     return getMentors(teamList);
   }
 
-  return getLeaders(subteam, teamList).concat(teamList.map(member => {
-    if (subteam == "Leadership" && member.leader != null && member.leader.trim() != "") {
-      const image =
-        member.image &&
-        require(`../../../assets/images/frc/members/${subteam}/${
-          member.image
-          }`);
-      return (
-        <Members
-          name={member.name}
-          year={member.year}
-          fact={member.fact}
-          memory={member.memory}
-          image={image}
-          leader={member.leader}
-          mentor={member.mentor}
-          old={member.old}
-        />
-      );
-    }
-    else {
-      if (member.subteam === subteam && member.leader == undefined && member.mentor != true) {
+  return getLeaders(subteam, teamList).concat(
+    teamList.map(member => {
+      if (
+        subteam == "Leadership" &&
+        member.leader != null &&
+        member.leader.trim() != ""
+      ) {
         const image =
           member.image &&
           require(`../../../assets/images/frc/members/${subteam}/${
             member.image
-            }`);
+          }`);
         return (
           <Members
             name={member.name}
@@ -46,19 +31,47 @@ const GetMember = (subteam, teamList) => {
             old={member.old}
           />
         );
+      } else {
+        if (
+          member.subteam === subteam &&
+          member.leader == undefined &&
+          member.mentor != true
+        ) {
+          const image =
+            member.image &&
+            require(`../../../assets/images/frc/members/${subteam}/${
+              member.image
+            }`);
+          return (
+            <Members
+              name={member.name}
+              year={member.year}
+              fact={member.fact}
+              memory={member.memory}
+              image={image}
+              leader={member.leader}
+              mentor={member.mentor}
+              old={member.old}
+            />
+          );
+        }
       }
-    }
-  }));
+    })
+  );
 };
 
 function getLeaders(subteam, teamList) {
   return teamList.map(member => {
-    if (member.subteam == subteam && member.leader != null && member.leader.trim() != "") {
+    if (
+      member.subteam == subteam &&
+      member.leader != null &&
+      member.leader.trim() != ""
+    ) {
       const image =
         member.image &&
         require(`../../../assets/images/frc/members/${subteam}/${
           member.image
-          }`);
+        }`);
       return (
         <Members
           name={member.name}
@@ -81,9 +94,10 @@ function getMentors(teamList) {
     if (member.mentor == true) {
       const image =
         member.image &&
-        require(`../../../assets/images/frc/members/${subteam}/${
-          member.name.replace(" ", "") + ".png"
-          }`);
+        require(`../../../assets/images/frc/members/${subteam}/${member.name.replace(
+          " ",
+          ""
+        )}.png`);
       return (
         <Members
           name={member.name}
