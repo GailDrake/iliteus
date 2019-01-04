@@ -1,6 +1,6 @@
 // import HomeContainer from './HomeContainer.js';
-import FrcHome from './FrcHome.js';
+import IliteHome from './IliteHome.js';
 
 // export { Home };
 // export default HomeContainer;
-export default FrcHome;
+export default IliteHome;

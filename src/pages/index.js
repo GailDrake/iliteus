@@ -5,11 +5,28 @@ import Navbar from "../components/Navbar";
 import Overbar from "../components/overbar";
 import Footer from "../components/footer";
 import Favi from "../assets/icons/favicon.ico";
-import FrcHome from "../pageLayouts/frc/FrcHome";
-import links from "../config/links.js";
+import IliteHome from "../pageLayouts/ilite/IliteHome";
 
 // import less here - once, for the whole app
 import "./../config/main.less";
+
+const links = [
+  {
+    name: "Get Involved",
+    section: "ilite",
+    file: "getinvolved"
+  },
+  {
+    name: "Sponsors",
+    section: "ilite",
+    file: "sponsors"
+  },
+  {
+    name: "Home",
+    section: "ilite",
+    file: ""
+  }
+];
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -28,7 +45,7 @@ const TemplateWrapper = ({ children }) => (
 
     <Overbar theme="frc" />
     <Navbar links={links} />
-    <FrcHome />
+    <IliteHome />
     <Footer />
   </div>
 );
