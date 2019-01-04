@@ -25,6 +25,11 @@ class Overbar extends Component {
       this.frc = "";
       this.outreach = "overbar--underlined";
     }
+    else {
+      this.ilite = "overbar--underlined";
+      this.frc = "";
+      this.outreach = "";
+    }
   }
 
   render() {

@@ -20,11 +20,6 @@ const links = [
     name: "Sponsors",
     section: "ilite",
     file: "sponsors"
-  },
-  {
-    name: "Home",
-    section: "ilite",
-    file: ""
   }
 ];
 
