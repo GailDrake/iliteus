@@ -35,16 +35,13 @@ class Overbar extends Component {
   render() {
     var url = window.location.href;
     this.sectionCheck(url);
-    console.log("frc:" + this.frc);
-    console.log("ilite:" + this.ilite);
-    console.log("outreach:" + this.outreach);
 
     return (
       <nav>
         <ul className="overbar__list">
           <li><Link to="/ilite" className={`overbar__list-item ${this.ilite}`}>About ILITE</Link></li>
           <li><Link to="/frc" className={`overbar__list-item ${this.frc}`}>FRC Robotics</Link></li>
-          <li><a href="http://www.ilite.info" className="overbar__list-item">STEAM Expo</a></li>
+          <li><a href="http://www.ilite.info" className="overbar__list-item" target="_blank">STEAM Expo</a></li>
           <li><Link to="/outreach" className={`overbar__list-item ${this.outreach}`}>Outreach</Link></li>
         </ul>
       </nav>
