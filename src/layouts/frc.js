@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 import Navbar from "../components/Navbar";
 import Overbar from "../components/overbar";
 import Footer from "../components/footer";
+import Logo from "../components/logo";
 import Favi from "../assets/icons/favicon.ico";
 
 
@@ -48,6 +49,7 @@ const TemplateWrapper = ({ children }) => (
       link={[{ rel: "shortcut icon", type: "image/png", href: `${Favi}` }]}
     />
 
+    <Logo />
     <Overbar theme="frc" />
     <Navbar links={links} />
     <div>{children()}</div>
