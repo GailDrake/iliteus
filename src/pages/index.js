@@ -1,52 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Helmet from "react-helmet";
-import Navbar from "../components/Navbar";
-import Overbar from "../components/overbar";
-import Footer from "../components/footer";
-import Favi from "../assets/icons/favicon.ico";
-import IliteHome from "../pageLayouts/ilite/IliteHome";
+import React from 'react';
+import { Redirect } from 'react-router';
 
-// import less here - once, for the whole app
-import "./../config/main.less";
-
-const links = [
-  {
-    name: "Get Involved",
-    section: "ilite",
-    file: "getinvolved"
-  },
-  {
-    name: "Sponsors",
-    section: "ilite",
-    file: "sponsors"
+class HomeRedirect extends React.Component {
+  render() {
+    return <Redirect to='/ilite' />;
   }
-];
+}
 
-const TemplateWrapper = ({ children }) => (
-  <div>
-    <Helmet
-      title="ILITE"
-      meta={[
-        { name: "description", content: "ILITE" },
-        {
-          name: "keywords",
-          content: "Inspring Leaders in Technology and Engineering"
-        },
-        { name: "viewport", content: "width=device-width" }
-      ]}
-      link={[{ rel: "shortcut icon", type: "image/png", href: `${Favi}` }]}
-    />
-
-    <Overbar />
-    <Navbar links={links} />
-    <IliteHome />
-    <Footer />
-  </div>
-);
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func
-};
-
-export default TemplateWrapper;
+export default HomeRedirect;
