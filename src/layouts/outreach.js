@@ -32,7 +32,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
 
-    <Overbar theme="frc" />
+    <Overbar />
     <Navbar links={links} />
     <div>{children()}</div>
     <Footer />
