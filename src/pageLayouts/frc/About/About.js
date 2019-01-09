@@ -22,19 +22,19 @@ const About = (props) => {
       <div className='about'>
         <h1 className='about__header'>Mission & Vision</h1>
         <p className='about__text'>
-          Here at ILITE First Team 1885, we believe that every student is a leader.
-          Through our different subteams of business, graphics, electronics,
-          programming, and build, we work very hard to give every team member the opportunity to learn and lead.
-          We have created an environment in which FIRST Robotics is so loved that our alumni volunteer across the nation even after graduating.
+          Here at ILITE FIRST Team 1885, we believe that every student is a leader.
+          Through our different subteams of build, electronics,
+          programming, outreach, sponsorship, scouting, web, and graphics, we work very hard to give every team member the opportunity to learn and lead.
+          We have created an environment in which FIRST Robotics is so loved that our alumni volunteer at FIRST events across the nation even after graduating.
           <br />
           <br />
-          Our leadership reaches beyond of FIRST Team 1885. We have created an identity for ourselves in our community,
+          Our leadership reaches beyond FIRST Team 1885. We have created an identity for ourselves in our community,
           county, state, and nation. ILITE reaches out to our community through town festivals, charitable involvement,
-          elementary school tutoring, and hosting our annual Haymaker STEM Expo. On a broader scale, ILITE members have
-          lobbied politicians through their School Board and meetings at the Capitol to encourage the advancement of STEM in education.
+          elementary school tutoring, and hosting our annual Haymaker STEAM Expo. On a broader scale, ILITE members have
+          lobbied politicians through their School Board and meetings at the Capitol to encourage the advancement of STEAM in education.
           <br />
           <br />
-          Whether it be through our summer camps that teach hundreds of students about STEM, or our annually-hosted FIRST competitions,
+          Whether it be through our summer camps that teach hundreds of students about STEAM, or our annually-hosted FIRST competitions,
           ILITE continuously inspires those around them. We strive to embody the FIRST mission of "More than Robots" in all we do."
           </p>
         <h1 className='about__subheader'>Our Mission:</h1>
@@ -44,7 +44,7 @@ const About = (props) => {
           <div><img className='about__image' src={teddy} /></div>
         </div>
         <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='#787878' /></span> To inspire young people to become leaders in science, technology, engineering,
-          and mathematics by providing them with hands-on engineering challenges with the mentorship of industry professionals,
+          and mathematics by providing them with hands-on engineering challenges and with the mentorship of industry professionals,
                  to build a foundation of both technical and social skills and values, to create leaders in technology and engineering.<span className='about__quotes'><QuoteLeft fill='#787878' /></span>
         </p>
         <h1 className='about__subheader'>Our Vision:</h1>

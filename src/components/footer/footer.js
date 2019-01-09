@@ -26,7 +26,7 @@ const Footer = () =>
       </div>
     </div>
     <div className="footer__copyright">
-      <p>&copy; 2018 ILITE. All rights reserved.</p>
+      <p>&copy; 2019 ILITE. All rights reserved.</p>
     </div>
   </div>
 
