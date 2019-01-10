@@ -96,7 +96,7 @@ const HostedEvents = () =>
       <div className="event">
         <div className="event__description">
           <div>
-            <img src={require('../../../assets/images/logos/IROC_Logo.jpg')} alt="" height="190px" width="auto"/>
+            <img src={require('../../../assets/images/logos/IROC_Logo.jpg')} alt="" style={{ height: "190px" width= "auto" }}/>
           </div>
           <div>
             <h1 className="hostedevents__subheader">IROC</h1>
