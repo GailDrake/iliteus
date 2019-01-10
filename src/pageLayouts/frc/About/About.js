@@ -44,8 +44,8 @@ const About = (props) => {
           <div><img className='about__image' src={teddy} /></div>
         </div>
         <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='#787878' /></span> To inspire young people to become leaders in science, technology, engineering,
-          and mathematics by providing them with hands-on engineering challenges and with the mentorship of industry professionals,
-                 to build a foundation of both technical and social skills and values, to create leaders in technology and engineering.<span className='about__quotes'><QuoteLeft fill='#787878' /></span>
+          and mathematics by providing them with hands-on engineering challenges and the mentorship of industry professionals,
+                 to build a foundation of both technical and social skills, and to create leaders in technology and engineering.<span className='about__quotes'><QuoteLeft fill='#787878' /></span>
         </p>
         <h1 className='about__subheader'>Our Vision:</h1>
         <div className="about__image-container">
@@ -53,8 +53,8 @@ const About = (props) => {
           <div><img className='about__image' src={stemexpo2} /></div>
           <img className='about__image' src={ussstem} />
         </div>
-        <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='#787878' /></span> A community of learning where persons, young and old, share a common goal of problem solving through science,
-                technology, engineering, and mathematics to improve the world in which we live for all persons.<span className='about__quotes'><QuoteLeft fill='#787878' /></span>
+        <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='#787878' /></span> A community of learning where people, young and old, share a common goal of problem solving through science,
+                technology, engineering, and mathematics to improve the world in which we live for all.<span className='about__quotes'><QuoteLeft fill='#787878' /></span>
         </p>
         <h1 className='about__subheader'>ILITE-ism:</h1>
         <div className="about__image-container">
@@ -62,9 +62,11 @@ const About = (props) => {
           <div><img className='about__image' src={gather} /></div>
           <div><img className='about__image' src={experiment} /></div>
         </div>
-        <p className='about__text'>Outreach is an effort which requires an adverse plan of attack to reach the greatest number of persons,
-          all of whom come from different backgrounds. ILITE holds a core value it calls “ILITE-ism” which is the belief that everyone,
-          regardless of background or profession can be an advocate for technology and engineering.
+        <p className='about__greybox'>Outreach is an effort which requires a diverse plan of attack to reach the greatest number of people,
+          all of whom come from different backgrounds. In pursuit of this, ILITE follows a core value it calls "ILITE-ism".
+          <br /> <br />
+          <span className='about__quotes'><QuoteRight fill='#787878' /></span>ILITE-ism is the belief that everyone,
+          regardless of background or profession, can be an advocate for technology and engineering. <span className='about__quotes'><QuoteLeft fill='#787878' /></span>
         </p>
         <h1 className='about__header'>Team History</h1>
         <p className='about__text'></p>
