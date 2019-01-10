@@ -9,8 +9,10 @@ const Sponsors = () => {
       title="Sponsors"
       subtitle="We couldn't operate without them!"
     >
-      <h1 className="sponsors__heading">Past Sponsors</h1>
 
+      <hr className="sponsors__hr--bold" />
+
+      <h1 className="sponsors__heading">Past Sponsors</h1>
       <Sponsor
         name="US STEM Foundations"
         url="http://www.usstem.org/"
@@ -322,7 +324,7 @@ const Sponsors = () => {
           Twitter.
         </p>
       </Sponsor>
-    </Container>
+    </Container >
   );
 };
 
