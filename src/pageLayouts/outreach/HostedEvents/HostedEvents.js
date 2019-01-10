@@ -90,13 +90,13 @@ const HostedEvents = () =>
         </div>
         <div className="button_contain">
         <br></br>
-        <Button link="http://www.firstchesapeake.org/northern-virginia-qualifier-1" division="frc" height="190px" width="auto">Learn More!</Button>
+        <Button link="http://www.firstchesapeake.org/northern-virginia-qualifier-1" division="frc">Learn More!</Button>
         </div>
       </div>
       <div className="event">
         <div className="event__description">
           <div>
-            <img src={require('../../../assets/images/logos/IROC_Logo.jpg')} alt="" />
+            <img src={require('../../../assets/images/logos/IROC_Logo.jpg')} alt="" height="190px" width="auto"/>
           </div>
           <div>
             <h1 className="hostedevents__subheader">IROC</h1>
