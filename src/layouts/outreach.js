@@ -24,11 +24,6 @@ const links = [
     section: "outreach",
     file: "HostedEvents",
   },
-  {
-    name: "Home",
-    section: "outreach",
-    file: "",
-  }
 ];
 
 const TemplateWrapper = ({ children }) => (
@@ -42,7 +37,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
 
-    <Overbar theme="frc" />
+    <Overbar />
     <Navbar links={links} />
     <div>{children()}</div>
     <Footer />

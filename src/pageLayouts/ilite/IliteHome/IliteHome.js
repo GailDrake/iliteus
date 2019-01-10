@@ -5,14 +5,14 @@ import Events from '../../../components/events';
 import NewsCard from '../../../components/newscard/';
 import SponsorTag from '../../../components/SponsorTag/SponsorTag';
 
-const FrcHome = (props) => {
+const IliteHome = (props) => {
   return (
-    <div className='frcHome'>
-      <div className="frcHome__banner">
-        <div className="frcHome__banner-text-container">
-          <h1 className="frcHome__banner-title">ILITE Robotics</h1>
-          <h2 className="frcHome__banner-subtitle">FIRST Robotics Challenge Team 1885</h2>
-          <p className="frcHome__banner-description">
+    <div className='iliteHome'>
+      <div className="iliteHome__banner">
+        <div className="iliteHome__banner-text-container">
+          <h1 className="iliteHome__banner-title">ILITE Robotics</h1>
+          <h2 className="iliteHome__banner-subtitle">FIRST Robotics Challenge Team 1885</h2>
+          <p className="iliteHome__banner-description">
             We are a team founded on the principles of leadership, teamwork, and academic rigor. Through competitions, outreach,
             and mentorship we passionately advocate for science and technology in our schools, communities, and throughout the world.
           </p>
@@ -21,16 +21,16 @@ const FrcHome = (props) => {
           </Button>
         </div>
       </div>
-      <div className="frcHome__events">
-        <h1 className="frcHome__events-header">ILITE Events</h1>
+      <div className="iliteHome__events">
+        <h1 className="iliteHome__events-header">ILITE Events</h1>
         <br />
-        <div className="frcHome__events-container">
+        <div className="iliteHome__events-container">
           <Events
             name="Summer Camps"
             eventLink="outreach/SummerCamps"
             date="June, 2018"
             image="images/outreach/summercamps/stem1.jpg" />
-          
+
           <Events
             name="FLL Workshops"
             eventLink="outreach/Fll"
@@ -43,10 +43,10 @@ const FrcHome = (props) => {
             image="images/frc/iroc-group-photo.png" />
         </div>
       </div>
-      <div className="frcHome__news">
-        <h1 className="frcHome__news-header">News</h1>
+      <div className="iliteHome__news">
+        <h1 className="iliteHome__news-header">News</h1>
         <br />
-        <div className="frcHome__news-container">
+        <div className="iliteHome__news-container">
           <NewsCard title="FIRST Lego League Workshop" image={require('../../../assets/images/frc/summer-camps/FLL.png')}>
             ILITE Robotics has helped create and foster 60+ FLL teams within the community and planned interactive workshops for teams to gather and develop their knowledge in FLL.
           </NewsCard>
@@ -58,13 +58,13 @@ const FrcHome = (props) => {
           </NewsCard>
         </div>
       </div>
-      <div className="frcHome__sponsors">
-        <h1 className="frcHome__sponsors-header">Sponsors</h1>
-        <p className="frcHome__sponsors-description">
+      <div className="iliteHome__sponsors">
+        <h1 className="iliteHome__sponsors-header">Sponsors</h1>
+        <p className="iliteHome__sponsors-description">
           We thank our Sponsors for their continued support
         </p>
         <br />
-        <div className="frcHome__sponsors-container">
+        <div className="iliteHome__sponsors-container">
 
           <SponsorTag
             image={require('../../../assets/images/sponsors/incadence.png')}
@@ -148,8 +148,8 @@ const FrcHome = (props) => {
   );
 };
 
-FrcHome.propTypes = {
+IliteHome.propTypes = {
 
 };
 
-export default FrcHome;
+export default IliteHome;

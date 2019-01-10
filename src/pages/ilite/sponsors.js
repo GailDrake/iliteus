@@ -1,4 +1,4 @@
 import React from 'react';
-import Sponsors from '../../pageLayouts/frc/Sponsors';
+import Sponsors from '../../pageLayouts/ilite/Sponsors';
 
 export default () => <Sponsors />
