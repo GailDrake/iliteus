@@ -90,7 +90,7 @@ const HostedEvents = () =>
         </div>
         <div className="button_contain">
         <br></br>
-        <Button link="http://www.firstchesapeake.org/northern-virginia-qualifier-1" division="frc">Learn More!</Button>
+        <Button link="http://www.firstchesapeake.org/northern-virginia-qualifier-1" division="frc" height="190px" width="auto">Learn More!</Button>
         </div>
       </div>
       <div className="event">
