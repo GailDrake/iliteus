@@ -9,6 +9,8 @@ const Sponsors = () => {
       title="Sponsors"
       subtitle="We couldn't operate without them!"
     >
+      <h1 className="sponsors__heading">Past Sponsors</h1>
+
       <Sponsor
         name="US STEM Foundations"
         url="http://www.usstem.org/"
@@ -198,7 +200,11 @@ const Sponsors = () => {
       </Sponsor>
 
       <hr className="sponsor__hr" />
-      <Sponsor name="NOVEC" url="https://www.novec.com/" image="novec.jpg">
+      <Sponsor
+        name="NOVEC"
+        url="https://www.novec.com/"
+        image="novec.jpg"
+      >
         <p>
           NOVEC is Among the Nation’s Largest Electric Cooperatives Northern
           Virginia Electric Cooperative, one of the largest electric
@@ -271,10 +277,25 @@ const Sponsors = () => {
       </Sponsor>
 
       <hr className="sponsor__hr" />
-      <Sponsor name="Micron" url="https://www.micron.com/" image="micron.png">
+      <Sponsor
+        name="Micron"
+        url="https://www.micron.com/"
+        image="micron.png"
+      >
         <p>
           Micron Technology gives the industry the broadest portfolio, and are
           the only company to make major memory and storage technologies.
+        </p>
+      </Sponsor>
+
+      <hr className="sponsor__hr" />
+      <Sponsor
+        name="Azos AI"
+        url="https://www.azosai.com/"
+        image="azosai.jpg"
+      >
+        <p>
+          Azos AI is a privately held corporation that provides embedded intelligence for the IT industry using expertise in aritificial intelligence, application development, and communications.
         </p>
       </Sponsor>
 
