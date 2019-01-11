@@ -18,7 +18,12 @@ const links = [
     name: "FLL",
     section: "outreach",
     file: "Fll",
-  }
+  },
+  {
+    name: "Hosted Events",
+    section: "outreach",
+    file: "HostedEvents",
+  },
 ];
 
 const TemplateWrapper = ({ children }) => (
