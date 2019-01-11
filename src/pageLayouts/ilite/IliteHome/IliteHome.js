@@ -16,7 +16,7 @@ const IliteHome = (props) => {
             We are a team founded on the principles of leadership, teamwork, and academic rigor. Through competitions, outreach,
             and mentorship we passionately advocate for science and technology in our schools, communities, and throughout the world.
           </p>
-          <Button division='frc' link="/frc/about">
+          <Button division='frc' link="/ilite/about">
             Learn More About Us!
           </Button>
         </div>
