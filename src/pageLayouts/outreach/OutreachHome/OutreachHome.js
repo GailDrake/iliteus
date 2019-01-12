@@ -18,126 +18,25 @@ const OutreachHome = (props) => {
         </div>
       </div>
       <div className="outreachHome__events">
-        <h1 className="outreachHome__events-header">Outreach Events</h1>
+        <h1 className="outreachHome__events-header">About Outreach</h1>
         <br />
-        <div className="outreachHome__events-container">
-          <Events
-            name="FLL Workshops"
-            eventLink="/outreach/fll"
-            date="Fall 2018"
-            image="images/outreach/fll/fll5.jpg"
-          />
-
-          <Events
-            name="Summer Camps"
-            eventLink="/outreach/summercamps"
-            date="June 12th - June 21st"
-            image="images/outreach/summercamps/stem1.jpg"
-          />
-          <Events
-            name="STEAM Expo"
-            eventLink="http://www.haymakerstemexpo.org"
-            date="January 27th"
-            image="images/outreach/steamexpo/expo.jpg"
-          />
-        </div>
+        <p className="outreachHome__description">
+        ILITE hosts and plans a majority of the STEAM related events at our school. Additionally, we help spread the word, and bring STEAM to our community in a big way. We utilize events such as the STEAM Expo, and the Summer Camps to teach our community about the different aspects of STEAM, as well as get them interested in the possibilities STEAM has for the future. Our goal as ILITE is to inspire the future generation and encourage them to pursue STEAM.
+        </p>
       </div>
       <div id="news" className="outreachHome__news">
-        <h1 className="outreachHome__news-header">News</h1>
+        <h1 className="outreachHome__news-header">Upcoming Events</h1>
         <br />
-        <div className="outreachHome__news-container">
-          <NewsCard title="Coast Guard" image={require('../../../assets/images/outreach/fll/coastguard.png')}>
-            ILITE sent FLL kits to members of the Coast Guard to introduce engineering and spread STEM to the community. We then hosted a Skype conference to answer questions and offer support.
-          </NewsCard>
-          <NewsCard title="Payton's Walk" image={require('../../../assets/images/outreach/fll/payton.png')}>
-            ILITE attended the Payton's Walk event on October 15th to support the anti-bullying cause. There we presented about FIRST robotics and continued our mission to inspire interest in STEM.
-          </NewsCard>
-          <NewsCard title="Fair Oaks Center" image={require('../../../assets/images/outreach/fll/fairoaks.png')}>
-            ILITE went to the Fair Oaks Center for Science to present about STEM. We taught the basics of programming using BOE-BOTS and the BASIC programming language.
-          </NewsCard>
-        </div>
+        <p className="outreachHome__description">
+        We host a multitude of events including the STEAM Expo, the FRC Competition, and the FTC competition. Click on the images below to find out more.
+        </p>
       </div>
       <div className="outreachHome__sponsors">
-        <h1 className="outreachHome__sponsors-header">Sponsors</h1>
-        <p className="outreachHome__sponsors-description">We thank our Sponsors for their continued support</p>
+        <h1 className="outreachHome__sponsors-header">FLL and Summer Camps</h1>
         <br />
-        <div className="outreachHome__sponsors-container">
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/floodtech.png')}
-            url="http://www.a1floodtech.com">
-            A1 Floodtech
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/asco.png')}
-            url="https://www.ascoweb.com/">
-            ASCO
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/bellpumpandwell.jpg')}
-            url="https://www.bellpumpandwell.com/">
-            Bell Pump and Well
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/cathyshometeam.png')}
-            url="https://www.cathyshometeam.com/">
-            Cathy's Home Team
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/incadence.png')}
-            url="http://www.incadencecorp.com/">
-            Incadence
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/khouriortho.jpg')}
-            url="http://khouriortho.com/">
-            Khouri Orthodontist
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/lockheedmartin.png')}
-            url="https://www.lockheedmartin.com/us.html">
-            Lockheed Martin
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/macedontechnologies.png')}
-            url="http://www.a1floodtech.com">
-            Macedon Technologies
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/micron.png')}
-            url="https://www.micron.com/">
-            Micron
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/novec.jpg')}
-            url="https://www.novec.com/">
-            Novec
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/usstem.png')}
-            url="http://www.usstem.org/">
-            US Stem
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/engility.png')}
-            url="http://www.engility.com/#HIFh85X6P1kKQ0gK.97">
-            US Stem
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/battlefieldhighschool.jpg')}
-            url="http://battlefieldhs.pwcs.edu/">
-            Battlefield High School
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/afcea.png')}
-            url="https://www.afcea.org/site/">
-            AFCEA
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/tropicalsmoothie.jpg')}
-            url="https://www.tropicalsmoothiecafe.com/">
-            Tropical Smoothie
-          </SponsorTag>
-        </div>
+        <p className="outreachHome__description">
+        We host seasonal activities teaching kids about certain aspects of STEAM and robotics with FLL being in the fall, and the summer camps being in the summer. In doing this, we introduce the kids to the world of STEAM, and nurture their interest in technology.
+        </p>
       </div>
     </div>
   );
