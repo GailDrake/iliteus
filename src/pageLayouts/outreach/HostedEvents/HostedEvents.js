@@ -24,17 +24,12 @@ const HostedEvents = () => (
             />
           </div>
           <div>
-            <h1 className="hostedevents__subheader">FRC District Events</h1>
+            <h1 className="hostedevents__subheader">FRC Week 1 District Event</h1>
             <hr />
             <p>
               Every year, ILITE Robotics hosts a district event for week one of
-              the FRC season. Like the FTC event, we find ourselves with over
-              three dozen competing teams - a number that has continued to grow
-              since we have started hosting these competitions! Take a look at{" "}
-              <a href="http://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va">
-                our upcoming week 1 competitions
-              </a>
-              !
+              the FRC season. We host more than 30 teams every competition - a number that has continued to grow
+              since we have started hosting these competitions! This year we're excited to participate in Destination: Deep Space.
             </p>
             {/* <p>For more information and events, <a href="http://www.ilite.info/">click here</a></p> */}
           </div>
@@ -114,17 +109,10 @@ const HostedEvents = () => (
             />
           </div>
           <div>
-            <h1 className="hostedevents__subheader">FTC Competitions</h1>
+            <h1 className="hostedevents__subheader">FTC Competition</h1>
             <hr />
             <p>
-              Each year, ILITE hosts a district competition for FTC, or the
-              First Tech Challenge. We often host 30+ teams every competition,
-              including several of our own. The competition takes place within
-              the first two weekends of December. Checkout{" "}
-              <a href="http://www.firstchesapeake.org/northern-virginia-qualifier-1">
-                our FTC website
-              </a>{" "}
-              for more information.
+              Annually, ILITE hosts a Northern Virginia Qualifier for FTC teams in the Chesapeake area. For this years game, Rover Ruckus, we hosted 36 teams. The competition took place on December 1st, 2018.
             </p>
           </div>
         </div>
@@ -151,11 +139,10 @@ const HostedEvents = () => (
             <h1 className="hostedevents__subheader">IROC</h1>
             <hr />
             <p>
-              At the end of October, ILITE Robotics hosts a robotics competition
-              called IROC, or the ILITE Robotics Offseason Challenge. Teams play
+              At the end of every October, ILITE Robotics hosts a robotics competition
+              called ILITE Robotics Offseason Challenge, better known as IROC. Teams play
               the game from the previous competition season. The last IROC saw
-              the return of the STEAMworks game, one of the most cherished and
-              respected games in FRC!
+              the return of last years game, Power Up.
             </p>
           </div>
         </div>
@@ -178,10 +165,7 @@ const HostedEvents = () => (
             <h1 className="hostedevents__subheader">FLL Workshops</h1>
             <hr />
             <p>
-              Every year, ILITE hosts FLL camps to inspire and train the future
-              generations of engineers by preparing teams to take on FLL
-              challenges of the past. This prepares the teams to take on the the
-              official FLL challenge that will follow soon after the camp's end.
+              Every year, ILITE hosts FLL workshops to teach teams and help them with specific challenges. ILITE students teach both basic and advanced topics for beginners and veternans alike. These workshops serve to prepare the attending teams for the current FLL season.
             </p>
           </div>
         </div>
