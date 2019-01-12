@@ -39,9 +39,9 @@ const About = (props) => {
           </p>
         <h1 className='about__subheader'>Our Mission:</h1>
         <div className="about__image-container">
-          <div><img className='about__image about__stay' src={haymarketday} /></div>
-          <div><img className='about__image about__remove' src={stemexpo1} /></div>
-          <div><img className='about__image about__remove' src={teddy} /></div>
+          <div className='about__stay'><img className='about__image about__stay' src={haymarketday} /></div>
+          <div className='about__remove'><img className='about__image about__remove' src={stemexpo1} /></div>
+          <div className='about__remove'><img className='about__image about__remove' src={teddy} /></div>
         </div>
         <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='#787878' /></span> To inspire young people to become leaders in science, technology, engineering,
           and mathematics by providing them with hands-on engineering challenges and the mentorship of industry professionals,
@@ -49,18 +49,18 @@ const About = (props) => {
         </p>
         <h1 className='about__subheader'>Our Vision:</h1>
         <div className="about__image-container">
-          <div><img className='about__image about__remove' src={books} /></div>
-          <div><img className='about__image about__stay' src={stemexpo2} /></div>
-          <div><img className='about__image about__remove' src={ussstem} /></div>
+          <div className='about__remove'><img className='about__image about__remove' src={books} /></div>
+          <div className='about__stay'><img className='about__image about__stay' src={stemexpo2} /></div>
+          <div className='about__remove'><img className='about__image about__remove' src={ussstem} /></div>
         </div>
         <p className='about__greybox'> <span className='about__quotes'><QuoteRight fill='#787878' /></span> A community of learning where people, young and old, share a common goal of problem solving through science,
                 technology, engineering, and mathematics to improve the world in which we live for all.<span className='about__quotes'><QuoteLeft fill='#787878' /></span>
         </p>
         <h1 className='about__subheader'>ILITE-ism:</h1>
         <div className="about__image-container">
-          <div><img className='about__image about__remove' src={stemexpo3} /></div>
-          <div><img className='about__image about__stay' src={gather} /></div>
-          <div><img className='about__image about__remove' src={experiment} /></div>
+          <div className='about__remove'><img className='about__image about__remove' src={stemexpo3} /></div>
+          <div className='about__stay'><img className='about__image about__stay' src={gather} /></div>
+          <div className='about__remove'><img className='about__image about__remove' src={experiment} /></div>
         </div>
         <p className='about__greybox'>Outreach is an effort which requires a diverse plan of attack to reach the greatest number of people,
           all of whom come from different backgrounds. In pursuit of this, ILITE follows a core value it calls "ILITE-ism".
@@ -71,9 +71,9 @@ const About = (props) => {
         <h1 className='about__header'>Team History</h1>
         <p className='about__text'></p>
         <div className="about__image-container">
-          <div><img className='about__image about__remove' src={trophy} /></div>
-          <div><img className='about__image about__remove' src={pits} /></div>
-          <div><img className='about__image about__stay' src={history} /></div>
+          <div className='about__remove'><img className='about__image about__remove' src={trophy} /></div>
+          <div className='about__remove'><img className='about__image about__remove' src={pits} /></div>
+          <div className='about__stay'><img className='about__image about__stay' src={history} /></div>
         </div>
         <p className='about__text'>FIRST Team 1885, “ILITE Robotics”, is a FIRST Robotics Team based in Haymarket, Virginia.
           It consists of students from high schools across Prince William County, Virginia. ILITE stands for Inspiring Leaders in Technology and Engineering.

@@ -33,6 +33,9 @@ class Navbar extends Component {
     else if (url.includes("getinvolved")) {
       this.current = "getinvolved";
     }
+    else if (url.includes("HostedEvents")) {
+      this.current = "HostedEvents";
+    }
     else {
       this.current = "";
     }
