@@ -40,7 +40,7 @@ const OutreachHome = (props) => {
 
           <Events
             name="FTC Robotics"
-            eventLink="https://www.irocoffseason.org"
+            eventLink="https://www.firstinspires.org/robotics/ftc"
             image="images/FTC_logo.png" />
         </div>
       </div>
