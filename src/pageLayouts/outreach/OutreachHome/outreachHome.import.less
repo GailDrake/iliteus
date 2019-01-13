@@ -73,13 +73,13 @@
   }
 
   .outreachHome__events {
-    background-color: #eee;
+    background-color: @text-1;
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
 
     .outreachHome__events-header {
-      color: @text-1;
+      color: @off-white;
       font-size: 38px;
       font-weight: 600;
       margin-bottom: -10px;
@@ -101,6 +101,7 @@
       }
     }
     .outreachHome__description {
+      color: white;
       width:90%;
       margin-left: auto;
       margin-right: auto;
@@ -110,14 +111,13 @@
     }
   }
 
-  .outreachHome__news {
-    background-color: @text-1;
+  .outreachHome__description {
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
 
-    .outreachHome__news-header {
-      color: @off-white;
+    .outreachHome__description-header {
+      color: @text-1;
       font-size: 38px;
       font-weight: 600;
       margin-bottom: -10px;
@@ -127,7 +127,7 @@
       padding: 5px;
     }
 
-    .outreachHome__news-container {
+    .outreachHome__description-text {
       text-align: center;
       padding-right: 5vw;
       padding-left: 5vw;
@@ -150,6 +150,7 @@
   }
 
   .outreachHome__sponsors {
+    background-color: #eee;
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -165,10 +166,16 @@
       padding: 5px;
     }
 
-    .outreachHome__sponsors-description {
-      font-size: 20px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+    .outreachHome__events-container {
+      text-align: center;
+      padding-right: 5vw;
+      padding-left: 5vw;
+      display: flex;
+      flex: 1;
+
+      @media screen and (max-width: 768px) {
+        display: block;
+      }
     }
 
     .outreachHome__sponsors-container {
@@ -183,6 +190,8 @@
       text-align: center;
       padding-right: 5vw;
       padding-left: 5vw;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
     }
   }
 }
