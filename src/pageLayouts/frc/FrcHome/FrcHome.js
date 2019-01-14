@@ -9,6 +9,7 @@ import SponsorTag from '../../../components/SponsorTag/SponsorTag';
 import kickoff1 from "../../../assets/images/frc/home_page/kickoff-pic1.jpeg";
 import kickoff2 from "../../../assets/images/frc/home_page/kickoff-pic2.jpeg";
 import buildSeason1 from "../../../assets/images/frc/home_page/build_season-pic1.jpeg";
+import mainImage from "../../../assets/images/frc/home_page/main-image-pic1.jpeg";
 
 const FrcHome = (props) => {
   return (
@@ -20,9 +21,6 @@ const FrcHome = (props) => {
           <p className="frcHome__banner-description">
             ILITE is an internationally recognized FRC Team with the goal of creating a quality robot to compete in the First Robotics Competition.
           </p>
-          <Button division='frc' link="/frc/about">
-            Learn More About Us!
-          </Button>
         </div>
       </div>
       <div className="frcHome__events">
@@ -47,16 +45,18 @@ const FrcHome = (props) => {
         <h1 className="frcHome__news-header">ILITE's Build Season</h1>
         <br />
         <div className="frcHome__news-container">
-          Each year, on kickoff day, all of ILITE gathers together to watch the new game reveal.  Following the release, the team moves on to discussing each aspect of the game to ensure no factor in the game is overseen. By involving all team members in the discussion process, both technical and non-technical,
-                      our hope is to come up with ideas that technical team members might not have thought about.
+          <p className="frcHome__build-season-text-left">
+            Each year, on kickoff day, all of ILITE gathers together to watch the new game reveal.  Following the release, the team moves on to discussing each aspect of the game to ensure no factor in the game is overseen. By involving all team members in the discussion process, both technical and non-technical,
+                        our hope is to come up with ideas that technical team members might not have thought about.
+          </p>
           <br />
           <br />
           <br />
           <img src={buildSeason1} className="frcHome__build-season-pics"></img>
-          Our daily schedule is packed with tons of hard work.  Each of our technical subteams get to work
+          <p className="frcHome__build-season-text-right">Our daily schedule is packed with tons of hard work.  Each of our technical subteams get to work
         designing, building, and testing out the robot. The build subteam designs and constructs the physical robot.
         The programming subteam writes code that the robot will soon utilize.  Our electronics team
-        builds circuit boards to control the various mechanisms on the robot.
+        builds circuit boards to control the various mechanisms on the robot.</p>
         </div>
       </div>
       <div className="frcHome__sponsors">
@@ -69,7 +69,7 @@ const FrcHome = (props) => {
           each with a trained set of members.  View our members and their subteams <a href="/frc/team">here</a>.
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
