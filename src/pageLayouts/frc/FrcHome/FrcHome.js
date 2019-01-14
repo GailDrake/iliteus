@@ -9,7 +9,6 @@ import SponsorTag from '../../../components/SponsorTag/SponsorTag';
 import kickoff1 from "../../../assets/images/frc/home_page/kickoff-pic1.jpeg";
 import kickoff2 from "../../../assets/images/frc/home_page/kickoff-pic2.jpeg";
 import buildSeason1 from "../../../assets/images/frc/home_page/build_season-pic1.jpeg";
-import mainImage from "../../../assets/images/frc/home_page/main-image-pic1.jpeg";
 
 const FrcHome = (props) => {
   return (
