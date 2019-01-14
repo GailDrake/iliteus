@@ -4,13 +4,15 @@
       "name": "Gail Drake",
       "subteam": "Team Coach",
       "year": 2004,
-      "mentor": true
+      "mentor": true,
+      "image": "Drake,Gail.jpg"
     },
     "Lakshmi Meyappan": {
       "name": "Lakshmi Meyappan",
       "subteam": "Outreach",
       "year": 2014,
-      "mentor": true
+      "mentor": true,
+      "image": "Meyappan, Lakshmi"
     },
     "Chris O'Connell": {
       "name": "Chris O'Connell",
