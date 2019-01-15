@@ -109,7 +109,7 @@ const HostedEvents = () => (
             />
           </div>
           <div>
-            <h1 className="hostedevents__subheader">FTC Competition</h1>
+            <h1 className="hostedevents__subheader">FTC Qualifier</h1>
             <hr />
             <p>
               Annually, ILITE hosts a Northern Virginia Qualifier for FTC teams in the Chesapeake area. For this years game, Rover Ruckus, we hosted 36 teams. The competition took place on December 1st, 2018.
