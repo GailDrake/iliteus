@@ -25,13 +25,13 @@ const IliteHome = (props) => {
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          <NewsCard title="N/A">
-            We're boring and have no news!
+          <NewsCard title="ILITE hosted Kickoff this year!" image={require('../../../assets/images/frc/kickoff.jpg')}>
+            3... 2... 1... BLAST OFF! This years kickoff saw the launch of the 2019 FIRST Robotics Competition, <b>Destination: Deep Space</b>. ILITE had the pleasure to host the event for our area, inviting many other teams to attend. We had a blast together with all the attending teams and we are excited for the upcoming season.
           </NewsCard>
-          <NewsCard title="N/A">
-            We're boring and have no news!
+          <NewsCard title="The 2019 Haymaker STEAM Expo is almost here!" image={require('../../../assets/images/outreach/steamexpo/expologo.png')}>
+            The Haymaker STEAM Expo is almost here and we couldn't be more excited. This year promises to be more exciting than ever before with interesting demonstrations and interactive activities. In addition to our own activities at ILITE we also have an escape room from Victory Elementary, a crime scene investigation activity from local law enforcement, and many more. For a full list of activities and more information <a href="http://ilite.info/" target="_blank">click here</a>.
           </NewsCard>
-          <NewsCard title="N/A">
+          <NewsCard title="">
             We're boring and have no news!
           </NewsCard>
         </div>
