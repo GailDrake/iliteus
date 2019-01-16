@@ -7,12 +7,10 @@ const OutreachHome = (props) => {
     <div className='outreachHome'>
       <div className="outreachHome__banner">
         <div className="outreachHome__banner-text-container">
-          <h1 className="outreachHome__banner-title">70,000+ minds reached</h1>
+          <br /><br />
+          <h1 className="outreachHome__banner-title">80,000+ minds reached</h1>
           <h2 className="outreachHome__banner-subtitle">Outreach at ILITE</h2>
-          <p className="outreachHome__banner-description">We strive to spread STEM throughout our community and inspire young minds. Through outreach events, seminars, and camps we fulfill our mission of advocating STEM and creating a brighter future.</p>
-          <Button division='frc' link="#news">
-            Learn More!
-          </Button>
+          <p className="outreachHome__banner-description">Outreach is the act of reaching out to others and introducing them to STEAM. To achieve that, we strive to spread STEAM through outreach events, seminars, and camps to reach young minds and fulfill our mission of advocating STEM and creating a brighter future.</p>
         </div>
       </div>
       <div className="outreachHome__description">
@@ -25,7 +23,7 @@ const OutreachHome = (props) => {
       <div className="outreachHome__events">
         <h1 className="outreachHome__events-header">Upcoming Events</h1>
         <p className="outreachHome__description">
-        We host seasonal activities teaching kids about certain aspects of STEAM and robotics with FLL being in the fall, and the summer camps being in the summer. In doing this, we introduce the kids to the world of STEAM, and nurture their interest in technology.
+        We host a multitude of events including the STEAM Expo, the FRC Competition, and the FTC competition. Click on the images below to find out more.
         </p>
         <div className="outreachHome__events-container">
           <Events
@@ -34,8 +32,8 @@ const OutreachHome = (props) => {
             image="images/outreach/steamexpo/expo.jpg" />
           
           <Events
-            name="FRC Competitions"
-            eventLink="frc/competition"
+            name="Week 1 FRC Chesapeake District Event"
+            eventLink="http://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va"
             image="images/frc/district_chairmans.jpeg" />
 
           <Events
