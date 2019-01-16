@@ -21,40 +21,18 @@ const IliteHome = (props) => {
           </Button>
         </div>
       </div>
-      <div className="iliteHome__events">
-        <h1 className="iliteHome__events-header">ILITE Events</h1>
-        <br />
-        <div className="iliteHome__events-container">
-          <Events
-            name="Summer Camps"
-            eventLink="outreach/SummerCamps"
-            date="June, 2018"
-            image="images/outreach/summercamps/stem1.jpg" />
-
-          <Events
-            name="FLL Workshops"
-            eventLink="outreach/Fll"
-            date="December, 2018"
-            image="images/outreach/fll/fairoaks.png" />
-          <Events
-            name="IROC"
-            eventLink="https://www.irocoffseason.org"
-            date="October, 2018"
-            image="images/frc/iroc-group-photo.png" />
-        </div>
-      </div>
       <div className="iliteHome__news">
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          <NewsCard title="FIRST Lego League Workshop" image={require('../../../assets/images/frc/summer-camps/FLL.png')}>
-            ILITE Robotics has helped create and foster 60+ FLL teams within the community and planned interactive workshops for teams to gather and develop their knowledge in FLL.
+          <NewsCard title="N/A">
+            We're boring and have no news!
           </NewsCard>
-          <NewsCard title="Triple Crown Win at District Championship" image={require('../../../assets/images/frc/district_chairmans.jpeg')}>
-            Ilite had great success at the First Chesepeake District Championship. We won the tournament, the Chairman's Award, and first place in the District. Being the first, and only team in our district to win all three.
+          <NewsCard title="N/A">
+            We're boring and have no news!
           </NewsCard>
-          <NewsCard title="IROC Competition is the Largest Ever Held!" image={require('../../../assets/images/frc/iroc-group-photo.png')}>
-            With 33 registered teams, the 2016 ILITE Robotics Off-Season Challenge was the largest ever held. The winning alliance was composed of FRC Teams 384, Sparky Robotics, 5338, RoboLoCos, and 2363, Triple Helix. Congratulations teams!
+          <NewsCard title="N/A">
+            We're boring and have no news!
           </NewsCard>
         </div>
       </div>
