@@ -27,9 +27,10 @@ const FrcHome = (props) => {
         <br />
         <div className="frcHome__events-container">
           <img src={kickoff2} className="frcHome__season-pics"></img>
-          <p className="frcHome__events-description">
-            With the conclusion of kickoff and the new game announced, ILITE is excited for the new season.  Together with new and returning members, we are ready to tackle this challenge!  <a href="/frc/competition">Click here </a>to find out more about the 2019 season.
-          </p>
+          <div className="frcHome__events-description">
+            <p>With the conclusion of kickoff and the new game announced, ILITE is excited for the new season.  Together with new and returning members, we are ready to tackle this challenge!</p>
+            <Button division="frc" link="../Competition">Learn More!</Button>
+          </div>
           <br />
           <img src={kickoff1} className="frcHome__season-pics"></img>
 
@@ -64,7 +65,7 @@ const FrcHome = (props) => {
         <div className="frcHome__sponsors-container">
           As ILITE, we have a highly dedicated team with a diverse skill set.  Our team structure not only
           consists of members that are skilled in building and programming, we have a dedicated graphics,
-          outreach, and sponorship team. Our technical teams consist of build, programming, and electronics,
+          outreach, and sponsorship team. Our technical teams consist of build, programming, and electronics,
           each with a trained set of members.  View our members and their subteams <a href="/frc/team">here</a>.
         </div>
       </div>

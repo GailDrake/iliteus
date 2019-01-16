@@ -10,7 +10,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 80vh; // overflow: hidden;
+    height: 60vh; // overflow: hidden;
     display: flex;
     flex: 1;
     justify-content: center;
@@ -110,9 +110,19 @@
     .frcHome__events-description {
       width:100%;
       text-align:center;
+      margin: 0 25px;
+      padding: 0px 20px;
+      border-left: 2px solid @purple-ws-3;
+      border-right: 2px solid @purple-ws-3;
+      p {
+        margin-bottom: 50px
+      }
     }
     .frcHome__season-pics {
-      width: 50%;
+      width: 25%;
+      height: 20%;
+      border: 5px double @gray-3;
+      
     }
     
   }
@@ -148,11 +158,13 @@
       }
     }
     .frcHome__build-season-pics {
-      width: 3000px;
-      margin:20px;
+      width: 25%;
+      height: 20%;
+      margin:40px;
+      margin-top:0px;
     }
     .frcHome__build-season-text-left {
-      text-align:justify;
+      text-align:justify; 
     }
     .frcHome__build-season-text-right {
       text-align:justify;
