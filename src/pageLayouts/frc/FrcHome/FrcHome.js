@@ -29,7 +29,7 @@ const FrcHome = (props) => {
           <img src={kickoff2} className="frcHome__season-pics"></img>
           <div className="frcHome__events-description">
             <p>With the conclusion of kickoff and the new game announced, ILITE is excited for the new season.  Together with new and returning members, we are ready to tackle this challenge!</p>
-            <Button division="frc" link="../Competition">Learn More!</Button>
+            <Button division="frc" link="/frc/Competition">Learn more!</Button>
           </div>
           <br />
           <img src={kickoff1} className="frcHome__season-pics"></img>
@@ -63,10 +63,12 @@ const FrcHome = (props) => {
         <h1 className="frcHome__sponsors-header">Team</h1>
         <br />
         <div className="frcHome__sponsors-container">
-          As ILITE, we have a highly dedicated team with a diverse skill set.  Our team structure not only
+          <p className="frcHome__sponsors-description">As ILITE, we have a highly dedicated team with a diverse skill set.  Our team structure not only
           consists of members that are skilled in building and programming, we have a dedicated graphics,
           outreach, and sponsorship team. Our technical teams consist of build, programming, and electronics,
-          each with a trained set of members.  View our members and their subteams <a href="/frc/team">here</a>.
+          each with a trained set of members.
+          </p>
+          <Button division="frc" link="/frc/Team">See our team!</Button>
         </div>
       </div>
     </div >
