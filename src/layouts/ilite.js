@@ -24,6 +24,11 @@ const links = [
     name: "About",
     section: "ilite",
     file: "about"
+  },
+  {
+    name: "Home",
+    section: "ilite",
+    file: "",
   }
 ];
 

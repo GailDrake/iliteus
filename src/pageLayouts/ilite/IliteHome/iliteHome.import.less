@@ -27,7 +27,6 @@ html {
     @media (max-width: 650px) {
       padding: 0 5%;
       position: relative;
-      top: 65px;
     }
 
     .iliteHome__banner-text-container {
@@ -87,10 +86,6 @@ html {
     padding-top: 10vh;
     padding-bottom: 10vh;
 
-    @media (max-width: 650px) {
-      padding: 20vh 0;
-    }
-
     .iliteHome__description-header {
       color: @text-1;
       font-size: 38px;
@@ -102,14 +97,20 @@ html {
       padding: 5px;
     }
 
-    .iliteHome__desscription-container {
+    .iliteHome__description-container {
+      display: block;
+      width: 100%;
       padding-right: 5vw;
       padding-left: 5vw;
+    }
+
+    .iliteHome__description-button {
+      float: center;
       display: flex;
       flex-direction: row;
       flex: 1;
 
-      @media screen and (max-width: 650px) {
+      @media (max-width: 1200px) {
         flex-direction: column;
       }
     }

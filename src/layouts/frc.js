@@ -25,6 +25,11 @@ const links = [
     name: "Team",
     section: "frc",
     file: "team"
+  },
+  {
+    name: "Home",
+    section: "frc",
+    file: "",
   }
 ];
 

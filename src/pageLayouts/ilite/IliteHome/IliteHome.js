@@ -25,7 +25,12 @@ const IliteHome = (props) => {
         <h1 className="iliteHome__description-header">What is ILITE?</h1>
         <br />
         <div className="iliteHome__description-container">
-          <p>Useless text. snosiogbwoivbcsobgisbi o;sgndfoivniosdbgioerbiodabuobguabdbgaoibgrioab;db;aogbiooabivv;afniovvioangvianviadnvioanv;oinv;asn;esnbi;aniofnvina;ngir;o</p>
+          <p>ILITE stands for "Inspiring Leaders In Technology and Engineering" and we are a robotics team at Battlefield High School consisting of a FIRST Robotics Competition team, multiple FIRST Tech Challenge teams, a Cyber Patriot Cyber Defense team, and a Betaware Computer Science team. However, ILITE does much more than just robotics. We are very active in our community, having founded other robotics teams and STEAM related programs in schools throughout the county, and we host numerous events, workshops, and camps throughout the year to spread the message of STEAM. Outreach is just as important to us as competing in robotics and ILITE is committed to creating a community of STEAM.</p>
+          <br />
+          <div className="iliteHome__description-button">
+            <Button link="/frc" division="frc">Learn About Our FRC Team</Button>
+            <Button link="/outreach" division="frc">Learn About Our Outreach</Button>
+          </div>
         </div>
       </div>
       <div className="iliteHome__news">
