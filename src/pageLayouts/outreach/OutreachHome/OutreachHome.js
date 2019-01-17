@@ -1,5 +1,6 @@
 import React from 'react';
 import Events from '../../../components/events';
+import ImgPresence from '../../../components/ImgPresence';
 import Button from '../../../components/Button';
 
 const OutreachHome = (props) => {
@@ -51,15 +52,17 @@ const OutreachHome = (props) => {
         We host seasonal activities teaching kids about certain aspects of STEAM and robotics with FLL being in the fall, and the summer camps being in the summer. In doing this, we introduce the kids to the world of STEAM, and nurture their interest in technology.
         </p>
         <div className="outreachHome__events-container">
-        <Events
-            name="FLL Workshops"
-            eventLink="outreach/Fll"
+
+        <ImgPresence
+            name="FLL"
+            description="First Lego League is a fun way to get young kids into robotics"
             image="images/outreach/fll/fairoaks.png" />
 
-          <Events
+        <ImgPresence
             name="Summer Camps"
-            eventLink="outreach/SummerCamps"
+            description="Summer Camps are Summer camps, lets be real. They are Steam related probably"
             image="images/outreach/summercamps/stem1.jpg" />
+
         </div>
       </div>
     </div>
