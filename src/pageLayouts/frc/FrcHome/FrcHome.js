@@ -34,29 +34,17 @@ const FrcHome = (props) => {
           <br />
           <img src={kickoff1} className="frcHome__season-pics"></img>
 
-          <br />
-          <br />
-          <br />
-          <br />
-
         </div>
       </div>
       <div className="frcHome__news">
         <h1 className="frcHome__news-header">ILITE's Build Season</h1>
         <br />
         <div className="frcHome__news-container">
-          <p className="frcHome__build-season-text-left">
-            Each year, on kickoff day, all of ILITE gathers together to watch the new game reveal.  Following the release, the team moves on to discussing each aspect of the game to ensure no factor in the game is overseen. By involving all team members in the discussion process, both technical and non-technical,
-                        our hope is to come up with ideas that technical team members might not have thought about.
-          </p>
-          <br />
-          <br />
-          <br />
-          <img src={buildSeason1} className="frcHome__build-season-pics"></img>
-          <p className="frcHome__build-season-text-right">Our daily schedule is packed with tons of hard work.  Each of our technical subteams get to work
-        designing, building, and testing out the robot. The build subteam designs and constructs the physical robot.
-        The programming subteam writes code that the robot will soon utilize.  Our electronics team
-        builds circuit boards to control the various mechanisms on the robot.</p>
+          <div className="frcHome__events-description">
+            <p>With the conclusion of kickoff and the new game announced, ILITE is excited for the new season.  Together with new and returning members, we are ready to tackle this challenge!</p>
+            {/* <img src={buildSeason1} className="frcHome__build-season-pics"></img> */}
+            <p>With the conclusion of kickoff and the new game announced, ILITE is excited for the new season.  Together with new and returning members, we are ready to tackle this challenge!</p>
+          </div>
         </div>
       </div>
       <div className="frcHome__sponsors">
