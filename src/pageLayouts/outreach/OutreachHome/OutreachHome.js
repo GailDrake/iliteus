@@ -45,8 +45,8 @@ const OutreachHome = (props) => {
             image="images/outreach/summercamps/stem2.jpg" />
         </div>
       </div>
-      <div className="outreachHome__sponsors">
-        <h1 className="outreachHome__sponsors-header">FLL and Summer Camps</h1>
+      <div className="outreachHome__FLL">
+        <h1 className="outreachHome__FLL-header">FLL and Summer Camps</h1>
         <p className="outreachHome__description">
         We host seasonal activities teaching kids about certain aspects of STEAM and robotics with FLL being in the fall, and the summer camps being in the summer. In doing this, we introduce the kids to the world of STEAM, and nurture their interest in technology.
         </p>
