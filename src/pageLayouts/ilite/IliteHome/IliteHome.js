@@ -21,6 +21,13 @@ const IliteHome = (props) => {
           </Button>
         </div>
       </div>
+      <div className="iliteHome__description">
+        <h1 className="iliteHome__description-header"></h1>
+        <br />
+        <div className="iliteHome__description-container">
+
+        </div>
+      </div>
       <div className="iliteHome__news">
         <h1 className="iliteHome__news-header">News</h1>
         <br />
@@ -31,8 +38,8 @@ const IliteHome = (props) => {
           <NewsCard title="The 2019 Haymaker STEAM Expo is almost here!" image={require('../../../assets/images/outreach/steamexpo/expologo.png')}>
             The Haymaker STEAM Expo is almost here and we couldn't be more excited. This year promises to be more exciting than ever before with interesting demonstrations and interactive activities. In addition to our own activities at ILITE we also have an escape room from Victory Elementary, a crime scene investigation activity from local law enforcement, and many more. For a full list of activities and more information <a href="http://ilite.info/" target="_blank">click here</a>.
           </NewsCard>
-          <NewsCard title="">
-            We're boring and have no news!
+          <NewsCard title="We just launched our new website!" image={require('../../../assets/images/site_screenshot.png')}>
+            We're incredibly excited to have launched our new website here at ilite.us! If you haven't already noticed, we've made significant changes to both the style and structure of the site. The biggest change, however, has been made to the background operation. The new site is based off of a website development tool called GatsbyJS that allows the site to run faster and smoother. To learn more about GastbyJS <a href="http://gatsbyjs.org">visit here</a>.
           </NewsCard>
         </div>
       </div>
