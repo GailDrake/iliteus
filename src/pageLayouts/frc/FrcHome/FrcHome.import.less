@@ -108,23 +108,32 @@
       }
     }
     .frcHome__events-description {
-      width:100%;
+      width:60%;
       text-align:center;
       margin: 0 25px;
       padding: 0px 20px;
       border-left: 2px solid @purple-ws-3;
       border-right: 2px solid @purple-ws-3;
+      @media(max-width: 1000px) {
+        border:none;
+        width:100%;
+        margin:10px;
+        padding:5px;
+      }
       p {
         margin-bottom: 50px
       }
     }
     .frcHome__season-pics {
-      -moz-width: 25%;
-      width:25%;
-      -moz-height: 20%;
+      width: 25%;
       height: 20%;
       border: 5px double @gray-3;
       
+    }
+    @media (max-width: 1000px) {
+      .frcHome__season-pics {
+       display:none;
+      }
     }
     
   }
@@ -162,14 +171,33 @@
     .frcHome__build-season-pics {
       width: 25%;
       height: 20%;
-      margin:40px;
-      margin-top:0px;
+      margin:auto 40px;
+      /*@media( min-width: 640px), (max-width:1000px) {
+        display:none;
+      }*/
+      @media(max-width: 640px) {
+        margin: auto;
+        width:80%;
+        height:80%;
+      }
     }
     .frcHome__build-season-text-left {
       text-align:justify; 
+      width:40%;
+      @media(max-width: 1000px) {
+        width: 100%;
+        margin: 2px;
+        padding: 5px;
+      }
     }
     .frcHome__build-season-text-right {
       text-align:justify;
+      width:40%;
+      @media(max-width: 1000px) {
+        width: 100%;
+        margin: 2px;
+        padding: 5px;
+      }
     }
   }
 
