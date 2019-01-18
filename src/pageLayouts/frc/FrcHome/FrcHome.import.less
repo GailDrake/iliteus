@@ -74,7 +74,7 @@
     }
   }
 
-  .frcHome__events {
+  .frcHome__season {
     background-color: #eee;
     text-align: center;
     padding-top: 10vh;
@@ -84,7 +84,7 @@
       padding: 20vh 0;
     }
 
-    .frcHome__events-header {
+    .frcHome__season-header {
       color: @text-1;
       font-size: 38px;
       font-weight: 600;
@@ -95,7 +95,7 @@
       padding: 5px;
     }
 
-    .frcHome__events-container {
+    .frcHome__season-container {
       text-align: center;
       padding-right: 5vw;
       padding-left: 5vw;
@@ -108,13 +108,14 @@
       }
     }
 
-    .frcHome__events-description {
+    .frcHome__season-description {
       width: 60%;
       text-align: center;
       margin: 0 25px;
       padding: 0px 20px;
       border-left: 2px solid @purple-ws-3;
       border-right: 2px solid @purple-ws-3;
+
 
       @media(max-width: 1000px) {
         border: none;
@@ -145,13 +146,13 @@
 
   }
 
-  .frcHome__news {
+  .frcHome__build-season {
     background-color: @text-1;
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
 
-    .frcHome__news-header {
+    .frcHome__build-season-header {
       color: @off-white;
       font-size: 38px;
       font-weight: 600;
@@ -162,7 +163,7 @@
       padding: 5px;
     }
 
-    .frcHome__news-container {
+    .frcHome__build-season-container {
       color: @off-white;
       text-align: center;
       padding-right: 5vw;
@@ -176,10 +177,21 @@
       }
     }
 
+    .frcHome__build-season-description {
+      //margin-top: 20px;
+      //margin-bottom: 50px;
+
+      p {
+        margin-top: 40px;
+        margin-bottom: 40px
+      }
+
+    }
 
     .frcHome__build-season-pics {
-      width: 25%;
-      height: 20%;
+      width: 40%;
+      height: 50%;
+      padding-right: 2vw;
 
       @media(max-width: 640px) {
         margin: auto;
@@ -188,36 +200,24 @@
       }
     }
 
-    .frcHome__build-season-text-left {
-      text-align: justify;
+    .frcHome__build-season-pics-gone {
       width: 40%;
+      height: 50%;
+      padding-left: 2vw;
 
-      @media(max-width: 1000px) {
-        width: 100%;
-        margin: 2px;
-        padding: 5px;
-      }
-    }
-
-    .frcHome__build-season-text-right {
-      text-align: justify;
-      width: 40%;
-
-      @media(max-width: 1000px) {
-        width: 100%;
-        margin: 2px;
-        padding: 5px;
+      @media(max-width: 640px) {
+        display: none;
       }
     }
   }
 
-  .frcHome__sponsors {
+  .frcHome__team {
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
     margin-bottom: -10px;
 
-    .frcHome__sponsors-header {
+    .frcHome__team-header {
       color: @text-1;
       font-size: 38px;
       font-weight: 600;
@@ -227,13 +227,13 @@
       padding: 5px;
     }
 
-    .frcHome__sponsors-description {
+    .frcHome__team-description {
       margin-top: 20px;
       margin-bottom: 50px;
 
     }
 
-    .frcHome__sponsors-container {
+    .frcHome__team-container {
       text-align: center;
       padding-right: 5vw;
       padding-left: 5vw;
