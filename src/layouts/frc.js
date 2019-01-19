@@ -5,10 +5,33 @@ import Navbar from "../components/Navbar";
 import Overbar from "../components/overbar";
 import Footer from "../components/footer";
 import Favi from "../assets/icons/favicon.ico";
-import links from "../config/links.js";
+
 
 // import less here - once, for the whole app
 import "./../config/main.less";
+
+const links = [
+  {
+    name: "Media",
+    section: "frc",
+    file: "media"
+  },
+  {
+    name: "Competitions",
+    section: "frc",
+    file: "competition"
+  },
+  {
+    name: "Team",
+    section: "frc",
+    file: "team"
+  },
+  {
+    name: "Home",
+    section: "frc",
+    file: "",
+  }
+];
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -25,7 +48,7 @@ const TemplateWrapper = ({ children }) => (
       link={[{ rel: "shortcut icon", type: "image/png", href: `${Favi}` }]}
     />
 
-    <Overbar theme="frc" />
+    <Overbar />
     <Navbar links={links} />
     <div>{children()}</div>
     <Footer />

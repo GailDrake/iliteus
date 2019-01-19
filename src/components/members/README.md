@@ -15,7 +15,7 @@ The `name` attribute displays the persons full name. The `year` attribute displa
 When used for student leaders or subteam mentors the `Members` component has two optional attributes called `leader` and `mentor`. The `leader` attribute is used to add a title description to the person, containing their leader title. The `mentor` attribute is used to add a subteam description to the mentor, containing which subteam they mentor.
 
 ##### Implementation
-When using the `Members` component on a page we must first import the component usin the following line of code.
+When using the `Members` component on a page we must first import the component using the following line of code.
 ```JS
 import Members from './../../components/general/members';
 ```

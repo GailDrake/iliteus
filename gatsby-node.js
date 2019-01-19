@@ -12,6 +12,10 @@ exports.onCreatePage = async ({ page, boundActionCreators }) => {
       page.layout = "outreach";
       createPage(page);
     }
+    else if (page.path.match(/^\/ilite/)) {
+      page.layout = "ilite"
+      createPage(page);
+    }
     resolve();
   });
 };

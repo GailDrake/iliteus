@@ -29,9 +29,9 @@ const Fll = (props) => {
       <div className="fll">
         <h1 className="fll__header">FLL Workshops</h1>
         <h1 className="fll__subheader">Research Workshop</h1>
-        <img src={fll1} alt="" className="fll__image" />
-        <img src={fll2} alt="" className="fll__image" />
-        <img src={fll3} alt="" className="fll__image" />
+        <img src={fll1} alt="" className="fll__image fll__remove" />
+        <img src={fll2} alt="" className="fll__image fll__stay" />
+        <img src={fll3} alt="" className="fll__image fll__remove" />
         <p className="fll__text">
           A Workshop that guides teams in developing their
           project ideas by providing them with
@@ -42,9 +42,9 @@ const Fll = (props) => {
           </p>
 
         <h1 className="fll__subheader">Programing Workshop</h1>
-        <img src={fll4} alt="" className="fll__image" />
-        <img src={fll5} alt="" className="fll__image" />
-        <img src={fll6} alt="" className="fll__image" />
+        <img src={fll4} alt="" className="fll__image fll__remove" />
+        <img src={fll5} alt="" className="fll__image fll__remove" />
+        <img src={fll6} alt="" className="fll__image fll__stay" />
         <p className="fll__text">
           This workshop taught teams how to code color
           sensors, light sensors, touch sensors, and other
@@ -53,9 +53,9 @@ const Fll = (props) => {
             </p>
 
         <h1 className="fll__subheader">Presentation Workshop</h1>
-        <img src={fll7} alt="" className="fll__image" />
-        <img src={fll8} alt="" className="fll__image" />
-        <img src={fll9} alt="" className="fll__image" />
+        <img src={fll7} alt="" className="fll__image fll__remove" />
+        <img src={fll8} alt="" className="fll__image fll__remove" />
+        <img src={fll9} alt="" className="fll__image fll__stay" />
         <p className="fll__text">
           The final workshop provided the teams assistance
           in working together as a team and how to give a
@@ -73,17 +73,17 @@ const Fll = (props) => {
         </p>
         <h1 className="fll__header">FLL Summer Camps</h1>
         <h1 className="fll__subheader">Jr. FLL Camp</h1>
-        <img src={fll10} alt="" className="fll__image" />
-        <img src={fll11} alt="" className="fll__image" />
-        <img src={fll12} alt="" className="fll__image" />
+        <img src={fll10} alt="" className="fll__image fll__remove" />
+        <img src={fll11} alt="" className="fll__image fll__stay" />
+        <img src={fll12} alt="" className="fll__image fll__remove" />
         <p className="fll__text">
           Introduces critical thinking and engineering through the use of Jr. FLL challenges for students from
           preschool and kindergarten
         </p>
         <h1 className="fll__subheader">FLL Camp</h1>
-        <img src={fll13} alt="" className="fll__image" />
-        <img src={fll14} alt="" className="fll__image" />
-        <img src={fll15} alt="" className="fll__image" />
+        <img src={fll13} alt="" className="fll__image fll__remove" />
+        <img src={fll14} alt="" className="fll__image fll__stay" />
+        <img src={fll15} alt="" className="fll__image fll__remove" />
         <p className="fll__text">
           Introductory summer camp for third, fourth, and fifth grade students that includes scientific
           experiments that teach basic principles of force, power, and chemistry.
