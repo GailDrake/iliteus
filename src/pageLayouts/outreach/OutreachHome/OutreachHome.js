@@ -48,26 +48,26 @@ const OutreachHome = (props) => {
       </div>
       <div className="outreachHome__FLL">
         <h1 className="outreachHome__FLL-header">FLL and Summer Camps</h1>
-        <p className="outreachHome__description">
+        <p className="outreachHome__FLL-subheader">
         We host seasonal activities teaching kids about certain aspects of STEAM and robotics with FLL Workshops being in the fall, and the summer camps being in the summer. In doing this, we introduce the kids to the world of STEAM, and nurture their interest in technology.
         </p>
-        <div className="outreachHome__events-container">
+        <div className="outreachHome__FLLContainer">
 
         <ImgPresence
             name="FLL Workshops"
             description="Our FLL workshops serve to introduce new teams to the world of robotics and teach veternan teams techniques that will help them compete at a higher level."
-            image="images/outreach/fll/fairoaks.png" />
+            image="images/outreach/fll5.jpg"
+            link="/outreach/FLL" />
+          
 
         <ImgPresence
             name="Summer Camps"
             description="Our Summer Camps offer a large variety of STEAM related camps. The camps include everything from science-based arts and crafts to cyber defense, introducing kids of a wide range of ages and interests to STEAM."
-            image="images/outreach/summercamps/stem1.jpg" />
+            image="images/outreach/summercamps/stem1.jpg" 
+            link="/outreach/SummerCamps" />
+
         </div>
-        <br />
-        <div classname="outreachHome__FLL-buttons">
-          <Button link="dtem2.jng" division="frc">DTEM2.JNG</Button>
-          <Button link="dtem3.jng" division="frc">DTEM3.JNG</Button>
-        </div>
+
       </div>
     </div>
   );

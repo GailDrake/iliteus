@@ -7,7 +7,7 @@ class ImgPresence extends Component {
   }
 
   render() {
-    const { name, description, image } = this.props;
+    const { name, description, image, link } = this.props;
     const path = image == 'images/RoverRuckus.jpg' ? 'event__image event__secondImage' : 'event__image';
     return (
         <div className="imgPresence">
@@ -15,7 +15,7 @@ class ImgPresence extends Component {
             <img className={path} src={require(`../../assets/${image}`)} />
           </div>
           <div className="imgPresence__details">
-            <h3 className="imgPresence__header">{name}</h3>
+            <Link to={link}><h3 className="imgPresence__header">{name}</h3></Link>
             <p>{description}</p>
           </div>
         </div>
