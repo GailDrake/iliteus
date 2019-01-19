@@ -27,7 +27,6 @@ const FrcHome = (props) => {
         <h1 className="frcHome__season-header">ILITE Welcomes the 2019 Season!</h1>
         <br />
         <div className="frcHome__season-container">
-          {/* <img src={kickoff2} className="frcHome__season-pics"></img> */}
           <div className="frcHome__season-description">
             <p>With the conclusion of kickoff and the new game announced, ILITE is excited for the new season.
               Together with new and returning members, we are ready to tackle this challenge!
@@ -38,7 +37,6 @@ const FrcHome = (props) => {
             <Button division="frc" link="/frc/Competition">Learn more!</Button>
           </div>
           <br />
-          {/* <img src={kickoff1} className="frcHome__season-pics"></img> */}
 
         </div>
       </div>
