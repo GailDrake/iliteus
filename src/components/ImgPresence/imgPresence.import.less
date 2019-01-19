@@ -1,21 +1,22 @@
-.event {
+.imgPresence {
   flex: 3;
   text-align: left;
   margin: 0px 20px;
   background-color: @text-1;
   position: relative;
+  border: 15px solid @text-1;
 
   .event__image {
     background-color: @text-1;
     border-radius: 0;
-    margin-top: 15px;
     margin-bottom: -6px;
     object-fit: cover;
     height: 250px;
     width: 100%;
+    border: 5px inset @gray-3;
   }
 
-  .event__details {
+  .imgPresence__details {
     background-color: @text-1;
     color: @white;
     width: 100%;
@@ -23,7 +24,7 @@
     padding-bottom: 15px;
     text-align: center;
 
-    .event__header {
+    .imgPresence__header {
       color: @white;
       font-size: 24px;
       font-weight: 400;
@@ -34,51 +35,6 @@
     p {
       font-size: 15px;
       line-height: 23px;
-    }
-  }
-
-  .event__footer {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  .event__divider {
-    color: @gray-2;
-    width: 100%;
-    margin: 0;
-  }
-
-  .event__links {
-    background-color: @white;
-    width: 100%;
-    height: 60px;
-    font-family: @open-sans;
-    padding: 20px 20px 40px 20px;
-
-    li {
-      list-style: none;
-    }
-
-    .event__url {
-      background-color: @white;
-      font-weight: 500;
-      color: @purple-ws-1;
-      text-decoration: none;
-      float: left;
-      margin-right: 23px;
-    }
-
-    .event__location {
-      color: @purple-ws-1;
-      font-weight: 500;
-      text-decoration: none;
-      float: left;
-    }
-
-    @media (max-width: 932px) {
-      padding-top: 5px;
     }
   }
 

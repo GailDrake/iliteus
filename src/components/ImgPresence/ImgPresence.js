@@ -10,12 +10,12 @@ class ImgPresence extends Component {
     const { name, description, image } = this.props;
     const path = image == 'images/RoverRuckus.jpg' ? 'event__image event__secondImage' : 'event__image';
     return (
-        <div className="event">
-          <div className="event__image-holder">
+        <div className="imgPresence">
+          <div className="imgPresence__image-holder">
             <img className={path} src={require(`../../assets/${image}`)} />
           </div>
-          <div className="event__details">
-            <h3 className="event__header">{name}</h3>
+          <div className="imgPresence__details">
+            <h3 className="imgPresence__header">{name}</h3>
             <p>{description}</p>
           </div>
         </div>

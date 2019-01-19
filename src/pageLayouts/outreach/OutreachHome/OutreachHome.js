@@ -23,7 +23,7 @@ const OutreachHome = (props) => {
       </div>
       <div className="outreachHome__events">
         <h1 className="outreachHome__events-header">Upcoming Events</h1>
-        <p className="outreachHome__description">
+        <p className="outreachHome__events-subheader">
         We host a multitude of events including the STEAM Expo, the FRC Competition, and the FTC competition. Click on the images below to find out more.
         </p>
         <div className="outreachHome__events-container">
@@ -49,18 +49,18 @@ const OutreachHome = (props) => {
       <div className="outreachHome__FLL">
         <h1 className="outreachHome__FLL-header">FLL and Summer Camps</h1>
         <p className="outreachHome__description">
-        We host seasonal activities teaching kids about certain aspects of STEAM and robotics with FLL being in the fall, and the summer camps being in the summer. In doing this, we introduce the kids to the world of STEAM, and nurture their interest in technology.
+        We host seasonal activities teaching kids about certain aspects of STEAM and robotics with FLL Workshops being in the fall, and the summer camps being in the summer. In doing this, we introduce the kids to the world of STEAM, and nurture their interest in technology.
         </p>
         <div className="outreachHome__events-container">
 
         <ImgPresence
-            name="FLL"
-            description="First Lego League is a fun way to get young kids into robotics"
+            name="FLL Workshops"
+            description="Our FLL workshops serve to introduce new teams to the world of robotics and teach veternan teams techniques that will help them compete at a higher level."
             image="images/outreach/fll/fairoaks.png" />
 
         <ImgPresence
             name="Summer Camps"
-            description="Summer Camps are Summer camps, lets be real. They are Steam related probably"
+            description="Our Summer Camps offer a large variety of STEAM related camps. The camps include everything from science-based arts and crafts to cyber defense, introducing kids of a wide range of ages and interests to STEAM."
             image="images/outreach/summercamps/stem1.jpg" />
 
         </div>
