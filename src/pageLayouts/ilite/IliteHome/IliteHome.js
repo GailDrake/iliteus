@@ -10,117 +10,60 @@ const IliteHome = (props) => {
     <div className='iliteHome'>
       <div className="iliteHome__banner">
         <div className="iliteHome__banner-text-container">
-          <h1 className="iliteHome__banner-title">ILITE Robotics</h1>
-          <h2 className="iliteHome__banner-subtitle">FIRST Robotics Challenge Team 1885</h2>
+          <h1 className="iliteHome__banner-title">ILITE</h1>
+          <h2 className="iliteHome__banner-subtitle">Inspiring Leaders In Technology and Engineering</h2>
           <p className="iliteHome__banner-description">
             We are a team founded on the principles of leadership, teamwork, and academic rigor. Through competitions, outreach,
             and mentorship we passionately advocate for science and technology in our schools, communities, and throughout the world.
           </p>
-          <Button division='frc' link="/frc/about">
+          <Button division='frc' link="/ilite/about">
             Learn More About Us!
           </Button>
         </div>
       </div>
-      <div className="iliteHome__events">
-        <h1 className="iliteHome__events-header">ILITE Events</h1>
+      <div className="iliteHome__description">
+        <h1 className="iliteHome__description-header">What is ILITE?</h1>
         <br />
-        <div className="iliteHome__events-container">
-          <Events
-            name="Summer Camps"
-            eventLink="outreach/SummerCamps"
-            date="June, 2018"
-            image="images/outreach/summercamps/stem1.jpg" />
-
-          <Events
-            name="FLL Workshops"
-            eventLink="outreach/Fll"
-            date="December, 2018"
-            image="images/outreach/fll/fairoaks.png" />
-          <Events
-            name="IROC"
-            eventLink="https://www.irocoffseason.org"
-            date="October, 2018"
-            image="images/frc/iroc-group-photo.png" />
+        <div className="iliteHome__description-container">
+          <p>ILITE stands for "Inspiring Leaders In Technology and Engineering" and we are a robotics team at Battlefield High School consisting of a FIRST Robotics Competition team, multiple FIRST Tech Challenge teams, a Cyber Patriot Cyber Defense team, and a Betaware Computer Science team. However, ILITE does much more than just robotics. We are very active in our community, having founded other robotics teams and STEAM related programs in schools throughout the county, and we host numerous events, workshops, and camps throughout the year to spread the message of STEAM. Outreach is just as important to us as competing in robotics and ILITE is committed to creating a community of STEAM.</p>
+          <br />
+          <div className="iliteHome__description-button">
+            <Button link="/frc" division="frc">Learn About Our FRC Team</Button>
+            <Button link="/outreach" division="frc">Learn About Our Outreach</Button>
+          </div>
         </div>
       </div>
       <div className="iliteHome__news">
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          <NewsCard title="FIRST Lego League Workshop" image={require('../../../assets/images/frc/summer-camps/FLL.png')}>
-            ILITE Robotics has helped create and foster 60+ FLL teams within the community and planned interactive workshops for teams to gather and develop their knowledge in FLL.
+          <NewsCard title="ILITE hosted Kickoff this year!" image={require('../../../assets/images/frc/kickoff.jpg')}>
+            3... 2... 1... BLAST OFF! This years kickoff saw the launch of the 2019 FIRST Robotics Competition, <b>Destination: Deep Space</b>. ILITE had the pleasure to host the event for our area, inviting many other teams to attend. We had a blast together with all the attending teams and we are excited for the upcoming season.
           </NewsCard>
-          <NewsCard title="Triple Crown Win at District Championship" image={require('../../../assets/images/frc/district_chairmans.jpeg')}>
-            Ilite had great success at the First Chesepeake District Championship. We won the tournament, the Chairman's Award, and first place in the District. Being the first, and only team in our district to win all three.
+          <NewsCard title="The 2019 Haymaker STEAM Expo is almost here!" image={require('../../../assets/images/outreach/steamexpo/expologo.png')}>
+            The Haymaker STEAM Expo is almost here and we couldn't be more excited. This year promises to be more exciting than ever before with interesting demonstrations and interactive activities. In addition to our own activities at ILITE we also have an escape room from Victory Elementary, a crime scene investigation activity from local law enforcement, and many more. For a full list of activities and more information <a href="http://ilite.info/" target="_blank">click here</a>.
           </NewsCard>
-          <NewsCard title="IROC Competition is the Largest Ever Held!" image={require('../../../assets/images/frc/iroc-group-photo.png')}>
-            With 33 registered teams, the 2016 ILITE Robotics Off-Season Challenge was the largest ever held. The winning alliance was composed of FRC Teams 384, Sparky Robotics, 5338, RoboLoCos, and 2363, Triple Helix. Congratulations teams!
+          <NewsCard title="We just launched our new website!" image={require('../../../assets/images/site_screenshot.png')}>
+            We're incredibly excited to have launched our new website here at ilite.us! If you haven't already noticed, we've made significant changes to both the style and structure of the site. The biggest change, however, has been made to the background operation. The new site is based off of a website development tool called GatsbyJS that allows the site to run faster and smoother. To learn more about GastbyJS <a href="http://gatsbyjs.org" target="_blank">visit here</a>.
           </NewsCard>
         </div>
       </div>
       <div className="iliteHome__sponsors">
         <h1 className="iliteHome__sponsors-header">Sponsors</h1>
         <p className="iliteHome__sponsors-description">
-          We thank our Sponsors for their continued support
+          We thank our Sponsors for their past and present support
         </p>
         <br />
         <div className="iliteHome__sponsors-container">
-
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/incadence.png')}
-            url="http://www.incadencecorp.com/">
-            Incadence
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/asco.png')}
-            url="https://www.ascoweb.com/">
-            ASCO
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/bellpumpandwell.jpg')}
-            url="https://www.bellpumpandwell.com/">
-            Bell Pump and Well
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/cathyshometeam.png')}
-            url="https://www.cathyshometeam.com/">
-            Cathy's Home Team
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/engility.png')}
-            url="http://www.engility.com/#HIFh85X6P1kKQ0gK.97">
-            US Stem
-          </SponsorTag>
-
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/khouriortho.jpg')}
-            url="http://khouriortho.com/">
-            Khouri Orthodontist
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/lockheedmartin.png')}
-            url="https://www.lockheedmartin.com/us.html">
-            Lockheed Martin
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/macedontechnologies.png')}
-            url="https://www.macedontechnologies.com/">
-            Macedon Technologies
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/floodtech.png')}
-            url="http://www.a1floodtech.com">
-            A1 Floodtech
-          </SponsorTag>
-          <SponsorTag
-            image={require('../../../assets/images/sponsors/novec.jpg')}
-            url="https://www.novec.com/">
-            Novec
-          </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/usstem.png')}
-            url="http://www.usstem.org/">
+            url="http://www.usstem.org">
             US Stem
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/afa.png')}
+            url="http://www.afa.org/">
+            Air Force Association
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/micron.png')}
@@ -128,19 +71,24 @@ const IliteHome = (props) => {
             Micron
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/battlefieldhighschool.jpg')}
-            url="http://battlefieldhs.pwcs.edu/">
-            Battlefield High School
+            image={require('../../../assets/images/sponsors/spark.jpg')}
+            url="http://www.poweredbyspark.org/">
+            SPARK
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/afcea.png')}
-            url="https://www.afcea.org/site/">
-            AFCEA
+            image={require('../../../assets/images/sponsors/pepsi.png')}
+            url="https://www.pepsi.com/">
+            Pepsi
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/tropicalsmoothie.jpg')}
-            url="https://www.tropicalsmoothiecafe.com/">
-            Tropical Smoothie
+            image={require('../../../assets/images/sponsors/lockheedmartin.png')}
+            url="https://www.lockheedmartin.com/us.html">
+            Lockheed Martin
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/pwcs.png')}
+            url="https://www.pwcs.edu/">
+            Prince William County Schools
           </SponsorTag>
         </div>
       </div>

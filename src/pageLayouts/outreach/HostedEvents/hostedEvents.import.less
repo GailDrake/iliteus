@@ -1,0 +1,91 @@
+.hosted-events {
+  .event {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .hostedevents__header {
+    .title();
+  }
+
+  .hostedevents__subheader {
+    font-family: @raleway;
+    text-align: left;
+    color: @text-2;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    font-size: @text-size-subtitle;
+  }
+
+  Button {
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 500px;
+  }
+
+  .event__description {
+    display: flex;
+    padding: 0;
+    flex: 1;
+    text-align: left;
+
+    @media screen and (max-width: 900px) {
+      display: block;
+    }
+
+    hr {
+      width: 75%;
+      background-color: @purple-ws-3;
+      margin-top: 30px;
+          
+        @media screen and (min-width: 900px) and (max-width: 1100px) {
+          margin-left: 10px;
+        }
+    }
+
+    div {
+      flex: 2;
+      height: 100%;
+      margin-right: 30px;
+    }
+
+    div img {
+      margin-top: 25px;
+      height: 300px;
+      width: 500px;
+      object-fit: contain;
+      margin-bottom: 10px;
+      position: relative;
+      bottom: 0px;
+
+      @media screen and (min-width: 900px){
+        padding-right: 0px;
+      } 
+
+        @media screen and (max-width: 900px){
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+    }
+
+    div p {
+      margin-bottom: 10px;
+    
+      @media screen and (min-width: 900px) and (max-width: 1100px) {
+        margin-left: 10px;
+      }
+    }
+  }
+  .button_contain {
+
+
+    @media screen and (max-width: 1100px) {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 75px;
+      text-align: center;
+    }
+  }
+}

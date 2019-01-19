@@ -1,15 +1,16 @@
 // font variables
 @raleway: 'Raleway',
-sans-serif;
+  sans-serif;
 @open-sans: 'Open Sans',
-sans-serif;
+  sans-serif;
 @roboto: 'Roboto',
-sans-serif;
+  sans-serif;
 @lato: 'Lato',
-sans-serif;
+  sans-serif;
 // text sizes
 @text-size-md: 16px;
 @text-size-lg: 22px;
+@text-size-subtitle: 30px;
 @text-size-title: 36px;
 //Screen Sizes for Compatibility
 @screen-sm: 450px;
@@ -40,6 +41,7 @@ sans-serif;
 @gray-2: #d2d2d2;
 @black: #000000;
 @gray-3: #C9C9C9;
+
 // mixins
 .raleway-bold {
   font-family: @raleway;
@@ -65,7 +67,7 @@ sans-serif;
 }
 
 // image mixins
-.bg-image ( @size ) {
+.bg-image (@size ) {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: @size;

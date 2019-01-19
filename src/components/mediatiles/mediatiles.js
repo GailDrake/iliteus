@@ -2,7 +2,7 @@ import React from 'react';
 
 const Mediatiles = ({ name, url }) => (
   <div className='mediatiles'>
-    <a href={url}>
+    <a href={url} target="_blank">
       <div className="mediatiles__tile">
         <div className="mediatiles__textWrapper">
           <h2>{name}</h2>
