@@ -27,13 +27,18 @@ const FrcHome = (props) => {
         <h1 className="frcHome__season-header">ILITE Welcomes the 2019 Season!</h1>
         <br />
         <div className="frcHome__season-container">
-          <img src={kickoff2} className="frcHome__season-pics"></img>
+          {/* <img src={kickoff2} className="frcHome__season-pics"></img> */}
           <div className="frcHome__season-description">
-            <p>With the conclusion of kickoff and the new game announced, ILITE is excited for the new season.  Together with new and returning members, we are ready to tackle this challenge!</p>
+            <p>With the conclusion of kickoff and the new game announced, ILITE is excited for the new season.
+              Together with new and returning members, we are ready to tackle this challenge!
+              This year we are proud to participate in the new, unique First Robotics Competition, Destination: Deep Space.
+             This is the first competition to not have a dedicated autonomous peroid at the beginning of the match.
+             Instead they have added a period called Sandstorm, which allows both driver control, and autonomous to be run.
+             Learn more about this peroid and the rest of the game by clicking on the button below.</p>
             <Button division="frc" link="/frc/Competition">Learn more!</Button>
           </div>
           <br />
-          <img src={kickoff1} className="frcHome__season-pics"></img>
+          {/* <img src={kickoff1} className="frcHome__season-pics"></img> */}
 
         </div>
       </div>
