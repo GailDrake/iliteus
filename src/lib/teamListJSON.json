@@ -153,6 +153,60 @@
       "mentor": true,
       "image": "Lechner,Stephan.jpg"
     },
+    "Calvin Min": {
+      "name": "Calvin Min",
+      "subteam": "Build",
+      "leader": "Team President",
+      "memory": "N/A",
+      "year": 2016,
+      "fact": "N/A",
+      "image": "Min,Calvin.jpg"
+    },
+    "Cole Roof": {
+      "name": "Cole Roof",
+      "subteam": "Electronics",
+      "leader": "Technical Co-President",
+      "memory": "Running around at worlds with everybody in 2017",
+      "year": 2016,
+      "fact": "I do parkour ( backflips and stuff )",
+      "image": "Roof,Cole.jpg"
+    },
+    "Kiyan Zewer": {
+      "name": "Kiyan Zewer",
+      "subteam": "Outreach",
+      "leader": "Business Co-President",
+      "memory": "2018 Detroit World Championship",
+      "year": 2017,
+      "fact": "I am Kurdish.",
+      "image": "Zewer,Kiyan.jpg"
+    },
+    "Hannah Credno ": {
+      "name": "Hannah Credno ",
+      "subteam": "Outreach",
+      "leader": "Business Co-President",
+      "memory": "IROC breakfast team",
+      "year": 2015,
+      "fact": "I like mango on pizza",
+      "image": "Credno,Hannah.jpg"
+    },
+    "Danielle Velasco": {
+      "name": "Danielle Velasco",
+      "subteam": "Outreach",
+      "leader": "Co-Secretary",
+      "memory": "Walking around IROC getting to know other teams",
+      "year": 2018,
+      "fact": "I can say my ABC's backwards",
+      "image": "Velasco,Danielle.jpg"
+    },
+    "Nick Jacobs": {
+      "name": "Nick Jacobs",
+      "subteam": "",
+      "leader": "Co-Secretary",
+      "memory": "N/A",
+      "year": 2018,
+      "fact": "N/A",
+      "image": "Jacobs,Nick.jpg"
+    },
     "Nicholas Miller": {
       "name": "Nicholas Miller",
       "subteam": "Web",
@@ -173,7 +227,7 @@
     "Colton Matthews": {
       "name": "Colton Matthews",
       "subteam": "Strategy",
-      "leader": "Strategy/Scouting Co-Lead",
+      "leader": "Strategy Co-Lead",
       "memory": "IROC",
       "year": 2018,
       "fact": "I play soccer.",
@@ -197,7 +251,7 @@
     "Caroline Gee": {
       "name": "Caroline Gee",
       "subteam": "Strategy",
-      "leader": "Scouting/Strategy Co-Lead",
+      "leader": "Strategy Co-Lead",
       "memory": "All the little moments spent with my ILITE family <3 (also winning District Champs last year)",
       "year": 2017,
       "fact": "I want to be an astronaut when I grow up!",
@@ -317,15 +371,6 @@
       "fact": "I used to be on the Electronics Team",
       "image": "Min,Carson.jpg"
     },
-    "Cole Roof": {
-      "name": "Cole Roof",
-      "subteam": "Electronics",
-      "leader": "Technical Co-President",
-      "memory": "Running around at worlds with everybody in 2017",
-      "year": 2016,
-      "fact": "I do parkour ( backflips and stuff )",
-      "image": "Roof,Cole.jpg"
-    },
     "Trevor Lew": {
       "name": "Trevor Lew",
       "subteam": "Build",
@@ -370,7 +415,7 @@
     "Grace Henderson": {
       "name": "Grace Henderson",
       "subteam": "Outreach",
-      "leader": "STEAM EXPO Lead",
+      "leader": "STEAM Expo Lead",
       "memory": "Winning Chairman's at District Champs",
       "year": 2017,
       "fact": "My birthday is 03/03/03",
@@ -416,24 +461,6 @@
       "year": 2018,
       "fact": "I'm afraid of spoons.",
       "image": "Kun,Laura.jpg"
-    },
-    "Danielle Velasco": {
-      "name": "Danielle Velasco",
-      "subteam": "Outreach",
-      "leader": "Co-Secretary",
-      "memory": "Walking around IROC getting to know other teams",
-      "year": 2018,
-      "fact": "I can say my ABC's backwards",
-      "image": "Velasco,Danielle.jpg"
-    },
-    "Kiyan Zewer": {
-      "name": "Kiyan Zewer",
-      "subteam": "Outreach",
-      "leader": "Business Co-President",
-      "memory": "2018 Detroit World Championship",
-      "year": 2017,
-      "fact": "I am Kurdish.",
-      "image": "Zewer,Kiyan.jpg"
     },
     "Sadie Sahlberg": {
       "name": "Sadie Sahlberg",
@@ -516,7 +543,7 @@
     "Nathan Burks": {
       "name": "Nathan Burks",
       "subteam": "3D Printing",
-      "leader": "3D Lead",
+      "leader": "3D Printing Lead",
       "memory": "Worlds",
       "year": 2015,
       "fact": "I practice fencing.",
@@ -529,15 +556,6 @@
       "year": 2018,
       "fact": "Python was the first programming language I worked with.",
       "image": "Anselmo,John.jpg"
-    },
-    "Hannah Credno ": {
-      "name": "Hannah Credno ",
-      "subteam": "Outreach",
-      "leader": "Outreach co lead. Business co president ",
-      "memory": "IROC breakfast team",
-      "year": 2015,
-      "fact": "I like mango on pizza",
-      "image": "Credno,Hannah.jpg"
     },
     "Trent Marchand": {
       "name": "Trent Marchand",
@@ -635,15 +653,6 @@
       "year": 2017,
       "fact": "I like animals",
       "image": "Pisal,Urvi.jpg"
-    },
-    "Nick Jacobs": {
-      "name": "Nick Jacobs",
-      "subteam": "",
-      "leader": "Co-Secretary",
-      "memory": "N/A",
-      "year": 2018,
-      "fact": "N/A",
-      "image": "Jacobs,Nick.jpg"
     },
     "Harry Davidson": {
       "name": "Harry Davidson",
