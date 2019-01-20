@@ -3,6 +3,8 @@
     "Gail Drake": {
       "name": "Gail Drake",
       "subteam": "Team Coach",
+      "memory": "N/A",
+      "fact": "N/A",
       "year": 2004,
       "mentor": true,
       "image": "Drake,Gail.jpg"
@@ -10,6 +12,8 @@
     "Lakshmi Meyappan": {
       "name": "Lakshmi Meyappan",
       "subteam": "Outreach",
+      "memory": "N/A",
+      "fact": "N/A",
       "year": 2014,
       "mentor": true,
       "image": "Meyappan,Lakshmi.jpg"
@@ -17,6 +21,9 @@
     "Chris O'Connell": {
       "name": "Chris O'Connell",
       "subteam": "Programming",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
       "mentor": true,
       "image": "O'Connell,Chris.jpg"
     },
@@ -41,6 +48,8 @@
     "Gloria Desautels": {
       "name": "Gloria Desautels",
       "subteam": "Outreach",
+      "memory": "N/A",
+      "fact": "N/A",
       "year": 2014,
       "mentor": true,
       "image": "Desautels,Gloria.jpg"
@@ -48,12 +57,17 @@
     "Greg Morton": {
       "name": "Greg Morton",
       "subteam": "Build",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
       "mentor": true,
       "image": "Morton,Greg.jpg"
     },
     "Jamie Lechner": {
       "name": "Jamie Lechner",
       "subteam": "Outreach",
+      "memory": "N/A",
+      "fact": "N/A",
       "year": 2013,
       "mentor": true,
       "image": "Lechner,Jamie.jpg"
@@ -70,6 +84,8 @@
     "Kimberly Strong": {
       "name": "Kimberly Strong",
       "subteam": "Outreach",
+      "memory": "N/A",
+      "fact": "N/A",
       "year": 2014,
       "mentor": true,
       "image": "Strong,Kimberly.jpg"
@@ -77,6 +93,8 @@
     "Marc Sciarrino": {
       "name": "Marc Sciarrino",
       "subteam": "Programming",
+      "memory": "N/A",
+      "fact": "N/A",
       "year": 2010,
       "mentor": true,
       "image": "Sciarrino,Marc.jpg"
@@ -84,6 +102,9 @@
     "Paul Lahann": {
       "name": "Paul Lahann",
       "subteam": "Build",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
       "mentor": true,
       "image": "Lahann,Paul.jpg"
     },
@@ -101,24 +122,34 @@
       "subteam": "Build",
       "memory": "Teaching the scrubs.",
       "fact": "I like John Deer",
+      "year": "N/A",
       "mentor": true,
       "image": "Lechner,Noah.jpg"
     },
     "Larry Laverty": {
       "name": "Larry Laverty",
       "subteam": "Build",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
       "mentor": true,
       "image": "Laverty,Larry.jpg"
     },
     "Leon Davidson": {
       "name": "Leon Davidson",
       "subteam": "Build",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
       "mentor": true,
       "image": "Davidson,Leon.jpg"
     },
     "Stephan Lechner": {
       "name": "Stephan Lechner",
       "subteam": "Build",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
       "mentor": true,
       "image": "Lechner,Stephan.jpg"
     },
@@ -458,12 +489,13 @@
       "fact": "I have all the lyrics to Hamilton, Dear Evan Hansen, Be More Chill and Newsies memorized",
       "image": "Balint,Kate.jpg"
     },
-    "Matt Reheuser": {
-      "name": "Matt Reheuser",
+    "Matthew Reheuser": {
+      "name": "Matthew Reheuser",
       "subteam": "Build",
       "memory": "The friends I have made through robotics",
       "year": 2017,
-      "fact": "I have a pet turtle"
+      "fact": "I have a pet turtle",
+      "image": "Reheuser,Matthew.jpg"
     },
     "Aditi Shastri": {
       "name": "Aditi Shastri",
@@ -480,13 +512,6 @@
       "year": 2017,
       "fact": "I can play guitar",
       "image": "Mischel,Iain.jpg"
-    },
-    "Hannah Jackowski": {
-      "name": "Hannah Jackowski",
-      "subteam": "Programming",
-      "memory": "Basically any time with my friends where we're joking around and having a laugh.",
-      "year": 2018,
-      "fact": "I have a lot of scented candles, like, too many scented candles."
     },
     "Nathan Burks": {
       "name": "Nathan Burks",
@@ -627,6 +652,13 @@
       "year": 2017,
       "fact": "N/A",
       "image": "Davidson,Harry.jpg"
+    },
+    "Aiden Lee": {
+      "name": "Aiden Lee",
+      "subteam": "Graphics",
+      "memory": "N/A",
+      "year": 2018,
+      "fact": "N/A"
     }
   }
 }

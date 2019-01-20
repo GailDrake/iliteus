@@ -43,10 +43,10 @@ const Team = ({ teamList }) => {
               appreciation for quality design.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
+            <img
               src={require("../../../assets/images/frc/members/Build/Build.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
               The Build Subteam is responsible for creating the ILITE robot
               yearly for competition. To do so efficiently and effectively, the
@@ -127,10 +127,10 @@ const Team = ({ teamList }) => {
               this we want to make a board that is safe, neat, and working.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
+            <img
               src={require("../../../assets/images/frc/members/Electronics/Electronics.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
               The Electronics subteam’s main task is to efficiently route and
               connect the necessary components needed for the robot to function.
@@ -202,10 +202,10 @@ const Team = ({ teamList }) => {
               principles.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
-              src={require("../../../assets/images/frc/members/Programming/Programming+Web.jpg")}
+            <img
+              src={require("../../../assets/images/frc/members/Programming/Programming.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
               The Programming Team is primarily put in charge of developing and
               writing code for the robot. Most of our time is spent focusing on
@@ -265,10 +265,10 @@ const Team = ({ teamList }) => {
               maintain current sponsors that support the team.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
+            <img
               src={require("../../../assets/images/frc/members/Sponsorship/Sponsorship.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
               The ILITE Sponsorship Team practices the skills required to
               successfully maintain and obtain sponsors. The Sponsorship team is
@@ -316,10 +316,10 @@ const Team = ({ teamList }) => {
               in STEM in and out of school environments.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
+            <img
               src={require("../../../assets/images/frc/members/Outreach/Outreach.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
               The ILITE Outreach Team is a complex network of people that work
               to exercise the skills needed for successful project management,
@@ -409,7 +409,7 @@ const Team = ({ teamList }) => {
               in the decision making process for alliance selection.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img src={require('../../../assets/images/frc/members/Scouting/Temporary.jpg')} className="team__img" /> */}
+            <img src={require('../../../assets/images/frc/members/Strategy/Strategy.jpg')} className="team__img" />
             <p>
               The ILITE Scouting Team is responsible for gathering relevant data
               on other team's performance according to this year's game. This
@@ -448,10 +448,10 @@ const Team = ({ teamList }) => {
               and distribution of other web media.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
-              src={require("../../../assets/images/frc/members/Programming/Programming+Web.jpg")}
+            <img
+              src={require("../../../assets/images/frc/members/Web/Web.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
               The website development subteam develops the website for our team.
               Through time, dedication, and collaboration with the use of
@@ -516,10 +516,10 @@ const Team = ({ teamList }) => {
               systematic, organized designs.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
+            <img
               src={require("../../../assets/images/frc/members/Graphics/Graphics.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
               Team 1885, ILITE Robotics, is defined by an intellectual and
               creative legacy built upon the impressionable, diligent, and
@@ -582,6 +582,10 @@ const Team = ({ teamList }) => {
               <QuoteRight fill="grey" />
               <QuoteLeft fill="grey" />
             </div>
+            <img
+              src={require("../../../assets/images/frc/members/3D Printing/3DPrinting.jpg")}
+              className="team__img"
+            />
             <p>
             </p>
             <div className="team__greybox">
@@ -598,10 +602,6 @@ const Team = ({ teamList }) => {
           </Tab>
           <Tab name="Mentors">
             <h1>Mentors</h1>
-            {/* <img
-              src={require("../../../assets/images/frc/members/Mentors/Mentors.jpg")}
-              className="team__img"
-            /> */}
             <p>
               The mentors are a group of volunteers who contribute to the team.
               They are responsible for supporting and assisting the team members
