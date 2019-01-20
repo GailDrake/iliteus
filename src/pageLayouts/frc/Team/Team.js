@@ -399,8 +399,8 @@ const Team = ({ teamList }) => {
               {GetMember("Outreach", teamList)}
             </div>
           </Tab>
-          <Tab name="Scouting">
-            <h1>Scouting</h1>
+          <Tab name="Strategy">
+            <h1>Strategy</h1>
             <div className="team__greybox">
               <h2>Subteam Specific Mission Statement</h2>
               <QuoteRight fill="grey" />
@@ -435,7 +435,7 @@ const Team = ({ teamList }) => {
               </ol>
             </div>
             <div className="team__members">
-              {GetMember("Strategy/Scouting", teamList)}
+              {GetMember("Strategy", teamList)}
             </div>
           </Tab>
           <Tab name="Website">
@@ -573,6 +573,27 @@ const Team = ({ teamList }) => {
             </div>
             <div className="team__members">
               {GetMember("Graphics", teamList)}
+            </div>
+          </Tab>
+          <Tab name="3D Printing">
+            <h1>3D Printing</h1>
+            <div className="team__greybox">
+              <h2>Subteam Specific Mission Statement</h2>
+              <QuoteRight fill="grey" />
+              <QuoteLeft fill="grey" />
+            </div>
+            <p>
+            </p>
+            <div className="team__greybox">
+              <h2>Goals</h2>
+              <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ol>
+            </div>
+            <div className="team__members">
+              {GetMember("3D Printing", teamList)}
             </div>
           </Tab>
           <Tab name="Mentors">

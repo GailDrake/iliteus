@@ -94,10 +94,7 @@ function getMentors(teamList) {
     if (member.mentor == true) {
       const image =
         member.image &&
-        require(`../../../assets/images/frc/members/${member.subteam}/${member.name.replace(
-          " ",
-          ""
-        )}.png`);
+        require(`../../../assets/images/frc/members/Mentors/${member.image}`);
       return (
         <Members
           name={member.name}
