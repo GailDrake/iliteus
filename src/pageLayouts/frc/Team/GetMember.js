@@ -18,7 +18,7 @@ const GetMember = (subteam, teamList) => {
           member.image &&
           require(`../../../assets/images/frc/members/${subteam}/${
             member.image
-          }`);
+            }`);
         return (
           <Members
             name={member.name}
@@ -41,7 +41,7 @@ const GetMember = (subteam, teamList) => {
             member.image &&
             require(`../../../assets/images/frc/members/${subteam}/${
               member.image
-            }`);
+              }`);
           return (
             <Members
               name={member.name}
@@ -71,7 +71,7 @@ function getLeaders(subteam, teamList) {
         member.image &&
         require(`../../../assets/images/frc/members/${subteam}/${
           member.image
-        }`);
+          }`);
       return (
         <Members
           name={member.name}
@@ -94,7 +94,7 @@ function getMentors(teamList) {
     if (member.mentor == true) {
       const image =
         member.image &&
-        require(`../../../assets/images/frc/members/${subteam}/${member.name.replace(
+        require(`../../../assets/images/frc/members/${member.subteam}/${member.name.replace(
           " ",
           ""
         )}.png`);
