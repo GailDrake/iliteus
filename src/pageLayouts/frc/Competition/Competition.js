@@ -8,6 +8,34 @@ const Competition = () => {
     <Container division="frc" title="Competitions" subtitle="See all of our competitions from throughout our history" id="top">
       <div className="competition">
         <Tabs>
+          {/* 2019 - Destination: Deep Space */}
+          <Tab name="2019">
+            <div className="competition__event" id="tab14">
+              <h1 className="competition__event-header">2019 - Destination: Deep Space</h1>
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/Mew6G_og-PI"
+                frameborder="0"
+                gesture="media"
+                allow="encrypted-media"
+                allowfullscreen />
+              {/* <div className="competition__event-container">
+                <div className="competition__awards">
+                  <h3 className="competition__event-subheader">Awards</h3>
+                  <ul>
+                    {Future awards are listed here}
+                  </ul>
+                </div>
+                <div className="competition__attended">
+                  <h3 className="competition__event-subheader">Competitions Attended</h3>
+                  <ul>
+                    {Future competitions attended are listed here}
+                  </ul>
+                </div>
+              </div> */}
+            </div>
+          </Tab>
           {/* 2018 - Power Up */}
           <Tab name="2018">
             <div className="competition__event" id="tab13">
