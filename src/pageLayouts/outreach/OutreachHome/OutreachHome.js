@@ -1,7 +1,5 @@
 import React from 'react';
 import Events from '../../../components/events';
-import ImgPresence from '../../../components/ImgPresence';
-import Button from '../../../components/Button';
 
 const OutreachHome = (props) => {
   return (
@@ -29,7 +27,7 @@ const OutreachHome = (props) => {
         <div className="outreachHome__events-container">
           <Events
             name="Steam Expo"
-            date="JAnuary 26, 2019"
+            date="January 26, 2019"
             eventLink="http://www.ilite.info/"
             image="images/outreach/steamexpo/expo.jpg" />
           
@@ -53,18 +51,17 @@ const OutreachHome = (props) => {
         </p>
         <div className="outreachHome__FLLContainer">
 
-        <ImgPresence
+        <Events
             name="FLL Workshops"
-            description="Our FLL workshops serve to introduce new teams to the world of robotics and teach veternan teams techniques that will help them compete at a higher level."
-            image="images/outreach/fll5.jpg"
-            link="/outreach/FLL" />
-          
+            date="Our FLL workshops serve to introduce new teams to the world of robotics and teach veternan teams techniques that will help them compete at a higher level."
+            eventLink="/outreach/FLL"
+            image="images/outreach/fll5.jpg" />
 
-        <ImgPresence
+        <Events
             name="Summer Camps"
-            description="Our Summer Camps offer a large variety of STEAM related camps. The camps include everything from science-based arts and crafts to cyber defense, introducing kids of a wide range of ages and interests to STEAM."
-            image="images/outreach/summercamps/stem1.jpg" 
-            link="/outreach/SummerCamps" />
+            date="Our Summer Camps offer a large variety of STEAM related camps. The camps include everything from science-based arts and crafts to cyber defense, introducing kids of a wide range of ages and interests to STEAM."
+            eventLink="/outreach/SummerCamps"
+            image="images/outreach/summercamps/stem1.jpg" />
 
         </div>
 
