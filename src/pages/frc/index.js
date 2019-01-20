@@ -1,4 +1,4 @@
 import React from 'react';
-import About from '../../pageLayouts/ilite/About';
+import FrcHome from '../../pageLayouts/frc/FrcHome';
 
-export default () => <About />
+export default () => <FrcHome />
