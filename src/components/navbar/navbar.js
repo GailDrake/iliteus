@@ -5,7 +5,7 @@ import SideMenu from '../SideMenu';
 class Navbar extends Component {
   constructor(props) {
     super(props);
-    this.current = "";
+    this.current = "none";
   }
 
   currentCheck = (url) => {
@@ -42,8 +42,10 @@ class Navbar extends Component {
   }
 
   render() {
-    var url = window.location.href;
-    this.currentCheck(url);
+    const url = window && window.location && window.location.href;
+    if (url) {
+      this.currentCheck(window.location.href);
+    }
     const { links } = this.props;
     const getLinks = links.map((link, index) => {
       let filePath = `/${link.section}/${link.file}`;

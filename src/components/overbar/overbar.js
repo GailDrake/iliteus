@@ -26,16 +26,17 @@ class Overbar extends Component {
       this.outreach = "";
     }
     else {
-      this.ilite = "overbar--underlined";
+      this.ilite = "";
       this.frc = "";
       this.outreach = "";
     }
   }
 
   render() {
-    var url = window.location.href;
-    this.sectionCheck(url);
-
+    const url = window && window.location && window.location.href;
+    if (url) {
+      this.sectionCheck(window.location.href);
+    }
     return (
       <nav>
         <ul className="overbar__list">
