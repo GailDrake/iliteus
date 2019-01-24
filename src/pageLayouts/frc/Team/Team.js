@@ -11,7 +11,7 @@ const Team = ({ teamList }) => {
     <Container
       division="frc"
       title="Team"
-      subtitle="ILITE has a team structure that emphasises student leadership and mentorship."
+      subtitle="ILITE has a team structure that emphasizes student leadership and mentorship."
     >
       <div className="team">
         <Tabs>
@@ -24,7 +24,7 @@ const Team = ({ teamList }) => {
               together like-minded individuals who share a common interest while
               pairing them with industry professionals to establish a
               comfortable environment of mentorship from professionals and peers
-              alike. Our structural style is one that specifically emphasises
+              alike. Our structural style is one that specifically emphasizes
               student leadership and accountability.
             </p>
             <div className="team__members">
