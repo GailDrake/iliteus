@@ -34,11 +34,9 @@ const FrcHome = (props) => {
              This is the first competition to not have a dedicated autonomous peroid at the beginning of the match.
              Instead they have added a period called Sandstorm, which allows both driver control, and autonomous to be run.
              Learn more about this peroid and the rest of the game by clicking on the button below.</p>
-            <Button division="frc" link="/frc/Competition">Learn more!</Button>
           </div>
-          <br />
-
         </div>
+        <Button link="/frc/Competition">Learn more!</Button>
       </div>
       <div className="frcHome__build-season">
         <h1 className="frcHome__build-season-header">ILITE's Build Season</h1>
@@ -71,7 +69,7 @@ const FrcHome = (props) => {
           outreach, and sponsorship team. Our technical teams consist of build, programming, and electronics,
           each with a trained set of members.
           </p>
-          <Button division="frc" link="/frc/Team">See our team!</Button>
+          <Button link="/frc/Team">See our team!</Button>
         </div>
       </div>
     </div >

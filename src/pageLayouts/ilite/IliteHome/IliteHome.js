@@ -16,7 +16,7 @@ const IliteHome = (props) => {
             We are a team founded on the principles of leadership, teamwork, and academic rigor. Through competitions, outreach,
             and mentorship we passionately advocate for science and technology in our schools, communities, and throughout the world.
           </p>
-          <Button division='frc' link="/ilite/about">
+          <Button link="/ilite/about">
             Learn More About Us!
           </Button>
         </div>
@@ -28,8 +28,8 @@ const IliteHome = (props) => {
           <p>ILITE stands for "Inspiring Leaders In Technology and Engineering" and we are a robotics team at Battlefield High School consisting of a FIRST Robotics Competition team, multiple FIRST Tech Challenge teams, a Cyber Patriot Cyber Defense team, and a Betaware Computer Science team. However, ILITE does much more than just robotics. We are very active in our community, having founded other robotics teams and STEAM related programs in schools throughout the county, and we host numerous events, workshops, and camps throughout the year to spread the message of STEAM. Outreach is just as important to us as competing in robotics and ILITE is committed to creating a community of STEAM.</p>
           <br />
           <div className="iliteHome__description-button">
-            <Button link="/frc" division="frc">Learn About Our FRC Team</Button>
-            <Button link="/outreach" division="frc">Learn About Our Outreach</Button>
+            <Button link="/frc">Learn About Our FRC Team</Button>
+            <Button link="/outreach">Learn About Our Outreach</Button>
           </div>
         </div>
       </div>
