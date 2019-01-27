@@ -18,21 +18,15 @@ const OutreachHome = (props) => {
         <h1 className="outreachHome__description-header">About Outreach</h1>
         <br />
         <p className="outreachHome__description-text">
-        ILITE hosts and plans a majority of the STEAM related events at our school. Additionally, we help spread the word, and bring STEAM to our community in a big way. We utilize events such as the STEAM Expo, and the Summer Camps to teach our community about the different aspects of STEAM, as well as get them interested in the possibilities STEAM has for the future. Our goal as ILITE is to inspire the future generation and encourage them to pursue STEAM.
+          ILITE hosts and plans a majority of the STEAM related events at our school. Additionally, we help spread the word, and bring STEAM to our community in a big way. We utilize events such as the STEAM Expo, and the Summer Camps to teach our community about the different aspects of STEAM, as well as get them interested in the possibilities STEAM has for the future. Our goal as ILITE is to inspire the future generation and encourage them to pursue STEAM.
         </p>
       </div>
       <div className="outreachHome__events">
         <h1 className="outreachHome__events-header">Upcoming Events</h1>
         <p className="outreachHome__events-subheader">
-        We host a multitude of events including the STEAM Expo, the FRC Competition, and the FTC competition. Click on the images below to find out more.
+          We host a multitude of events throughout the year ranging from robotics competitions to summer camps to expos. Below are listed events that we will be hosting in the near future.
         </p>
         <div className="outreachHome__events-container">
-          <Events
-            name="Steam Expo"
-            date="January 26, 2019"
-            eventLink="http://www.ilite.info/"
-            image="images/outreach/steamexpo/expo.jpg" />
-          
           <Events
             name="Week 1 FRC Chesapeake District Event"
             date="March 1-3, 2019"
@@ -44,29 +38,35 @@ const OutreachHome = (props) => {
             date="July, 2019"
             eventLink="/outreach/SummerCamps"
             image="images/outreach/summercamps/stem2.jpg" />
+
+          <Events
+            name="IROC"
+            date="October, 2019"
+            eventLink="http://irocoffseason.org"
+            image="images/frc/iroc-group-photo.png" />
         </div>
       </div>
       <div className="outreachHome__FLL">
         <h1 className="outreachHome__FLL-header">FLL and Summer Camps</h1>
         <p className="outreachHome__FLL-subheader">
-        We host seasonal activities teaching kids about certain aspects of STEAM and robotics with FLL Workshops being in the fall, and the summer camps being in the summer. In doing this, we introduce the kids to the world of STEAM, and nurture their interest in technology.
+          We host seasonal activities teaching kids about certain aspects of STEAM and robotics with FLL Workshops being in the fall, and the summer camps being in the summer. In doing this, we introduce the kids to the world of STEAM, and nurture their interest in technology.
         </p>
         <div className="outreachHome__FLLContainer">
 
-        <Events
+          <Events
             name="FLL Workshops"
             date="Our FLL workshops serve to introduce new teams to the world of robotics and teach veternan teams techniques that will help them compete at a higher level."
             eventLink="/outreach/FLL"
             image="images/outreach/fll5.jpg" />
 
-        <Events
+          <Events
             name="Summer Camps"
             date="Our Summer Camps offer a large variety of STEAM related camps. The camps include everything from science-based arts and crafts to cyber defense, introducing kids of a wide range of ages and interests to STEAM."
             eventLink="/outreach/SummerCamps"
             image="images/outreach/summercamps/stem1.jpg" />
 
-        
-        {/* <ImgPresence
+
+          {/* <ImgPresence
             name="FLL Workshops"
             description="Our FLL workshops serve to introduce new teams to the world of robotics and teach veternan teams techniques that will help them compete at a higher level."
             image="images/outreach/fll5.jpg"
