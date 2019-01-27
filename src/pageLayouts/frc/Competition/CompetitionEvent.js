@@ -5,7 +5,7 @@ import competition from '../../../components/Competition';
 
 const CompetitionEvent = () => {
   return (
-    <Container division="frc" title="Competition" subtitle="This is a banner for the competition page.">
+    <Container title="Competition" subtitle="This is a banner for the competition page.">
       <div className="competition-event">
         <div className="tabs">
           <li><a href="#tab12">2017</a></li>

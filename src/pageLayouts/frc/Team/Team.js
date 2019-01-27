@@ -9,7 +9,6 @@ import QuoteRight from "../../../IconComponents/Quoteright";
 const Team = ({ teamList }) => {
   return (
     <Container
-      division="frc"
       title="Team"
       subtitle="ILITE has a team structure that emphasizes student leadership and mentorship."
     >
