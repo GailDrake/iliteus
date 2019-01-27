@@ -8,8 +8,8 @@ import SponsorTag from '../../../components/SponsorTag/SponsorTag';
 //Image imports
 import kickoff1 from "../../../assets/images/frc/home_page/kickoff-pic1.jpeg";
 import kickoff2 from "../../../assets/images/frc/home_page/kickoff-pic2.jpeg";
-import kickoff3 from "../../../assets/images/frc/home_page/kickoff-pic3.jpeg";
-import buildSeason1 from "../../../assets/images/frc/home_page/build_season-pic1.jpeg";
+import kickoff3 from "../../../assets/images/frc/home_page/kickoff-pic3.jpg";
+import buildSeason1 from "../../../assets/images/frc/home_page/build_season-pic1.jpg";
 
 const FrcHome = (props) => {
   return (
