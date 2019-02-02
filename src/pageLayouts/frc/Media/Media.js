@@ -14,6 +14,10 @@ const Media = (props) => {
 				</p>
 				<div className="media_tiles">
 					<Mediatiles
+						url="https://www.dropbox.com/sh/20p3csyqm4bakdf/AADylpobYtPtC0vpE9QaT7iia?dl=0"
+						name="STEAM Expo 2019"
+					/>
+					<Mediatiles
 						url={`https://www.dropbox.com/sh/n5vqlp9dyymxv82/AABDer7WXWucnOysP0UR1F7Ia?dl=0`}
 						name="IROC 2018"
 					/>

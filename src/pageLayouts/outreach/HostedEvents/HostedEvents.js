@@ -59,7 +59,7 @@ const HostedEvents = () => (
               A unique opportunity to explore the various aspects of science,
               technology, engineering, art, and mathematics. In this annual
               event, we invite a variety of companies, both small and large, to
-              share their knowledge with the community. Activities will include,
+              share their knowledge with the community. Activities include,
               but are not limited to, logic puzzles, simulations, arts and
               crafts, and technological demonstrations that are sure to teach
               everyone something new.
