@@ -1,12 +1,13 @@
 .news-card {
   flex: 3;
   background-color: @white;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 0 20px;
+  max-width: 405px;
 
   .news-card__image {
     width: 100%;
-    min-height: 270px;
+    max-width: 405px;
+    max-height: 270px;
     margin: 0;
     background-size: cover;
     object-fit: cover;
@@ -38,5 +39,9 @@
     margin: 0 auto;
     margin-bottom: 5vw;
     width: 80%;
+  }
+
+  @media (min-width: 2000px) {
+    margin: 0 5%;
   }
 }

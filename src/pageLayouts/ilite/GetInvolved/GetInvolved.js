@@ -1,12 +1,13 @@
 import React from 'react';
 import Container from '../../../templates/container';
-import image1_1 from '../../../assets/images/frc/about/teddy.jpg'
-import image1_2 from '../../../assets/images/outreach/fll8.jpg'
-import image1_3 from '../../../assets/images/frc/district_chairmans.jpeg'
+import image1_1 from '../../../assets/images/frc/about/teddy.jpg';
+import image1_2 from '../../../assets/images/outreach/fll8.jpg';
+import image1_3 from '../../../assets/images/frc/district_chairmans.jpeg';
+import Button from '../../../components/Button';
 
 const GetInvolved = (props) => {
   return (
-    <Container division="frc" title="Get Involved" subtitle="Help the Team">
+    <Container title="Get Involved" subtitle="Help the Team">
       <div className='get-involved'>
         <h1 className="get-involved__header">Sponsorship</h1>
         <p>
@@ -61,8 +62,8 @@ const GetInvolved = (props) => {
         <br />
 
         <div className="get-involved__buttons">
-          <a href="https://docs.google.com/document/d/1SFH2Hs9oXi3cOYfFEArPILBA2U-OafPdp_VbHpdu3SI/edit?usp=sharing" className="get-involved__button" target="_blank">Student Handbook</a>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0M8P2sX1h9lrTdBvJpn7O0wFtZDFWjgNOHBz4g7WneJiB6g/viewform?usp=sf_link" className="get-involved__button" target="_blank">Application Form</a>
+          <Button link="https://docs.google.com/document/d/1SFH2Hs9oXi3cOYfFEArPILBA2U-OafPdp_VbHpdu3SI/edit?usp=sharing" division="frc">Student Handbook</Button>
+          <Button link="https://docs.google.com/forms/d/e/1FAIpQLSc0M8P2sX1h9lrTdBvJpn7O0wFtZDFWjgNOHBz4g7WneJiB6g/viewform?usp=sf_link" division="frc">Application Form</Button>
         </div>
 
         <br />
@@ -100,8 +101,8 @@ const GetInvolved = (props) => {
             </p>
             <p>For the 2018 season, we are asking that student eat breakfast at home every day and that meals brought in by families be lunch, not breakfast as it has been in the past. </p>
           </div>
-          <a href="http://www.signupgenius.com/go/30e084faea929a0fc1-first" className="get-involved__button get-involved--fullwidth" target="_blank">Feed Our Team!</a>
         </div>
+        <div className="get-involved__buttons"><Button link="http://www.signupgenius.com/go/30e084faea929a0fc1-first" division="frc">Feed Our Team!</Button></div>
       </div >
     </Container >
   );

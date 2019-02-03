@@ -4,6 +4,12 @@
     margin-bottom: 40px;
   }
 
+  .hostedevents__hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid @gray-1;
+  }
+
   .hostedevents__header {
     .title();
   }
@@ -29,7 +35,7 @@
     flex: 1;
     text-align: left;
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1250px) {
       display: block;
     }
 
@@ -37,10 +43,6 @@
       width: 75%;
       background-color: @purple-ws-3;
       margin-top: 30px;
-          
-        @media screen and (min-width: 900px) and (max-width: 1100px) {
-          margin-left: 10px;
-        }
     }
 
     div {
@@ -58,34 +60,19 @@
       position: relative;
       bottom: 0px;
 
-      @media screen and (min-width: 900px){
+      @media screen and (min-width: 1250px) {
         padding-right: 0px;
-      } 
+      }
 
-        @media screen and (max-width: 900px){
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        }
+      @media screen and (max-width: 1250px) {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
 
     div p {
       margin-bottom: 10px;
-    
-      @media screen and (min-width: 900px) and (max-width: 1100px) {
-        margin-left: 10px;
-      }
-    }
-  }
-  .button_contain {
-
-
-    @media screen and (max-width: 1100px) {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 75px;
-      text-align: center;
     }
   }
 }

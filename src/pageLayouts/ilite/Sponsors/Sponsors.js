@@ -5,7 +5,6 @@ import Container from '../../../templates/container';
 const Sponsors = () => {
   return (
     <Container
-      division="frc"
       title="Sponsors"
       subtitle="We couldn't operate without them!"
     >

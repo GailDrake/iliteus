@@ -7,10 +7,10 @@ class Container extends Component {
   }
 
   render() {
-    const { division, title, subtitle, children } = this.props;
+    const { title, subtitle, children } = this.props;
 
     return (
-      <div className={`container ${division}`} >
+      <div className="container" >
         <Banner title={title}>{subtitle}</Banner>
         <div className="container__bar"></div>
         <div className="container__content">

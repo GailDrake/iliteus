@@ -9,28 +9,9 @@
     .title();
   }
 
-  .get-involved__buttons {
-    text-align: center;
-  }
-
   .get-involved--fullwidth {
     width: 100%;
     text-align: center;
-  }
-
-  .get-involved__button {
-    color: white;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: @green-2;
-    border-radius: 3px;
-    padding: 16px 35px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    margin: 10px 5px;
-    display: inline-block;
-    transition: all 0.4s;
   }
 
   .get-involved__food-container {
@@ -56,6 +37,16 @@
       margin-bottom: 10px;
     }
 
+  }
+
+  .get-involved__buttons {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
   }
 
   .getinvolved__image {
