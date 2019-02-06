@@ -29,7 +29,7 @@ const Overbar = props => {
             className="overbar__list-item"
             target="_blank"
           >
-            STEAM Expo
+            Week 1 FRC Event
           </a>
         </li>
         <li>
