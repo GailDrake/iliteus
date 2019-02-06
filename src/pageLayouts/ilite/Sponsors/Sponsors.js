@@ -30,7 +30,7 @@ const Sponsors = () => {
             Founded in 2011, The US STEM Foundation strives to provide students
             with hands-on STEM activities and experiences. The programs they set
             up have the power to engage, educate, develop, and create responsible
-            citizens, to a higher extent than what can be achieved in the
+            citizens to a higher extent than what can be achieved in the
             classroom.
         </p>
         </Sponsor>
@@ -108,6 +108,22 @@ const Sponsors = () => {
             has the opportunity to reach his or her potential. Guided by our
             School Board and supported by our dedicated staff, PWCS strives to
           meet the individual needs of students to support their success.{" "}
+          </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Macedon Technologies"
+          url="http://macedontechnologies.com/"
+          image="macedontechnologies.png"
+        >
+          <p>
+            Macedon Technologies was founded by executives with deep backgrounds
+            in Business Process Management, including pending patents, years of
+            successful BPM consulting engagements, and management and oversight of
+            the BPM practice at a large consulting company. Their goal is to
+            implement systems while showing their customers the right way to use
+          BPM, so they get the most value out of their technology investments.{" "}
           </p>
         </Sponsor>
 
@@ -220,22 +236,6 @@ const Sponsors = () => {
             wraps, and bowls. The company believes in providing healthier options
             made with fresh, natural, and quality ingredients to its local
           communities.{" "}
-          </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Macedon Technologies"
-          url="http://macedontechnologies.com/"
-          image="macedontechnologies.png"
-        >
-          <p>
-            Macedon Technologies was founded by executives with deep backgrounds
-            in Business Process Management, including pending patents, years of
-            successful BPM consulting engagements, and management and oversight of
-            the BPM practice at a large consulting company. Their goal is to
-            implement systems while showing their customers the right way to use
-          BPM, so they get the most value out of their technology investments.{" "}
           </p>
         </Sponsor>
 

@@ -90,6 +90,11 @@ const IliteHome = (props) => {
             url="https://www.pwcs.edu/">
             Prince William County Schools
           </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/macedontechnologies.png')}
+            url="https://www.macedontechnologies.com/">
+            Macedon Technologies
+          </SponsorTag>
         </div>
       </div>
     </div>
