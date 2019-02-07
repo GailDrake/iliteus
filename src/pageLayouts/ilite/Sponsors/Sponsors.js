@@ -37,51 +37,6 @@ const Sponsors = () => {
 
         <hr className="sponsor__hr" />
         <Sponsor
-          name="Air Force Association"
-          url="https://www.afa.org/"
-          image="afa.png"
-        >
-          <p>
-            The Air Force Association is a coalition of airmen in the United States Air Force and their families. We are very thankful for their support in our Cyber Defense program and their service to our country.
-          </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Micron"
-          url="https://www.micron.com/"
-          image="micron.png"
-        >
-          <p>
-            Micron Technology gives the industry the broadest portfolio, and are
-            the only company to make major memory and storage technologies.
-        </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="SPARK"
-          url="http://poweredbyspark.org/"
-          image="spark.jpg"
-        >
-          <p>
-            SPARK, or Supporting Partnerships and Resources for Kids, is an education foundaton for Prince William County Schools. They provide programs and opportunities to kids throughout the county through business partnerships and community organizations like us.
-          </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Pepsi"
-          url="https://www.pepsi.com/"
-          image="pepsi.png"
-        >
-          <p>
-            Pepsi is a drink company that specializes in soda. They support us by providing drinks for our events, specifically the STEAM Expo.
-          </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
           large
           name="Lockheed Martin"
           url="https://www.lockheedmartin.com/us.html"
@@ -124,6 +79,51 @@ const Sponsors = () => {
             the BPM practice at a large consulting company. Their goal is to
             implement systems while showing their customers the right way to use
           BPM, so they get the most value out of their technology investments.{" "}
+          </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Air Force Association"
+          url="https://www.afa.org/"
+          image="afa.png"
+        >
+          <p>
+            The Air Force Association is a coalition of airmen in the United States Air Force and their families. We are very thankful for their support in our Cyber Defense program and their service to our country.
+          </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Micron"
+          url="https://www.micron.com/"
+          image="micron.png"
+        >
+          <p>
+            Micron Technology gives the industry the broadest portfolio, and are
+            the only company to make major memory and storage technologies.
+        </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="SPARK"
+          url="http://poweredbyspark.org/"
+          image="spark.jpg"
+        >
+          <p>
+            SPARK, or Supporting Partnerships and Resources for Kids, is an education foundaton for Prince William County Schools. They provide programs and opportunities to kids throughout the county through business partnerships and community organizations like us.
+          </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Pepsi"
+          url="https://www.pepsi.com/"
+          image="pepsi.png"
+        >
+          <p>
+            Pepsi is a drink company that specializes in soda. They support us by providing drinks for our events, specifically the STEAM Expo.
           </p>
         </Sponsor>
 
