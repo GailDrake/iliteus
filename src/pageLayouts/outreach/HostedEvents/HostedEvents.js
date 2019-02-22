@@ -37,7 +37,7 @@ const HostedEvents = () => (
         <div className="button_contain">
           <br />
           <Button
-            link="http://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va"
+            link="http://www.ilite.info/"
             division="frc"
           >
             Learn More!
