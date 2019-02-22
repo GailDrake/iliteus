@@ -4,10 +4,9 @@
   box-shadow: 0px 5px 25px #DDD;
   width: 100%;
 
-  @media all and (max-width: 1040px) {
-    margin: none;
+  @media all and (max-width: 990px) {
     overflow: hidden;
-    max-width: 333px;
+    max-width: 300px;
   }
 
   .member__img {
@@ -16,28 +15,18 @@
     max-width: 300px;
     float: left;
 
-    img {
-      max-height: 200px;
+    @media all and (max-width: 990px) {
       width: 100%;
-    }
-
-    @media all and (max-width: 1040px) {
-      max-width: none;
-      max-height: none;
-      width: 100%;
+      height: auto;
       border-right: none;
-      border-bottom: 3px sold #999;
     }
-  }
-  .member__img.noImage {
-    background-color: #c9c9c9;
   }
 
   .member__img.oldimg {
     background-color: black;
     padding: 0 50px;
 
-    @media all and (max-width: 1040px) {
+    @media all and (max-width: 990px) {
       padding: 0 20px;
     }
   }
@@ -46,7 +35,7 @@
     margin-left: 310px;
     padding-top: 20px;
 
-    @media all and (max-width: 1040px) {
+    @media all and (max-width: 990px) {
       float: left;
       margin-left: 0;
       padding: 10px;

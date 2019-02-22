@@ -25,7 +25,7 @@ import international from '../../../assets/images/outreach/international.jpg'
 
 const Fll = (props) => {
   return (
-    <Container division="outreach" title="FLL" subtitle="First Lego League">
+    <Container title="FLL" subtitle="First Lego League">
       <div className="fll">
         <h1 className="fll__header">FLL Workshops</h1>
         <h1 className="fll__subheader">Research Workshop</h1>

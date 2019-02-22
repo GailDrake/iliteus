@@ -19,8 +19,10 @@
     "npm": "^6.0.1",
     "prop-types": "^15.6.0",
     "react-fontawesome": "^1.6.1",
+    "react-ga": "^2.5.7",
     "react-helmet": "^5.2.0",
-    "react-reveal": "^1.2.1"
+    "react-reveal": "^1.2.1",
+    "window-or-global": "^1.0.1"
   },
   "browserslist": [
     "> 1%",

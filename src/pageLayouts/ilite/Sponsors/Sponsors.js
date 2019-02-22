@@ -5,7 +5,6 @@ import Container from '../../../templates/container';
 const Sponsors = () => {
   return (
     <Container
-      division="frc"
       title="Sponsors"
       subtitle="We couldn't operate without them!"
     >
@@ -31,9 +30,56 @@ const Sponsors = () => {
             Founded in 2011, The US STEM Foundation strives to provide students
             with hands-on STEM activities and experiences. The programs they set
             up have the power to engage, educate, develop, and create responsible
-            citizens, to a higher extent than what can be achieved in the
+            citizens to a higher extent than what can be achieved in the
             classroom.
         </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          large
+          name="Lockheed Martin"
+          url="https://www.lockheedmartin.com/us.html"
+          image="lockheedmartin.png"
+        >
+          <p>
+            Headquartered in Bethesda, MD, Lockheed Martin is a global security
+            company that employs about 133,000 people worldwide and is principally
+            engaged in the research, design, development, manufacture, integration
+            and sustainment of advanced technology systems, products and services.
+        </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Prince William County"
+          url="https://www.pwcs.edu/"
+          image="pwcs.png"
+        >
+          <p>
+            Prince William County Schools (PWCS) is our school district. They are
+            proud to “Provide a World-Class Education” to all of their students.
+            School employees are deeply committed to ensuring that each student
+            has the opportunity to reach his or her potential. Guided by our
+            School Board and supported by our dedicated staff, PWCS strives to
+          meet the individual needs of students to support their success.{" "}
+          </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Macedon Technologies"
+          url="http://macedontechnologies.com/"
+          image="macedontechnologies.png"
+        >
+          <p>
+            Macedon Technologies was founded by executives with deep backgrounds
+            in Business Process Management, including pending patents, years of
+            successful BPM consulting engagements, and management and oversight of
+            the BPM practice at a large consulting company. Their goal is to
+            implement systems while showing their customers the right way to use
+          BPM, so they get the most value out of their technology investments.{" "}
+          </p>
         </Sponsor>
 
         <hr className="sponsor__hr" />
@@ -78,37 +124,6 @@ const Sponsors = () => {
         >
           <p>
             Pepsi is a drink company that specializes in soda. They support us by providing drinks for our events, specifically the STEAM Expo.
-          </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          large
-          name="Lockheed Martin"
-          url="https://www.lockheedmartin.com/us.html"
-          image="lockheedmartin.png"
-        >
-          <p>
-            Headquartered in Bethesda, MD, Lockheed Martin is a global security
-            company that employs about 133,000 people worldwide and is principally
-            engaged in the research, design, development, manufacture, integration
-            and sustainment of advanced technology systems, products and services.
-        </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Prince William County"
-          url="https://www.pwcs.edu/"
-          image="pwcs.png"
-        >
-          <p>
-            Prince William County Schools (PWCS) is our school district. They are
-            proud to “Provide a World-Class Education” to all of their students.
-            School employees are deeply committed to ensuring that each student
-            has the opportunity to reach his or her potential. Guided by our
-            School Board and supported by our dedicated staff, PWCS strives to
-          meet the individual needs of students to support their success.{" "}
           </p>
         </Sponsor>
 
@@ -221,22 +236,6 @@ const Sponsors = () => {
             wraps, and bowls. The company believes in providing healthier options
             made with fresh, natural, and quality ingredients to its local
           communities.{" "}
-          </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Macedon Technologies"
-          url="http://macedontechnologies.com/"
-          image="macedontechnologies.png"
-        >
-          <p>
-            Macedon Technologies was founded by executives with deep backgrounds
-            in Business Process Management, including pending patents, years of
-            successful BPM consulting engagements, and management and oversight of
-            the BPM practice at a large consulting company. Their goal is to
-            implement systems while showing their customers the right way to use
-          BPM, so they get the most value out of their technology investments.{" "}
           </p>
         </Sponsor>
 

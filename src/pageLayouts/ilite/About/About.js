@@ -18,7 +18,7 @@ import stemexpo3 from '../../../assets/images/frc/about/stemexpo3.jpg'
 
 const About = (props) => {
   return (
-    <Container division="frc" title="About" subtitle="About team 1885.">
+    <Container title="About" subtitle="About team 1885.">
       <div className='about'>
         <h1 className='about__header'>Mission & Vision</h1>
         <p className='about__text'>

@@ -29,9 +29,15 @@ html {
       position: relative;
     }
 
+    @media (max-height: 650px) {
+      height: 90vh;
+      margin-top: 40px;
+    }
+
     .iliteHome__banner-text-container {
       max-width: 800px;
       padding: 10px;
+      margin: 0 auto;
 
       .iliteHome__banner-title {
         color: @white;
@@ -140,6 +146,7 @@ html {
       display: flex;
       flex-direction: row;
       flex: 1;
+      justify-content: center;
 
       @media screen and (max-width: 1000px) {
         flex-direction: column;

@@ -1,52 +1,49 @@
-import React, { Component } from 'react';
-import Link from 'gatsby-link';
+import React, { Component } from "react";
+import NavLink from "gatsby-link";
 
-class Overbar extends Component {
-  constructor(props) {
-    super(props);
-    this.ilite = "";
-    this.frc = "";
-    this.outreach = "";
-  }
-
-  sectionCheck = (url) => {
-    if (url.includes("frc")) {
-      this.ilite = "";
-      this.frc = "overbar--underlined";
-      this.outreach = "";
-    }
-    else if (url.includes("outreach")) {
-      this.ilite = "";
-      this.frc = "";
-      this.outreach = "overbar--underlined";
-    }
-    else if (url.includes("ilite")) {
-      this.ilite = "overbar--underlined";
-      this.frc = "";
-      this.outreach = "";
-    }
-    else {
-      this.ilite = "overbar--underlined";
-      this.frc = "";
-      this.outreach = "";
-    }
-  }
-
-  render() {
-    var url = window.location.href;
-    this.sectionCheck(url);
-
-    return (
-      <nav>
-        <ul className="overbar__list">
-          <li><Link to="/ilite" className={`overbar__list-item ${this.ilite}`}>About ILITE</Link></li>
-          <li><Link to="/frc" className={`overbar__list-item ${this.frc}`}>FRC Robotics</Link></li>
-          <li><a href="http://www.ilite.info" className="overbar__list-item" target="_blank">STEAM Expo</a></li>
-          <li><Link to="/outreach" className={`overbar__list-item ${this.outreach}`}>Outreach</Link></li>
-        </ul>
-      </nav>
-    );
-  }
-}
+const Overbar = props => {
+  return (
+    <nav>
+      <ul className="overbar__list">
+        <li>
+          <NavLink
+            to="/ilite"
+            className="overbar__list-item"
+            activeClassName="overbar--underlined"
+          >
+            About ILITE
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/frc"
+            className="overbar__list-item"
+            activeClassName="overbar--underlined"
+          >
+            FRC Robotics
+          </NavLink>
+        </li>
+        <li>
+          <a
+            href="http://www.ilite.info"
+            className="overbar__list-item"
+            target="_blank"
+          >
+            Week 1 FRC Event
+          </a>
+        </li>
+        <li>
+          <NavLink
+            to="/outreach"
+            activeClassName="overbar--underlined"
+            className="overbar__list-item"
+          >
+            Outreach
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
+};
 
 export default Overbar;

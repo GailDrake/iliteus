@@ -1,6 +1,6 @@
 import React from "react";
 //import image from "./../../../assets/images/frc/home-hero-lg.jpg";
-import userIcon from "./../../assets/images/icons/user.svg";
+import userIcon from "./../../assets/images/icons/default.jpg";
 
 const Members = ({ name, year, fact, memory, image, leader, mentor, subteam, old }) => {
   const oldPhoto = old ? "oldimg" : "";

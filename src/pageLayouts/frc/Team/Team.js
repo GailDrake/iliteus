@@ -9,9 +9,8 @@ import QuoteRight from "../../../IconComponents/Quoteright";
 const Team = ({ teamList }) => {
   return (
     <Container
-      division="frc"
       title="Team"
-      subtitle="ILITE has a team structure that emphasises student leadership and mentorship."
+      subtitle="ILITE has a team structure that emphasizes student leadership and mentorship."
     >
       <div className="team">
         <Tabs>
@@ -24,7 +23,7 @@ const Team = ({ teamList }) => {
               together like-minded individuals who share a common interest while
               pairing them with industry professionals to establish a
               comfortable environment of mentorship from professionals and peers
-              alike. Our structural style is one that specifically emphasises
+              alike. Our structural style is one that specifically emphasizes
               student leadership and accountability.
             </p>
             <div className="team__members">
@@ -43,10 +42,10 @@ const Team = ({ teamList }) => {
               appreciation for quality design.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
+            <img
               src={require("../../../assets/images/frc/members/Build/Build.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
               The Build Subteam is responsible for creating the ILITE robot
               yearly for competition. To do so efficiently and effectively, the
@@ -127,10 +126,10 @@ const Team = ({ teamList }) => {
               this we want to make a board that is safe, neat, and working.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
+            <img
               src={require("../../../assets/images/frc/members/Electronics/Electronics.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
               The Electronics subteam’s main task is to efficiently route and
               connect the necessary components needed for the robot to function.
@@ -202,10 +201,10 @@ const Team = ({ teamList }) => {
               principles.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
-              src={require("../../../assets/images/frc/members/Programming/Programming+Web.jpg")}
+            <img
+              src={require("../../../assets/images/frc/members/Programming/Programming.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
               The Programming Team is primarily put in charge of developing and
               writing code for the robot. Most of our time is spent focusing on
@@ -265,10 +264,10 @@ const Team = ({ teamList }) => {
               maintain current sponsors that support the team.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
+            <img
               src={require("../../../assets/images/frc/members/Sponsorship/Sponsorship.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
               The ILITE Sponsorship Team practices the skills required to
               successfully maintain and obtain sponsors. The Sponsorship team is
@@ -311,15 +310,15 @@ const Team = ({ teamList }) => {
               <QuoteRight fill="grey" />
               To inspire people, young and old, to become leaders in science,
               technology, engineering, and mathematics by providing them with
-              the proper environment, social encouragement to pursue STEM, and
+              the proper environment, social encouragement to pursue STEAM, and
               necessary resources and mentoring to continue learning and working
-              in STEM in and out of school environments.
+              in STEAM in and out of school environments.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
+            <img
               src={require("../../../assets/images/frc/members/Outreach/Outreach.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
               The ILITE Outreach Team is a complex network of people that work
               to exercise the skills needed for successful project management,
@@ -364,43 +363,32 @@ const Team = ({ teamList }) => {
                 <li>2005 Palmetto Regional: Rookie All Star Award</li>
                 <li>2005 World Championship: Rookie All Star Award</li>
                 <li>2008 NASA/VCU Regional : Engineering Inspiration Award</li>
-                <li>
-                  2009 Washington DC Regional: Engineering Inspiration Award
-                </li>
+                <li>2009 Washington DC Regional: Engineering Inspiration Award</li>
                 <li>2009 Florida Regional: Imagery Award</li>
-                <li>
-                  2011 Washington DC Regional: Engineering Inspiration Award
-                </li>
-                <li>
-                  2011 Washington DC Regional: Woodie Flowers Finalist Award
-                  (Professor Gail Drake)
-                </li>
+                <li>2011 Washington DC Regional: Engineering Inspiration Award</li>
+                <li>2011 Washington DC Regional: Woodie Flowers Finalist Award (Professor Gail Drake)</li>
                 <li>2011 Virginia Regional: Engineering Inspiration Award</li>
-                <li>
-                  2012 Washington DC Regional: Engineering Inspiration Award
-                </li>
+                <li>2012 Washington DC Regional: Engineering Inspiration Award</li>
                 <li>2012 Virginia Regional: Regional Chairman’s Award</li>
                 <li>2013 Washington DC Regional: Regional Chairman’s Award</li>
-                <li>
-                  2013 Washington DC Regional: FIRST Dean’s List Finalist Award
-                </li>
+                <li>2013 Washington DC Regional: FIRST Dean’s List Finalist Award</li>
                 <li>2014 Greater DC Regional: Regional Chairman’s Award</li>
-                <li>
-                  2014 Greater DC Regional: FIRST Dean’s List Finalist Award
-                </li>
+                <li>2014 Greater DC Regional: FIRST Dean’s List Finalist Award</li>
                 <li>2015 Greater DC Regional: Regional Chairman’s Award</li>
                 <li>2016 Greater DC District: District Chairman’s Award</li>
-                <li>
-                  2016 Hampton Roads District Event: Entrepreneurship Award
-                </li>
+                <li>2016 Hampton Roads District Event: Entrepreneurship Award</li>
+                <li>2017 World Championship: Chairman's Finalist Award</li>
+                <li>2018 Greater DC Regional: Chairman's Award</li>
+                <li>2018 Chesapeake District Championship: Chairman's Award</li>
+                <li>2018 World Championship: Woodie Flowers Award Winner (Professor Gail Drake)</li>
               </ul>
             </div>
             <div className="team__members">
               {GetMember("Outreach", teamList)}
             </div>
           </Tab>
-          <Tab name="Scouting">
-            <h1>Scouting</h1>
+          <Tab name="Strategy">
+            <h1>Strategy</h1>
             <div className="team__greybox">
               <h2>Subteam Specific Mission Statement</h2>
               <QuoteRight fill="grey" />
@@ -409,12 +397,12 @@ const Team = ({ teamList }) => {
               in the decision making process for alliance selection.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img src={require('../../../assets/images/frc/members/Scouting/Temporary.jpg')} className="team__img" /> */}
+            <img src={require('../../../assets/images/frc/members/Strategy/Strategy.jpg')} className="team__img" />
             <p>
-              The ILITE Scouting Team is responsible for gathering relevant data
+              The ILITE Strategy Team is responsible for gathering relevant data
               on other team's performance according to this year's game. This
               requires the development and use of organizational, decision
-              making, presentation, and quick thinking skills. The Scouting
+              making, presentation, and quick thinking skills. The Strategy
               Team's data helps ensure that informed decisions are made
               regarding alliance selection and affiliated teams.
             </p>
@@ -435,7 +423,7 @@ const Team = ({ teamList }) => {
               </ol>
             </div>
             <div className="team__members">
-              {GetMember("Strategy/Scouting", teamList)}
+              {GetMember("Strategy", teamList)}
             </div>
           </Tab>
           <Tab name="Website">
@@ -443,26 +431,22 @@ const Team = ({ teamList }) => {
             <div className="team__greybox">
               <h2>Subteam Specific Mission Statement</h2>
               <QuoteRight fill="grey" />
-              To inspire young and old minds alike to pursue and maintain
-              interest in FIRST and STEM through the presentation of our website
-              and distribution of other web media.
+              To effectively communicate ILITE's goals, outreach, and other relevant information, such as events and news, through the maintainence and development of our website.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
-              src={require("../../../assets/images/frc/members/Programming/Programming+Web.jpg")}
+            <img
+              src={require("../../../assets/images/frc/members/Web/Web.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
-              The website development subteam develops the website for our team.
+              The website development subteam develops and maintains the website for our team.
               Through time, dedication, and collaboration with the use of
-              GitHub, we ensure that the website is of high quality. Our site
-              has also been acknowledged by our many FIRST website awards over
-              the years. Our main subteam goal is to better represent the team
+              GitHub, we ensure that the website is of high quality. Our main subteam goal is to better represent the team
               to the general public by providing a way for people all over the
               world to identify the various ways that ILITE stands out. We use
               our website as a way to teach people about the benefits of
               participating in Cyber Security, Sustainability, and FIRST
-              Robotics. It is also our duty to attract attention to STEM and
+              Robotics. It is also our duty to attract attention to STEAM and
               FIRST to prepare the next generation of young minds to take on the
               various challenges of the future to improve the community. We
               believe that by maintaining a high quality website and keeping the
@@ -470,24 +454,22 @@ const Team = ({ teamList }) => {
               participate in FIRST and its various programs, such as FLL, FTC,
               and FRC. By attracting more attention to FIRST with our website,
               we can better prepare the young minds of the community to pursue
-              STEM-related fields such as engineering, website development,
+              STEAM-related fields such as engineering, website development,
               computer science, electronics, graphical design, and business. We
               optimize internet communication to keep the community updated on
               the various affairs of the team, such as participating in
               competitions and displaying our various awards. As well as keeping
               the community updated, we provide better support for the community
-              through the institutionalization of various STEM endeavors,
+              through the institutionalization of various STEAM endeavors,
               through means of summer camps and the distribution of media.
             </p>
             <div className="team__greybox">
               <h2>Goals</h2>
               <ol>
-                <li>
-                  To inspire young minds to pursue STEM and its related fields.
-                </li>
                 <li>To create a central location for ILITE Team Information</li>
                 <li>To keep the community updated on ILITE events</li>
                 <li>To maintain a high public opinion of ILITE</li>
+                <li>To expose young minds to STEAM and its related fields.</li>
               </ol>
             </div>
             <div className="team__greybox">
@@ -516,17 +498,12 @@ const Team = ({ teamList }) => {
               systematic, organized designs.
               <QuoteLeft fill="grey" />
             </div>
-            {/* <img
+            <img
               src={require("../../../assets/images/frc/members/Graphics/Graphics.jpg")}
               className="team__img"
-            /> */}
+            />
             <p>
-              Team 1885, ILITE Robotics, is defined by an intellectual and
-              creative legacy built upon the impressionable, diligent, and
-              ambitious minds of our members. With as many members as we have,
-              the most effective and efficient team structure became a division
-              into subteams with designated mentors and student leaders running
-              each. Of these subteams, Graphic Design gives life to ILITE
+              Graphic Design gives life to ILITE
               through detailed and creative imagery including thematically
               appropriate designs. Graphics continuously collaborates with other
               subteams, including but not limited to, Build, Chairman’s, its own
@@ -575,12 +552,34 @@ const Team = ({ teamList }) => {
               {GetMember("Graphics", teamList)}
             </div>
           </Tab>
+          <Tab name="3D Printing">
+            <h1>3D Printing</h1>
+            <div className="team__greybox">
+              <h2>Subteam Specific Mission Statement</h2>
+              <QuoteRight fill="grey" />
+              To use 3D Printing and Laser Engraving technology to effectively assist other subteams and the team as a whole with necessary tasks.
+              <QuoteLeft fill="grey" />
+            </div>
+            <img
+              src={require("../../../assets/images/frc/members/3D Printing/3DPrinting.jpg")}
+              className="team__img"
+            />
+            <p>
+              The 3D Printing and Laser Engraving subteam uses five 3D printers, an AnyCubic Kossol, a MakerFarm, a MakerBot Mini, and two MonoPrices, to create useful 3D prints that are used by other subteams. These prints include Anderson Connectors and Battery Caps for Electronics, Encoder Mounts for Programming, Marketable Trinkets for Outreach, and to-scale replicas of the field for Strategy. We also use an Epilog Laser Engraver for select items, such as trophies and gearbox plates.
+            </p>
+            <div className="team__greybox">
+              <h2>Goals</h2>
+              <ol>
+                <li>To create 3D prints that will assist other subteams in their tasks</li>
+                <li>To use laser engraving for select purposes that benefit the team</li>
+              </ol>
+            </div>
+            <div className="team__members">
+              {GetMember("3D Printing", teamList)}
+            </div>
+          </Tab>
           <Tab name="Mentors">
             <h1>Mentors</h1>
-            {/* <img
-              src={require("../../../assets/images/frc/members/Mentors/Mentors.jpg")}
-              className="team__img"
-            /> */}
             <p>
               The mentors are a group of volunteers who contribute to the team.
               They are responsible for supporting and assisting the team members
