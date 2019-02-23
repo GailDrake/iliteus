@@ -90,24 +90,6 @@
       "mentor": true,
       "image": "Strong,Kimberly.jpg"
     },
-    "Marc Sciarrino": {
-      "name": "Marc Sciarrino",
-      "subteam": "Programming",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": 2010,
-      "mentor": true,
-      "image": "Sciarrino,Marc.jpg"
-    },
-    "Paul Lahann": {
-      "name": "Paul Lahann",
-      "subteam": "Build",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
-      "mentor": true,
-      "image": "Lahann,Paul.jpg"
-    },
     "Nicholas Lechner": {
       "name": "Nicholas Lechner",
       "subteam": "Build",
@@ -126,6 +108,70 @@
       "mentor": true,
       "image": "Lechner,Noah.jpg"
     },
+    "Richard Bailey": {
+      "name": "Richard Bailey",
+      "subteam": "N/A",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
+      "mentor": true
+    },
+    "Stan Balint": {
+      "name": "Stan Balint",
+      "subteam": "Build",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
+      "mentor": true
+    },
+    "David Boyd": {
+      "name": "David Boyd",
+      "subteam": "3D Printing",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
+      "mentor": true
+    },
+    "Paul Desautels": {
+      "name": "Paul Desautels",
+      "subteam": "Sponsorship",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
+      "mentor": true
+    },
+    "Karyn Kraft": {
+      "name": "Karyn Kraft",
+      "subteam": "Finance",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
+      "mentor": true
+    },
+    "Jeff Shapiro": {
+      "name": "Jeff Shapiro",
+      "subteam": "Programming",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
+      "mentor": true
+    },
+    "Mark Ward": {
+      "name": "Mark Ward",
+      "subteam": "Build",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
+      "mentor": true
+    },
+    "Rahul Yarlagadda": {
+      "name": "Rahul Yarlagadda",
+      "subteam": "Build",
+      "memory": "N/A",
+      "fact": "N/A",
+      "year": "N/A",
+      "mentor": true
+    },
     "Larry Laverty": {
       "name": "Larry Laverty",
       "subteam": "Build",
@@ -134,15 +180,6 @@
       "year": "N/A",
       "mentor": true,
       "image": "Laverty,Larry.jpg"
-    },
-    "Leon Davidson": {
-      "name": "Leon Davidson",
-      "subteam": "Build",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
-      "mentor": true,
-      "image": "Davidson,Leon.jpg"
     },
     "Stephan Lechner": {
       "name": "Stephan Lechner",
