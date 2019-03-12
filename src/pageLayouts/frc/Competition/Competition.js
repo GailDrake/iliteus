@@ -20,20 +20,21 @@ const Competition = () => {
                 gesture="media"
                 allow="encrypted-media"
                 allowfullscreen />
-              {/* <div className="competition__event-container">
+              <div className="competition__event-container">
                 <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
-                    {Future awards are listed here}
+                    <li>CHS District Bethesda Event: Chairman's Award</li>
+                    <li>CHS District Bethesda Event: Event Winner</li>
                   </ul>
                 </div>
                 <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
-                    {Future competitions attended are listed here}
+                    <li>FIRST Chesapeake District Bethesda MD Event</li>
                   </ul>
                 </div>
-              </div> */}
+              </div>
             </div>
           </Tab>
           {/* 2018 - Power Up */}
