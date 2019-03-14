@@ -37,7 +37,7 @@ const IliteHome = (props) => {
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          <NewsCard title="ILITE attended the Chesapeake District Event at Bethesda" image={require('../../../assets/images/frc/kickoff.jpg')}>
+          <NewsCard title="ILITE attended the Chesapeake District Event at Bethesda" image={require('../../../assets/images/frc/week2-2019.jpg')}>
             ILITE recently attended the Chesapeake District Event hosted at Walt Whitman High School in Bethesda, MD. The weekend was hugely successful as we came home with the event Chairman's Award and as the event champions alongside our alliance partners. We had a lot of fun meeting a variety of interesting and friendly teams and we're excited for the rest of the season.
           </NewsCard>
           <NewsCard title="The 2019 Haymaker STEAM Expo was a blast!" image={require('../../../assets/images/outreach/steamexpo/expologo.png')}>
