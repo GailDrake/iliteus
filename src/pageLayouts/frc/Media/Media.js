@@ -14,8 +14,8 @@ const Media = (props) => {
 				</p>
 				<div className="media_tiles">
 					<Mediatiles
-						url="https://www.dropbox.com/sh/20p3csyqm4bakdf/AADylpobYtPtC0vpE9QaT7iia?dl=0"
-						name="Chesapeake District Haymarket Event"
+						url="https://www.dropbox.com/sh/gcz1mrw3diyq5zg/AABkahl0uCbqUlIGUeUbH6rMa?dl=0"
+						name="Chesapeake District Haymarket 2019"
 					/>
 					<Mediatiles
 						url="https://www.dropbox.com/sh/20p3csyqm4bakdf/AADylpobYtPtC0vpE9QaT7iia?dl=0"
