@@ -27,9 +27,10 @@ const HostedEvents = () => (
             <h1 className="hostedevents__subheader">FRC Week 1 District Event</h1>
             <hr />
             <p>
-              Every year, ILITE Robotics hosts a district event for week one of
-              the FRC season. We host more than 30 teams every competition - a number that has continued to grow
-              since we have started hosting these competitions! This year we're excited to participate in Destination: Deep Space.
+              This year ILITE Robotics hosted the district event for week one of the FRC season.
+              We hosted more than 30 teams this competition - a number that has continued to grow
+               since we have started hosting these competitions! This year we're excited to have
+                been a part of Destination: Deep Space.
             </p>
             <div className="button_contain">
               <br />

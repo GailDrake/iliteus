@@ -43,8 +43,8 @@ const IliteHome = (props) => {
           <NewsCard title="The 2019 Haymaker STEAM Expo was a blast!" image={require('../../../assets/images/outreach/steamexpo/expologo.png')}>
             The Haymaker STEAM Expo this year has passed and it certainly was a lot of fun. The FLL scrimmage was expecially interesting with many high level teams coming to practice before their next tournament. In addition, the escape room attracted much attention and was booked almost the entire day. These weren't the only activites however, there were numerous other activities and demonstrations for all ages. All in all, the wide variety of fun activities with the over 1900 people in attendance made for a great day.
           </NewsCard>
-          <NewsCard title="We just launched our new website!" image={require('../../../assets/images/site_screenshot.png')}>
-            We're incredibly excited to have launched our new website here at ilite.us! If you haven't already noticed, we've made significant changes to both the style and structure of the site. The biggest change, however, has been made to the background operation. The new site is based off of a website development tool called GatsbyJS that allows the site to run faster and smoother. To learn more about GastbyJS <a href="http://gatsbyjs.org" target="_blank">visit here</a>.
+          <NewsCard title="Week 1: Deep Space" image={require('../../../assets/images/site_screenshot.png')}>
+            We were incredibly excited to host Week 1 for DEEP SPACE. It was a huge success, with over 30 teams competing in an exemplary clash of gracious professionalism, and passion for STEM. While the weaather was a downer, that didn't stop the teams, and the volunteers from having a fantastic event. It was a blast, and we can't wait to see what happens next week.
           </NewsCard>
         </div>
       </div>
