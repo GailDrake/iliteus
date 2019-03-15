@@ -37,8 +37,8 @@ const IliteHome = (props) => {
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          <NewsCard title="ILITE hosted Kickoff this year!" image={require('../../../assets/images/frc/kickoff.jpg')}>
-            3... 2... 1... BLAST OFF! This years kickoff saw the launch of the 2019 FIRST Robotics Competition, <b>Destination: Deep Space</b>. ILITE had the pleasure to host the event for our area, inviting many other teams to attend. We had a blast together with all the attending teams and we are excited for the upcoming season.
+          <NewsCard title="ILITE attended the Chesapeake District Event at Bethesda" image={require('../../../assets/images/frc/week2-2019.jpg')}>
+            ILITE recently attended the Chesapeake District Event hosted at Walt Whitman High School in Bethesda, MD. The weekend was hugely successful as we came home with the event Chairman's Award and as the event champions alongside our alliance partners. We had a lot of fun meeting a variety of interesting and friendly teams and we're excited for the rest of the season.
           </NewsCard>
           <NewsCard title="The 2019 Haymaker STEAM Expo was a blast!" image={require('../../../assets/images/outreach/steamexpo/expologo.png')}>
             The Haymaker STEAM Expo this year has passed and it certainly was a lot of fun. The FLL scrimmage was expecially interesting with many high level teams coming to practice before their next tournament. In addition, the escape room attracted much attention and was booked almost the entire day. These weren't the only activites however, there were numerous other activities and demonstrations for all ages. All in all, the wide variety of fun activities with the over 1900 people in attendance made for a great day.
