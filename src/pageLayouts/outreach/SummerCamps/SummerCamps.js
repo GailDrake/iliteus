@@ -31,7 +31,7 @@ const SummerCamps = (props) => {
 
               <td className="summercamps__table--camps"><Link to="#girls">Girls in STEM</Link></td>
               <td className="summercamps__table--grade">Gr 6 - 8</td>
-              <td className="summercamps__table--price">$175</td>
+              <td className="summercamps__table--price">$150</td>
               <td className="summercamps__table--times">Morning</td>
             </tr>
             <tr>
@@ -112,7 +112,7 @@ const SummerCamps = (props) => {
         </div>
         <div id="stem1" className="summercamps__box">
           <h1>Matter Hackers</h1>
-          <p>In this camp, students learn simple machines and states of matter through participation in a variety of experiments. This fundamental knowledge is taught in fun and exciting ways. Students leave with a deeper understanding of how the world around them works while sparking their curiosity in STEM.</p>
+          <p>Through this introductory STEM camp, young students learn the basics of simple machines and states of matter through a variety of creative, hands-on activities. Students also have the opportunity to learn teamwork, problem solving, and real life application of everyday science through exciting experiments and interactive lessons. This camp is perfect for all kinds of students, from those who already have a passion for STEM, to students who are just enthusiastic to have fun and learn at the same time!</p>
           <img src={require('../../../assets/images/outreach/summercamps/stem1.jpg')} />
         </div>
         <div id="stem2" className="summercamps__box">
