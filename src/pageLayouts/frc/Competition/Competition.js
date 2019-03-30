@@ -26,12 +26,14 @@ const Competition = () => {
                   <ul>
                     <li>CHS District Bethesda Event: Chairman's Award</li>
                     <li>CHS District Bethesda Event: Event Winner</li>
+                    <li>CHS District Oxon Hill Event: Imagery Award</li>
                   </ul>
                 </div>
                 <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
                     <li>FIRST Chesapeake District Bethesda MD Event</li>
+                    <li>FIRST Chesapeake District Oxon Hill MD Event</li>
                   </ul>
                 </div>
               </div>
