@@ -29,7 +29,7 @@ const Overbar = props => {
             className="overbar__list-item"
             target="_blank"
           >
-            Week 1 FRC Event
+            Summer Camps
           </a>
         </li>
         <li>
