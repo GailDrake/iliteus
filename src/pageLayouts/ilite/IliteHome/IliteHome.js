@@ -89,6 +89,11 @@ const IliteHome = (props) => {
             Air Force Association
           </SponsorTag>
           <SponsorTag
+            image={require('../../../assets/images/sponsors/bah.png')}
+            url="https://www.boozallen.com/">
+            Booz Allen Hamilton
+          </SponsorTag>
+          <SponsorTag
             image={require('../../../assets/images/sponsors/micron.png')}
             url="https://www.micron.com/">
             Micron

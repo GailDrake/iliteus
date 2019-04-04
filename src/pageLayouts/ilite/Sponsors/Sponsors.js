@@ -93,6 +93,14 @@ const Sponsors = () => {
           </p>
         </Sponsor>
 
+        <Sponsor
+          name="Booz Allen Hamilton"
+          url="https://www.boozallen.com/"
+          image="bah.png"
+        >
+          <p>The Booz Allen Hamilton works hard to bring the benefits of diversity to foster individuals that can make a difference through management and information technology. </p>
+        </Sponsor>
+
         <hr className="sponsor__hr" />
         <Sponsor
           name="Micron"
