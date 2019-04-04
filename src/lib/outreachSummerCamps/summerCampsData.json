@@ -1,0 +1,16 @@
+{
+  "SummerCamps": [
+    {
+      "dateHeading": "Week 1 - June 17 ",
+      "camps": [
+        {
+          "campName": "Lego EV3 Robotics",
+          "campLink": "http://ilite.us/outreach/SummerCamps#lego",
+          "gradeLevel": "Gr K - 6",
+          "price": "$150",
+          "time": "Morning"
+        }
+      ]
+    }
+  ]
+}

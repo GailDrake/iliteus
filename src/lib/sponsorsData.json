@@ -31,10 +31,28 @@
       "description": "The Air Force Association is a coalition of airmen in the United States Air Force and their families. We are very thankful for their support in our Cyber Defense program and their service to our country."
     },
     {
+      "sponsor": "Booz Allen Hamilton",
+      "image": "bah.png",
+      "website": "https://www.boozallen.com/",
+      "description": "The Booz Allen Hamilton works hard to bring the benefits of diversity to foster individuals that can make a difference through management and information technology."
+    },
+    {
       "sponsor": "Micron",
       "image": "micron.png",
       "website": "https://www.micron.com/",
-      "description": "The Air Force Association is a coalition of airmen in the United States Air Force and their families. We are very thankful for their support in our Cyber Defense program and their service to our country."
+      "description": "Micron Technology gives the industry the broadest portfolio, and are the only company to make major memory and storage technologies."
+    },
+    {
+      "sponsor": "SPARK",
+      "image": "spark.jpg",
+      "website": "http://poweredbyspark.org/",
+      "description": "SPARK, or Supporting Partnerships and Resources for Kids, is an education foundaton for Prince William County Schools. They provide programs and opportunities to kids throughout the county through business partnerships and community organizations like us."
+    },
+    {
+      "sponsor": "Pepsi",
+      "image": "pepsi.png",
+      "website": "https://www.pepsi.com/",
+      "description": "Pepsi is a drink company that specializes in soda. They support us by providing drinks for our events, specifically the STEAM Expo."
     },
   ]
 }
