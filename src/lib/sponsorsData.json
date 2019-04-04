@@ -1,0 +1,40 @@
+{
+  "Sponsors": [
+    {
+      "sponsor": "US STEM Foundation",
+      "image": "usstem.png",
+      "website": "http://www.usstem.org/",
+      "description": "Founded in 2011, The US STEM Foundation strives to provide students with hands-on STEM activities and experiences. The programs they set up have the power to engage, educate, develop, and create responsible citizens to a higher extent than what can be achieved in the classroom."
+    },
+    {
+      "sponsor": "Lockheed Martin",
+      "image": "lockheedmartin.png",
+      "website": "https://www.lockheedmartin.com/us.html",
+      "description": "Headquartered in Bethesda, MD, Lockheed Martin is a global security company that employs about 133,000 people worldwide and is principally engaged in the research, design, development, manufacture, integration and sustainment of advanced technology systems, products and services."
+    },
+    {
+      "sponsor": "Prince William County",
+      "image": "pwcs.png",
+      "website": "https://www.lockheedmartin.com/us.html",
+      "description": "Headquartered in Bethesda, MD, Lockheed Martin is a global security company that employs about 133,000 people worldwide and is principally engaged in the research, design, development, manufacture, integration and sustainment of advanced technology systems, products and services."
+    },
+    {
+      "sponsor": "Macedon Technologies",
+      "image": "pwcs.png",
+      "website": "http://macedontechnologies.com/",
+      "description": "Macedon Technologies was founded by executives with deep backgrounds in Business Process Management, including pending patents, years of successful BPM consulting engagements, and management and oversight of the BPM practice at a large consulting company. Their goal is to implement systems while showing their customers the right way to use BPM, so they get the most value out of their technology investments."
+    },
+    {
+      "sponsor": "Air Force Association",
+      "image": "afa.png",
+      "website": "https://www.afa.org/",
+      "description": "The Air Force Association is a coalition of airmen in the United States Air Force and their families. We are very thankful for their support in our Cyber Defense program and their service to our country."
+    },
+    {
+      "sponsor": "Micron",
+      "image": "micron.png",
+      "website": "https://www.micron.com/",
+      "description": "The Air Force Association is a coalition of airmen in the United States Air Force and their families. We are very thankful for their support in our Cyber Defense program and their service to our country."
+    },
+  ]
+}

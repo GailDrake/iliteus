@@ -1,0 +1,22 @@
+{
+  "News": [
+    {
+      "newsName": "Bethesda",
+      "image": "path",
+      "heading": "ILITE attended the Chesapeake District Event at Bethesda",
+      "description": "ILITE recently attended the Chesapeake District Event hosted at Walt Whitman High School in Bethesda, MD. The weekend was hugely successful as we came home with the event Chairman's Award and as the event champions alongside our alliance partners. We had a lot of fun meeting a variety of interesting and friendly teams and we're excited for the rest of the season."
+    },
+    {
+      "newsName": "STEAM Expo",
+      "image": "path",
+      "heading": "The 2019 Haymaker STEAM Expo was a blast!",
+      "description": "The Haymaker STEAM Expo this year has passed and it certainly was a lot of fun. The FLL scrimmage was expecially interesting with many high level teams coming to practice before their next tournament. In addition, the escape room attracted much attention and was booked almost the entire day. These weren't the only activites however, there were numerous other activities and demonstrations for all ages. All in all, the wide variety of fun activities with the over 1900 people in attendance made for a great day."
+    },
+    {
+      "newsName": "Week 1",
+      "image": "path",
+      "heading": "Week 1: Deep Space",
+      "description": "We were incredibly excited to host Week 1 for DEEP SPACE. It was a huge success, with over 30 teams competing in an exemplary clash of gracious professionalism, and passion for STEM. While the weaather was a downer, that didn't stop the teams, and the volunteers from having a fantastic event. It was a blast, and we can't wait to see what happens next week."
+    }
+  ]
+}
