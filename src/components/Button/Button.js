@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 
 const Button = ({ children, link }) => {
   const location = (link.substr(0, 4) == 'http')
-    ? <a href={link} className="button">{children}</a>
+    ? <a href={link} className="button" target="_blank">{children}</a>
     : <Link to={link} className="button">{children}</Link>;
   return location;
 }

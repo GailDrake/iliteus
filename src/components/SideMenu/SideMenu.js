@@ -60,7 +60,7 @@ class SideMenu extends Component {
               <Link onClick={() => this.closeSideMenu()} to="/outreach/FLL"><span>FLL</span></Link>
               <Link onClick={() => this.closeSideMenu()} to="/outreach/SummerCamps"><span>Summer Camps</span></Link>
             </div>
-            <a href="http://www.ilite.info" onClick={() => this.closeSideMenu()} className="sidemenu__link"><span>Week 1 FRC Event</span></a>
+            <a href="http://www.ilite.info" onClick={() => this.closeSideMenu()} className="sidemenu__link" target="_blank"><span>Summer Camps</span></a>
           </div>
         </div>
       </div>

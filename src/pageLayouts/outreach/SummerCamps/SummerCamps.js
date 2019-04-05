@@ -127,7 +127,7 @@ const SummerCamps = (props) => {
           </tbody>
         </table>
 
-        <p>Sign ups are now available at <a href="https://ilite.info">Ilite.info</a>! Make sure to check out our bundle deals!</p>
+        <Button link="https://gofan.co/app/school/VA25529/Academic-Camps">Sign Up Here!</Button>
 
         <div id="lego" className="summercamps__box">
           <h1>Lego EV3 Robotics</h1>
@@ -151,7 +151,7 @@ const SummerCamps = (props) => {
         </div>
         <div id="girls" className="summercamps__box">
           <h1>Girls in STEM</h1>
-          <p>ILITE helps girls discover the world of STEM through wearable technology and hands on math and science activities. From sewing circuits onto shirts to creating perfume in a chemistry lab, girls are immersed in learning about this technical world. Several women executives talk to the girls about the importance of girls in STEM leading the future of the field.</p>
+          <p>ILITE's Girls in STEM summer camp helps girls discover the world of STEM through hands on activities filled with exciting experiments. This year, girls will get to create stunning digital art by learning graphic design skills and will also craft unique objects using 3D printing and laser engraving technology.</p>
           <img src={require('../../../assets/images/outreach/summercamps/girls.png')} />
         </div>
         <div id="boe" className="summercamps__box">
