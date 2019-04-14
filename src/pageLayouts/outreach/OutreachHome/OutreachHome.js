@@ -42,7 +42,7 @@ const OutreachHome = (props) => {
           <Events
             name="IROC"
             date="October, 2019"
-            eventLink="http://irocoffseason.org"
+            eventLink="/outreach/HostedEvents/#iroc"
             image="images/frc/iroc-group-photo.png" />
         </div>
       </div>

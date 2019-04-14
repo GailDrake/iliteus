@@ -11,7 +11,7 @@ const SummerCamps = (props) => {
         <p>The camps below are hosted by ILITE Robotics. Questions or concerns about these camps should be directed to Gail Drake at drakegd@pwcs.edu.</p>
 
         <table>
-          <caption> Week 1 - June 17 </caption>
+          <caption> Week 1: June 17 - June 20</caption>
           <thead>
 
             <td className="summercamps__table--camps">Camp Name</td>
@@ -22,43 +22,58 @@ const SummerCamps = (props) => {
           <tbody>
             <tr>
 
-              <td className="summercamps__table--camps"><Link to="#lego">Lego EV3 Robotics</Link></td>
-              <td className="summercamps__table--grade">Gr K - 6</td>
-              <td className="summercamps__table--price">$150</td>
-              <td className="summercamps__table--times">Morning</td>
-            </tr>
-            <tr>
-
-              <td className="summercamps__table--camps"><Link to="#girls">Girls in STEM</Link></td>
-              <td className="summercamps__table--grade">Gr 6 - 8</td>
-              <td className="summercamps__table--price">$150</td>
-              <td className="summercamps__table--times">Morning</td>
-            </tr>
-            <tr>
-
-              <td className="summercamps__table--camps"><Link to="#lego">Lego EV3 Robotics</Link></td>
-              <td className="summercamps__table--grade">Gr K - 6</td>
-              <td className="summercamps__table--price">$150</td>
-              <td className="summercamps__table--times">Afternoon</td>
-            </tr>
-            <tr>
-
-              <td className="summercamps__table--camps"><Link to="#stem1">STEM 1: Matter Hackers</Link></td>
+              <td className="summercamps__table--camps"><Link to="#lego">EV3 Robotics</Link></td>
               <td className="summercamps__table--grade">Gr K - 4</td>
               <td className="summercamps__table--price">$150</td>
-              <td className="summercamps__table--times">Afternoon</td>
+              <td className="summercamps__table--times">9am - noon</td>
+            </tr>
+            <tr>
+
+              <td className="summercamps__table--camps"><Link to="#girls">Matter Hackers</Link></td>
+              <td className="summercamps__table--grade">Gr K - 4</td>
+              <td className="summercamps__table--price">$150</td>
+              <td className="summercamps__table--times">1pm - 4pm</td>
+            </tr>
+
+            <tr>
+
+              <td className="summercamps__table--camps"><Link to="#lego"><span>BUNDLE</span> EV3 Robotics & Matter Hackers</Link></td>
+              <td className="summercamps__table--grade">Gr K - 4</td>
+              <td className="summercamps__table--price">$250</td>
+              <td className="summercamps__table--times">9am - 4pm</td>
+            </tr>
+            <tr>
+
+              <td className="summercamps__table--camps"><Link to="#lego">Girls in STEM</Link></td>
+              <td className="summercamps__table--grade">Gr 5 - 8</td>
+              <td className="summercamps__table--price">$150</td>
+              <td className="summercamps__table--times">9am - noon</td>
+            </tr>
+            <tr>
+
+              <td className="summercamps__table--camps"><Link to="#stem1">EV3 Robotics</Link></td>
+              <td className="summercamps__table--grade">Gr 5 - 8</td>
+              <td className="summercamps__table--price">$150</td>
+              <td className="summercamps__table--times">1pm - 4pm</td>
+            </tr>
+            <tr>
+
+              <td className="summercamps__table--camps"><Link to="#lego"><span>BUNDLE</span> Girls in STEM & EV3 Robotics</Link></td>
+              <td className="summercamps__table--grade">Gr 5 - 8</td>
+              <td className="summercamps__table--price">$250</td>
+              <td className="summercamps__table--times">9am - 4pm</td>
             </tr>
             <tr>
 
               <td className="summercamps__table--camps"><Link to="#cyber">Cyber Defense</Link></td>
-              <td className="summercamps__table--grade">Gr 6 - 12</td>
-              <td className="summercamps__table--price">$165</td>
-              <td className="summercamps__table--times">Afternoon</td>
+              <td className="summercamps__table--grade">Gr 7 - 12</td>
+              <td className="summercamps__table--price">$150</td>
+              <td className="summercamps__table--times">9am - noon</td>
             </tr>
           </tbody>
         </table>
         <table>
-          <caption> Week 2 - June 24 </caption>
+          <caption> Week 2: June 24 - June 27</caption>
           <thead>
 
             <td className="summercamps__table--camps">Camp Name</td>
@@ -69,42 +84,51 @@ const SummerCamps = (props) => {
           <tbody>
             <tr>
 
-              <td className="summercamps__table--camps"><Link to="#lego">Lego EV3 Robotics</Link></td>
-              <td className="summercamps__table--grade">Gr K - 6</td>
-              <td className="summercamps__table--price">$150</td>
-              <td className="summercamps__table--times">Morning</td>
-            </tr>
-            <tr>
-
-              <td className="summercamps__table--camps"><Link to="#boe">Boe-Bot Camp</Link></td>
-              <td className="summercamps__table--grade">Gr 6 - 12</td>
-              <td className="summercamps__table--price">$150</td>
-              <td className="summercamps__table--times">Morning</td>
-            </tr>
-            <tr>
-
-              <td className="summercamps__table--camps"><Link to="#stem2">STEM 2: Imagination Infusion</Link></td>
+              <td className="summercamps__table--camps"><Link to="#lego">EV3 Robotics</Link></td>
               <td className="summercamps__table--grade">Gr 4 - 6</td>
               <td className="summercamps__table--price">$150</td>
-              <td className="summercamps__table--times">Afternoon</td>
+              <td className="summercamps__table--times">9am - noon</td>
             </tr>
             <tr>
 
-              <td className="summercamps__table--camps"><Link to="#programming">Intro to Programming</Link></td>
-              <td className="summercamps__table--grade">Gr 3+</td>
+              <td className="summercamps__table--camps"><Link to="#boe">Imagination Infusion</Link></td>
+              <td className="summercamps__table--grade">Gr 4 - 6</td>
               <td className="summercamps__table--price">$150</td>
-              <td className="summercamps__table--times">Afternoon</td>
+              <td className="summercamps__table--times">1pm - 4pm</td>
             </tr>
             <tr>
 
-              <td className="summercamps__table--camps"><Link to="#cyber">Advanced Cyber Defense</Link></td>
-              <td className="summercamps__table--grade">Gr 6 - 12 (requires succesful completion of one cyber patriot season or cyber defense summer camp)</td>
-              <td className="summercamps__table--price">$165</td>
-              <td className="summercamps__table--times">Afternoon</td>
+              <td className="summercamps__table--camps"><Link to="#lego"><span>BUNDLE</span> EV3 Robotics & Imagination Infusion</Link></td>
+              <td className="summercamps__table--grade">Gr 4 - 6</td>
+              <td className="summercamps__table--price">$250</td>
+              <td className="summercamps__table--times">9am - 4pm</td>
+            </tr>
+            <tr>
+
+              <td className="summercamps__table--camps"><Link to="#stem2">Boe-Bots</Link></td>
+              <td className="summercamps__table--grade">Gr 5 - 8</td>
+              <td className="summercamps__table--price">$150</td>
+              <td className="summercamps__table--times">9am - noon</td>
+            </tr>
+            <tr>
+
+              <td className="summercamps__table--camps"><Link to="#programming">Introduction to Programming</Link></td>
+              <td className="summercamps__table--grade">Gr 5 - 8</td>
+              <td className="summercamps__table--price">$150</td>
+              <td className="summercamps__table--times">1pm - 4pm</td>
+            </tr>
+            <tr>
+
+              <td className="summercamps__table--camps"><Link to="#lego"><span>BUNDLE</span> Boe-Bots & Introduction to Programming</Link></td>
+              <td className="summercamps__table--grade">Gr 5 - 8</td>
+              <td className="summercamps__table--price">$250</td>
+              <td className="summercamps__table--times">9am - 4pm</td>
             </tr>
           </tbody>
         </table>
-        <p>*Sign ups will come soon</p>
+
+        <Button link="https://gofan.co/app/school/VA25529/Academic-Camps">Sign Up Here!</Button>
+
         <div id="lego" className="summercamps__box">
           <h1>Lego EV3 Robotics</h1>
           <p>Students who attend ILITE’s LEGO EV3 Summer Camp design, build, and program awesome robots using state-of-the-art LEGO robotics technology: the powerful MINDSTORMS EV3 system. This exciting robotics camp challenges students to push robots to the limits by completing various tasks. The capstone of the camp is a mini competition. ILITE’s LEGO EV3 Camp gives students the opportunity to learn and have fun at the same time.</p>
@@ -127,7 +151,7 @@ const SummerCamps = (props) => {
         </div>
         <div id="girls" className="summercamps__box">
           <h1>Girls in STEM</h1>
-          <p>ILITE helps girls discover the world of STEM through wearable technology and hands on math and science activities. From sewing circuits onto shirts to creating perfume in a chemistry lab, girls are immersed in learning about this technical world. Several women executives talk to the girls about the importance of girls in STEM leading the future of the field.</p>
+          <p>ILITE's Girls in STEM summer camp helps girls discover the world of STEM through hands on activities filled with exciting experiments. This year, girls will get to create stunning digital art by learning graphic design skills and will also craft unique objects using 3D printing and laser engraving technology.</p>
           <img src={require('../../../assets/images/outreach/summercamps/girls.png')} />
         </div>
         <div id="boe" className="summercamps__box">
