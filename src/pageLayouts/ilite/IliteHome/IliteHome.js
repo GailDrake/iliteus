@@ -61,6 +61,16 @@ const IliteHome = (props) => {
             US Stem
           </SponsorTag>
           <SponsorTag
+            image={require('../../../assets/images/sponsors/aurora.png')}
+            url="https://www.aurora.aero">
+            Aurora Flight Sciences
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/anomali.png')}
+            url="https://www.anomali.com">
+            Anomali
+          </SponsorTag>
+          <SponsorTag
             image={require('../../../assets/images/sponsors/afa.png')}
             url="http://www.afa.org/">
             Air Force Association

@@ -84,6 +84,28 @@ const Sponsors = () => {
 
         <hr className="sponsor__hr" />
         <Sponsor
+          name="Aurora Flight Sciences"
+          url="https://www.aurora.aero/"
+          image="aurora.png"
+        >
+          <p>
+            Aurora Flight Sciences is an independent subsidiary of Boeing. They work to develop advanced aircraft, such as prolonged flight and autonomous operation, using robotics and engineering. They seek to shape the future of air travel through incredible innovation and hard work.
+          </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Anomali"
+          url="https://www.anomali.com/"
+          image="anomali.png"
+        >
+          <p>
+            Anomali is a cyber security firm that specializes in threat intelligence. Using machine learning they are able to provide organizations with advanced detection based on external context leading into automatic investigation. Their platform seamlessly integrates with internal systems and individual apps to amplify the security of the whole system.
+          </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
           name="Air Force Association"
           url="https://www.afa.org/"
           image="afa.png"
@@ -93,6 +115,7 @@ const Sponsors = () => {
           </p>
         </Sponsor>
 
+        <hr className="sponsor__hr" />
         <Sponsor
           name="Booz Allen Hamilton"
           url="https://www.boozallen.com/"
