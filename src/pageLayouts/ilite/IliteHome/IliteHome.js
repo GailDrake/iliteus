@@ -37,14 +37,14 @@ const IliteHome = (props) => {
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          <NewsCard title="ILITE attended the Chesapeake District Event at Bethesda" image={require('../../../assets/images/frc/week2-2019.jpg')}>
-            ILITE recently attended the Chesapeake District Event hosted at Walt Whitman High School in Bethesda, MD. The weekend was hugely successful as we came home with the event Chairman's Award and as the event champions alongside our alliance partners. We had a lot of fun meeting a variety of interesting and friendly teams and we're excited for the rest of the season.
+          <NewsCard title="ILITE won the Chairman's Award at the Chesapeake District Championship" image={require('../../../assets/images/frc/dcmp-chairmans.png')}>
+            ILITE was honored with the FIRST Chesapeake District Championship Chairman’s Award, which qualifies us for the FIRST Championship in Detroit in addition to the robot qualification. The Chairman’s Award is the most prestigious award at FIRST, it honors the team that best represents a model for other teams to emulate and best embodies the purpose and goals of FIRST. We are so excited to represent the Chesapeake District at the world level, and we cannot wait to compete next week!
           </NewsCard>
-          <NewsCard title="ILITE attended the Chesapeake District Event at Oxon Hill" image={require('../../../assets/images/frc/week4.png')}>
-            ILITE recently attended the Chesapeake District Event hosted at Oxon Hill High School in Oxon Hill, MD. The weekend was successful as we came home with the event Imagery Award. We had an amazing time meeting all the fantastic teams competing at this event and look forward to meeting more throughout the rest of the season.
+          <NewsCard title="ILITE gained two new sponsors at the Chesapeake District Championship" image={require('../../../assets/images/frc/dcmp-anomali.png')}>
+            ILITE welcomed our new sponsor, Anomali, to the ILITE family and to the FRC competition at the Chesapeake District Championship. We enjoyed showing them around the event, and introducing them to our robot Arya. Over the weekend, we also welcomed another new sponsor, Aurora Flight Sciences, to the ILITE family. We are grateful for these wonderful sponsors' contribution and thankful for the support from all our sponsors, both old and new.
           </NewsCard>
-          <NewsCard title="Week 1: Deep Space" image={require('../../../assets/images/frc/week_one.png')}>
-            We were incredibly excited to host Week 1 for DEEP SPACE. It was a huge success, with over 30 teams competing in an exemplary clash of gracious professionalism, and passion for STEM. While the weaather was a downer, that didn't stop the teams, and the volunteers from having a fantastic event. It was a blast, and we can't wait to see what happens next week.
+          <NewsCard title="ILITE met with representatives at the Chesapeake District Championship" image={require('../../../assets/images/frc/dcmp-nasa.png')}>
+            At the Chesapeake District Championship Event on April 11th-13th, ILITE members had to the opportunity to meet with Danica Roem, the representative of the 13th district in the Virginia House of Delegates, Congresswoman Wexton, and the Director of Planetary Science at NASA, Dr. Lori Glaze along with Dave Lavery, NASA Program Executive for Solar System Exploration. ILITE members enjoyed speaking with them about the FRC competition, ILITE’s business plan and political activism, and ILITE’s FIRST mentoring in the local and international communities. In an email correspondence with one of our students, Dr. Glaze said that “talking with you and the ILITE team was the highlight of my day Friday. I wish you all the best of luck”.
           </NewsCard>
         </div>
       </div>
