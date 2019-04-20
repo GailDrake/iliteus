@@ -24,16 +24,18 @@ const Competition = () => {
                 <div className="competition__awards">
                   <h3 className="competition__event-subheader">Awards</h3>
                   <ul>
+                    <li>CHS District Championship: Chairman's Award</li>
+                    <li>CHS District Oxon Hill Event: Imagery Award</li>
                     <li>CHS District Bethesda Event: Chairman's Award</li>
                     <li>CHS District Bethesda Event: Event Winner</li>
-                    <li>CHS District Oxon Hill Event: Imagery Award</li>
                   </ul>
                 </div>
                 <div className="competition__attended">
                   <h3 className="competition__event-subheader">Competitions Attended</h3>
                   <ul>
-                    <li>FIRST Chesapeake District Bethesda MD Event</li>
+                    <li>FIRST Chesapeake District Championship</li>
                     <li>FIRST Chesapeake District Oxon Hill MD Event</li>
+                    <li>FIRST Chesapeake District Bethesda MD Event</li>
                   </ul>
                 </div>
               </div>
