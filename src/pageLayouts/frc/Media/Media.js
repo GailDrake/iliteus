@@ -14,6 +14,14 @@ const Media = (props) => {
 				</p>
 				<div className="media_tiles">
 					<Mediatiles
+						url="https://www.dropbox.com/sh/dxw446rwjxbr3l1/AABv9Rj9KeImwglQQVMsBdOGa?dl=0"
+						name="Chesapeake District Championship 2019"
+					/>
+					<Mediatiles
+						url="https://www.dropbox.com/sh/cz40n8q52jn744d/AAAB4EifOJX0ez9XwzR13JGya?dl=0"
+						name="Chesapeake District Oxon Hill 2019"
+					/>
+					<Mediatiles
 						url="https://www.dropbox.com/sh/xl9r8ia82b2fv8w/AABnsswvWDVgr-5-Csmo69N9a?dl=0"
 						name="Chesapeake District Bethesda 2019"
 					/>
