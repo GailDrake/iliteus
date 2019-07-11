@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
+    "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "deploy-staging": "aws s3 rm s3://ilite-staging --recursive && aws s3 cp --cache-control max-age=31536000 public s3://ilite-staging --recursive"
@@ -23,6 +24,9 @@
     "react-helmet": "^5.2.0",
     "react-reveal": "^1.2.1",
     "window-or-global": "^1.0.1"
+  },
+  "resolutions": {
+    "lodash.merge": "^4.6.2"
   },
   "browserslist": [
     "> 1%",

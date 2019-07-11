@@ -1,0 +1,29 @@
+RewriteCond %{HTTP_HOST} ^www.ilite.us [NC]
+RewriteRule ^(.*)$ http://ilite.us/$1 [L,R=301]
+RewriteRule ^(.*)index\.html$ http://ilite.us/ilite$1 [L,R=301]
+Redirect 301 /community/summer-camps.php http://ilite.us/outreach/SummerCamps
+Redirect 301 /about/team.php http://ilite.us/frc/team
+Redirect 301 /about/history.php http://ilite.us/ilite/about
+Redirect 301 /about/press.php http://ilite.us
+Redirect 301 /first/season.php http://ilite.us/frc/competition
+Redirect 301 /community/hosted.php http://ilite.us/outreach/HostedEvents
+Redirect 301 /first/firstcampaign.php http://ilite.us
+Redirect 301 /getinvolved/volunteereventportal.php http://ilite.us
+Redirect 301 /about/contactus.php http://ilite.us
+Redirect 301 /about/missionandvision.php http://ilite.us/ilite/about
+Redirect 301 /media/media.php http://ilite.us/frc/media
+Redirect 301 /community/sponsors.php http://ilite.us/ilite/sponsors
+Redirect 301 /community/surveys.php http://ilite.us
+Redirect 301 /getinvolved/becomeamentor.php http://ilite.us/ilite/getinvolved
+Redirect 301 /first/whatisfirst.php http://ilite.us
+Redirect 301 /getinvolved/becomeamember.php http://ilite.us/ilite/getinvolved
+Redirect 301 /getinvolved/firstfuel.php http://ilite.us/ilite/getinvolved
+Redirect 301 /getinvolved/studenteventportal.php http://ilite.us
+Redirect 301 /getinvolved/becomeasponsor.php http://ilite.us/ilite/getinvolved
+Redirect 301 /community/us-stem-foundation.php http://ilite.us
+Redirect 301 /images/sponsors/sponsorship_packet.pdf http://ilite.us/ilite/sponsors
+Redirect 301 /documents/campflyer.pdf http://ilite.us/outreach/SummerCamps
+Redirect 301 /community/about/about.php http://ilite.us/ilite/about
+ErrorDocument 404 /index.html 
+
+AddType text/css css
