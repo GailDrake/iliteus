@@ -84,6 +84,15 @@
     }
   }
 
+  .summercamps__buttons {
+    display: flex;
+    flex-direction: row;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
   .summercamps__signup {
     width: 30%;
     display: block;
@@ -145,6 +154,7 @@
       }
     }
   }
+
   span {
     padding-left: 5px;
     padding-right: 5px;
