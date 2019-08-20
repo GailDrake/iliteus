@@ -11,7 +11,9 @@ const SummerCamps = (props) => {
         <p>The camps below are hosted by ILITE Robotics. Questions or concerns about these camps should be directed to Gail Drake at drakegd@pwcs.edu.<br /><br />When you arrive, please enter through door 19 and follow the signs. If your child is staying for lunch, please pack a lunch.</p>
 
         <table>
-          <caption> Week 1: June 17 - June 20</caption>
+          <caption> Week 1
+            {/* : June 17 - June 20 */}
+          </caption>
           <thead>
 
             <td className="summercamps__table--camps">Camp Name</td>
@@ -73,7 +75,9 @@ const SummerCamps = (props) => {
           </tbody>
         </table>
         <table>
-          <caption> Week 2: June 24 - June 27</caption>
+          <caption> Week 2
+            {/* : June 24 - June 27 */}
+          </caption>
           <thead>
 
             <td className="summercamps__table--camps">Camp Name</td>
@@ -127,7 +131,11 @@ const SummerCamps = (props) => {
           </tbody>
         </table>
 
-        <Button link="https://gofan.co/app/school/VA25529/Academic-Camps">Sign Up Here!</Button>
+        <div className="summercamps__buttons">
+          <Button link="https://www.dropbox.com/sh/sq3n2xtm6q5conn/AAB5qkso05MBaYLoWjKSlk0Ma?dl=0">View all 2019 Summer Camps photos here</Button>
+          <Button link="https://www.youtube.com/channel/UCCWs22DHGwRloB613zOJ9UA/videos">View all 2019 Summer Camps videos here</Button>
+        </div>
+        {/* <Button link="https://gofan.co/app/school/VA25529/Academic-Camps">Sign Up Here!</Button> */}
 
         <div className="summercamps__box">
           <h1>EV3 Robotics 1</h1>
