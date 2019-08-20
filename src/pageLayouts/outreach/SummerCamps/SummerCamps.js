@@ -8,7 +8,7 @@ const SummerCamps = (props) => {
     <Container title="Summer Camps" subtitle="Check out our STEAM-themed summer camps below.">
       <div className="summercamps">
         <h1>ILITE Robotics Summer Camps</h1>
-        <p>The camps below are hosted by ILITE Robotics. Questions or concerns about these camps should be directed to Gail Drake at drakegd@pwcs.edu.</p>
+        <p>The camps below are hosted by ILITE Robotics. Questions or concerns about these camps should be directed to Gail Drake at drakegd@pwcs.edu.<br /><br />When you arrive, please enter through door 19 and follow the signs. If your child is staying for lunch, please pack a lunch.</p>
 
         <table>
           <caption> Week 1: June 17 - June 20</caption>
