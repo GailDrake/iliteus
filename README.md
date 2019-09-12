@@ -33,7 +33,6 @@ If you contributing to this repo, then you are most likely a member of the ILITE
 If you are contributing to this repository, then you need to have a few other tools that you need to have installed.
 
 - NodeJS - server side javascript
-- NPM - node package manager
 - Yarn - a superior package manager
 - Git Bash - a Linux style terminal (not necessary if you are using a Mac)
 - Gatsby - the platform
