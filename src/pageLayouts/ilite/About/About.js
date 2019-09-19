@@ -75,56 +75,8 @@ const About = (props) => {
           <div className='about__remove'><img className='about__image about__remove' src={pits} /></div>
           <div className='about__stay'><img className='about__image about__stay' src={history} /></div>
         </div>
-        <p className='about__text'>FIRST Team 1885, “ILITE Robotics”, is a FIRST Robotics Team based in Haymarket, Virginia.
-          It consists of students from high schools across Prince William County, Virginia. ILITE stands for Inspiring Leaders in Technology and Engineering.
-          <br />
-          <br />
-          In the fall of 2004, Battlefield High School officially opened as the ninth high school in Prince William County.
-          The doors opened to clean classrooms, brand new books, and a newly established Information Technology specialty program,
-          in which students could pursue college level credits in web development, graphic design, and computer science.
-          <br />
-          <br />
-          For the first two years as a school, Battlefield showed an interesting growth period, as the school sought out to find what it could be in the community.
-          In the fall of 2005, a group of 32 pioneers stepped forward to their IT teacher with a common interest… engineering and robotics.
-          These 32 students were asked to make a commitment, which they took above and beyond what anyone could have anticipated.
-          <br />
-          <br />
-          ILITE began under the direction of Professor Gail Drake and Professor Michael Piccione, though much has changed since then.
-          FIRST Team 1885 was originally known as the “Robocats” which quickly became synonymous with the color purple.
-          The original 32 students brought together the support of their parents and siblings, while Professor Drake and Professor Piccione
-          helped secure the sponsorship of several major engineering companies in the Northern Virginia area. The family was forged,
-          and the team successfully built its first robot out of a kit of parts, scrap metal, and even a lamp shade as it competed in the 2006 competition,
-          Aim High. It was an appropriate name for the competition of 1885’s rookie year, because the sky quickly became the limit, as ILITE became the
-          Rookie All-Star Team at both the NASA/VCU and Palmetto Regionals. Just as all eyes were seeing purple,
-          ILITE took home the world title of Rookie-All Star at the FIRST World Championship.
-          <br />
-          <br />
-          We have all been deeply changed by our participation in this program, which we wish to share what we have learned with future generations.
-          As such, we partake in many activities that allow younger children a first-hand experience with technology and engineering.
-          In 2008, we saw the development of ILITE in the community. Lobbying on Capitol Hill for STEM education, and implementing robotics into the high school.
-          <br />
-          <br />
-          In 2009, ILITE was satisfied to participate at the first ever Washington DC Regional for the game, Lunacy;
-          in which, the team won the Engineering Inspiration award for the second year in a row. Our robot, MoonLite,
-          was a Regional quarterfinalist at the Florida Regional, where the team also won the Imagery Award.
-          In that same year, FIRST Team 1885 promoted alumni efforts to mentor teams across the country and to volunteer at Regional events along the East Coast.
-          <br />
-          <br />
-          In 2010, FIRST Team 1885 competed in the Washington DC Regional and was a Regional Semifinalist for the game designed in honor of the World Cup,
-          Breakaway. Following one of our toughest seasons yet, ILITE strived in 2011 to redefine what it was that made the team such a tight family in our rookie year.
-          <br />
-          <br />
-          With a team roster made up entirely of seniors, ILITE changed its goal to one of reuniting the school and community,
-          as well as rekindling the flame that had dimmed from the prior year. The team came back strong with over 5 alumni mentors,
-          and was our best season yet. After suffering the loss of one of our team members who passed away during the build season,
-          the team rose through the turmoil to win Engineering Inspiration and be Regional Finalists at both the Washington DC and Virginia Regional.
-          Our head mentor who started it all, Professor Drake, was honored with the prestigious Woodie Flowers Award.
-          <br />
-          <br />
-          FIRST Team 1885 is now spread across the county with student representation from five of the eleven high schools in the district.
-          The team plays host to SEAPerch, FLL, and FTC events, and hosted its first off-season FRC scrimmage, IROC, the ILITE Robotics Off-Season Challenge.
-          Alumni have gone on to earn full scholarships at top engineering schools across the country,
-        and have spoken at technical conferences on behalf of the phenomenal results from the team including the Naval STEM Forum in 2011.</p>
+        <p className='about__text'>ILITE Robotics was founded in 2006 in Battlefield High School located in Haymarket, Virginia. We started out as a Rookie-All Star Team have continued to strive for excellence in competing at various levels of FIRST and achieving high level awards at the district and championship level. These include, but are not limited to, Imagery, Engineering Inspiration, Chairman’s, and Finalist or Winner awards. Our achievement runs to the International level with a Chairman’s finalist award in 2017. In 2018, we achieved a Triple Crown win at the Chesapeake District Championship. ILITE has also had the honor of a Woodie Flowers award winner and finalist as mentors and coaches on the team.</p>
+        <p>We do more than compete, we innovate and integrate for the community. The ILITE community began its headway in 2009 with lobbying for increased STEM education and establishing STEM programs in local schools. We aided in the development of a non-profit organization that supports the spread of STEM by engaging with the community and students. We have been hosting our annual HayMaker STEAM expo since 2015 and running our STEAM centered Summer Camps since 2014. In 2016, we were given the opportunity of presenting a conference revolved around our team structure at the FIRST World Championship in Detroit. In 2017, ILITE began its FLL outreach to local school teams and to countries like Liberia, Haiti, and Bolivia. The following year, FLL kits were assembled and sent out to displaced military families and an Autistic Orphanage in Jamaica. We have been hosting an Off Season FRC challenge since 2011, an FRC District Event since 2016, an FTC Regional Qualifier since 2007, and an FLL Regional Competition from 2007 to 2016. All of which have become staple events for the community to join in on.</p>
       </div>
     </Container>
   );
