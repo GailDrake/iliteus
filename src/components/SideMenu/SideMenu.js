@@ -57,7 +57,6 @@ class SideMenu extends Component {
             <Link onClick={() => this.closeSideMenu()} to="/outreach" className="sidemenu__link"><span>Outreach</span></Link>
             <div className="sidemenu__sublinks">
               <Link onClick={() => this.closeSideMenu()} to="/outreach/HostedEvents"><span>Hosted Events</span></Link>
-              <Link onClick={() => this.closeSideMenu()} to="/outreach/FLL"><span>FLL</span></Link>
               <Link onClick={() => this.closeSideMenu()} to="/outreach/SummerCamps"><span>Summer Camps</span></Link>
             </div>
             <a href="http://irocoffseason.org" className="sidemenu__link" target="_blank"><span>IROC</span></a>
