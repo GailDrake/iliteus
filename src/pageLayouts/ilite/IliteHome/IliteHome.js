@@ -7,25 +7,22 @@ import SponsorTag from '../../../components/SponsorTag/SponsorTag';
 
 import newsData from "../../../lib/iliteHome/newsData.json";
 
-/*function getNews() {
-  //<div className="iliteHome__news-container"></div>
-  /*<NewsCard title="ILITE hosted Kickoff this year!" image={require('../../../assets/images/frc/kickoff.jpg')}>
-  3... 2... 1...BLAST OFF! This years kickoff saw the launch of the 2019 FIRST Robotics Competition, <b>Destination: Deep Space</b>.ILITE had the pleasure to host the event for our area, inviting many other teams to attend.We had a blast together with all the attending teams and we are excited for the upcoming season.
-          </NewsCard >
-  let newsObject = newsData.map(news => {
-    return (
-      <NewsCard
-        title={newsData.News[i].heading}
-        image={newsData.News[i].image}
-      >
-        {newsData.News[i].description}
-      </NewsCard>
-    );
-  });
+function getNews() {
+  let newsObject = document.createElement("div");
+  newsObject.className = "iliteHome__news-container";
+
+  for (let i = 0; i < newsData.News.length; i++) {
+    let newsCard = new NewsCard({
+      image: newsData.News[i].image, title: newsData.News[i].heading,
+      children: newsData.News[i].description
+    });
+    newsObject.appendChild(newsCard);
+  }
+
 
   console.log(newsObject);
   return newsObject;
-}*/
+}
 
 const IliteHome = (props) => {
   return (
@@ -59,8 +56,8 @@ const IliteHome = (props) => {
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          {/*getNews()*/}
-          <NewsCard title="ILITE hosted Kickoff this year!" image={require('../../../assets/images/frc/kickoff.jpg')}>
+          {getNews()}
+          {/* <NewsCard title="ILITE hosted Kickoff this year!" image={require('../../../assets/images/frc/kickoff.jpg')}>
             3... 2... 1... BLAST OFF! This years kickoff saw the launch of the 2019 FIRST Robotics Competition, <b>Destination: Deep Space</b>. ILITE had the pleasure to host the event for our area, inviting many other teams to attend. We had a blast together with all the attending teams and we are excited for the upcoming season.
           </NewsCard>
           <NewsCard title="The 2019 Haymaker STEAM Expo was a blast!" image={require('../../../assets/images/outreach/steamexpo/expologo.png')}>
@@ -68,7 +65,7 @@ const IliteHome = (props) => {
           </NewsCard>
           <NewsCard title="We just launched our new website!" image={require('../../../assets/images/site_screenshot.png')}>
             We're incredibly excited to have launched our new website here at ilite.us! If you haven't already noticed, we've made significant changes to both the style and structure of the site. The biggest change, however, has been made to the background operation. The new site is based off of a website development tool called GatsbyJS that allows the site to run faster and smoother. To learn more about GastbyJS <a href="http://gatsbyjs.org" target="_blank">visit here</a>.
-          </NewsCard>
+          </NewsCard> */}
 
         </div>
       </div>
