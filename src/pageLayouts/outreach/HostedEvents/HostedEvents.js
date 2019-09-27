@@ -89,20 +89,19 @@ const HostedEvents = () => (
             <h1 className="hostedevents__subheader">FRC Week 1 District Event</h1>
             <hr />
             <p>
-              ILITE will be hosting a Week 1 FRC District event once again this year. Hosted the first saturday
-              and sunday of March 2020, this event will compose of FRC teams from all around the Chesapeake District
+              ILITE will be hosting a Week 1 FRC District event once again this year. Hosted February 28th to March 1st 2020, this event will compose of FRC teams from all around the Chesapeake District
               competing with gracious professionalism. FIRST's new game for this season, Infinite Recharge, will be featured
               as the mode of competition. We are incredibly excited to see and play this new game along with all our fellow teams.
             </p>
-            {/* <div className="button_contain">
+            <div className="button_contain">
               <br />
               <Button
-                link="http://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va"
+                link="https://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va"
                 division="frc"
               >
-                Learn More!
+                Learn More
               </Button>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
