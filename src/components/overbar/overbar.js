@@ -24,13 +24,14 @@ const Overbar = props => {
           </NavLink>
         </li>
         <li>
-          <NavLink
-            to="/outreach/SummerCamps"
+          <a
+            href="http://ilite.info"
             className="overbar__list-item"
             activeClassName="overbar--underlined"
+            target="_blank"
           >
-            Summer Camps
-          </NavLink>
+            STEAM Expo
+          </a>
         </li>
         <li>
           <NavLink

@@ -28,25 +28,25 @@ const OutreachHome = (props) => {
         </p>
         <div className="outreachHome__events-container">
           <Events
-            name="FLL Workshops"
-            date="TBD"
-            eventLink="/outreach/Fll"
-            image="images/outreach/fll14.jpg" />
-
-          <Events
-            name="Summer Camps"
-            date="July, 2019"
-            eventLink="/outreach/SummerCamps"
-            image="images/outreach/summercamps/stem2.jpg" />
-
-          <Events
             name="IROC"
-            date="October, 2019"
-            eventLink="/outreach/HostedEvents/#iroc"
-            image="images/frc/iroc-group-photo.png" />
+            date="October 26th, 2019"
+            eventLink="http://irocoffseason.org"
+            image="images/frc/iroc.jpg" />
+
+          <Events
+            name="STEAM Expo"
+            date="January 25th, 2020"
+            eventLink="http://ilite.info"
+            image="images/outreach/steamexpo/expo.jpg" />
+
+          <Events
+            name="FRC Week 1"
+            date="July, 2020"
+            eventLink="/outreach/HostedEvents"
+            image="images/frc/week_one.jpg" />
         </div>
       </div>
-      <div className="outreachHome__FLL">
+      {/* <div className="outreachHome__FLL">
         <h1 className="outreachHome__FLL-header">FLL and Summer Camps</h1>
         <p className="outreachHome__FLL-subheader">
           We host seasonal activities teaching kids about certain aspects of STEAM and robotics with FLL Workshops being in the fall, and the summer camps being in the summer. In doing this, we introduce the kids to the world of STEAM, and nurture their interest in technology.
@@ -77,12 +77,12 @@ const OutreachHome = (props) => {
             name="Summer Camps"
             description="Our Summer Camps offer a large variety of STEAM related camps. The camps include everything from science-based arts and crafts to cyber defense, introducing kids of a wide range of ages and interests to STEAM."
             image="images/outreach/summercamps/stem1.jpg" 
-            link="/outreach/SummerCamps" /> */}
+            link="/outreach/SummerCamps" />
 
-        </div>
-
-      </div>
     </div>
+
+          </div > */}
+    </div >
   );
 };
 

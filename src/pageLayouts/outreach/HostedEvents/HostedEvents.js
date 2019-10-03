@@ -8,42 +8,13 @@ const HostedEvents = () => (
     subtitle="Check out all of the events hosted by ILITE"
   >
     <div className="hosted-events">
-      <h1 className="hostedevents__header">2018 - 2019 Season</h1>
+      <h1 className="hostedevents__header">2019 - 2020 Season</h1>
       <p>
         ILITE hosts multiple events during the summer, competition season, and
         during the regular school year. Some of our most famous ones include our
-        FRC District Competition, our Summer Camps, FLL workshops, and our FRC
+        FRC District Competition, our Summer Camps, the STEAM Expo, and our FRC
         offseason competition, IROC.
       </p>
-      <div className="event">
-        <div className="event__description">
-          <div>
-            <img
-              src={require("../../../assets/images/outreach/fll11.jpg")}
-              alt=""
-            />
-          </div>
-          <div>
-            <h1 className="hostedevents__subheader">Summer Camps</h1>
-            <hr />
-            <p>
-              We here at ILITE firmly believe that all children deserve to learn
-              about the wonders of the world around us through the exploration
-              of STEM. We offer a variety of STEM summer camps, in areas such as
-              cyber security, FLL, and engineering. The camps are taught and run
-              by ILITE students. We hope you enjoy our camps!
-            </p>
-            <div className="button_contain">
-              <br />
-              <Button division="frc" link="/outreach/SummerCamps">
-                Learn More!
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <hr className="hostedevents__hr" />
 
       <div className="event">
         <div className="event__description">
@@ -58,49 +29,16 @@ const HostedEvents = () => (
             <h1 className="hostedevents__subheader" id="iroc">IROC</h1>
             <hr />
             <p>
-              At the end of every October, ILITE Robotics hosts a robotics competition
-              called ILITE Robotics Offseason Challenge, better known as IROC. Teams play
-              the game from the previous competition season. The last IROC saw
-              the return of last years game, Power Up.
+              This year ILITE will once again be hosting their annual IROC competition. On October 26th,
+              teams will come together to compete in last year's FRC game, Destination: Deep Space.
+              The IROC offseason challenge brings teams together to learn and have fun before the new season starts.
             </p>
             <div className="button_contain">
               <br />
-              <Button link="https://gofan.co/app/events/54195" division="frc">
-                Sign Up
+              <Button link="https://irocoffseason.org" division="frc">
+                Learn More
               </Button>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <hr className="hostedevents__hr" />
-
-      <div className="event">
-        <div className="event__description">
-          <div>
-            <img
-              src={require("../../../assets/images/FRC_DeepSpace.jpg")}
-              alt=""
-            />
-          </div>
-          <div>
-            <h1 className="hostedevents__subheader">FRC Week 1 District Event</h1>
-            <hr />
-            <p>
-              This year ILITE Robotics hosted the district event for week one of the FRC season.
-              We hosted more than 30 teams this competition - a number that has continued to grow
-               since we have started hosting these competitions! This year we're excited to have
-                been a part of Destination: Deep Space.
-            </p>
-            {/* <div className="button_contain">
-              <br />
-              <Button
-                link="http://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va"
-                division="frc"
-              >
-                Learn More!
-              </Button>
-            </div> */}
           </div>
         </div>
       </div>
@@ -125,19 +63,80 @@ const HostedEvents = () => (
               share their knowledge with the community. Activities include,
               but are not limited to, logic puzzles, simulations, arts and
               crafts, and technological demonstrations that are sure to teach
-              everyone something new.
+              everyone something new. The event will be hosted on January 25th this year.
             </p>
-            {/* <div className="button_contain">
+            <div className="button_contain">
               <br />
               <Button division="frc" link="http://www.ilite.info/">
                 Learn More!
               </Button>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
 
       <hr className="hostedevents__hr" />
+
+      <div className="event">
+        <div className="event__description">
+          <div>
+            <img
+              src={require("../../../assets/images/logos/infinite-recharge.png")}
+              alt=""
+            />
+          </div>
+          <div>
+            <h1 className="hostedevents__subheader">FRC Week 1 District Event</h1>
+            <hr />
+            <p>
+              ILITE will be hosting a Week 1 FRC District event once again this year. Hosted February 28th to March 1st 2020, this event will compose of FRC teams from all around the Chesapeake District
+              competing with gracious professionalism. FIRST's new game for this season, Infinite Recharge, will be featured
+              as the mode of competition. We are incredibly excited to see and play this new game along with all our fellow teams.
+            </p>
+            <div className="button_contain">
+              <br />
+              <Button
+                link="https://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va"
+                division="frc"
+              >
+                Learn More
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr className="hostedevents__hr" />
+
+      <div className="event">
+        <div className="event__description">
+          <div>
+            <img
+              src={require("../../../assets/images/outreach/fll11.jpg")}
+              alt=""
+            />
+          </div>
+          <div>
+            <h1 className="hostedevents__subheader">Summer Camps</h1>
+            <hr />
+            <p>
+              We here at ILITE firmly believe that all children deserve to learn
+              about the wonders of the world around us through the exploration
+              of STEM. We offer a variety of STEM summer camps, in areas such as
+              cyber security, FLL, and engineering. The camps are taught and run
+              by ILITE students. We hope you enjoy our camps!
+            </p>
+            <div className="button_contain">
+              <br />
+              <Button division="frc" link="/outreach/SummerCamps">
+                Learn More
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/*<hr className="hostedevents__hr" />
 
       <div className="event">
         <div className="event__description">
@@ -153,7 +152,7 @@ const HostedEvents = () => (
             <p>
               Annually, ILITE hosts a Northern Virginia Qualifier for FTC teams in the Chesapeake area. For this years game, Rover Ruckus, we hosted 36 teams. The competition took place on December 1st, 2018.
             </p>
-            {/* <div className="button_contain">
+            <div className="button_contain">
               <br />
               <Button
                 link="http://www.firstchesapeake.org/northern-virginia-qualifier-1"
@@ -161,7 +160,7 @@ const HostedEvents = () => (
               >
                 Learn More!
               </Button>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
@@ -190,7 +189,7 @@ const HostedEvents = () => (
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
     </div>
   </Container>
 );
