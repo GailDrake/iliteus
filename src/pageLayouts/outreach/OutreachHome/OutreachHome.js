@@ -31,19 +31,19 @@ const OutreachHome = (props) => {
             name="IROC"
             date="October 26th, 2019"
             eventLink="http://irocoffseason.org"
-            image="images/frc/iroc-group-photo.png" />
+            image="images/frc/iroc.jpg" />
 
           <Events
             name="STEAM Expo"
             date="January 25th, 2020"
             eventLink="http://ilite.info"
-            image="images/outreach/fll14.jpg" />
+            image="images/outreach/steamexpo/expo.jpg" />
 
           <Events
             name="FRC Week 1"
             date="July, 2020"
             eventLink="/outreach/HostedEvents"
-            image="images/outreach/summercamps/stem2.jpg" />
+            image="images/frc/week_one.jpg" />
         </div>
       </div>
       {/* <div className="outreachHome__FLL">
