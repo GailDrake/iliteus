@@ -65,12 +65,12 @@ const HostedEvents = () => (
               crafts, and technological demonstrations that are sure to teach
               everyone something new. The event will be hosted on January 25th this year.
             </p>
-            {/* <div className="button_contain">
+            <div className="button_contain">
               <br />
               <Button division="frc" link="http://www.ilite.info/">
                 Learn More!
               </Button>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

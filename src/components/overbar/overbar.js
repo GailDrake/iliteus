@@ -25,12 +25,12 @@ const Overbar = props => {
         </li>
         <li>
           <a
-            href="http://irocoffseason.org"
+            href="http://ilite.info"
             className="overbar__list-item"
             activeClassName="overbar--underlined"
             target="_blank"
           >
-            IROC
+            STEAM Expo
           </a>
         </li>
         <li>
