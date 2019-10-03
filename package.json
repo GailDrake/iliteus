@@ -10,29 +10,31 @@
     "deploy-staging": "aws s3 rm s3://ilite-staging --recursive && aws s3 cp --cache-control max-age=31536000 public s3://ilite-staging --recursive"
   },
   "dependencies": {
-    "classnames": "^2.2.5",
+    "classnames": "^2.2.6",
     "cross-fetch": "^3.0.4",
     "gatsby": "^2.15.28",
-    "gatsby-cli": "^1.1.50",
-    "gatsby-link": "^1.6.34",
-    "gatsby-plugin-google-fonts": "0.0.3",
+    "gatsby-cli": "^2.7.53",
+    "gatsby-link": "^2.2.17",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-less": "^3.0.9",
-    "gatsby-plugin-typography": "^1.7.10",
+    "gatsby-plugin-typography": "^2.3.10",
     "history": "^4.10.1",
+    "less": "^3.10.3",
     "npm": "^6.0.1",
-    "prop-types": "^15.6.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
     "react-fontawesome": "^1.6.1",
     "react-ga": "^2.5.7",
-    "react-helmet": "^5.2.0",
+    "react-helmet": "^5.2.1",
     "react-redux": "^7.1.1",
-    "react-reveal": "^1.2.1",
-    "react-router": "^5.1.0",
-    "react-router-dom": "^5.1.0",
+    "react-reveal": "^1.2.2",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
     "react-typography": "^0.16.19",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
+    "typography": "^0.16.19",
     "window-or-global": "^1.0.1"
   },
   "resolutions": {
@@ -43,6 +45,6 @@
     "last 2 versions"
   ],
   "devDependencies": {
-    "eslint": "^4.18.1"
+    "eslint": "^6.5.1"
   }
 }

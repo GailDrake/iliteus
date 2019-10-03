@@ -6,9 +6,8 @@ import Overbar from "../components/overbar";
 import Footer from "../components/footer";
 import Favi from "../assets/icons/favicon.ico";
 
-
 // import less here - once, for the whole app
-import "./../config/main.less";
+// import "./../config/main.less";
 
 const links = [
   {
@@ -29,7 +28,7 @@ const links = [
   {
     name: "Home",
     section: "frc",
-    file: "",
+    file: ""
   }
 ];
 
