@@ -12,6 +12,11 @@ import "./../config/main.less";
 
 const links = [
   {
+    name: "Calendar",
+    section: "frc",
+    file: "calendar"
+  },
+  {
     name: "Media",
     section: "frc",
     file: "media"
