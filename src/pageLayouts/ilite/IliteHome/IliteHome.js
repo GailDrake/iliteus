@@ -47,6 +47,9 @@ const IliteHome = (props) => {
             At the Chesapeake District Championship Event on April 11th-13th, ILITE members had to the opportunity to meet with Danica Roem, the representative of the 13th district in the Virginia House of Delegates, Congresswoman Wexton, and the Director of Planetary Science at NASA, Dr. Lori Glaze along with Dave Lavery, NASA Program Executive for Solar System Exploration. ILITE members enjoyed speaking with them about the FRC competition, ILITE’s business plan and political activism, and ILITE’s FIRST mentoring in the local and international communities. In an email correspondence with one of our students, Dr. Glaze said that “talking with you and the ILITE team was the highlight of my day Friday. I wish you all the best of luck”.
           </NewsCard>
         </div>
+        <div className="iliteHome__news-button">
+          <Button link="https://www.smore.com/u/team1885iliterobotics">Check out our team newsletters!</Button>
+        </div>
       </div>
       <div className="iliteHome__sponsors">
         <h1 className="iliteHome__sponsors-header">Sponsors</h1>
