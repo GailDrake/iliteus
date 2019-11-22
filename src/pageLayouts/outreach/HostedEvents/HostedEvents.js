@@ -6,6 +6,7 @@ const HostedEvents = () => (
   <Container
     title="Hosted Events"
     subtitle="Check out all of the events hosted by ILITE"
+    bannerImage="hostedevents__banner"
   >
     <div className="hosted-events">
       <h1 className="hostedevents__header">2019 - 2020 Season</h1>
