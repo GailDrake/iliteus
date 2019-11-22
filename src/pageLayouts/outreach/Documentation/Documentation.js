@@ -18,6 +18,9 @@ const Documentation = () => {
           <Tab name="2014-2015">
             <table>
               <tr>
+                <th>2014-2015</th>
+              </tr>
+              <tr>
                 <th>Event Name</th>
                 <th>Minds Reached</th>
                 <th>Links</th>
@@ -463,7 +466,7 @@ const Documentation = () => {
               <tr>
                 <td>PWC Haymaker STEAM Expo</td>
                 <td>2339</td>
-                <td></td>
+                <td><a href="https://drive.google.com/open?id=1MdlQTc1CkaStAuAJ2sLNYKxKv_vqc9cg" target="_blank">Link A</a><a href= "https://drive.google.com/open?id=1QWNqaCWp089VZbzusUYW3ckeBV08XRic" target="_blank">Link B</a></td>
               </tr>
               <tr>
                 <td>FTC hosting Competition</td>
@@ -568,9 +571,9 @@ const Documentation = () => {
             </table>
           </Tab>
           <Tab name="2019-2020">
-            <table>
+            <table className="documentation__table">
               <tr>
-                <th>2018-2019</th>
+                <th>2019-2020</th>
               </tr>
               <tr>
                 <th>Event Name</th>
@@ -630,7 +633,7 @@ const Documentation = () => {
               <tr>
                 <td>Girl Scout Programming Lessons</td>
                 <td>18</td>
-                <td></td>
+                <td><a href="https://drive.google.com/open?id=1gKy0BII5GzGMsxI00nXBFvXaN9nwsOaS" target="_blank">Link</a></td>
               </tr>
               <tr>
                 <td>Spirit Bot Football Games</td>
@@ -640,7 +643,7 @@ const Documentation = () => {
               <tr>
                 <td>FLL Elementary School Mentoring</td>
                 <td>40</td>
-                <td></td>
+                <td><a href= "https://drive.google.com/open?id=11lM9EoE0WVZclVtb_UdXfn_o0JS1FPv9" target = "_blank">Link</a></td>
               </tr>
               <tr>
                 <td>FRC District 2020</td>
