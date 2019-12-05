@@ -21,20 +21,6 @@ const Sponsors = () => {
 
         <h1 className="sponsors__heading">Current Sponsors</h1>
 
-        <Sponsor
-          name="US STEM Foundations"
-          url="http://www.usstem.org/"
-          image="usstem.png"
-        >
-          <p>
-            Founded in 2011, The US STEM Foundation strives to provide students
-            with hands-on STEM activities and experiences. The programs they set
-            up have the power to engage, educate, develop, and create responsible
-            citizens to a higher extent than what can be achieved in the
-            classroom.
-        </p>
-        </Sponsor>
-
         <hr className="sponsor__hr" />
         <Sponsor
           large
@@ -106,6 +92,45 @@ const Sponsors = () => {
 
         <hr className="sponsor__hr" />
         <Sponsor
+          name="Micron"
+          url="https://www.micron.com/"
+          image="micron.png"
+        >
+          <p>
+            Micron Technology gives the industry the broadest portfolio, and are
+            the only company to make major memory and storage technologies.
+        </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Azos AI"
+          url="https://www.azosai.com/"
+          image="azosai.jpg"
+        >
+          <p>
+            Azos AI is a privately held corporation that provides embedded intelligence for the IT industry using expertise in aritificial intelligence, application development, and communications.
+        </p>
+        </Sponsor>
+
+        <h1 className="sponsors__heading">Past Sponsors</h1>
+
+        <Sponsor
+          name="US STEM Foundations"
+          url="http://www.usstem.org/"
+          image="usstem.png"
+        >
+          <p>
+            Founded in 2011, The US STEM Foundation strives to provide students
+            with hands-on STEM activities and experiences. The programs they set
+            up have the power to engage, educate, develop, and create responsible
+            citizens to a higher extent than what can be achieved in the
+            classroom.
+        </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
           name="Air Force Association"
           url="https://www.afa.org/"
           image="afa.png"
@@ -122,18 +147,6 @@ const Sponsors = () => {
           image="bah.png"
         >
           <p>The Booz Allen Hamilton works hard to bring the benefits of diversity to foster individuals that can make a difference through management and information technology. </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Micron"
-          url="https://www.micron.com/"
-          image="micron.png"
-        >
-          <p>
-            Micron Technology gives the industry the broadest portfolio, and are
-            the only company to make major memory and storage technologies.
-        </p>
         </Sponsor>
 
         <hr className="sponsor__hr" />
@@ -157,8 +170,6 @@ const Sponsors = () => {
             Pepsi is a drink company that specializes in soda. They support us by providing drinks for our events, specifically the STEAM Expo.
           </p>
         </Sponsor>
-
-        <h1 className="sponsors__heading">Past Sponsors</h1>
 
         <Sponsor
           name="InCadence"
@@ -360,17 +371,6 @@ const Sponsors = () => {
             Comcast Corporation is a company that works with media and technology
             to provide high speed internet and phone providers under the XFINITY
             brand.
-        </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Azos AI"
-          url="https://www.azosai.com/"
-          image="azosai.jpg"
-        >
-          <p>
-            Azos AI is a privately held corporation that provides embedded intelligence for the IT industry using expertise in aritificial intelligence, application development, and communications.
         </p>
         </Sponsor>
 

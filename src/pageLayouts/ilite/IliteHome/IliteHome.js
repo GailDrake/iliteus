@@ -37,14 +37,14 @@ const IliteHome = (props) => {
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          <NewsCard title="ILITE won the Chairman's Award at the Chesapeake District Championship" image={require('../../../assets/images/frc/dcmp-chairmans.png')}>
-            ILITE was honored with the FIRST Chesapeake District Championship Chairman’s Award, which qualifies us for the FIRST Championship in Detroit in addition to the robot qualification. The Chairman’s Award is the most prestigious award at FIRST, it honors the team that best represents a model for other teams to emulate and best embodies the purpose and goals of FIRST. We are so excited to represent the Chesapeake District at the world level, and we cannot wait to compete next week!
-          </NewsCard>
           <NewsCard title="ILITE gained two new sponsors at the Chesapeake District Championship" image={require('../../../assets/images/frc/dcmp-anomali.png')}>
             ILITE welcomed our new sponsor, Anomali, to the ILITE family and to the FRC competition at the Chesapeake District Championship. We enjoyed showing them around the event, and introducing them to our robot Arya. Over the weekend, we also welcomed another new sponsor, Aurora Flight Sciences, to the ILITE family. We are grateful for these wonderful sponsors' contribution and thankful for the support from all our sponsors, both old and new.
           </NewsCard>
           <NewsCard title="ILITE met with representatives at the Chesapeake District Championship" image={require('../../../assets/images/frc/dcmp-nasa.png')}>
             At the Chesapeake District Championship Event on April 11th-13th, ILITE members had to the opportunity to meet with Danica Roem, the representative of the 13th district in the Virginia House of Delegates, Congresswoman Wexton, and the Director of Planetary Science at NASA, Dr. Lori Glaze along with Dave Lavery, NASA Program Executive for Solar System Exploration. ILITE members enjoyed speaking with them about the FRC competition, ILITE’s business plan and political activism, and ILITE’s FIRST mentoring in the local and international communities. In an email correspondence with one of our students, Dr. Glaze said that “talking with you and the ILITE team was the highlight of my day Friday. I wish you all the best of luck”.
+          </NewsCard>
+          <NewsCard title="ILITE at Rumble in the Roads" image={require('../../../assets/images/frc/rumbleInTheRoads.jpg')}>
+            ILITE competed at the Rumble in the Roads off-season event and won with teams 401 and 2028 on November 2nd. Rumble in the Roads is an annual off-season FIRST Robotics Competition event held by teams 1610, 2363, 5957 and is hosted in Newport News at Heritage High School. The competition followed modified rules of the 2019 game DESTINATION: DEEP SPACE. Rumble in the Roads was a great opportunity to get in practice before the new season begins in 2020.
           </NewsCard>
         </div>
         <div className="iliteHome__news-button">
