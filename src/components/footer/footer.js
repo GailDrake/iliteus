@@ -22,7 +22,7 @@ const Footer = () =>
       </div>
       <div className="col">
         <h5 className="footer__header">CALENDAR</h5>
-        <a className="footer__link" href="/outreach/HostedEvents"><i className="fa fa-calendar-o"></i>Team Events &amp; Schedule</a>
+        <a className="footer__link" href="/frc/Calendar"><i className="fa fa-calendar-o"></i>Team Events &amp; Schedule</a>
       </div>
       <div className="col">
         <h5 className="footer__header">GET CONNECTED</h5>
