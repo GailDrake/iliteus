@@ -7,21 +7,27 @@ import SponsorTag from '../../../components/SponsorTag/SponsorTag';
 
 import newsData from "../../../lib/iliteHome/newsData.json";
 
+import image1 from "../../../assets/images/frc/kickoff.jpg";
+
 function getNews() {
-  let newsObject = document.createElement("div");
-  newsObject.className = "iliteHome__news-container";
+  console.log(newsData);
 
-  for (let i = 0; i < newsData.News.length; i++) {
-    let newsCard = new NewsCard({
-      image: newsData.News[i].image, title: newsData.News[i].heading,
-      children: newsData.News[i].description
-    });
-    newsObject.appendChild(newsCard);
-  }
+  // let news;
 
+  return (newsData.News.map(news =>
+    <NewsCard title={news.heading} image={image1} >
+      {news.description}
+    </NewsCard >
+  ));
 
-  console.log(newsObject);
-  return newsObject;
+  // for (let i = 0; i < newsData.News.length; i++) {
+  //   //const newsImage = require(newsData.News[i].image);
+  //   let newsCard = (
+  //     <NewsCard title={newsData.News[i].heading} image={image1} >
+  //       {newsData.News[i].description}
+  //     </NewsCard >)
+  //   news += newsCard;
+  // }
 }
 
 const IliteHome = (props) => {
