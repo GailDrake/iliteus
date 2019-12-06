@@ -12,11 +12,12 @@ const Sponsors = () => {
 
         <h2>Special Thanks To The Following People</h2>
         <ul>
-          <li>Henderson Family</li>
-          <li>Welch Family</li>
-          <li>Garland Family</li>
-          <li>Patrick Boyd</li>
           <li>George Burgess IV</li>
+          <li>Marc Sciarrino</li>
+          <li>Patrick Boyd</li>
+          <li>Garland Family</li>
+          <li>Welch Family</li>
+          <li>Henderson Family</li>
         </ul>
 
         <h1 className="sponsors__heading">Current Sponsors</h1>
@@ -81,17 +82,6 @@ const Sponsors = () => {
 
         <hr className="sponsor__hr" />
         <Sponsor
-          name="Anomali"
-          url="https://www.anomali.com/"
-          image="anomali.png"
-        >
-          <p>
-            Anomali is a cyber security firm that specializes in threat intelligence. Using machine learning they are able to provide organizations with advanced detection based on external context leading into automatic investigation. Their platform seamlessly integrates with internal systems and individual apps to amplify the security of the whole system.
-          </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
           name="Micron"
           url="https://www.micron.com/"
           image="micron.png"
@@ -104,29 +94,11 @@ const Sponsors = () => {
 
         <hr className="sponsor__hr" />
         <Sponsor
-          name="Azos AI"
-          url="https://www.azosai.com/"
-          image="azosai.jpg"
+          name="Booz Allen Hamilton"
+          url="https://www.boozallen.com/"
+          image="bah.png"
         >
-          <p>
-            Azos AI is a privately held corporation that provides embedded intelligence for the IT industry using expertise in aritificial intelligence, application development, and communications.
-        </p>
-        </Sponsor>
-
-        <h1 className="sponsors__heading">Past Sponsors</h1>
-
-        <Sponsor
-          name="US STEM Foundations"
-          url="http://www.usstem.org/"
-          image="usstem.png"
-        >
-          <p>
-            Founded in 2011, The US STEM Foundation strives to provide students
-            with hands-on STEM activities and experiences. The programs they set
-            up have the power to engage, educate, develop, and create responsible
-            citizens to a higher extent than what can be achieved in the
-            classroom.
-        </p>
+          <p>The Booz Allen Hamilton works hard to bring the benefits of diversity to foster individuals that can make a difference through management and information technology. </p>
         </Sponsor>
 
         <hr className="sponsor__hr" />
@@ -142,33 +114,13 @@ const Sponsors = () => {
 
         <hr className="sponsor__hr" />
         <Sponsor
-          name="Booz Allen Hamilton"
-          url="https://www.boozallen.com/"
-          image="bah.png"
-        >
-          <p>The Booz Allen Hamilton works hard to bring the benefits of diversity to foster individuals that can make a difference through management and information technology. </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="SPARK"
-          url="http://poweredbyspark.org/"
-          image="spark.jpg"
+          name="Azos AI"
+          url="https://www.azosai.com/"
+          image="azosai.jpg"
         >
           <p>
-            SPARK, or Supporting Partnerships and Resources for Kids, is an education foundaton for Prince William County Schools. They provide programs and opportunities to kids throughout the county through business partnerships and community organizations like us.
-          </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Pepsi"
-          url="https://www.pepsi.com/"
-          image="pepsi.png"
-        >
-          <p>
-            Pepsi is a drink company that specializes in soda. They support us by providing drinks for our events, specifically the STEAM Expo.
-          </p>
+            Azos AI is a privately held corporation that provides embedded intelligence for the IT industry using expertise in aritificial intelligence, application development, and communications.
+        </p>
         </Sponsor>
 
         <Sponsor
@@ -206,17 +158,100 @@ const Sponsors = () => {
 
         <hr className="sponsor__hr" />
         <Sponsor
-          name="A-1 FLOODTECH"
-          url="http://www.a1floodtech.com/"
-          image="floodtech.png"
+          name="Anomali"
+          url="https://www.anomali.com/"
+          image="anomali.png"
         >
           <p>
-            American Stripping Co., or ASCo, is a company that specializes in
-            blast cleaning that allows surfaces to be powder coated. They have
-            sponsored us every year and are that secret weapon that gives our
-            robots their signature look.
-        </p>{" "}
-          <p />
+            Anomali is a cyber security firm that specializes in threat intelligence. Using machine learning they are able to provide organizations with advanced detection based on external context leading into automatic investigation. Their platform seamlessly integrates with internal systems and individual apps to amplify the security of the whole system.
+          </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Engility"
+          url="http://www.engility.com/#fgkCdVL0VMtyoa6z.97="
+          image="engility.png"
+        >
+          <p>
+            Engility (NYSE: EGL) is engineered to make a difference. Built on six
+            decades of heritage, Engility is a leading provider of integrated
+            solutions and services, supporting U.S. government customers in the
+            defense, federal civilian, intelligence and space communities. Our
+            innovative, highly technical solutions and engineering capabilities
+            address diverse client missions. We draw upon our team's intimate
+            understanding of customer needs, deep domain expertise and technical
+            skills to help solve our nation's toughest challenges. Headquartered
+            in Chantilly, Virginia, and with offices around the world, Engility's
+            array of specialized technical service offerings include
+            high-performance computing, cyber security, enterprise modernization
+            and systems engineering. To learn more about Engility, please visit
+            www.engility.com and connect with us on Facebook, LinkedIn and
+            Twitter.
+        </p>
+        </Sponsor>
+
+        <h1 className="sponsors__heading">Past Sponsors</h1>
+
+        <hr className="sponsor_hr" />
+        <Sponsor
+          name="US STEM Foundations"
+          url="http://www.usstem.org/"
+          image="usstem.png"
+        >
+          <p>
+            Founded in 2011, The US STEM Foundation strives to provide students
+            with hands-on STEM activities and experiences. The programs they set
+            up have the power to engage, educate, develop, and create responsible
+            citizens to a higher extent than what can be achieved in the
+            classroom.
+        </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Able Moving and Storage"
+          url="https://www.ablemoving.com/"
+          image="ABLE.png"
+        >
+          <p>
+            Able Moving and Storage is a well known, and reliable moving and
+            storage company with over 50 company owned vans and trucks.
+        </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Comcast"
+          url="https://corporate.comcast.com/"
+          image="comcast.png"
+        >
+          <p>
+            Comcast Corporation is a company that works with media and technology
+            to provide high speed internet and phone providers under the XFINITY
+            brand.
+        </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="NOVEC"
+          url="https://www.novec.com/"
+          image="novec.jpg"
+        >
+          <p>
+            NOVEC is Among the Nation’s Largest Electric Cooperatives Northern
+            Virginia Electric Cooperative, one of the largest electric
+            cooperatives of its kind in the United States, is a customer-owned and
+            locally based distribution system that provides electricity to more
+            than 160,000 residents and businesses throughout Northern Virginia.
+            NOVEC’s service territory encompasses 651 square miles with more than
+            7,000 miles of electric lines in portions of Clarke, Fairfax,
+            Fauquier, Loudoun, Prince William, and Stafford counties, the City of
+            Manassas Park, and the Town of Clifton. Headquartered in Manassas,
+            NOVEC maintains satellite offices in Gainesville, Leesburg,
+            Woodbridge, and Stafford.
+        </p>
         </Sponsor>
 
         <hr className="sponsor__hr" />
@@ -231,6 +266,21 @@ const Sponsors = () => {
             William county school, has more IT type classes that any other high
             school in the nation."
         </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="A-1 FLOODTECH"
+          url="http://www.a1floodtech.com/"
+          image="floodtech.png"
+        >
+          <p>
+            American Stripping Co., or ASCo, is a company that specializes in
+            blast cleaning that allows surfaces to be powder coated. They have
+            sponsored us every year and are that secret weapon that gives our
+            robots their signature look.
+        </p>{" "}
+          <p />
         </Sponsor>
 
         <hr className="sponsor__hr" />
@@ -299,27 +349,6 @@ const Sponsors = () => {
 
         <hr className="sponsor__hr" />
         <Sponsor
-          name="NOVEC"
-          url="https://www.novec.com/"
-          image="novec.jpg"
-        >
-          <p>
-            NOVEC is Among the Nation’s Largest Electric Cooperatives Northern
-            Virginia Electric Cooperative, one of the largest electric
-            cooperatives of its kind in the United States, is a customer-owned and
-            locally based distribution system that provides electricity to more
-            than 160,000 residents and businesses throughout Northern Virginia.
-            NOVEC’s service territory encompasses 651 square miles with more than
-            7,000 miles of electric lines in portions of Clarke, Fairfax,
-            Fauquier, Loudoun, Prince William, and Stafford counties, the City of
-            Manassas Park, and the Town of Clifton. Headquartered in Manassas,
-            NOVEC maintains satellite offices in Gainesville, Leesburg,
-            Woodbridge, and Stafford.
-        </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
           name="Khouri Orthodontics"
           url="http://khouriortho.com/"
           image="khouriortho.jpg"
@@ -346,55 +375,6 @@ const Sponsors = () => {
             first, the company’s team of highly-trained professionals promises to
             keep in constant communications with their customers in order to help
             them achieve their real estate goals.
-        </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Able Moving and Storage"
-          url="https://www.ablemoving.com/"
-          image="ABLE.png"
-        >
-          <p>
-            Able Moving and Storage is a well known, and reliable moving and
-            storage company with over 50 company owned vans and trucks.
-        </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Comcast"
-          url="https://corporate.comcast.com/"
-          image="comcast.png"
-        >
-          <p>
-            Comcast Corporation is a company that works with media and technology
-            to provide high speed internet and phone providers under the XFINITY
-            brand.
-        </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Engility"
-          url="http://www.engility.com/#fgkCdVL0VMtyoa6z.97="
-          image="engility.png"
-        >
-          <p>
-            Engility (NYSE: EGL) is engineered to make a difference. Built on six
-            decades of heritage, Engility is a leading provider of integrated
-            solutions and services, supporting U.S. government customers in the
-            defense, federal civilian, intelligence and space communities. Our
-            innovative, highly technical solutions and engineering capabilities
-            address diverse client missions. We draw upon our team's intimate
-            understanding of customer needs, deep domain expertise and technical
-            skills to help solve our nation's toughest challenges. Headquartered
-            in Chantilly, Virginia, and with offices around the world, Engility's
-            array of specialized technical service offerings include
-            high-performance computing, cyber security, enterprise modernization
-            and systems engineering. To learn more about Engility, please visit
-            www.engility.com and connect with us on Facebook, LinkedIn and
-            Twitter.
         </p>
         </Sponsor>
       </div>
