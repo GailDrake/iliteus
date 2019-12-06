@@ -28,10 +28,10 @@ const OutreachHome = (props) => {
         </p>
         <div className="outreachHome__events-container">
           <Events
-            name="IROC"
-            date="October 26th, 2019"
-            eventLink="http://irocoffseason.org"
-            image="images/frc/iroc.jpg" />
+            name="BunnyBots"
+            date="December 21st, 2019"
+            eventLink="https://www.team1540.org/bunnybots"
+            image="images/outreach/fll/BunnyBots.jpg" />
 
           <Events
             name="STEAM Expo"
