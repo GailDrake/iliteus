@@ -235,7 +235,7 @@ const Documentation = () => {
                 <td></td>
               </tr>
               <tr>
-                <td>DC Unied</td>
+                <td>DC United</td>
                 <td>200</td>
                 <td></td>
               </tr>
