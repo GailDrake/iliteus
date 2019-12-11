@@ -47,11 +47,11 @@ class SideMenu extends Component {
               <Link onClick={() => this.closeSideMenu()} to="/ilite/about"><span>About</span></Link>
               <Link onClick={() => this.closeSideMenu()} to="/ilite/sponsors"><span>Sponsors</span></Link>
               <Link onClick={() => this.closeSideMenu()} to="/ilite/getinvolved"><span>Get Involved</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/ilite/history"><span>History</span></Link>
             </div>
             <Link onClick={() => this.closeSideMenu()} to="/frc" className="sidemenu__link"><span>FRC Robotics</span></Link>
             <div className="sidemenu__sublinks">
               <Link onClick={() => this.closeSideMenu()} to="/frc/team"><span>Team</span></Link>
-              <Link onClick={() => this.closeSideMenu()} to="/frc/competition"><span>Competitions</span></Link>
               <Link onClick={() => this.closeSideMenu()} to="/frc/media"><span>Media</span></Link>
             </div>
             <Link onClick={() => this.closeSideMenu()} to="/outreach" className="sidemenu__link"><span>Outreach</span></Link>
