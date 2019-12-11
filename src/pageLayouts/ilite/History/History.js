@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Container from '../../../templates/container';
 import Tabs, { Tab } from '../../../components/Tabs';
 
-const Competition = () => {
+const History = () => {
   return (
     <Container division="frc" title="Competitions" subtitle="See all of our competitions from throughout our history" id="top">
       <div className="competition">
@@ -489,8 +489,8 @@ const Competition = () => {
   );
 };
 
-Competition.propTypes = {
+History.propTypes = {
 
 };
 
-export default Competition;
+export default History;

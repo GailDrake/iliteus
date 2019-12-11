@@ -11,9 +11,9 @@ import "./../config/main.less";
 
 const links = [
   {
-    name: "Competitions",
-    section: "frc",
-    file: "competition"
+    name: "History",
+    section: "ilite",
+    file: "history"
   },
   {
     name: "Get Involved",
