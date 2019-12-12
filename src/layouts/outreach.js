@@ -11,11 +11,6 @@ import './../config/main.less';
 
 const links = [
   {
-    name: "Documentation",
-    section: "outreach",
-    file: "Documentation"
-  },
-  {
     name: "Summer Camps",
     section: "outreach",
     file: "SummerCamps",

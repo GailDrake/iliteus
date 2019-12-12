@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Container from '../../../templates/container';
 import Tabs, { Tab } from '../../../components/Tabs';
+import GetDocumentation from './GetDocumentation';
 
 const History = () => {
   return (
@@ -40,6 +41,8 @@ const History = () => {
                 </div>
               </div>
             </div>
+
+            {GetDocumentation(2019)}
           </Tab>
           {/* 2018 - Power Up */}
           <Tab name="2018">
@@ -77,6 +80,8 @@ const History = () => {
                 </div>
               </div>
             </div>
+
+            {GetDocumentation(2018)}
           </Tab>
           {/* 2017 - Steamworks */}
           <Tab name="2017">
@@ -118,6 +123,8 @@ const History = () => {
                 </div>
               </div>
             </div>
+
+            {GetDocumentation(2017)}
           </Tab>
           {/* 2016 - Stronghold */}
           <Tab name="2016">
@@ -159,6 +166,8 @@ const History = () => {
                 </div >
               </div >
             </div>
+
+            {GetDocumentation(2016)}
           </Tab>
           {/* 2015 - Recycle Rush */}
           <Tab name="2015">
@@ -195,6 +204,8 @@ const History = () => {
                 </div>
               </div>
             </div>
+
+            {GetDocumentation(2015)}
           </Tab>
           {/* 2014 - Aerial Assist */}
           <Tab name="2014">
@@ -230,6 +241,8 @@ const History = () => {
                 </div>
               </div>
             </div>
+
+            {GetDocumentation(2014)}
           </Tab>
           {/* 2013 - Ultimate Ascent */}
           <Tab name="2013">
