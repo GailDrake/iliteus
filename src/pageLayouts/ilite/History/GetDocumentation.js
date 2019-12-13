@@ -4,9 +4,9 @@ import documentation from '../../../lib/documentation.json';
 const GetDocumentation = (year) => {
   return (
     <table className="history__documentation">
-      <tr>
+      {/* <tr>
         <th colspan="3">{year}</th>
-      </tr>
+      </tr> */}
       <tr>
         <th>Event Name</th>
         <th>Minds Reached</th>

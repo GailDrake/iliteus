@@ -9,6 +9,34 @@ const History = () => {
     <Container division="frc" title="History" subtitle="See all of our activities from throughout our history" id="top">
       <div className="history">
         <Tabs>
+          {/* 2020 - Infinite Recharge */}
+          <Tab name="2020">
+            <div className="history__event" id="tab15">
+              <h1 className="history__event-header">2020 - Infinite Recharge</h1>
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/1y9PNhVAGmM"
+                frameborder="0"
+                gesture="media"
+                allow="encrypted-media"
+                allowfullscreen />
+              <div className="history__event-container">
+                {/* <div className="history__awards">
+                    <h3 className="history__event-subheader">Awards</h3>
+                    <ul>
+                    </ul>
+                  </div>
+                  <div className="history__attended">
+                    <h3 className="history__event-subheader">Competitions Attended</h3>
+                    <ul>
+                    </ul>
+                  </div> */}
+              </div>
+            </div>
+
+            {GetDocumentation(2020)}
+          </Tab>
           {/* 2019 - Destination: Deep Space */}
           <Tab name="2019">
             <div className="history__event" id="tab14">
