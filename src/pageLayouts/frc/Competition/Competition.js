@@ -8,6 +8,39 @@ const Competition = () => {
     <Container division="frc" title="Competitions" subtitle="See all of our competitions from throughout our history" id="top">
       <div className="competition">
         <Tabs>
+          {/* 2020 - Infinite Recharge */}
+          <Tab name="2020">
+            <div className="competition__event" id="tab15">
+              <h1 className="competition__event-header">2020 - Infinite Recharge</h1>
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/gmiYWTmFRVE"
+                frameborder="0"
+                gesture="media"
+                allow="encrypted-media"
+                allowfullscreen />
+              <div className="competition__event-container">
+                {/* <div className="competition__awards">
+                  <h3 className="competition__event-subheader">Awards</h3>
+                  <ul>
+                    <li>CHS District Championship: Chairman's Award</li>
+                    <li>CHS District Oxon Hill Event: Imagery Award</li>
+                    <li>CHS District Bethesda Event: Chairman's Award</li>
+                    <li>CHS District Bethesda Event: Event Winner</li>
+                  </ul>
+                </div>
+                <div className="competition__attended">
+                  <h3 className="competition__event-subheader">Competitions Attended</h3>
+                  <ul>
+                    <li>FIRST Chesapeake District Championship</li>
+                    <li>FIRST Chesapeake District Oxon Hill MD Event</li>
+                    <li>FIRST Chesapeake District Bethesda MD Event</li>
+                  </ul>
+                </div> */}
+              </div>
+            </div>
+          </Tab>
           {/* 2019 - Destination: Deep Space */}
           <Tab name="2019">
             <div className="competition__event" id="tab14">
