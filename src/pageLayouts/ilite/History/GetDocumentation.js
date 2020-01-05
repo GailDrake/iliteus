@@ -10,7 +10,7 @@ const GetDocumentation = (year) => {
       <tr>
         <th>Event Name</th>
         <th>Minds Reached</th>
-        <th>Links</th>
+        <th>Resources</th>
       </tr>
       {getEvents(year)}
     </table>
@@ -34,9 +34,9 @@ function getEvents(year) {
 }
 
 function getLinks(links) {
-  links.map(link => {
+  return links.map(link => {
     return (
-      <a href={link} target="_blank">Link</a>
+      <a href={link.linkURL} target="_blank" className="history__documentation__link">{link.linkName}</a>
     );
   });
 }
