@@ -276,7 +276,7 @@
     "mindsReached": 2032,
     "Links": [
       {
-        "linkName": "STEAM Newspaper Article",
+        "linkName": "Newspaper Article",
         "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpM040UU1FX1lEeHkyeDJpNTliU3RuUDdsQkFj/view?usp=sharing"
       }
     ],
@@ -335,11 +335,11 @@
     "mindsReached": null,
     "Links": [
       {
-        "linkName": "Manassas Patch Newspaper Article",
-        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpM040UU1FX1lEeHkyeDJpNTliU3RuUDdsQkFj/view?usp=sharing"
+        "linkName": "Fall 2016 Article",
+        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpQ00tdGxZMFRYX0lOa1RhYUgwSVdDZmJ1aWx3/view?usp=sharing"
       },
       {
-        "linkName": "General Newspaper Article",
+        "linkName": "Summer 2016 Article",
         "linkURL": "https://drive.google.com/file/d/10xzrqEdrqXkdw7Q3WNr-FGyVvesRGnZn/view?usp=sharing"
       }
     ],
@@ -378,7 +378,12 @@
   {
     "eventName": "FTC hosting Competition",
     "mindsReached": 500,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Introduction Pamphlet",
+        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpSF9uVmYyRmkxSWozV0p6U1B6azhzWFpKemJB/view?usp=sharing"
+      }
+    ],
     "year": 2018
   },
   {
@@ -456,12 +461,7 @@
   {
     "eventName": "DaVinchi Robot",
     "mindsReached": 6,
-    "Links": [
-      {
-        "linkName": "Introduction Pamphlet",
-        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpSF9uVmYyRmkxSWozV0p6U1B6azhzWFpKemJB/view?usp=sharing"
-      }
-    ],
+    "Links": [],
     "year": 2018
   },
   {
@@ -730,7 +730,7 @@
     "Links": [
       {
         "linkName": "Picture from IROC",
-        "linkURL": "https: //drive.google.com/file/d/1PuifAtXCkQsqxmZSpFkxDDx1f8KGACNw/view?usp=sharing"
+        "linkURL": "https://drive.google.com/file/d/1PuifAtXCkQsqxmZSpFkxDDx1f8KGACNw/view?usp=sharing"
       }
     ],
     "year": 2020
@@ -794,7 +794,7 @@
     "Links": [
       {
         "linkName": "Thank You letters from the Elementary Students",
-        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpUk1wVi0ybTZ2S0hEdEdQQlV0ZHg3Rm9ZLUdR/view?usp=sharing"
+        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpMW9YWTFVaGdRdmtFYktucnZVM1YzZF90Ny1R/view?usp=sharing"
       },
       {
         "linkName": "Thank You Note",
