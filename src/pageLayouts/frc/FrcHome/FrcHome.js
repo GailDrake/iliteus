@@ -24,16 +24,14 @@ const FrcHome = (props) => {
         </div>
       </div>
       <div className="frcHome__season">
-        <h1 className="frcHome__season-header">ILITE Welcomes the 2019 Season!</h1>
+        <h1 className="frcHome__season-header">ILITE Welcomes the 2020 Season!</h1>
         <br />
         <div className="frcHome__season-container">
           <div className="frcHome__season-description">
             <p>With the conclusion of kickoff and the new game announced, ILITE is excited for the new season.
               Together with new and returning members, we are ready to tackle this challenge!
-              This year we are proud to participate in the new, unique First Robotics Competition, Destination: Deep Space.
-             This is the first competition to not have a dedicated autonomous peroid at the beginning of the match.
-             Instead they have added a period called Sandstorm, which allows both driver control, and autonomous to be run.
-             Learn more about this peroid and the rest of the game by clicking on the button below.</p>
+              This year we are proud to participate in the new, unique First Robotics Competition, Infinite Recharge.
+             Learn more about this period and the rest of the game by clicking on the button below.</p>
           </div>
         </div>
         <Button link="/frc/Competition">Learn more!</Button>
@@ -60,7 +58,7 @@ const FrcHome = (props) => {
           </div>
         </div>
       </div>
-      <div className="frcHome__team">
+      {/* <div className="frcHome__team">
         <h1 className="frcHome__team-header">Team</h1>
         <br />
         <div className="frcHome__team-container">
@@ -71,7 +69,7 @@ const FrcHome = (props) => {
           </p>
           <Button link="/frc/Team">See our team!</Button>
         </div>
-      </div>
+      </div> */}
     </div >
   );
 };
