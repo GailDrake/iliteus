@@ -112,17 +112,6 @@ const Sponsors = () => {
           </p>
         </Sponsor>
 
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Azos AI"
-          url="https://www.azosai.com/"
-          image="azosai.jpg"
-        >
-          <p>
-            Azos AI is a privately held corporation that provides embedded intelligence for the IT industry using expertise in aritificial intelligence, application development, and communications.
-        </p>
-        </Sponsor>
-
         <Sponsor
           name="InCadence"
           url="http://www.incadencecorp.com/"
@@ -169,6 +158,82 @@ const Sponsors = () => {
 
         <hr className="sponsor__hr" />
         <Sponsor
+          name="Able Moving and Storage"
+          url="https://www.ablemoving.com/"
+          image="ABLE.png"
+        >
+          <p>
+            Able Moving and Storage is a well known, and reliable moving and
+            storage company with over 50 company owned vans and trucks.
+        </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Battlefield High School"
+          url="http://battlefieldhs.pwcs.edu/"
+          image="battlefieldhighschool.jpg"
+        >
+          <p>
+            Founded in 2004, Battlefield high school, in Haymarket, Virginia, has
+            been the home of ILITE Robotics since 2005. Battlefield, a Prince
+            William county school, has more IT type classes that any other high
+            school in the nation."
+        </p>
+        </Sponsor>
+
+        <hr className="sponsor_hr" />
+        <Sponsor
+          name="US STEM Foundations"
+          url="http://www.usstem.org/"
+          image="usstem.png"
+        >
+          <p>
+            Founded in 2011, The US STEM Foundation strives to provide students
+            with hands-on STEM activities and experiences. The programs they set
+            up have the power to engage, educate, develop, and create responsible
+            citizens to a higher extent than what can be achieved in the
+            classroom.
+        </p>
+        </Sponsor>
+
+        <hr className="sponsor_hr" />
+        <Sponsor
+          name="Intufo"
+          url="http://www.intufo.com/"
+          image="intufologo.png"
+        >
+          <p>
+            Intufo specializes in AI innovation to modernize security in the Identity and Access Management (IAM) market.
+            </p>
+        </Sponsor>
+
+        <hr className="sponsor_hr" />
+        <Sponsor
+          name="Google"
+          url="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
+          image="googlelogo.png"
+        >
+          <p>
+            Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware.
+            </p>
+        </Sponsor>
+
+        <h1 className="sponsors__heading">Past Sponsors</h1>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Azos AI"
+          url="https://www.azosai.com/"
+          image="azosai.jpg"
+        >
+          <p>
+            Azos AI is a privately held corporation that provides embedded intelligence for the IT industry using expertise in aritificial intelligence, application development, and communications.
+        </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
           name="Engility"
           url="http://www.engility.com/#fgkCdVL0VMtyoa6z.97="
           image="engility.png"
@@ -188,35 +253,6 @@ const Sponsors = () => {
             and systems engineering. To learn more about Engility, please visit
             www.engility.com and connect with us on Facebook, LinkedIn and
             Twitter.
-        </p>
-        </Sponsor>
-
-        <h1 className="sponsors__heading">Past Sponsors</h1>
-
-        <hr className="sponsor_hr" />
-        <Sponsor
-          name="US STEM Foundations"
-          url="http://www.usstem.org/"
-          image="usstem.png"
-        >
-          <p>
-            Founded in 2011, The US STEM Foundation strives to provide students
-            with hands-on STEM activities and experiences. The programs they set
-            up have the power to engage, educate, develop, and create responsible
-            citizens to a higher extent than what can be achieved in the
-            classroom.
-        </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Able Moving and Storage"
-          url="https://www.ablemoving.com/"
-          image="ABLE.png"
-        >
-          <p>
-            Able Moving and Storage is a well known, and reliable moving and
-            storage company with over 50 company owned vans and trucks.
         </p>
         </Sponsor>
 
@@ -251,20 +287,6 @@ const Sponsors = () => {
             Manassas Park, and the Town of Clifton. Headquartered in Manassas,
             NOVEC maintains satellite offices in Gainesville, Leesburg,
             Woodbridge, and Stafford.
-        </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
-          name="Battlefield High School"
-          url="http://battlefieldhs.pwcs.edu/"
-          image="battlefieldhighschool.jpg"
-        >
-          <p>
-            Founded in 2004, Battlefield high school, in Haymarket, Virginia, has
-            been the home of ILITE Robotics since 2005. Battlefield, a Prince
-            William county school, has more IT type classes that any other high
-            school in the nation."
         </p>
         </Sponsor>
 
