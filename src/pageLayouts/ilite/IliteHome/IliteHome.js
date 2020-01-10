@@ -37,8 +37,8 @@ const IliteHome = (props) => {
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          <NewsCard title="ILITE at BunnyBots 2019" image={require('../../../assets/images/frc/bunnybotpit.jpg')}>
-            ILITE participated in the offseason scrimage, BunnyBots, which was hosted by team 449 at Montgomery Blair High School.
+          <NewsCard title="ILITE at BunnyBots 2019" image={require('../../../assets/images/frc/bunnybots.jpg')}>
+            ILITE participated in the offseason event, BunnyBots, which was hosted by team 449 at Montgomery Blair High School.
 	          With our robot, "JuiceBx", we made a formidable presence, ultimately finishing out in the semifinals. We strongly felt
    	        that it was a marvelous learning opportunity for the students to prepare for the 2020 build season, and we're eager to
        	    apply the skills that we've learned! We would also like to give a big thank you to team 449 for hosting this great event!
@@ -46,7 +46,7 @@ const IliteHome = (props) => {
           <NewsCard title="ILITE gained two new sponsors at the Chesapeake District Championship" image={require('../../../assets/images/frc/dcmp-anomali.png')}>
             ILITE welcomed our new sponsor, Anomali, to the ILITE family and to the FRC competition at the Chesapeake District Championship. We enjoyed showing them around the event, and introducing them to our robot Arya. Over the weekend, we also welcomed another new sponsor, Aurora Flight Sciences, to the ILITE family. We are grateful for these wonderful sponsors' contribution and thankful for the support from all our sponsors, both old and new.
           </NewsCard>
-          <NewsCard title="ILITE at Rumble in the Roads" image={require('../../../assets/images/frc/rumbleInTheRoads.jpg')}>
+          <NewsCard title="ILITE at Rumble in the Roads" image={require('../../../assets/images/frc/rumble_in_the_roads.jpg')}>
             ILITE competed at the Rumble in the Roads off-season event and won with teams 401 and 2028 on November 2nd. Rumble in the Roads is an annual off-season FIRST Robotics Competition event held by teams 1610, 2363, 5957 and is hosted in Newport News at Heritage High School. The competition followed modified rules of the 2019 game DESTINATION: DEEP SPACE. Rumble in the Roads was a great opportunity to get in practice before the new season begins in 2020.
           </NewsCard>
         </div>
