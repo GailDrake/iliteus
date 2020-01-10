@@ -1,9 +1,9 @@
 import React from 'react';
-import Container from '../../../templates/container';
-import image1_1 from '../../../assets/images/frc/about/teddy.jpg';
-import image1_2 from '../../../assets/images/outreach/fll8.jpg';
-import image1_3 from '../../../assets/images/frc/district_chairmans.jpeg';
-import Button from '../../../components/Button';
+import Container from '../../templates/container';
+import image1_1 from '../../assets/images/frc/about/teddy.jpg';
+import image1_2 from '../../assets/images/outreach/fll8.jpg';
+import image1_3 from '../../assets/images/frc/district_chairmans.jpeg';
+import Button from '../../components/Button';
 
 const GetInvolved = (props) => {
   return (
@@ -80,7 +80,7 @@ const GetInvolved = (props) => {
         <div>
           <h1 className="get-involved__header">Feed the Team</h1>
           <div className="get-involved__food-container">
-            <img src={require("../../../assets/images/frc/fuel__potluck.jpg")} className="get-involved__img" />
+            <img src={require("../../assets/images/frc/fuel__potluck.jpg")} className="get-involved__img" />
             <p>
               <strong>Food is important.</strong>
               That's why we promote (and provide) healthy meals as

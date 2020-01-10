@@ -1,4 +1,4 @@
 import React from 'react';
-import About from '../../pageLayouts/ilite/About';
+import About from '../../pageLayouts/ilite/Mission';
 
 export default () => <About />

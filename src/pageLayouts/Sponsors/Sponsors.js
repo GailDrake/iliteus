@@ -1,6 +1,6 @@
 import React from 'react';
-import Sponsor from '../../../components/Sponsor/Sponsor';
-import Container from '../../../templates/container';
+import Sponsor from '../../components/Sponsor/Sponsor';
+import Container from '../../templates/container';
 
 const Sponsors = () => {
   return (
