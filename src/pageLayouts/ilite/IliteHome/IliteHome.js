@@ -21,16 +21,29 @@ const IliteHome = (props) => {
           </Button>
         </div>
       </div>
-      <div className="iliteHome__description">
-        <h1 className="iliteHome__description-header">What is ILITE?</h1>
-        <br />
-        <div className="iliteHome__description-container">
-          <p>ILITE stands for "Inspiring Leaders In Technology and Engineering" and we are a robotics team at Battlefield High School consisting of a FIRST Robotics Competition team, multiple FIRST Tech Challenge teams, a Cyber Patriot Cyber Defense team, and a Betaware Computer Science team. However, ILITE does much more than just robotics. We are very active in our community, having founded other robotics teams and STEAM related programs in schools throughout the county, and we host numerous events, workshops, and camps throughout the year to spread the message of STEAM. Outreach is just as important to us as competing in robotics and ILITE is committed to creating a community of STEAM.</p>
-          <br />
-          <div className="iliteHome__description-button">
-            <Button link="/frc">Learn About Our FRC Team</Button>
-            <Button link="/outreach">Learn About Our Outreach</Button>
-          </div>
+      <div className="iliteHome__events">
+        <h1 className="iliteHome__events-header">Upcoming Events</h1>
+        <p className="iliteHome__events-subheader">
+          We host a multitude of events throughout the year ranging from robotics competitions to summer camps to expos. Below are listed events that we will be hosting in the near future.
+        </p>
+        <div className="iliteHome__events-container">
+          <Events
+            name="STEAM Expo"
+            date="January 25th, 2020"
+            eventLink="http://ilite.info"
+            image="images/outreach/steamexpo/expo.jpg" />
+
+          <Events
+            name="FRC Week 1"
+            date="February 28th, 2020"
+            eventLink="https://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va"
+            image="images/frc/week_one.jpg" />
+
+          <Events
+            name="Summer Camps"
+            date="June, 2020"
+            eventLink="/outreach/SummerCamps"
+            image="images/outreach/summercamps/group_summercamps.jpg" />
         </div>
       </div>
       <div className="iliteHome__news">
@@ -91,7 +104,7 @@ const IliteHome = (props) => {
             Micron
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/spark.jpg')}
+            image={require('../../../assets/images/sponsors/spark.png')}
             url="http://www.poweredbyspark.org/">
             SPARK
           </SponsorTag>

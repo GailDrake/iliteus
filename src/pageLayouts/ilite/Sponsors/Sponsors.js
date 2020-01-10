@@ -140,7 +140,7 @@ const Sponsors = () => {
         <Sponsor
           name="SPARK"
           url="http://poweredbyspark.org/"
-          image="spark.jpg"
+          image="spark.png"
         >
           <p>
             SPARK, or Supporting Partnerships and Resources for Kids, is an education foundaton for Prince William County Schools. They provide programs and opportunities to kids throughout the county through business partnerships and community organizations like us.

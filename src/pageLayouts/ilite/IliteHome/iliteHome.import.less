@@ -86,39 +86,45 @@ html {
     }
   }
 
-  .iliteHome__description {
+  .iliteHome__events {
     background-color: #eee;
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
 
-    .iliteHome__description-header {
+    .iliteHome__events-header {
       color: @text-1;
       font-size: 38px;
       font-weight: 600;
       margin-bottom: -10px;
-      font-family: @raleway, sans-serif;
+      font-family: @raleway;
       letter-spacing: 0.0625em;
       text-transform: uppercase;
       padding: 5px;
     }
 
-    .iliteHome__description-container {
-      display: block;
-      width: 100%;
+    .iliteHome__events-container {
+      text-align: center;
       padding-right: 5vw;
       padding-left: 5vw;
-    }
-
-    .iliteHome__description-button {
-      float: center;
       display: flex;
-      flex-direction: row;
       flex: 1;
 
-      @media (max-width: 1200px) {
-        flex-direction: column;
+      @media screen and (max-width: 768px) {
+        display: block;
       }
+    }
+
+    .iliteHome__events-subheader {
+      color: @text-1;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      padding-right: 5vw;
+      padding-left: 5vw;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
     }
   }
 
@@ -159,6 +165,7 @@ html {
   }
 
   .iliteHome__sponsors {
+    background-color: #eee;
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
