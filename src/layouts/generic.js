@@ -1,36 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
-import Navbar from "../components/Navbar";
-import Overbar from "../components/overbar";
+import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Favi from "../assets/icons/favicon.ico";
 
 // import less here - once, for the whole app
 import "./../config/main.less";
-
-const links = [
-  {
-    name: "Get Involved",
-    section: "ilite",
-    file: "getinvolved"
-  },
-  {
-    name: "Sponsors",
-    section: "ilite",
-    file: "sponsors"
-  },
-  {
-    name: "About",
-    section: "ilite",
-    file: "about"
-  },
-  {
-    name: "Home",
-    section: "ilite",
-    file: "",
-  }
-];
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -47,8 +23,7 @@ const TemplateWrapper = ({ children }) => (
       link={[{ rel: "shortcut icon", type: "image/png", href: `${Favi}` }]}
     />
 
-    <Overbar />
-    <Navbar links={links} />
+    <Navbar />
     <div>{children()}</div>
     <Footer />
   </div>

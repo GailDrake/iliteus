@@ -31,9 +31,9 @@ class SideMenu extends Component {
         <span className="sidemenu__burger">
           <div onClick={() => this.openSideMenu()}>
             <svg width="30" height="30">
-              <path d="M0,5 30,5" stroke="#000" strokeWidth="5" />
-              <path d="M0,14 30,14" stroke="#000" strokeWidth="5" />
-              <path d="M0,23 30,23" stroke="#000" strokeWidth="5" />
+              <path d="M0,5 30,5" stroke="#fff" strokeWidth="5" />
+              <path d="M0,14 30,14" stroke="#fff" strokeWidth="5" />
+              <path d="M0,23 30,23" stroke="#fff" strokeWidth="5" />
             </svg>
           </div>
         </span>
