@@ -8,40 +8,27 @@ const Navbar = props => {
       <NavLink to="/" className="navigation__logo" />
       <ul className="navigation__list">
         <li>
+          {/* Future 'About ILITE' dropdown */}
+        </li>
+        <li>
+          {/* Future 'Outreach' dropdown */}
+        </li>
+        <li>
           <NavLink
-            to="/ilite"
-            className="navigation__list-item"
+            to="/sponsors"
             activeClassName="navigation--underlined"
+            className="navigation__list-item"
           >
-            About ILITE
+            Sponsors
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="/frc"
-            className="navigation__list-item"
-            activeClassName="navigation--underlined"
-          >
-            FRC Robotics
-          </NavLink>
-        </li>
-        <li>
-          <a
-            href="http://ilite.info"
-            className="navigation__list-item"
-            activeClassName="navigation--underlined"
-            target="_blank"
-          >
-            STEAM Expo
-          </a>
-        </li>
-        <li>
-          <NavLink
-            to="/outreach"
+            to="/getinvolved"
             activeClassName="navigation--underlined"
             className="navigation__list-item"
           >
-            Outreach
+            Get Involved
           </NavLink>
         </li>
       </ul>
