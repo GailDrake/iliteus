@@ -1,6 +1,48 @@
 import React, { Component } from "react";
 import NavLink from "gatsby-link";
 import SideMenu from "../SideMenu";
+import Dropdown from '../Dropdown';
+
+const iliteLinks = [
+  {
+    name: "Team",
+    section: "ilite",
+    file: "team"
+  },
+  {
+    name: "Media",
+    section: "ilite",
+    file: "media"
+  },
+  {
+    name: "Calendar",
+    section: "ilite",
+    file: "calendar"
+  },
+  {
+    name: "History",
+    section: "ilite",
+    file: "competition"
+  },
+  {
+    name: "Mission",
+    section: "ilite",
+    file: "mission"
+  }
+];
+
+const outreachLinks = [
+  {
+    name: "Hosted Events",
+    section: "outreach",
+    file: "hostedevents"
+  },
+  {
+    name: "Summer Camps",
+    section: "outreach",
+    file: "summercamps"
+  }
+]
 
 const Navbar = props => {
   return (
@@ -8,10 +50,10 @@ const Navbar = props => {
       <NavLink to="/" className="navigation__logo" />
       <ul className="navigation__list">
         <li>
-          {/* Future 'About ILITE' dropdown */}
+          <Dropdown title="About ILITE" links={iliteLinks} />
         </li>
         <li>
-          {/* Future 'Outreach' dropdown */}
+          <Dropdown title="Outreach" links={outreachLinks} />
         </li>
         <li>
           <NavLink
