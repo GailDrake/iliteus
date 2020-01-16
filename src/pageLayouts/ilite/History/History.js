@@ -70,6 +70,8 @@ const History = () => {
               </div>
             </div>
 
+            <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2019.png')} className="history__image" />
+
             {GetDocumentation(2019)}
           </Tab>
           {/* 2018 - Power Up */}
@@ -108,6 +110,8 @@ const History = () => {
                 </div>
               </div>
             </div>
+
+            <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2018.png')} className="history__image" />
 
             {GetDocumentation(2018)}
           </Tab>
@@ -197,6 +201,8 @@ const History = () => {
               </div >
             </div>
 
+            {/* <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2016.png')} className="history__image" /> */}
+
             {GetDocumentation(2016)}
           </Tab>
           {/* 2015 - Recycle Rush */}
@@ -235,6 +241,8 @@ const History = () => {
               </div>
             </div>
 
+            <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2015.png')} className="history__image" />
+
             {GetDocumentation(2015)}
           </Tab>
           {/* 2014 - Aerial Assist */}
@@ -271,8 +279,6 @@ const History = () => {
                 </div>
               </div>
             </div>
-
-            {GetDocumentation(2014)}
           </Tab>
           {/* 2013 - Ultimate Ascent */}
           <Tab name="2013">
@@ -513,6 +519,7 @@ const History = () => {
                     <li>NASA/VCU Regional: Quarterfinalist</li>
                     <li>Las Vegas Regional: Best Website Award</li>
                     <li>Las Vegas Regional: Quarterfinalist</li>
+                    <li>FIRST World Championship: All-Star Rookie Award</li>
                   </ul>
                 </div>
                 <div className="history__attended">
