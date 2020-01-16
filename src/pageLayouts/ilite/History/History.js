@@ -152,6 +152,8 @@ const History = () => {
               </div>
             </div>
 
+            <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2017.png')} className="history__image" />
+
             {GetDocumentation(2017)}
           </Tab>
           {/* 2016 - Stronghold */}
