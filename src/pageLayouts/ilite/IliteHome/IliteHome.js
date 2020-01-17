@@ -72,9 +72,9 @@ const IliteHome = (props) => {
             Aurora Flight Sciences
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/anomali.png')}
-            url="https://www.anomali.com">
-            Anomali
+            image={require('../../../assets/images/sponsors/microsoft.png')}
+            url="https://www.microsoft.com/">
+            Microsoft
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/afa.png')}
@@ -97,9 +97,9 @@ const IliteHome = (props) => {
             SPARK
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/pepsi.png')}
-            url="https://www.pepsi.com/">
-            Pepsi
+            image={require('../../../assets/images/sponsors/sabel.jpg')}
+            url="http://sabelsystems.com/">
+            Sabel Systems
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/lockheedmartin.png')}
@@ -115,6 +115,41 @@ const IliteHome = (props) => {
             image={require('../../../assets/images/sponsors/macedontechnologies.png')}
             url="https://www.macedontechnologies.com/">
             Macedon Technologies
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/incadence.png')}
+            url="https://www.incadencecorp.com/">
+            InCadence
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/asco.png')}
+            url="https://www.ascoweb.com/">
+            ASCo
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/ABLE.png')}
+            url="https://www.ablemoving.com/">
+            Able
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/intufologo.png')}
+            url="http://www.intufo.com/">
+            Intufo
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/googlelogo.png')}
+            url="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">
+            Google
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/comcast.png')}
+            url="https://corporate.comcast.com/">
+            Comcast
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/battlefieldhighschool.jpg')}
+            url="http://battlefieldhs.pwcs.edu/">
+            Battlefield
           </SponsorTag>
         </div>
       </div>

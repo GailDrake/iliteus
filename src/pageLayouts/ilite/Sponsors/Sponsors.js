@@ -22,7 +22,6 @@ const Sponsors = () => {
 
         <h1 className="sponsors__heading">Current Sponsors</h1>
 
-        <hr className="sponsor__hr" />
         <Sponsor
           large
           name="Lockheed Martin"
@@ -103,6 +102,17 @@ const Sponsors = () => {
 
         <hr className="sponsor__hr" />
         <Sponsor
+          name="Sabel Systems"
+          url="http://sabelsystems.com/"
+          image="sabel.jpg"
+        >
+          <p>
+            Sabel Systems is a rapidly-growing information and Communications Technology Company providing next-generation business solutions specializing in Web Page Design, Software Solutions Developments, Requirement Analysis, Systems Design, Systems Integration and Management, and Training.
+          </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
           name="Air Force Association"
           url="https://www.afa.org/"
           image="afa.png"
@@ -111,6 +121,8 @@ const Sponsors = () => {
             The Air Force Association is a coalition of airmen in the United States Air Force and their families. We are very thankful for their support in our Cyber Defense program and their service to our country.
           </p>
         </Sponsor>
+
+        <hr className="sponsor__hr" />
 
         <Sponsor
           name="InCadence"
@@ -147,12 +159,12 @@ const Sponsors = () => {
 
         <hr className="sponsor__hr" />
         <Sponsor
-          name="Anomali"
-          url="https://www.anomali.com/"
-          image="anomali.png"
+          name="Microsoft"
+          url="https://www.microsoft.com/"
+          image="microsoft.png"
         >
           <p>
-            Anomali is a cyber security firm that specializes in threat intelligence. Using machine learning they are able to provide organizations with advanced detection based on external context leading into automatic investigation. Their platform seamlessly integrates with internal systems and individual apps to amplify the security of the whole system.
+            Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services. Its best known software products are the Microsoft Windows line of operating systems, the Microsoft Office suite, and the Internet Explorer and Edge web browsers.
           </p>
         </Sponsor>
 
@@ -219,9 +231,21 @@ const Sponsors = () => {
             </p>
         </Sponsor>
 
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Comcast"
+          url="https://corporate.comcast.com/"
+          image="comcast.png"
+        >
+          <p>
+            Comcast Corporation is a company that works with media and technology
+            to provide high speed internet and phone providers under the XFINITY
+            brand.
+        </p>
+        </Sponsor>
+
         <h1 className="sponsors__heading">Past Sponsors</h1>
 
-        <hr className="sponsor__hr" />
         <Sponsor
           name="Azos AI"
           url="https://www.azosai.com/"
@@ -258,19 +282,6 @@ const Sponsors = () => {
 
         <hr className="sponsor__hr" />
         <Sponsor
-          name="Comcast"
-          url="https://corporate.comcast.com/"
-          image="comcast.png"
-        >
-          <p>
-            Comcast Corporation is a company that works with media and technology
-            to provide high speed internet and phone providers under the XFINITY
-            brand.
-        </p>
-        </Sponsor>
-
-        <hr className="sponsor__hr" />
-        <Sponsor
           name="NOVEC"
           url="https://www.novec.com/"
           image="novec.jpg"
@@ -288,6 +299,17 @@ const Sponsors = () => {
             NOVEC maintains satellite offices in Gainesville, Leesburg,
             Woodbridge, and Stafford.
         </p>
+        </Sponsor>
+
+        <hr className="sponsor__hr" />
+        <Sponsor
+          name="Anomali"
+          url="https://www.anomali.com/"
+          image="anomali.png"
+        >
+          <p>
+            Anomali is a cyber security firm that specializes in threat intelligence. Using machine learning they are able to provide organizations with advanced detection based on external context leading into automatic investigation. Their platform seamlessly integrates with internal systems and individual apps to amplify the security of the whole system.
+          </p>
         </Sponsor>
 
         <hr className="sponsor__hr" />
