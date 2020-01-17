@@ -2,6 +2,10 @@
   display: block;
   min-height: 68px;
 
+  @media screen and (max-width: 950px) {
+    min-height: 66px;
+  }
+
   .navigation__logo {
     height: 76px;
     width: 133px;
@@ -44,6 +48,7 @@
       font-weight: 500;
       text-decoration: none;
       transition: all 0.3s;
+      z-index: 4;
 
       &:hover {
         padding-bottom: 10px;
