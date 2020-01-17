@@ -30,9 +30,9 @@ const HostedEvents = () => (
             <h1 className="hostedevents__subheader" id="iroc">IROC</h1>
             <hr />
             <p>
-              This year ILITE will once again be hosting their annual IROC competition. On October 26th,
-              teams will come together to compete in last year's FRC game, Destination: Deep Space.
-              The IROC offseason challenge brings teams together to learn and have fun before the new season starts.
+              This year, ILITE once again hosted their annual IROC competition. On October 26th,
+              teams came together to compete in last year's FRC game, Destination: Deep Space.
+              The IROC offseason challenge brought teams together to learn and have fun before the new season starts.
             </p>
             <div className="button_contain">
               <br />

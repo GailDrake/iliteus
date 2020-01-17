@@ -22,11 +22,6 @@ const links = [
     file: "media"
   },
   {
-    name: "Competitions",
-    section: "frc",
-    file: "competition"
-  },
-  {
     name: "Team",
     section: "frc",
     file: "team"
