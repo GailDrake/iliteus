@@ -7,7 +7,7 @@ import Button from '../../../components/Button';
 
 const GetInvolved = (props) => {
   return (
-    <Container title="Get Involved" subtitle="Help the Team">
+    <Container title="Get Involved" subtitle="Help the Team" bannerImage="get__involved_banner">
       <div className='get-involved'>
         <h1 className="get-involved__header">Membership</h1>
         <p>
