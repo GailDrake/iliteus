@@ -6,7 +6,7 @@ import GetDocumentation from './GetDocumentation';
 
 const History = () => {
   return (
-    <Container division="frc" title="History" subtitle="See all of our activities from throughout our history" id="top">
+    <Container division="frc" title="History" subtitle="See all of our activities from throughout our history" id="top" bannerImage="history__banner">
       <div className="history">
         <Tabs>
           {/* 2020 - Infinite Recharge */}
