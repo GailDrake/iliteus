@@ -35,6 +35,8 @@ const History = () => {
               </div>
             </div>
 
+            <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2020.png')} className="history__image" />
+
             {GetDocumentation(2020)}
           </Tab>
           {/* 2019 - Destination: Deep Space */}
@@ -201,7 +203,7 @@ const History = () => {
               </div >
             </div>
 
-            {/* <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2016.png')} className="history__image" /> */}
+            <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2016.png')} className="history__image" />
 
             {GetDocumentation(2016)}
           </Tab>
