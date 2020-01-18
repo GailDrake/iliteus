@@ -1,7 +1,7 @@
 import React from "react";
 import { Redirect } from "react-router";
 import ReactGA from "react-ga";
-import root from "window-or-global";
+// import root from "window-or-global";
 
 class HomeRedirect extends React.Component {
   constructor() {
