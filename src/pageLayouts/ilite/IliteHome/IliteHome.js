@@ -44,7 +44,7 @@ const IliteHome = (props) => {
    	        that it was a marvelous learning opportunity for the students to prepare for the 2020 build season, and we're eager to
        	    apply the skills that we've learned! We would also like to give a big thank you to team 449 for hosting this great event!
           </NewsCard>
-          <NewsCard title="ILITE hosts ILITE Robotics Offseason Challenge" image={require('../../../assets/images/outreach/IROC.hostedeventsss.jpg')}>
+          <NewsCard title="ILITE hosts ILITE Robotics Offseason Challenge" image={require('../../../assets/images/outreach/IROC.hostedevents.jpg')}>
             ILITE welcomed local robotics teams to the ILITE Robotics Offseason Challenge (otherwise known as IROC) on October 26, 2019 at our home- Battlefield High School.
   Competitors united to show off their robots and driver skills in the 2019's FIRST Robotics Competition, Destination: Deep Space.
   We are so thankful for all the wonderful teams who attended and wish everyone a good season.
