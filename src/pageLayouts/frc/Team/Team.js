@@ -202,7 +202,7 @@ const Team = ({ teamList }) => {
               <QuoteLeft fill="grey" />
             </div>
             <img
-              src={require("../../../assets/images/frc/members/Programming/Programming.jpg")}
+              src={require("../../../assets/images/frc/members/Programming/Pro Team.png")}
               className="team__img"
             />
             <p>
@@ -265,7 +265,7 @@ const Team = ({ teamList }) => {
               <QuoteLeft fill="grey" />
             </div>
             <img
-              src={require("../../../assets/images/frc/members/Sponsorship/Sponsorship.jpg")}
+              src={require("../../../assets/images/frc/members/Sponsorship/Sponsorship.png")}
               className="team__img"
             />
             <p>
@@ -316,7 +316,7 @@ const Team = ({ teamList }) => {
               <QuoteLeft fill="grey" />
             </div>
             <img
-              src={require("../../../assets/images/frc/members/Outreach/Outreach.jpg")}
+              src={require("../../../assets/images/frc/members/Outreach/Outreach.png")}
               className="team__img"
             />
             <p>
@@ -387,45 +387,6 @@ const Team = ({ teamList }) => {
               {GetMember("Outreach", teamList)}
             </div>
           </Tab>
-          <Tab name="Strategy">
-            <h1>Strategy</h1>
-            <div className="team__greybox">
-              <h2>Subteam Specific Mission Statement</h2>
-              <QuoteRight fill="grey" />
-              To efficiently and accurately gather data on various aspects of
-              other teams and effectively present the data to the team to assist
-              in the decision making process for alliance selection.
-              <QuoteLeft fill="grey" />
-            </div>
-            <img src={require('../../../assets/images/frc/members/Strategy/Strategy.jpg')} className="team__img" />
-            <p>
-              The ILITE Strategy Team is responsible for gathering relevant data
-              on other team's performance according to this year's game. This
-              requires the development and use of organizational, decision
-              making, presentation, and quick thinking skills. The Strategy
-              Team's data helps ensure that informed decisions are made
-              regarding alliance selection and affiliated teams.
-            </p>
-            <div className="team__greybox">
-              <h2>Goals</h2>
-              <ol>
-                <li>
-                  To efficiently and accurately gather data on other teams.
-                </li>
-                <li>
-                  To effectively present gathered data to the team for alliance
-                  selection.
-                </li>
-                <li>
-                  To design an easily usable and game specific scouting form for
-                  implementation during competition.
-                </li>
-              </ol>
-            </div>
-            <div className="team__members">
-              {GetMember("Strategy", teamList)}
-            </div>
-          </Tab>
           <Tab name="Website">
             <h1>Website</h1>
             <div className="team__greybox">
@@ -435,7 +396,7 @@ const Team = ({ teamList }) => {
               <QuoteLeft fill="grey" />
             </div>
             <img
-              src={require("../../../assets/images/frc/members/Web/Web.jpg")}
+              src={require("../../../assets/images/frc/members/Web/Web Team Photo.jpg")}
               className="team__img"
             />
             <p>
@@ -499,7 +460,7 @@ const Team = ({ teamList }) => {
               <QuoteLeft fill="grey" />
             </div>
             <img
-              src={require("../../../assets/images/frc/members/Graphics/Graphics.jpg")}
+              src={require("../../../assets/images/frc/members/Graphics/Graphics Team.jpg")}
               className="team__img"
             />
             <p>
