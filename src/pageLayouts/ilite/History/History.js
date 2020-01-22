@@ -37,7 +37,7 @@ const History = () => {
               </div>
             </div>
 
-            <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2020.png')} className="history__image" />
+            <img src={require('../../../assets/images/outreach/chairmans/history_2020_banner.jpg')} className="history__image" />
 
             {GetDocumentation(2020)}
           </Tab>
@@ -76,7 +76,7 @@ const History = () => {
               </div>
             </div>
 
-            <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2019.png')} className="history__image" />
+            <img src={require('../../../assets/images/outreach/chairmans/history_2019_banner.jpg')} className="history__image" />
 
             {GetDocumentation(2019)}
           </Tab>
@@ -119,7 +119,7 @@ const History = () => {
               </div>
             </div>
 
-            <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2018.png')} className="history__image" />
+            <img src={require('../../../assets/images/outreach/chairmans/history_2018_banner.jpg')} className="history__image" />
 
             {GetDocumentation(2018)}
           </Tab>
@@ -166,7 +166,7 @@ const History = () => {
               </div>
             </div>
 
-            <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2017.png')} className="history__image" />
+            <img src={require('../../../assets/images/outreach/chairmans/history_2017_banner.jpg')} className="history__image" />
 
             {GetDocumentation(2017)}
           </Tab>
@@ -213,7 +213,7 @@ const History = () => {
               </div >
             </div>
 
-            <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2016.png')} className="history__image" />
+            <img src={require('../../../assets/images/outreach/chairmans/history_2016_banner.jpg')} className="history__image" />
 
             {GetDocumentation(2016)}
           </Tab>
@@ -255,7 +255,7 @@ const History = () => {
               </div>
             </div>
 
-            <img src={require('../../../assets/images/outreach/chairmans/chairmans_banner_2015.png')} className="history__image" />
+            <img src={require('../../../assets/images/outreach/chairmans/history_2015_banner.jpg')} className="history__image" />
 
             {GetDocumentation(2015)}
           </Tab>
