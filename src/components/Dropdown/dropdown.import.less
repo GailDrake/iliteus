@@ -43,7 +43,7 @@
     display: block;
     position: absolute;
     background-color: @off-white;
-    min-width: 160px;
+    white-space: nowrap;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 0.2);
     z-index: 4;
     max-height: 0;
@@ -57,6 +57,7 @@
       text-decoration: none;
       display: block;
       font-size: 18px;
+      min-width: 124px;
 
       &:hover {
         background-color: @gray-3;
@@ -84,9 +85,5 @@
 
   .fa-caret-down {
     transform: rotate(45deg) translateY(-5px);
-  }
-
-  .fa-caret-up {
-    transform: rotate(-135deg) translateY(5px);
   }
 }

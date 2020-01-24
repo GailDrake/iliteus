@@ -20,13 +20,12 @@ class Dropdown extends Component {
     const { links } = this.props;
 
     const dropdownMenu = this.state.dropdown ? "show" : "";
-    const dropdownCaret = this.state.dropdown ? "fa-caret-up" : "fa-caret-down";
     const backgroundOpen = this.state.dropdown ? "dropdown__background--open" : "";
 
     return (
       <div className="dropdown">
         <div className={`dropdown__background ${backgroundOpen}`} onClick={() => this.toggleDropdown()}></div>
-        <a onClick={() => this.toggleDropdown()} className="dropdown__button">{title}                               <i className={`fa ${dropdownCaret}`}></i></a>
+        <a onClick={() => this.toggleDropdown()} className="dropdown__button">{title}                               <i className={`fa fa-caret-down`}></i></a>
         <div className={`dropdown__content ${dropdownMenu}`}>
           {links.map(link => {
             let filePath = `/${link.section}/${link.file}`;

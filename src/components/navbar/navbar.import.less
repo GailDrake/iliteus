@@ -35,9 +35,12 @@
 
     li {
       display: inline;
-      margin-right: 20px;
-      margin-left: 20px;
+      margin: 0 5%;
       z-index: 4;
+
+      @media screen and (max-width: 1050px) {
+        margin: 0 3%;
+      }
     }
 
     .navigation__list-item {
