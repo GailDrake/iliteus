@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from '../../templates/container';
-import image1_1 from '../../assets/images/frc/about/teddy.jpg';
+import image1_1 from '../../assets/images/frc/mission/teddy.jpg';
 import image1_2 from '../../assets/images/outreach/fll8.jpg';
 import image1_3 from '../../assets/images/frc/district_chairmans.jpeg';
 import Button from '../../components/Button';
