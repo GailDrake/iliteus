@@ -582,7 +582,7 @@
     "year": 2019
   },
   {
-    "eventName": "PWC Haymaker STEAM Expo",
+    "eventName": "PWC Haymaker STEAM Expo 2019",
     "mindsReached": 2339,
     "Links": [
       {
@@ -752,9 +752,14 @@
     "year": 2020
   },
   {
-    "eventName": "PWC Haymaker STEAM Expo",
-    "mindsReached": null,
-    "Links": [],
+    "eventName": "PWC Haymaker STEAM Expo 2020",
+    "mindsReached": 2703,
+    "Links": [
+      {
+        "linkName": "Pictures from STEAM Expo",
+        "linkURL": "https://www.dropbox.com/sh/ohvodgq6xfchm4v/AAAaojfyTOMb2wnPMS7NYzE5a?dl=0"
+      }
+    ],
     "year": 2020
   },
   {
