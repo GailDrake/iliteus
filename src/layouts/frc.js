@@ -12,14 +12,14 @@ import "./../config/main.less";
 
 const links = [
   {
+    name: "Calendar",
+    section: "frc",
+    file: "calendar"
+  },
+  {
     name: "Media",
     section: "frc",
     file: "media"
-  },
-  {
-    name: "Competitions",
-    section: "frc",
-    file: "competition"
   },
   {
     name: "Team",
