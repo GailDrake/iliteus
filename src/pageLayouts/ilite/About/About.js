@@ -23,7 +23,7 @@ const About = (props) => {
         <h1 className='about__header'>Mission & Vision</h1>
         <p className='about__text'>
           Here at ILITE FIRST Team 1885, we believe that every student is a leader.
-          Through our different subteams of build, electronics,
+          Through our different subteams of build, electronics, 3D printing,
           programming, outreach, sponsorship, scouting, web, and graphics, we work very hard to give every team member the opportunity to learn and lead.
           We have created an environment in which FIRST Robotics is so loved that our alumni volunteer at FIRST events across the nation even after graduating.
           <br />
@@ -35,7 +35,7 @@ const About = (props) => {
           <br />
           <br />
           Whether it be through our summer camps that teach hundreds of students about STEAM, or our annually-hosted FIRST competitions,
-          ILITE continuously inspires those around them. We strive to embody the FIRST mission of "More than Robots" in all we do."
+          ILITE continuously inspires those around them. We strive to embody the FIRST mission of "More than Robots" in all we do.
           </p>
         <h1 className='about__subheader'>Our Mission:</h1>
         <div className="about__image-container">

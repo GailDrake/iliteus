@@ -38,16 +38,19 @@ const IliteHome = (props) => {
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          <NewsCard title="ILITE won the Chairman's Award at the Chesapeake District Championship" image={require('../../../assets/images/frc/dcmp-chairmans.png')}>
-            ILITE was honored with the FIRST Chesapeake District Championship Chairman’s Award, which qualifies us for the FIRST Championship in Detroit in addition to the robot qualification. The Chairman’s Award is the most prestigious award at FIRST, it honors the team that best represents a model for other teams to emulate and best embodies the purpose and goals of FIRST. We are so excited to represent the Chesapeake District at the world level, and we cannot wait to compete next week!
+          <NewsCard title="ILITE at BunnyBots 2019" image={require('../../../assets/images/frc/bunnybots.jpg')}>
+            ILITE participated in the offseason event, BunnyBots, which was hosted by team 449 at Montgomery Blair High School.
+	          With our robot, "JuiceBx", we made a formidable presence, ultimately finishing out in the semifinals. We strongly felt
+   	        that it was a marvelous learning opportunity for the students to prepare for the 2020 build season, and we're eager to
+       	    apply the skills that we've learned! We would also like to give a big thank you to team 449 for hosting this great event!
           </NewsCard>
           <NewsCard title="ILITE hosts ILITE Robotics Offseason Challenge" image={require('../../../assets/images/outreach/IROC.hostedevents.jpg')}>
             ILITE welcomed local robotics teams to the ILITE Robotics Offseason Challenge (otherwise known as IROC) on October 26, 2019 at our home- Battlefield High School.
   Competitors united to show off their robots and driver skills in the 2019's FIRST Robotics Competition, Destination: Deep Space.
   We are so thankful for all the wonderful teams who attended and wish everyone a good season.
           </NewsCard>
-          <NewsCard title="ILITE met with representatives at the Chesapeake District Championship" image={require('../../../assets/images/frc/dcmp-nasa.png')}>
-            At the Chesapeake District Championship Event on April 11th-13th, ILITE members had to the opportunity to meet with Danica Roem, the representative of the 13th district in the Virginia House of Delegates, Congresswoman Wexton, and the Director of Planetary Science at NASA, Dr. Lori Glaze along with Dave Lavery, NASA Program Executive for Solar System Exploration. ILITE members enjoyed speaking with them about the FRC competition, ILITE’s business plan and political activism, and ILITE’s FIRST mentoring in the local and international communities. In an email correspondence with one of our students, Dr. Glaze said that “talking with you and the ILITE team was the highlight of my day Friday. I wish you all the best of luck”.
+          <NewsCard title="ILITE at Rumble in the Roads" image={require('../../../assets/images/frc/rumble_in_the_roads.jpg')}>
+            ILITE competed at the Rumble in the Roads off-season event and won with teams 401 and 2028 on November 2nd. Rumble in the Roads is an annual off-season FIRST Robotics Competition event held by teams 1610, 2363, 5957 and is hosted in Newport News at Heritage High School. The competition followed modified rules of the 2019 game DESTINATION: DEEP SPACE. Rumble in the Roads was a great opportunity to get in practice before the new season begins in 2020.
           </NewsCard>
         </div>
         <div className="iliteHome__news-button">
@@ -72,9 +75,9 @@ const IliteHome = (props) => {
             Aurora Flight Sciences
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/anomali.png')}
-            url="https://www.anomali.com">
-            Anomali
+            image={require('../../../assets/images/sponsors/microsoft.png')}
+            url="https://www.microsoft.com/">
+            Microsoft
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/afa.png')}
@@ -97,9 +100,9 @@ const IliteHome = (props) => {
             SPARK
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/pepsi.png')}
-            url="https://www.pepsi.com/">
-            Pepsi
+            image={require('../../../assets/images/sponsors/sabel.jpg')}
+            url="http://sabelsystems.com/">
+            Sabel Systems
           </SponsorTag>
           <SponsorTag
             image={require('../../../assets/images/sponsors/lockheedmartin.png')}
@@ -115,6 +118,41 @@ const IliteHome = (props) => {
             image={require('../../../assets/images/sponsors/macedontechnologies.png')}
             url="https://www.macedontechnologies.com/">
             Macedon Technologies
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/incadence.png')}
+            url="https://www.incadencecorp.com/">
+            InCadence
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/asco.png')}
+            url="https://www.ascoweb.com/">
+            ASCo
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/ABLE.png')}
+            url="https://www.ablemoving.com/">
+            Able
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/intufologo.png')}
+            url="http://www.intufo.com/">
+            Intufo
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/googlelogo.png')}
+            url="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">
+            Google
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/comcast.png')}
+            url="https://corporate.comcast.com/">
+            Comcast
+          </SponsorTag>
+          <SponsorTag
+            image={require('../../../assets/images/sponsors/battlefieldhighschool.jpg')}
+            url="http://battlefieldhs.pwcs.edu/">
+            Battlefield
           </SponsorTag>
         </div>
       </div>

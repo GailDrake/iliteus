@@ -13,14 +13,16 @@ const History = () => {
           <Tab name="2020">
             <div className="history__event" id="tab15">
               <h1 className="history__event-header">2020 - Infinite Recharge</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/1y9PNhVAGmM"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/gmiYWTmFRVE"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 {/* <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -35,20 +37,24 @@ const History = () => {
               </div>
             </div>
 
+            <img src={require('../../../assets/images/outreach/chairmans/history_2020_banner.jpg')} className="history__image" />
+
             {GetDocumentation(2020)}
           </Tab>
           {/* 2019 - Destination: Deep Space */}
           <Tab name="2019">
             <div className="history__event" id="tab14">
               <h1 className="history__event-header">2019 - Destination: Deep Space</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/Mew6G_og-PI"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/Mew6G_og-PI"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -70,20 +76,24 @@ const History = () => {
               </div>
             </div>
 
+            <img src={require('../../../assets/images/outreach/chairmans/history_2019_banner.jpg')} className="history__image" />
+
             {GetDocumentation(2019)}
           </Tab>
           {/* 2018 - Power Up */}
           <Tab name="2018">
             <div className="history__event" id="tab13">
               <h1 className="history__event-header">2018 - Power Up</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/HZbdwYiCY74"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/HZbdwYiCY74"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -109,20 +119,24 @@ const History = () => {
               </div>
             </div>
 
+            <img src={require('../../../assets/images/outreach/chairmans/history_2018_banner.jpg')} className="history__image" />
+
             {GetDocumentation(2018)}
           </Tab>
           {/* 2017 - Steamworks */}
           <Tab name="2017">
             <div className="history__event" id="tab12">
               <h1 className="history__event-header">2017 - Steamworks</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/EMiNmJW7enI"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/EMiNmJW7enI"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -152,20 +166,24 @@ const History = () => {
               </div>
             </div>
 
+            <img src={require('../../../assets/images/outreach/chairmans/history_2017_banner.jpg')} className="history__image" />
+
             {GetDocumentation(2017)}
           </Tab>
           {/* 2016 - Stronghold */}
           <Tab name="2016">
             <div className="history__event" id="tab11">
               <h1 className="history__event-header">2016 - Stronghold</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/VqOKzoHJDjA"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/VqOKzoHJDjA"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -195,20 +213,24 @@ const History = () => {
               </div >
             </div>
 
+            <img src={require('../../../assets/images/outreach/chairmans/history_2016_banner.jpg')} className="history__image" />
+
             {GetDocumentation(2016)}
           </Tab>
           {/* 2015 - Recycle Rush */}
           <Tab name="2015">
             <div className="history__event" id="tab10">
               <h1 className="history__event-header">2015 - Recycle Rush</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/W6UYFKNGHJ8"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/W6UYFKNGHJ8"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -233,20 +255,24 @@ const History = () => {
               </div>
             </div>
 
+            <img src={require('../../../assets/images/outreach/chairmans/history_2015_banner.jpg')} className="history__image" />
+
             {GetDocumentation(2015)}
           </Tab>
           {/* 2014 - Aerial Assist */}
           <Tab name="2014">
             <div className="history__event" id="tab9">
               <h1 className="history__event-header">2014 - Aerial Assist</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/oxp4dkMQ1Vo"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/oxp4dkMQ1Vo"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -276,14 +302,16 @@ const History = () => {
           <Tab name="2013">
             <div className="history__event" id="tab8">
               <h1 className="history__event-header">2013 - Ultimate Ascent</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/wa5MGEZNrf0"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/wa5MGEZNrf0"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -307,14 +335,16 @@ const History = () => {
           <Tab name="2012">
             <div className="history__event" id="tab7">
               <h1 className="history__event-header">2012 - Rebound Rumble</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/-bRXOTLQvoE"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/-bRXOTLQvoE"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -339,14 +369,16 @@ const History = () => {
           <Tab name="2011">
             <div className="history__event" id="tab6">
               <h1 className="history__event-header">2011 - Logomotion</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/aH_9QHZpsfs"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/aH_9QHZpsfs"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -372,14 +404,16 @@ const History = () => {
           <Tab name="2010">
             <div className="history__event" id="tab5">
               <h1 className="history__event-header">2010 - Breakaway</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/Bb1P43OSfOU"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/Bb1P43OSfOU"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -399,19 +433,23 @@ const History = () => {
                 </div>
               </div>
             </div>
+
+            {GetDocumentation(2010)}
           </Tab>
           {/* 2009 - Lunacy */}
           <Tab name="2009">
             <div className="history__event" id="tab4">
               <h1 className="history__event-header">2009 - Lunacy</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/nEh3Wzd1jDI"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/nEh3Wzd1jDI"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -434,14 +472,16 @@ const History = () => {
           <Tab name="2008">
             <div className="history__event" id="tab3">
               <h1 className="history__event-header">2008 - Overdrive</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/D5oL7aLH0T4"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/D5oL7aLH0T4"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -465,14 +505,16 @@ const History = () => {
           <Tab name="2007">
             <div className="history__event" id="tab2">
               <h1 className="history__event-header">2007 - Rack n' Roll</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/khTGSKvDyS4"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/khTGSKvDyS4"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -496,14 +538,16 @@ const History = () => {
           <Tab name="2006">
             <div className="history__event" id="tab2">
               <h1 className="history__event-header">2006 - Aim High</h1>
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/1Vuwjse90AA"
-                frameborder="0"
-                gesture="media"
-                allow="encrypted-media"
-                allowfullscreen />
+              <div className="history__embed">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/1Vuwjse90AA"
+                  frameborder="0"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowfullscreen />
+              </div>
               <div className="history__event-container">
                 <div className="history__awards">
                   <h3 className="history__event-subheader">Awards</h3>
@@ -511,6 +555,7 @@ const History = () => {
                     <li>NASA/VCU Regional: Quarterfinalist</li>
                     <li>Las Vegas Regional: Best Website Award</li>
                     <li>Las Vegas Regional: Quarterfinalist</li>
+                    <li>FIRST World Championship: All-Star Rookie Award</li>
                   </ul>
                 </div>
                 <div className="history__attended">
