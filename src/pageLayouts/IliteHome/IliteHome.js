@@ -51,7 +51,7 @@ const IliteHome = (props) => {
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          <NewsCard title="ILITE at BunnyBots 2019" image={require('../../../assets/images/frc/bunnybots.jpg')}>
+          <NewsCard title="ILITE at BunnyBots 2019" image={require('../../assets/images/frc/bunnybots.jpg')}>
             ILITE participated in the offseason event, BunnyBots, which was hosted by team 449 at Montgomery Blair High School.
 	          With our robot, "JuiceBx", we made a formidable presence, ultimately finishing out in the semifinals. We strongly felt
    	        that it was a marvelous learning opportunity for the students to prepare for the 2020 build season, and we're eager to
@@ -62,7 +62,7 @@ const IliteHome = (props) => {
   Competitors united to show off their robots and driver skills in the 2019's FIRST Robotics Competition, Destination: Deep Space.
   We are so thankful for all the wonderful teams who attended and wish everyone a good season.
           </NewsCard>
-          <NewsCard title="ILITE at Rumble in the Roads" image={require('../../../assets/images/frc/rumble_in_the_roads.jpg')}>
+          <NewsCard title="ILITE at Rumble in the Roads" image={require('../../assets/images/frc/rumble_in_the_roads.jpg')}>
             ILITE competed at the Rumble in the Roads off-season event and won with teams 401 and 2028 on November 2nd. Rumble in the Roads is an annual off-season FIRST Robotics Competition event held by teams 1610, 2363, 5957 and is hosted in Newport News at Heritage High School. The competition followed modified rules of the 2019 game DESTINATION: DEEP SPACE. Rumble in the Roads was a great opportunity to get in practice before the new season begins in 2020.
           </NewsCard>
         </div>
@@ -88,7 +88,7 @@ const IliteHome = (props) => {
             Aurora Flight Sciences
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/microsoft.png')}
+            image={require('../../assets/images/sponsors/microsoft.png')}
             url="https://www.microsoft.com/">
             Microsoft
           </SponsorTag>
@@ -113,7 +113,7 @@ const IliteHome = (props) => {
             SPARK
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/sabel.jpg')}
+            image={require('../../assets/images/sponsors/sabel.jpg')}
             url="http://sabelsystems.com/">
             Sabel Systems
           </SponsorTag>
@@ -133,37 +133,37 @@ const IliteHome = (props) => {
             Macedon Technologies
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/incadence.png')}
+            image={require('../../assets/images/sponsors/incadence.png')}
             url="https://www.incadencecorp.com/">
             InCadence
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/asco.png')}
+            image={require('../../assets/images/sponsors/asco.png')}
             url="https://www.ascoweb.com/">
             ASCo
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/ABLE.png')}
+            image={require('../../assets/images/sponsors/ABLE.png')}
             url="https://www.ablemoving.com/">
             Able
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/intufologo.png')}
+            image={require('../../assets/images/sponsors/intufologo.png')}
             url="http://www.intufo.com/">
             Intufo
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/googlelogo.png')}
+            image={require('../../assets/images/sponsors/googlelogo.png')}
             url="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">
             Google
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/comcast.png')}
+            image={require('../../assets/images/sponsors/comcast.png')}
             url="https://corporate.comcast.com/">
             Comcast
           </SponsorTag>
           <SponsorTag
-            image={require('../../../assets/images/sponsors/battlefieldhighschool.jpg')}
+            image={require('../../assets/images/sponsors/battlefieldhighschool.jpg')}
             url="http://battlefieldhs.pwcs.edu/">
             Battlefield
           </SponsorTag>
