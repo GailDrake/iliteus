@@ -5,7 +5,7 @@ import Container from '../../../templates/container';
 
 const Media = (props) => {
 	return (
-		<Container title="Media" subtitle="Pictures for all ILITE events.">
+		<Container title="Media" subtitle="Pictures for all ILITE events." bannerImage="media__banner">
 			<div className="media">
 				<p className="media__text">
 					At ILITE Robotics, we have promising videographers who take lots of film of our team’s activities.
