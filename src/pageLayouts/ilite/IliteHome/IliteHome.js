@@ -38,14 +38,16 @@ const IliteHome = (props) => {
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          <NewsCard title="ILITE at BunnyBots 2019" image={require('../../../assets/images/frc/bunnybots.jpg')}>
-            ILITE participated in the offseason event, BunnyBots, which was hosted by team 449 at Montgomery Blair High School.
-	          With our robot, "JuiceBx", we made a formidable presence, ultimately finishing out in the semifinals. We strongly felt
-   	        that it was a marvelous learning opportunity for the students to prepare for the 2020 build season, and we're eager to
-       	    apply the skills that we've learned! We would also like to give a big thank you to team 449 for hosting this great event!
+          <NewsCard title="ILITE hosts FRC 2020 Kickoff" image={require('../../../assets/images/frc/kickoff-2020.jpg')}>
+            ILITE opened their doors to local FRC teams to kickoff the 2020 FRC season! We started off the season with over 10 FRC
+            teams. We were joined by Team 3373 for a post-kickoff strategy session where we discussed various game aspects and possible
+            play methods! ILITE is pumped for INFINITE RECHARGE 2020 and cannot wait to see what the game will bring us this season.
           </NewsCard>
           <NewsCard title="ILITE hosts 6th Annual Haymaker STEAM Expo" image={require('../../../assets/images/outreach/STEAM.hostedevents.jpg')}>
-            On January 25th, 2020, ILITE welcomed over 2,700+ attendees into our building for our 6th Annual Haymaker STEAM Expo.
+            On January 25th, 2020, ILITE welcomed over 2,700+ attendees into our building for our 6th Annual Haymaker STEAM Expo. At this year's event
+            we were joined by NASA, the FBI, and our local Fire Departments! Contuining last year's addition, a majority of booths were tailored towards
+            Girl Scouts of all levels to earn badges from. We would like to extend our gratitude to all the volunteers and booth hosts
+            that made this event a success!
           </NewsCard>
           <NewsCard title="ILITE at Rumble in the Roads" image={require('../../../assets/images/frc/rumble_in_the_roads.jpg')}>
             ILITE competed at the Rumble in the Roads off-season event and won with teams 401 and 2028 on November 2nd. Rumble in the Roads is an annual off-season FIRST Robotics Competition event held by teams 1610, 2363, 5957 and is hosted in Newport News at Heritage High School. The competition followed modified rules of the 2019 game DESTINATION: DEEP SPACE. Rumble in the Roads was a great opportunity to get in practice before the new season begins in 2020.
