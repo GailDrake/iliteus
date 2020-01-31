@@ -195,7 +195,7 @@
     },
     "Daniel Tolbert": {
       "name": "Daniel Tolbert",
-      "subteam": "President",
+      "subteam": "Programming",
       "leader": "President",
       "memory": "The entire team celebrating my birthday at IROC 2019",
       "year": 2017,
@@ -259,7 +259,7 @@
     "Kaihil Patel": {
       "name": "Kaihil Patel",
       "subteam": "Build",
-      "leader": "Build Lead",
+      "leader": "Build Co-Lead",
       "memory": "Having fun in the hotel at World's with my friends.",
       "year": 2017,
       "fact": "I love to travel and ski.",
@@ -719,6 +719,14 @@
       "year": 2018,
       "fact": "I’m proud to have been the Ultimate Scouter.",
       "image": "Patel,Pushp.jpg"
+    },
+    "Faris Syed": {
+      "name": "Faris Syed",
+      "subteam": "Programming",
+      "memory": "Seeing the Burj Khalifa light show during New Year.",
+      "year": 2018,
+      "fact": "I am going to be majoring in Computer Science!",
+      "image": "Syed,Faris.png"
     }
   }
 }
