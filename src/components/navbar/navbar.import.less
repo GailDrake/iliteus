@@ -30,17 +30,14 @@
     margin: 0;
     padding: 20px;
     position: fixed;
+    min-height: 68px;
     width: 100vw;
-    z-index: 2;
+    z-index: 3;
 
     li {
-      display: inline;
-      margin: 0 5%;
-      z-index: 4;
-
-      @media screen and (max-width: 1050px) {
-        margin: 0 3%;
-      }
+      display: block;
+      margin: 0 25px;
+      float: right;
     }
 
     .navigation__list-item {
@@ -51,7 +48,6 @@
       font-weight: 500;
       text-decoration: none;
       transition: all 0.3s;
-      z-index: 4;
 
       &:hover {
         padding-bottom: 10px;

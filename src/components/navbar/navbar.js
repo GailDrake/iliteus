@@ -50,10 +50,13 @@ const Navbar = props => {
       <NavLink to="/" className="navigation__logo" />
       <ul className="navigation__list">
         <li>
-          <Dropdown title="About ILITE" links={iliteLinks} />
-        </li>
-        <li>
-          <Dropdown title="Outreach" links={outreachLinks} />
+          <NavLink
+            to="/getinvolved"
+            activeClassName="navigation--underlined"
+            className="navigation__list-item"
+          >
+            Get Involved
+          </NavLink>
         </li>
         <li>
           <NavLink
@@ -65,13 +68,10 @@ const Navbar = props => {
           </NavLink>
         </li>
         <li>
-          <NavLink
-            to="/getinvolved"
-            activeClassName="navigation--underlined"
-            className="navigation__list-item"
-          >
-            Get Involved
-          </NavLink>
+          <Dropdown title="Outreach" links={outreachLinks} />
+        </li>
+        <li>
+          <Dropdown title="About ILITE" links={iliteLinks} />
         </li>
       </ul>
       <div className="navigation__sidemenu">
