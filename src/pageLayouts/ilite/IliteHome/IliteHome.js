@@ -44,10 +44,8 @@ const IliteHome = (props) => {
    	        that it was a marvelous learning opportunity for the students to prepare for the 2020 build season, and we're eager to
        	    apply the skills that we've learned! We would also like to give a big thank you to team 449 for hosting this great event!
           </NewsCard>
-          <NewsCard title="ILITE hosts ILITE Robotics Offseason Challenge" image={require('../../../assets/images/outreach/IROC.hostedevents.jpg')}>
-            ILITE welcomed local robotics teams to the ILITE Robotics Offseason Challenge (otherwise known as IROC) on October 26, 2019 at our home- Battlefield High School.
-  Competitors united to show off their robots and driver skills in the 2019's FIRST Robotics Competition, Destination: Deep Space.
-  We are so thankful for all the wonderful teams who attended and wish everyone a good season.
+          <NewsCard title="ILITE hosts 6th Annual Haymaker STEAM Expo" image={require('../../../assets/images/outreach/STEAM.hostedevents.jpg')}>
+            On January 25th, 2020, ILITE welcomed over 2,700+ attendees into our building for our 6th Annual Haymaker STEAM Expo.
           </NewsCard>
           <NewsCard title="ILITE at Rumble in the Roads" image={require('../../../assets/images/frc/rumble_in_the_roads.jpg')}>
             ILITE competed at the Rumble in the Roads off-season event and won with teams 401 and 2028 on November 2nd. Rumble in the Roads is an annual off-season FIRST Robotics Competition event held by teams 1610, 2363, 5957 and is hosted in Newport News at Heritage High School. The competition followed modified rules of the 2019 game DESTINATION: DEEP SPACE. Rumble in the Roads was a great opportunity to get in practice before the new season begins in 2020.

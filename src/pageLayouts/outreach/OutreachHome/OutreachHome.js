@@ -9,7 +9,7 @@ const OutreachHome = (props) => {
       <div className="outreachHome__banner">
         <div className="outreachHome__banner-text-container">
           <br /><br />
-          <h1 className="outreachHome__banner-title">80,000+ minds reached</h1>
+          <h1 className="outreachHome__banner-title">90,000+ minds reached</h1>
           <h2 className="outreachHome__banner-subtitle">Outreach at ILITE</h2>
           <p className="outreachHome__banner-description">Outreach is the act of reaching out to others and introducing them to STEAM. To achieve that, we strive to spread STEAM through outreach events, seminars, and camps to reach young minds and fulfill our mission of advocating STEM and creating a brighter future.</p>
         </div>
