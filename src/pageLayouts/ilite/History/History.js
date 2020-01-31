@@ -580,3 +580,9 @@ History.propTypes = {
 };
 
 export default History;
+
+<div class="bg-modal">
+  <div class="modal-content">
+    <div class="close">+</div>
+  </div>
+</div>
