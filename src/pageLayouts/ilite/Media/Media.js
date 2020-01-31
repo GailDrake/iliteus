@@ -5,7 +5,7 @@ import Container from '../../../templates/container';
 
 const Media = (props) => {
 	return (
-		<Container title="Media" subtitle="Pictures for all ILITE events.">
+		<Container title="Media" subtitle="Pictures for all ILITE events." bannerImage="media__banner">
 			<div className="media">
 				<p className="media__text">
 					At ILITE Robotics, we have promising videographers who take lots of film of our team’s activities.
@@ -13,6 +13,10 @@ const Media = (props) => {
 					ILITE media can be viewed below.
 				</p>
 				<div className="media_tiles">
+					<Mediatiles
+						url="https://www.dropbox.com/sh/ohvodgq6xfchm4v/AAAaojfyTOMb2wnPMS7NYzE5a?dl=0"
+						name="STEAM Expo 2020"
+					/>
 					<Mediatiles
 						url="https://www.dropbox.com/sh/l1nfsh44xfbqirn/AAAfr5i7zW5SMzgoX2ZnP2-Wa?dl=0"
 						name="IROC 2019"
