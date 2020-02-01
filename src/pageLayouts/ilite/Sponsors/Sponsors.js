@@ -7,6 +7,7 @@ const Sponsors = () => {
     <Container
       title="Sponsors"
       subtitle="We couldn't operate without them!"
+      bannerImage="sponsors__banner"
     >
       <div className="sponsors">
 

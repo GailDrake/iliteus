@@ -5,7 +5,7 @@ import Link from 'gatsby-link';
 
 const SummerCamps = (props) => {
   return (
-    <Container title="Summer Camps" subtitle="Check out our STEAM-themed summer camps below.">
+    <Container title="Summer Camps" subtitle="Check out our STEAM-themed summer camps below." bannerImage="summercamps__banner">
       <div className="summercamps">
         <h1>ILITE Robotics Summer Camps</h1>
         <p>The camps below are hosted by ILITE Robotics. Questions or concerns about these camps should be directed to Gail Drake at drakegd@pwcs.edu.<br /><br />When you arrive, please enter through door 19 and follow the signs. If your child is staying for lunch, please pack a lunch.</p>
