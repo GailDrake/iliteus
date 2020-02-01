@@ -18,7 +18,7 @@ import stemexpo3 from '../../../assets/images/frc/mission/stemexpo3.jpg'
 
 const Mission = (props) => {
   return (
-    <Container title="Mission" subtitle="ILITE's mission and vision represented throughout our history">
+    <Container title="Mission" subtitle="ILITE's mission and vision represented throughout our history" bannerImage="mission__banner">
       <div className='mission'>
         <h1 className='mission__header'>Mission & Vision</h1>
         <p className='mission__text'>

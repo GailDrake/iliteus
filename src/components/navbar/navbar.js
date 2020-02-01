@@ -22,7 +22,7 @@ const iliteLinks = [
   {
     name: "History",
     section: "ilite",
-    file: "competition"
+    file: "history"
   },
   {
     name: "Mission",

@@ -65,7 +65,7 @@ const GetInvolved = (props) => {
         </p>
         <br />
         <p>
-          <b>Become a sponsor now by <a href="https://usstem.org" >clicking here</a>. Donate through the US STEM Foundation at the bottom of their page.</b>
+          <b>Become a sponsor now by <a href="https://usstem.org" target="_blank">clicking here</a>. Donate through the US STEM Foundation at the bottom of their page.</b>
         </p>
 
         <br />
