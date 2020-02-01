@@ -1,0 +1,196 @@
+body,
+html {
+  // overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.iliteHome {
+  // overflow-x: hidden;
+  // overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+
+  .iliteHome__banner {
+    background-image: url("../../assets/images/frc/background/home-background-ps.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh; // overflow: hidden;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @media (max-width: 650px) {
+      padding: 0 5%;
+      position: relative;
+    }
+
+    @media (max-height: 650px) {
+      height: 90vh;
+      margin-top: 40px;
+    }
+
+    .iliteHome__banner-text-container {
+      max-width: 800px;
+      padding: 10px;
+      margin: 0 auto;
+
+      .iliteHome__banner-title {
+        color: @white;
+        font-family: @raleway;
+        font-weight: 600;
+        font-size: 50px;
+        letter-spacing: 3px;
+        margin-bottom: 0.67em;
+        text-transform: uppercase;
+
+        @media (max-width: 468px) {
+          font-size: 40px;
+        }
+      }
+
+      .iliteHome__banner-subtitle {
+        color: @off-white;
+        font-family: "Raleway", sans-serif;
+        font-size: 25px;
+        font-weight: 200;
+        line-height: 32px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+
+        @media (max-width: 468px) {
+          font-size: 20px;
+        }
+      }
+
+      .iliteHome__banner-description {
+        color: @white;
+        font-family: @raleway;
+        font-size: 18px;
+        letter-spacing: 0.8px;
+        line-height: 200%;
+        margin-bottom: 20px;
+
+        @media (max-width: 468px) {
+          font-size: 15px;
+        }
+      }
+
+      @media (max-width: 650px) {
+        margin: auto;
+      }
+    }
+  }
+
+  .iliteHome__events {
+    background-color: #eee;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+    .iliteHome__events-header {
+      color: @text-1;
+      font-size: 38px;
+      font-weight: 600;
+      margin-bottom: -10px;
+      font-family: @raleway;
+      letter-spacing: 0.0625em;
+      text-transform: uppercase;
+      padding: 5px;
+    }
+
+    .iliteHome__events-container {
+      text-align: center;
+      padding-right: 5vw;
+      padding-left: 5vw;
+      display: flex;
+      flex: 1;
+
+      @media screen and (max-width: 768px) {
+        display: block;
+      }
+    }
+
+    .iliteHome__events-subheader {
+      color: @text-1;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      padding-right: 5vw;
+      padding-left: 5vw;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+    }
+  }
+
+  .iliteHome__news {
+    background-color: @text-1;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+    .iliteHome__news-header {
+      color: @off-white;
+      font-size: 38px;
+      font-weight: 600;
+      margin-bottom: -10px;
+      font-family: @raleway;
+      letter-spacing: 0.0625em;
+      text-transform: uppercase;
+      padding: 5px;
+    }
+
+    .iliteHome__news-container {
+      text-align: center;
+      padding-right: 5vw;
+      padding-left: 5vw;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      justify-content: center;
+
+      @media screen and (max-width: 1000px) {
+        flex-direction: column;
+      }
+    }
+
+    .iliteHome__news-button {
+      margin-top: 50px;
+    }
+  }
+
+  .iliteHome__sponsors {
+    background-color: #eee;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-bottom: -10px;
+
+    .iliteHome__sponsors-header {
+      color: @text-1;
+      font-size: 38px;
+      font-weight: 600;
+      font-family: @raleway;
+      letter-spacing: 0.0625em;
+      text-transform: uppercase;
+      padding: 5px;
+    }
+
+    .iliteHome__sponsors-description {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .iliteHome__sponsors-container {
+      text-align: center;
+      padding-right: 5vw;
+      padding-left: 5vw;
+    }
+  }
+}
