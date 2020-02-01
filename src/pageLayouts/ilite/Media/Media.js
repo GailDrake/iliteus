@@ -70,7 +70,7 @@ const Media = (props) => {
 						name="Chesapeake District Championship 2017"
 					/>
 					<Mediatiles
-						url={`https://www.dropbox.com/sh/wck7mcgzcbv42qr/AADP_ez0oJeDZSYkUoq5gqSXa?dl=0`}
+						url={`https://www.dropbox.com/sh/d3twv2qkdyfok4k/AAA0bizt4I4RHE5PXc4MVjVla?dl=0`}
 						name="IROC 2016"
 					/>
 					<Mediatiles
@@ -82,7 +82,7 @@ const Media = (props) => {
 						name="World Championship 2016"
 					/>
 					<Mediatiles
-						url={`https://www.dropbox.com/sh/v7vzw69wnsn9sp7/AABcLQ560lXzyZKHNFUQoNoZa?dl=0`}
+						url={`https://www.dropbox.com/sh/90pegx8htg3rvx9/AACe4gK0rBhByWqVccWVoS60a?dl=0`}
 						name="Portsmouth FRC District 2016"
 					/>
 					<Mediatiles
@@ -158,28 +158,12 @@ const Media = (props) => {
 						name="Helicopter Day 2014"
 					/>
 					<Mediatiles
-						url={`https://www.dropbox.com/sh/vfc745doxuf8er9/AAD53lEetwCsST-WcV-qFysUa?dl=0`}
-						name="Be-a-Pilot Day 2014"
-					/>
-					<Mediatiles
-						url={`https://www.dropbox.com/sh/dbnajmfbhybr37m/AAC837RiqmKBffmsygt6qjaYa?dl=0`}
-						name="World Championship 2014"
-					/>
-					<Mediatiles
-						url={`https://www.dropbox.com/sh/kye8ibytw9vtb8t/AABxwdF1v_-Xxqog-QFGXvEHa?dl=0`}
-						name="Chesapeake FRC Regional 2014"
-					/>
-					<Mediatiles
-						url={`https://www.dropbox.com/sh/insoxna8ha4tw1y/AAB74o_EQ6Tqe2r9L-UI9W_ra?dl=0`}
+						url={`https://www.dropbox.com/sh/1ms5cwgjqvt296d/AADGNqW3uabzRnA8hgT54EO4a?dl=0`}
 						name="Washington DC FRC Regional 2014"
 					/>
 					<Mediatiles
 						url={`https://www.dropbox.com/sh/v8p96bwrthnnvma/AADF3TMZfXwvYiGJUFzwa8OAa?dl=0`}
 						name="Haymarket Day 2013"
-					/>
-					<Mediatiles
-						url={`https://www.dropbox.com/sh/kg8768pdzqdnuw1/AAAb5Mm2QkU7gRZOXpz615R4a?dl=0`}
-						name="IROC 2013"
 					/>
 					<Mediatiles
 						url={`https://www.dropbox.com/sh/oygy5j0tx14ekke/AACkHEn7_2b03gYo-wXElePva?dl=0`}
@@ -202,12 +186,8 @@ const Media = (props) => {
 						name="Chesapeake FRC Regional 2013"
 					/>
 					<Mediatiles
-						url={`https://www.dropbox.com/sh/z699uo0l49ap1ox/AAD9sYLQDONCwkcMLb7OynG4a?dl=0`}
+						url={`https://www.dropbox.com/sh/wckg39mm52coye3/AADRZa5ErbpLQzn5_FsjxKvEa?dl=0`}
 						name="Holiday Party 2012"
-					/>
-					<Mediatiles
-						url={`https://www.dropbox.com/sh/h8iivttsb8ilalo/AADzZnWsL1A5UNE0Hytuh2Baa?dl=0`}
-						name="Air and Scare 2012"
 					/>
 					<Mediatiles
 						url={`https://www.dropbox.com/sh/bxccyte4hczravp/AAA9b26bYQ2DLwJKt1m6DAY6a?dl=0`}
