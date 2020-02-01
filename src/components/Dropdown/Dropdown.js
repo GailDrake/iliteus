@@ -4,29 +4,17 @@ import NavLink from 'react-router-dom/NavLink';
 class Dropdown extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      dropdown: false
-    };
-  }
-
-  toggleDropdown = () => {
-    this.setState({
-      dropdown: this.state.dropdown ? false : true
-    })
   }
 
   render() {
     const title = this.props.title;
+    const extended = this.props.extended ? "show" : "";
     const { links } = this.props;
-
-    const dropdownMenu = this.state.dropdown ? "show" : "";
-    const backgroundOpen = this.state.dropdown ? "dropdown__background--open" : "";
 
     return (
       <div className="dropdown">
-        <div className={`dropdown__background--main ${backgroundOpen}`} onClick={() => this.toggleDropdown()}></div>
-        <a onClick={() => this.toggleDropdown()} className="dropdown__button">{title}                               <i className={`fa fa-caret-down`}></i></a>
-        <div className={`dropdown__content ${dropdownMenu}`}>
+        <a className="dropdown__button">{title}                               <i className={`fa fa-caret-down`}></i></a>
+        <div className={`dropdown__content ${extended}`}>
           {links.map(link => {
             let filePath = `/${link.section}/${link.file}`;
 
@@ -35,7 +23,6 @@ class Dropdown extends Component {
                 to={filePath}
                 className="dropdown__item"
                 activeClassName="dropdown__item--active"
-                onClick={() => this.toggleDropdown()}
               >
                 {link.name}
               </NavLink>

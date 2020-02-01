@@ -8,8 +8,6 @@ const team = Object.keys(teamListJSON.Sheet1).map(key => {
   return teamListJSON.Sheet1[key];
 });
 
-console.log(team);
-
 const TeamContainer = () => <Team teamList={team} />;
 
 export default TeamContainer;
