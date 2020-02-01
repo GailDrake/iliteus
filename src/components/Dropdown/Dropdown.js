@@ -24,7 +24,7 @@ class Dropdown extends Component {
 
     return (
       <div className="dropdown">
-        <div className={`dropdown__background ${backgroundOpen}`} onClick={() => this.toggleDropdown()}></div>
+        <div className={`dropdown__background--main ${backgroundOpen}`} onClick={() => this.toggleDropdown()}></div>
         <a onClick={() => this.toggleDropdown()} className="dropdown__button">{title}                               <i className={`fa fa-caret-down`}></i></a>
         <div className={`dropdown__content ${dropdownMenu}`}>
           {links.map(link => {
