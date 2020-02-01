@@ -80,7 +80,8 @@ class Navbar extends Component {
 
     return (
       <nav className="navigation">
-        <div className={`dropdown__background ${backgroundOpen}`} onClick={() => this.closeAllDropdowns()}></div>
+        <div className={`dropdown__background--main ${backgroundOpen}`} onClick={() => this.closeAllDropdowns()}></div>
+        <div className={`dropdown__background--nav ${backgroundOpen}`} onClick={() => this.closeAllDropdowns()}></div>
         <NavLink to="/" className="navigation__logo" onClick={() => this.closeAllDropdowns()} />
         <ul className="navigation__list">
           <li onClick={() => this.closeAllDropdowns()}>
