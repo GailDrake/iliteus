@@ -10,7 +10,7 @@ const GetMember = (subteam, teamList) => {
     teamList.map(member => {
       if (
         subteam === "Leadership" &&
-        member.leader !== null &&
+        member.leader != null &&
         member.leader.trim() !== ""
       ) {
         const image =
@@ -64,7 +64,7 @@ function getLeaders(subteam, teamList) {
   return teamList.map(member => {
     if (
       member.subteam === subteam &&
-      member.leader !== null &&
+      member.leader != null &&
       member.leader.trim() !== ""
     ) {
       const image =

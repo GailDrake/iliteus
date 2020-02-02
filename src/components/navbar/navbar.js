@@ -75,7 +75,6 @@ class Navbar extends Component {
   }
 
   render() {
-    console.log(this.state.iliteDropdown + " " + this.state.outreachDropdown)
     const backgroundOpen =
       this.state.iliteDropdown || this.state.outreachDropdown
         ? "dropdown__background--open"
@@ -127,7 +126,7 @@ class Navbar extends Component {
             </div>
           </li>
           <li>
-            <div onClick={() => this.closeAllDropdowns()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
+            <div onClick={() => this.toggleOutreachDropdown()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
               <Dropdown
                 title="Outreach"
                 links={outreachLinks}
@@ -136,7 +135,7 @@ class Navbar extends Component {
             </div>
           </li>
           <li>
-            <div onClick={() => this.closeAllDropdowns()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
+            <div onClick={() => this.toggleIliteDropdown()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
               <Dropdown
                 title="About ILITE"
                 links={iliteLinks}
