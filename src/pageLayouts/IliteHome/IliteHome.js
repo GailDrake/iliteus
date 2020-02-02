@@ -3,7 +3,7 @@ import React from "react"
 import LayoutWrapper from "../../components/LayoutWrapper"
 import Button from "../../components/Button"
 import Events from "../../components/events"
-import NewsCard from "../../components/newscard/"
+import NewsCard from "../../components/newscard"
 import SponsorTag from "../../components/SponsorTag/SponsorTag"
 
 const IliteHome = props => {

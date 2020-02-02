@@ -1,6 +1,6 @@
 import React from "react"
-import Container from "../../../templates/container"
 import LayoutWrapper from "../../../components/LayoutWrapper"
+import Container from "../../../templates/container"
 
 const Calendar = () => {
   return (
