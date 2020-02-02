@@ -10,9 +10,9 @@ class Dropdown extends Component {
 
     return (
       <div className="dropdown">
-        <a className="dropdown__button">
+        <div className="dropdown__button">
           {title} <i className={`fa fa-caret-down`}></i>
-        </a>
+        </div>
         <div className={`dropdown__content ${extended}`}>
           {links.map(link => {
             let filePath = `/${link.section}/${link.file}`
