@@ -1,18 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Banner = ({ children, title }) => {
-  return (
-    <div className="banner">
-      <div className="banner__text">
-        <div className="banner__title">
-          {title}
-        </div>
-        <div className="banner__subtitle">
-          <p>{children}</p>
+class Banner extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    const { children, title, bannerImage } = this.props;
+    return (
+      <div className={`banner ${bannerImage}`}>
+        <div className="banner__text">
+          <div className="banner__title">
+            {title}
+          </div>
+          <div className="banner__subtitle">
+            <p>{children}</p>
+          </div>
         </div>
       </div>
-    </div>
-  )
+    );
+  }
 }
 
 export default Banner;

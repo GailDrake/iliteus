@@ -1,48 +1,46 @@
 {
-  "name": "ilite",
-  "description": "ilite.us website repo, built on Gatsby, LESS, React, and Contentful",
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.18.12",
+    "gatsby-image": "^2.2.34",
+    "gatsby-plugin-less": "^3.0.18",
+    "gatsby-plugin-manifest": "^2.2.31",
+    "gatsby-plugin-offline": "^3.0.27",
+    "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-plugin-sharp": "^2.3.5",
+    "gatsby-source-filesystem": "^2.1.40",
+    "gatsby-transformer-sharp": "^2.3.7",
+    "less": "^3.10.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
     "serve": "gatsby serve",
-    "deploy-staging": "aws s3 rm s3://ilite-staging --recursive && aws s3 cp --cache-control max-age=31536000 public s3://ilite-staging --recursive"
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "dependencies": {
-    "classnames": "^2.2.6",
-    "cross-fetch": "^3.0.4",
-    "gatsby": "^2.15.28",
-    "gatsby-cli": "^2.7.53",
-    "gatsby-link": "^2.2.17",
-    "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-less": "^3.0.9",
-    "gatsby-plugin-typography": "^2.3.10",
-    "history": "^4.10.1",
-    "less": "^3.10.3",
-    "npm": "^6.0.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-fontawesome": "^1.6.1",
-    "react-ga": "^2.5.7",
-    "react-helmet": "^5.2.1",
-    "react-redux": "^7.1.1",
-    "react-reveal": "^1.2.2",
-    "react-router": "^5.1.2",
-    "react-typography": "^0.16.19",
-    "redux": "^4.0.4",
-    "redux-thunk": "^2.3.0",
-    "typography": "^0.16.19"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
-  "resolutions": {
-    "lodash.merge": "^4.6.2"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ],
-  "devDependencies": {
-    "eslint": "^6.5.1"
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

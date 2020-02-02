@@ -52,7 +52,7 @@
       "fact": "N/A",
       "year": 2014,
       "mentor": true,
-      "image": "Desautels,Gloria.jpg"
+      "image": "Desautels,Gloria.png"
     },
     "Greg Morton": {
       "name": "Greg Morton",
@@ -122,6 +122,7 @@
       "memory": "N/A",
       "fact": "N/A",
       "year": "N/A",
+      "image": "Balint,Stan.png",
       "mentor": true
     },
     "David Boyd": {
@@ -138,6 +139,7 @@
       "memory": "N/A",
       "fact": "N/A",
       "year": "N/A",
+      "image": "Desautels,Paul.png",
       "mentor": true
     },
     "Karyn Kraft": {
@@ -170,6 +172,7 @@
       "memory": "N/A",
       "fact": "N/A",
       "year": "N/A",
+      "image": "Yarlagadda,Rahul.png",
       "mentor": true
     },
     "Larry Laverty": {
@@ -190,514 +193,540 @@
       "mentor": true,
       "image": "Lechner,Stephan.jpg"
     },
-    "Calvin Min": {
-      "name": "Calvin Min",
-      "subteam": "Build",
-      "leader": "Team President",
-      "memory": "N/A",
-      "year": 2016,
-      "fact": "N/A",
-      "image": "Min,Calvin.jpg"
-    },
-    "Cole Roof": {
-      "name": "Cole Roof",
-      "subteam": "Electronics",
-      "leader": "Technical Co-President",
-      "memory": "Running around at worlds with everybody in 2017",
-      "year": 2016,
-      "fact": "I do parkour ( backflips and stuff )",
-      "image": "Roof,Cole.jpg"
-    },
-    "Kiyan Zewer": {
-      "name": "Kiyan Zewer",
-      "subteam": "Outreach",
-      "leader": "Business Co-President",
-      "memory": "2018 Detroit World Championship",
+    "Daniel Tolbert": {
+      "name": "Daniel Tolbert",
+      "subteam": "Programming",
+      "leader": "President",
+      "memory": "The entire team celebrating my birthday at IROC 2019",
       "year": 2017,
-      "fact": "I am Kurdish.",
-      "image": "Zewer,Kiyan.jpg"
+      "fact": "In my free time, I enjoy playing the Viola",
+      "image": "Tolbert,Daniel.png"
     },
-    "Hannah Credno ": {
-      "name": "Hannah Credno ",
+    "Caroline Gee": {
+      "name": "Caroline Gee",
+      "subteam": "Strategy/Scouting",
+      "leader": "Strategy Vice President",
+      "memory": "Being team rep at Rumble and wearing the captain’s hat",
+      "year": 2017,
+      "fact": "I want to be an astronaut when I grow up!",
+      "image": "Gee,Caroline.png"
+    },
+    "Grace Henderson": {
+      "name": "Grace Henderson",
       "subteam": "Outreach",
-      "leader": "Business Co-President",
-      "memory": "IROC breakfast team",
-      "year": 2015,
-      "fact": "I like mango on pizza",
-      "image": "Credno,Hannah.jpg"
+      "leader": "Business Vice President ",
+      "memory": "Volunteering at STEAM Expo for the first time",
+      "year": 2017,
+      "fact": "I play field hockey",
+      "image": "Henderson,Grace.png"
     },
-    "Danielle Velasco": {
-      "name": "Danielle Velasco",
+    "Matthew Reheuser": {
+      "name": "Matthew Reheuser",
+      "subteam": "Build",
+      "leader": "Technical Vice President",
+      "memory": "Working with Calvin on his Vlogs",
+      "year": 2018,
+      "fact": "I have a pet Turtle",
+      "image": "Reheuser,Matt.jpg"
+    },
+    "Ilene Hong": {
+      "name": "Ilene Hong",
+      "subteam": "Marketing",
+      "leader": "Marketing Lead",
+      "memory": "District championships",
+      "year": 2018,
+      "fact": "I speak fluent Korean",
+      "image": "Hong,Ilene.png"
+    },
+    "Laura Kun": {
+      "name": "Laura Kun",
+      "subteam": "Secretary",
+      "leader": "Secretary ",
+      "memory": "Winning at the District Bethesda Event ",
+      "year": 2018,
+      "fact": "I’m afraid of metal spoons!",
+      "image": "Kun,Laura.png"
+    },
+    "John Anselmo": {
+      "name": "John Anselmo",
+      "subteam": "Programming",
+      "leader": "Programming Lead",
+      "memory": "Junior year homecoming",
+      "year": 2018,
+      "fact": "I'm trying to learn to lucid dream",
+      "image": "Anselmo,John.png"
+    },
+    "Kaihil Patel": {
+      "name": "Kaihil Patel",
+      "subteam": "Build",
+      "leader": "Build Co-Lead",
+      "memory": "Having fun in the hotel at World's with my friends.",
+      "year": 2017,
+      "fact": "I love to travel and ski.",
+      "image": "Patel,Kaihil.jpg"
+    },
+    "Tyler Lynch": {
+      "name": "Tyler Lynch",
       "subteam": "Outreach",
-      "leader": "Co-Secretary",
-      "memory": "Walking around IROC getting to know other teams",
+      "leader": "Outreach Lead",
+      "memory": "Banjo concert at Worlds",
       "year": 2018,
-      "fact": "I can say my ABC's backwards",
-      "image": "Velasco,Danielle.jpg"
+      "fact": "I Pole Vault",
+      "image": "Lynch,Tyler.png"
     },
-    "Nick Jacobs": {
-      "name": "Nick Jacobs",
-      "subteam": "",
-      "leader": "Co-Secretary",
-      "memory": "N/A",
-      "year": 2018,
-      "fact": "N/A",
-      "image": "Jacobs,Nick.jpg"
+    "Sara Amer": {
+      "name": "Sara Amer",
+      "subteam": "Sponsorship",
+      "leader": "Sponsorship Lead",
+      "memory": "Volunteering at IROC 2019!",
+      "year": 2019,
+      "fact": "I have played the violin for 7 years (and counting)!",
+      "image": "Amer,Sara.png"
+    },
+    "Seneca Ung": {
+      "name": "Seneca Ung",
+      "subteam": "Graphics",
+      "leader": "Graphics Lead",
+      "memory": "2019 Worlds",
+      "year": 2016,
+      "fact": "I have a drawer filled with 50+ Chick Fil A sauce packets.",
+      "image": "Ung,Seneca.jpg"
     },
     "Nicholas Miller": {
       "name": "Nicholas Miller",
       "subteam": "Web",
       "leader": "Web Lead",
-      "memory": "The final match of the 2018 Chesapeake District Championship ",
+      "memory": "The final match of the 2018 Chesapeake District Championship",
       "year": 2017,
-      "fact": "I shoot archery and rock climb",
+      "fact": "I am a member of the Battlefield Archery Team",
       "image": "Miller,Nicholas.jpg"
+    },
+    "Tylor Rauh": {
+      "name": "Tylor Rauh",
+      "subteam": "3D Printing",
+      "leader": "3D printing Co-lead",
+      "memory": "Homecoming 2018",
+      "year": 2018,
+      "fact": "I love dragons ",
+      "image": "Rauh,Tylor.jpg"
+    },
+    "Ethan Miles": {
+      "name": "Ethan Miles",
+      "subteam": "3D Printing",
+      "leader": "3D Printing Co-lead",
+      "memory": "Doing AV at district champs 2019",
+      "year": 2017,
+      "fact": "I play magic the gathering ",
+      "image": "Miles,Ethan.jpg"
+    },
+    "JV Corsino ": {
+      "name": "JV Corsino ",
+      "subteam": "Build",
+      "leader": "Build Co-Lead",
+      "memory": "Winning Rumble 2019",
+      "year": 2017,
+      "fact": "I like racing drones",
+      "image": "Corsino,JV.jpg"
+    },
+    "Matthew Gallagher": {
+      "name": "Matthew Gallagher",
+      "subteam": "Electronics",
+      "leader": "Electronics Lead",
+      "memory": "Seeing STEAM Expo for the first time",
+      "year": 2018,
+      "fact": "I am also the MiniTHON Media Productions Co-Chair",
+      "image": "Gallagher,Matt.png"
+    },
+    "Benjamin Zeitlin": {
+      "name": "Benjamin Zeitlin",
+      "subteam": "Web",
+      "memory": "The end of IROC 2019 when everyone was exhausted.",
+      "year": 2019,
+      "fact": "I host a club at Reagan Middle School about teaching students Steel Drums!",
+      "image": "Zeitlin,Benjamin.jpg"
+    },
+    "Lucas Haering": {
+      "name": "Lucas Haering",
+      "subteam": "Web",
+      "memory": "The times I've had with my closest friends",
+      "year": 2019,
+      "fact": "I like to explore the wilderness when on vacation",
+      "image": "Haering,Lucas.jpg"
+    },
+    "Christopher Wall": {
+      "name": "Christopher Wall",
+      "subteam": "Build",
+      "memory": "Last second park at rumble",
+      "year": 2019,
+      "fact": "My mother is a public servant (school board)",
+      "image": "Wall,Chris.jpg"
+    },
+    "Chase Choi": {
+      "name": "Chase Choi",
+      "subteam": "Web",
+      "memory": "IROC Competition ",
+      "year": 2019,
+      "fact": "I am a nationally recognized Olympic Style sparrer. ",
+      "image": "Choi,Chase.jpg"
+    },
+    "Kavya Annapareddy ": {
+      "name": "Kavya Annapareddy ",
+      "subteam": "Web",
+      "memory": "Staying at school until 2 am to set up for the Week 1 Event",
+      "year": 2017,
+      "fact": "I am a local hula hoop champion for 2 years in a row",
+      "image": "Annapareddy,Kavya.png"
+    },
+    "Jacob Sahlberg": {
+      "name": "Jacob Sahlberg",
+      "subteam": "3D Printing",
+      "memory": "Making it to Worlds for Vex Robotics ",
+      "year": 2019,
+      "fact": "I play basketball ",
+      "image": "Sahlberg,Jacob.jpg"
+    },
+    "Catie Gallagher": {
+      "name": "Catie Gallagher",
+      "subteam": "Electronics",
+      "memory": "One of my favorite memories is from when I was on a VEX robotics team and we stayed up late working on the robot and drinking hot chocolate and just having a lot of fun together the night before a competition.",
+      "year": 2018,
+      "fact": "I have done Irish dancing for 11 years",
+      "image": "Gallagher,Catie.jpg"
+    },
+    "Rachael Kim": {
+      "name": "Rachael Kim",
+      "subteam": "Outreach",
+      "memory": "IROC",
+      "year": 2019,
+      "fact": "i play tennis for battlefield :)",
+      "image": "Kim,Rachael.jpg"
+    },
+    "Jiawen Davis": {
+      "name": "Jiawen Davis",
+      "subteam": "Outreach",
+      "memory": "IROC",
+      "year": 2019,
+      "fact": "I like to dance",
+      "image": "Davis,Jiawen.png"
+    },
+    "Emma Maclean": {
+      "name": "Emma Maclean",
+      "subteam": "Outreach",
+      "memory": "button making for IROC!!",
+      "year": 2019,
+      "fact": "I play the ukulele! ",
+      "image": "Maclean,Emma.png"
+    },
+    "Amrita Talwar ": {
+      "name": "Amrita Talwar ",
+      "subteam": "Outreach",
+      "memory": "Setting up for IROC ",
+      "year": 2019,
+      "fact": "I love reading books "
+    },
+    "Ibrahim Abbasi": {
+      "name": "Ibrahim Abbasi",
+      "subteam": "Programming",
+      "memory": "Winning the Rumble 2019",
+      "year": 2019,
+      "fact": "I was forced into doing robotics in 6th grade and hated it until 7th grade when I became driver and loved it ever since.",
+      "image": "Abbasi,Ibraham.png"
+    },
+    "Timothy Wu": {
+      "name": "Timothy Wu",
+      "subteam": "Programming",
+      "memory": "Celebrating Daniel’s birthday at IROC",
+      "year": 2019,
+      "fact": "I own a lot of Polo Ralph Lauren",
+      "image": "Wu,Timothy.png"
+    },
+    "Isabella Chavez": {
+      "name": "Isabella Chavez",
+      "subteam": "Sponsorship",
+      "memory": "IROC 2018",
+      "year": 2019,
+      "fact": "I have been trained in seven different types of dance.",
+      "image": "Chavez,Isabella.png"
+    },
+    "Agrim Sharma": {
+      "name": "Agrim Sharma",
+      "subteam": "Programming",
+      "memory": "Getting the acceptance email",
+      "year": 2019,
+      "fact": "I microwave my cereal before I eat it",
+      "image": "Sharma,Agrim.png"
+    },
+    "Keiana Strother": {
+      "name": "Keiana Strother",
+      "subteam": "Electronics",
+      "memory": "Going to IROC",
+      "year": 2019,
+      "fact": "I've been to 16 countries.",
+      "image": "Strother,Keiana.png"
     },
     "Upneet Singh": {
       "name": "Upneet Singh",
       "subteam": "Web",
       "memory": "Getting the acceptance email for ILITE",
       "year": 2017,
-      "fact": "When I'm tired, the only thing I'm capable of doing is programming. ",
+      "fact": "When I’m tired, the only thing I’m capable of doing is programming. ",
       "image": "Singh,Upneet.jpg"
-    },
-    "Colton Matthews": {
-      "name": "Colton Matthews",
-      "subteam": "Strategy",
-      "leader": "Strategy Co-Lead",
-      "memory": "IROC",
-      "year": 2018,
-      "fact": "I play soccer.",
-      "image": "Matthews,Colton.jpg"
-    },
-    "Seneca Ung": {
-      "name": "Seneca Ung",
-      "subteam": "Graphics",
-      "memory": "Hotel night at world's last year",
-      "year": 2016,
-      "fact": "I have a drawer of 60+ Chick Fil A sauces",
-      "image": "Ung,Seneca.jpg"
-    },
-    "Michael Reeves": {
-      "name": "Michael Reeves",
-      "subteam": "Graphics",
-      "memory": "The First Day of Robotics",
-      "year": 2018,
-      "fact": "I dance"
-    },
-    "Caroline Gee": {
-      "name": "Caroline Gee",
-      "subteam": "Strategy",
-      "leader": "Strategy Co-Lead",
-      "memory": "All the little moments spent with my ILITE family <3 (also winning District Champs last year)",
-      "year": 2017,
-      "fact": "I want to be an astronaut when I grow up!",
-      "image": "Gee,Caroline.jpg"
-    },
-    "Cooper Ott": {
-      "name": "Cooper Ott",
-      "subteam": "Web",
-      "memory": "IROC (featuring a family sized box of Ritz Crackers)",
-      "year": 2018,
-      "fact": "Vinyl is the supreme way to listen to music",
-      "image": "Ott,Cooper.jpg"
-    },
-    "Tylor Rauh": {
-      "name": "Tylor Rauh",
-      "subteam": "3D Printing",
-      "memory": "the day I got accepted onto the team",
-      "year": 2018,
-      "fact": "i like dragons",
-      "image": "Rauh,Tylor.jpg"
-    },
-    "Ethan Miles": {
-      "name": "Ethan Miles",
-      "subteam": "3D Printing",
-      "memory": "My first FRC competition.",
-      "year": 2017,
-      "fact": "I like to fly fish.",
-      "image": "Miles,Ethan.jpg"
-    },
-    "Justin Williams": {
-      "name": "Justin Williams",
-      "subteam": "Electronics",
-      "leader": "Electronics Lead",
-      "memory": "Worlds Vlogging 2016",
-      "year": 2016,
-      "fact": "N/A",
-      "image": "Williams,Justin.jpg"
-    },
-    "Meet Patel": {
-      "name": "Meet Patel",
-      "subteam": "Electronics",
-      "memory": "____________________________________________________",
-      "year": 2017,
-      "fact": "I can Anderson ",
-      "image": "Patel,Meet.jpg"
-    },
-    "Maggie Harris": {
-      "name": "Maggie Harris",
-      "subteam": "Graphics",
-      "memory": "The graphics Christmas party",
-      "year": 2017,
-      "fact": "I can ride a unicycle",
-      "image": "Harris,Maggie.jpg"
-    },
-    "Matthew Gallagher": {
-      "name": "Matthew Gallagher",
-      "subteam": "Electronics",
-      "memory": "Attending IROC",
-      "year": 2018,
-      "fact": "I do drone cinematography",
-      "image": "Gallagher,Matthew.jpg"
-    },
-    "Hayden Bushnell": {
-      "name": "Hayden Bushnell",
-      "subteam": "Graphics",
-      "memory": "Worlds 2018",
-      "year": 2017,
-      "fact": "I eat Cheerios and milk every day",
-      "image": "Bushnell,Hayden.jpg"
-    },
-    "Daniel Tolbert": {
-      "name": "Daniel Tolbert",
-      "subteam": "Programming",
-      "leader": "Programming Co-Lead",
-      "memory": "The 2018 End of Season Party",
-      "year": 2017,
-      "fact": "I am the Concurrency Officer",
-      "image": "Tolbert,Daniel.jpg"
-    },
-    "Stephen Welch": {
-      "name": "Stephen Welch",
-      "subteam": "Programming",
-      "leader": "Programming Co-Lead",
-      "memory": "2017 World Championships",
-      "year": 2015,
-      "fact": "I bricked the RIO twice",
-      "image": "Welch,Stephen.jpg"
-    },
-    "Kavya Annapareddy": {
-      "name": "Kavya Annapareddy",
-      "subteam": "Graphics",
-      "memory": "Setting up for our host competition at 2AM",
-      "year": 2017,
-      "fact": "I can play the ukelele",
-      "image": "Annapareddy,Kavya.jpg"
-    },
-    "Jenny Tran": {
-      "name": "Jenny Tran",
-      "subteam": "Graphics",
-      "memory": "Creating my first project and having positive feedback",
-      "year": 2018,
-      "fact": "I can do the splits",
-      "image": "Tran,Jenny.jpg"
     },
     "Carson Min": {
       "name": "Carson Min",
       "subteam": "Build",
-      "memory": "Going to Worlds 2017",
-      "year": 2017,
-      "fact": "I used to be on the Electronics Team",
+      "memory": "Going to Worlds 2 years in a row",
+      "year": 2018,
+      "fact": "I had a brother on the team",
       "image": "Min,Carson.jpg"
-    },
-    "Trevor Lew": {
-      "name": "Trevor Lew",
-      "subteam": "Build",
-      "leader": "Build Lead",
-      "memory": "World's 2018",
-      "year": 2017,
-      "fact": "2 of my brothers were on the team in the past",
-      "image": "Lew,Trevor.jpg"
-    },
-    "Naomi Desautels": {
-      "name": "Naomi Desautels",
-      "subteam": "Graphics",
-      "memory": "Volunteering for the Summer Camps",
-      "year": 2018,
-      "fact": "I usually celebrate my birthday at STEAM Expo, as it is usually the same day!",
-      "image": "Desautels,Naomi.jpg"
-    },
-    "Kaihil Patel": {
-      "name": "Kaihil Patel",
-      "subteam": "Build",
-      "memory": "Having fun with friends at District Champs",
-      "year": 2017,
-      "fact": "The Dallas Cowboys are superior",
-      "image": "Patel,Kaihil.jpg"
-    },
-    "Adeel Aziz": {
-      "name": "Adeel Aziz",
-      "subteam": "Build",
-      "memory": "World Championships ",
-      "year": 2017,
-      "fact": "I’m Apple Certified",
-      "image": "Aziz,Adeel.jpg"
-    },
-    "Pushp Patel": {
-      "name": "Pushp Patel",
-      "subteam": "Build",
-      "memory": "CAD Training",
-      "year": 2018,
-      "fact": "I can hit a sixer in cricket.",
-      "image": "Patel,Pushp.jpg"
-    },
-    "Grace Henderson": {
-      "name": "Grace Henderson",
-      "subteam": "Outreach",
-      "leader": "STEAM Expo Lead",
-      "memory": "Winning Chairman's at District Champs",
-      "year": 2017,
-      "fact": "My birthday is 03/03/03",
-      "image": "Henderson,Grace.jpg"
-    },
-    "Ben Jacob": {
-      "name": "Ben Jacob",
-      "subteam": "Build",
-      "memory": "Connecting with friends",
-      "year": 2018,
-      "fact": "I played the drums",
-      "image": "Jacob,Benjamin.jpg"
-    },
-    "Weesam Semaan": {
-      "name": "Weesam Semaan",
-      "subteam": "Build",
-      "memory": "IROC",
-      "year": 2018,
-      "fact": "I enjoy CAD",
-      "image": "Semaan,Weesam.jpg"
-    },
-    "JV Corsino": {
-      "name": "JV Corsino",
-      "subteam": "Build",
-      "memory": "Distircts",
-      "year": 2017,
-      "fact": "I like betta fish and racing quadcopters",
-      "image": "Corsino,Juan.jpg"
-    },
-    "Tam Vu": {
-      "name": "Tam Vu",
-      "subteam": "Graphics",
-      "leader": "Graphics Lead",
-      "memory": "Seeing my avatar on the giant score board for the first time.",
-      "year": 2017,
-      "fact": "I can bend my thumb all the way backwards",
-      "image": "Vu,Tam.jpg"
-    },
-    "Laura Kun": {
-      "name": "Laura Kun",
-      "subteam": "Outreach",
-      "memory": "Tear down at IROC",
-      "year": 2018,
-      "fact": "I'm afraid of spoons.",
-      "image": "Kun,Laura.jpg"
-    },
-    "Sadie Sahlberg": {
-      "name": "Sadie Sahlberg",
-      "subteam": "Outreach",
-      "memory": "2018 IROC competition",
-      "year": 2018,
-      "fact": "I can juggle",
-      "image": "Sahlberg,Sadie.jpg"
-    },
-    "Tyler Lynch": {
-      "name": "Tyler Lynch",
-      "subteam": "Outreach",
-      "memory": "The flying lawnmower during women in aviation.",
-      "year": 2018,
-      "fact": "I pole vault"
-    },
-    "Akshita Ramesh": {
-      "name": "Akshita Ramesh",
-      "subteam": "Outreach",
-      "memory": "IROC 2018",
-      "year": 2018,
-      "fact": "I am left handed ",
-      "image": "Ramesh,Akshita.jpg"
-    },
-    "Ethan Ulrich": {
-      "name": "Ethan Ulrich",
-      "subteam": "Outreach",
-      "memory": "Helping the kids with their FFL Robots.",
-      "year": 2018,
-      "fact": "I am ambidextrous "
-    },
-    "Ilene Hong": {
-      "name": "Ilene Hong",
-      "subteam": "Outreach",
-      "memory": "Tearing down/cleaning after IROC",
-      "year": 2018,
-      "fact": "I am fluent in Korean.",
-      "image": "Hong,Ilene.jpg"
-    },
-    "Kyle Jarrett": {
-      "name": "Kyle Jarrett",
-      "subteam": "Build",
-      "memory": "When we won District Championships last year",
-      "year": 2015,
-      "fact": "I am an Eagle Scout",
-      "image": "Jarrett,Kyle.jpg"
-    },
-    "Kate Balint": {
-      "name": "Kate Balint",
-      "subteam": "Programming",
-      "memory": "Winning our first competition of the 2018 season",
-      "year": 2017,
-      "fact": "I have all the lyrics to Hamilton, Dear Evan Hansen, Be More Chill and Newsies memorized",
-      "image": "Balint,Kate.jpg"
-    },
-    "Matthew Reheuser": {
-      "name": "Matthew Reheuser",
-      "subteam": "Build",
-      "memory": "The friends I have made through robotics",
-      "year": 2017,
-      "fact": "I have a pet turtle",
-      "image": "Reheuser,Matthew.jpg"
     },
     "Aditi Shastri": {
       "name": "Aditi Shastri",
       "subteam": "Build",
-      "memory": "IROC Setup",
+      "memory": "Final Match at Bethesda 2018",
       "year": 2018,
-      "fact": "I dance.",
+      "fact": "I am a dancer",
       "image": "Shastri,Aditi.jpg"
     },
-    "Iain Mischel": {
-      "name": "Iain Mischel",
+    "Rachel Kim": {
+      "name": "Rachel Kim",
+      "subteam": "Sponsorship",
+      "memory": "IROC",
+      "year": 2019,
+      "fact": "I like to play volleyball ",
+      "image": "Kim,Rachel.jpg"
+    },
+    "Chase Miller": {
+      "name": "Chase Miller",
       "subteam": "Build",
-      "memory": "Hanging out with the seniors in the gym at worlds",
-      "year": 2017,
-      "fact": "I can play guitar",
-      "image": "Mischel,Iain.jpg"
+      "memory": "N/A",
+      "year": 2019,
+      "fact": "I can fix just about anything in a car. ",
+      "image": "Miller,Chase.jpg"
     },
-    "Nathan Burks": {
-      "name": "Nathan Burks",
-      "subteam": "3D Printing",
-      "leader": "3D Printing Lead",
-      "memory": "Worlds",
-      "year": 2015,
-      "fact": "I practice fencing.",
-      "image": "Burks,Nathan.jpg"
-    },
-    "John Anselmo": {
-      "name": "John Anselmo",
+    "John Zoscak": {
+      "name": "John Zoscak",
       "subteam": "Programming",
-      "memory": "Homecoming of this year",
-      "year": 2018,
-      "fact": "Python was the first programming language I worked with.",
-      "image": "Anselmo,John.jpg"
+      "memory": "Having a campfire with my friends.",
+      "year": 2019,
+      "fact": "I play the Viola ",
+      "image": "Zoscak,John.png"
     },
-    "Trent Marchand": {
-      "name": "Trent Marchand",
-      "subteam": "Outreach",
-      "memory": "Setting up for the competitions",
+    "Naomi Wall": {
+      "name": "Naomi Wall",
+      "subteam": "Graphics",
+      "memory": "Traveling to Florida to watch a rocket launch",
+      "year": 2019,
+      "fact": "My favorite candy is almond joy ",
+      "image": "Wall,Naomi.jpg"
+    },
+    "Gleb Babahov": {
+      "name": "Gleb Babahov",
+      "subteam": "Programming",
+      "memory": "Rumble in the Roads 2019 finals climb",
       "year": 2018,
-      "fact": "I’ve had a pet shark and jellyfish"
+      "fact": "I'm fluent in Russian!",
+      "image": "Babahov,Gleb.png"
+    },
+    "Akshita Ramesh": {
+      "name": "Akshita Ramesh",
+      "subteam": "Electronics",
+      "memory": "Being a student ambassador, meeting new people, and cheering for teams at Worlds 2019",
+      "year": 2018,
+      "fact": "I am also on ILITE's FTC Team 1885 as well as this team, and I do business on FTC",
+      "image": "Ramesh,Akshita.jpg"
+    },
+    "Anissa Patel": {
+      "name": "Anissa Patel",
+      "subteam": "Outreach",
+      "memory": "Going to Detroit for World Championships 2 years ago with my brother",
+      "year": 2019,
+      "fact": "I have been to 10 different countries",
+      "image": "Patel,Anissa.png"
+    },
+    "Aditi Mukul": {
+      "name": "Aditi Mukul",
+      "subteam": "Build",
+      "memory": "IROC",
+      "year": 2019,
+      "fact": "I have given an alligator a pat on the back.",
+      "image": "Mukul,Aditi.jpg"
+    },
+    "Anika Mukul": {
+      "name": "Anika Mukul",
+      "subteam": "Build",
+      "memory": "IROC",
+      "year": 2019,
+      "fact": "I used to have a pet worm. ",
+      "image": "Mukul,Anika.jpg"
+    },
+    "Jenny Tran": {
+      "name": "Jenny Tran",
+      "subteam": "Graphics",
+      "memory": "The Christmas Party white elephant with the whole team",
+      "year": 2018,
+      "fact": "I can do the splits :D",
+      "image": "Tran,Jenny.jpg"
+    },
+    "Connor Balint": {
+      "name": "Connor Balint",
+      "subteam": "3D Printing",
+      "memory": "Joining the team",
+      "year": 2019,
+      "fact": "I can very slightly wiggle my ears",
+      "image": "Balint,Connor.jpg"
+    },
+    "Isabel Lee": {
+      "name": "Isabel Lee",
+      "subteam": "Graphics",
+      "memory": "Traveling across the US",
+      "year": 2019,
+      "fact": "I have an identical twin sister ",
+      "image": "Lee,Isabel.jpg"
+    },
+    "Nikolai Bravo": {
+      "name": "Nikolai Bravo",
+      "subteam": "Graphics",
+      "memory": "My favorite memory was IROC.",
+      "year": 2019,
+      "fact": "I was born in Denmark",
+      "image": "Bravo,Nikolai.jpg"
+    },
+    "Aaron Estrellado": {
+      "name": "Aaron Estrellado",
+      "subteam": "Graphics",
+      "memory": "My favorite memory was IROC.",
+      "year": 2019,
+      "fact": "I was born in Stuttgart, Germany.",
+      "image": "Estrellado,Aaron.jpg"
+    },
+    "Naomi Desautels ": {
+      "name": "Naomi Desautels ",
+      "subteam": "Graphics",
+      "memory": "The double climb Arya did at Rumble in the roads",
+      "year": 2018,
+      "fact": "My spirit fruit is a Dragonfruit!",
+      "image": "Desautels,Naomi.jpg"
+    },
+    "Benjamin Jacob": {
+      "name": "Benjamin Jacob",
+      "subteam": "Build",
+      "memory": "Visiting the Grand Canyon ",
+      "year": 2018,
+      "fact": "I like cars and can bench 225.",
+      "image": "Jacob,Benjamin.jpg"
+    },
+    "James Biser": {
+      "name": "James Biser",
+      "subteam": "Programming",
+      "memory": "doing Firebase in Swift",
+      "year": 2019,
+      "fact": "I have an App on the AppStore",
+      "image": "Biser,James.png"
+    },
+    "Kate Balint": {
+      "name": "Kate Balint",
+      "subteam": "Programming",
+      "memory": "Cheering in the stands with the rest of the team at 2019 Worlds",
+      "year": 2017,
+      "fact": "As well as a robotics kid, I'm also a history buff and a huge theatre nerd",
+      "image": "Balint,Katie.png"
     },
     "Lily Khochareun": {
       "name": "Lily Khochareun",
       "subteam": "Build",
       "memory": "Worlds",
       "year": 2017,
-      "fact": "I play 3 instruments.",
+      "fact": "I like playing the violin.",
       "image": "Khochareun,Lily.jpg"
     },
-    "Derek Viator": {
-      "name": "Derek Viator",
+    "Rayan Khan": {
+      "name": "Rayan Khan",
+      "subteam": "Programming",
+      "memory": "Going on Worlds Largest Cruise Ship.",
+      "year": 2019,
+      "fact": "This year made me love robotics.",
+      "image": "Khan,Rayan.png"
+    },
+    "Angelina Seehusen": {
+      "name": "Angelina Seehusen",
+      "subteam": "Graphics",
+      "memory": "IROC 2019",
+      "year": 2019,
+      "fact": "My spirit fruit is an orange.",
+      "image": "Seehusen,Angelina.jpg"
+    },
+    "Anoushka Chintada": {
+      "name": "Anoushka Chintada",
+      "subteam": "Build",
+      "memory": "Getting to know people on the team!",
+      "year": 2019,
+      "fact": "I performed at the Kennedy Center for dance.",
+      "image": "Chintada,Anoushka.jpg"
+    },
+    "James Speier": {
+      "name": "James Speier",
+      "subteam": "Build",
+      "memory": "Flywheel prototyping ",
+      "year": 2019,
+      "fact": "I’ve raised 5 kittens since birth.",
+      "image": "Speier,James.jpg"
+    },
+    "Faith Kim": {
+      "name": "Faith Kim",
       "subteam": "Sponsorship",
-      "leader": "Sponsorship Co-Lead",
-      "memory": "Being the new big bod.",
-      "year": 2018,
-      "fact": "I play an unhealthy amount of League of Legends.",
-      "image": "Viator,Derek.jpg"
+      "memory": "Setting up for IROC",
+      "year": 2019,
+      "fact": "I’m a lefty :)",
+      "image": "Kim,Faith.png"
+    },
+    "Eunice Kim": {
+      "name": "Eunice Kim",
+      "subteam": "Outreach",
+      "memory": "My favorite memory was IROC setup ",
+      "year": 2019,
+      "fact": "I used to have a pet bunny ",
+      "image": "Kim,Eunice.png"
     },
     "Michael Haddadin": {
       "name": "Michael Haddadin",
       "subteam": "Electronics",
-      "memory": "Kickoff 2019",
+      "memory": "Going to FIRST Championship in Detroit.",
       "year": 2018,
-      "fact": "I've been playing soccer for 10 years.",
-      "image": "Haddadin,Michael.jpg"
+      "fact": "I love driving!!",
+      "image": "Haddadin,Michael.png"
     },
-    "Gleb Babahov": {
-      "name": "Gleb Babahov",
-      "subteam": "Programming",
-      "memory": "Hanging out at giant after schol",
-      "year": 2018,
-      "fact": "I was born in Kyrgyzstan",
-      "image": "Babahov,Gleb.jpg"
-    },
-    "Srinitya Allam": {
-      "name": "Srinitya Allam",
+    "Daniel Haddadin": {
+      "name": "Daniel Haddadin",
       "subteam": "Outreach",
-      "memory": "Scorekeeping at 2017 IROC",
-      "year": 2017,
-      "fact": "I have a black belt in Tae Kwon Do.",
-      "image": "Allam,Srinitya.jpg"
+      "memory": "The trip and time spent in The Dead and Red Sea.",
+      "year": 2019,
+      "fact": "I play 3 sports!",
+      "image": "Haddadin,Daniel.png"
     },
-    "Catie Gallagher": {
-      "name": "Catie Gallagher",
-      "subteam": "Outreach",
-      "memory": "Going into Washington D.C. with a bunch of friends and doing random things and having fun.",
+    "Sadie Sahlberg ": {
+      "name": "Sadie Sahlberg ",
+      "subteam": "Build",
+      "memory": "The IROC competition where I got to introduce new members to FRC and what it means to be on the team",
       "year": 2018,
-      "fact": "I've been doing Irish step dancing for 10 years.",
-      "image": "Gallagher,Catie.jpg"
+      "fact": "I’ve done robotics since 3rd grade",
+      "image": "Sahlberg,Sadie.jpg"
     },
-    "Nathaniel Chong": {
-      "name": "Nathaniel Chong",
-      "subteam": "Programming",
-      "memory": "Eating food.",
-      "year": 2017,
-      "fact": "I am the acting Thread Manager",
-      "image": "Chong,Nathan.jpg"
-    },
-    "Joseph Chang": {
-      "name": "Joseph Chang",
-      "subteam": "Programming",
-      "memory": "Eating food.",
+    "Pushp Patel": {
+      "name": "Pushp Patel",
+      "subteam": "Build",
+      "memory": "CNCing for countless hours during build season.",
       "year": 2018,
-      "fact": "I am the Dependency Manager",
-      "image": "Chang,Joseph.jpg"
+      "fact": "I’m proud to have been the Ultimate Scouter.",
+      "image": "Patel,Pushp.jpg"
     },
     "Faris Syed": {
       "name": "Faris Syed",
       "subteam": "Programming",
-      "memory": "Eating food.",
+      "memory": "Seeing the Burj Khalifa light show during New Year.",
       "year": 2018,
-      "fact": "I like eating food.",
-      "image": "Syed,Faris.jpg"
-    },
-    "Chrissi Taylor": {
-      "name": "Chrissi Taylor",
-      "subteam": "Sponsorship",
-      "leader": "Sponsorship co-lead",
-      "memory": "Going to the Association of Old Crows to meet other businesses in technology fields. ",
-      "year": 2018,
-      "fact": "I am left handed!",
-      "image": "Taylor,Chrissi.jpg"
-    },
-    "Urvi Pisal": {
-      "name": "Urvi Pisal",
-      "subteam": "Web",
-      "memory": "When Tropical Smoothie came to the STEAM expo.",
-      "year": 2017,
-      "fact": "I like animals",
-      "image": "Pisal,Urvi.jpg"
-    },
-    "Harry Davidson": {
-      "name": "Harry Davidson",
-      "subteam": "3D Printing",
-      "memory": "N/A",
-      "year": 2017,
-      "fact": "N/A",
-      "image": "Davidson,Harry.jpg"
-    },
-    "Aiden Lee": {
-      "name": "Aiden Lee",
-      "subteam": "Graphics",
-      "memory": "N/A",
-      "year": 2018,
-      "fact": "N/A"
+      "fact": "I am going to be majoring in Computer Science!",
+      "image": "Syed,Faris.png"
     }
   }
 }
