@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import Googlemap from '../../IconComponents/Googlemap';
 import Link from 'gatsby-link';
 
 class Events extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     const { name, eventLink, date, image } = this.props;
@@ -24,7 +20,7 @@ class Events extends Component {
         </Link>
         </li>
     };
-    const path = image == 'images/RoverRuckus.jpg' ? 'event__image event__secondImage' : 'event__image';
+    const path = image === 'images/RoverRuckus.jpg' ? 'event__image event__secondImage' : 'event__image';
     return (
       <div className="event">
         <div className="event__image-holder">

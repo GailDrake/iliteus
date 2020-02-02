@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 const Sponsor = ({ children, large, image, url, name }) => {
   const renderedImage = require(`../../assets/images/sponsors/${image}`);
