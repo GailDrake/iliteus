@@ -29,7 +29,7 @@ class SideMenu extends Component {
     return (
       <div className="sidemenu" >
         <span className="sidemenu__burger">
-          <div onClick={() => this.openSideMenu()}>
+          <div onClick={() => this.openSideMenu()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
             <svg width="30" height="30">
               <path d="M0,5 30,5" stroke="#fff" strokeWidth="5" />
               <path d="M0,14 30,14" stroke="#fff" strokeWidth="5" />
@@ -38,9 +38,9 @@ class SideMenu extends Component {
           </div>
         </span>
 
-        <div className={`sidemenu__background ${backgroundFade}`} onClick={() => this.closeSideMenu()}></div>
+        <div className={`sidemenu__background ${backgroundFade}`} onClick={() => this.closeSideMenu()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}></div>
         <div className={`sidemenu__nav ${sidemenuSlide}`}>
-          <span className="sidemenu__close" onClick={() => this.closeSideMenu()}>&times;</span>
+          <span className="sidemenu__close" onClick={() => this.closeSideMenu()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>&times;</span>
           <div className="sidemenu__list">
             <p className="sidemenu__heading"><span>About ILITE</span></p>
             <div className="sidemenu__sublinks">

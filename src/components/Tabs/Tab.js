@@ -8,6 +8,12 @@ export const Tab = ({ name, isActive, tabIndex, onClick }) => {
           event.preventDefault();
           onClick(tabIndex);
         }}
+        onKeyPress={(event) => {
+          event.preventDefault();
+          onClick(tabIndex);
+        }}
+        role="button"
+        tabIndex={0}
       >
         {name}
       </div>
