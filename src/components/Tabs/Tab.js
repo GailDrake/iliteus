@@ -7,7 +7,8 @@ export const Tab = ({ name, isActive, tabIndex, onClick }) => {
         onClick={(event) => {
           event.preventDefault();
           onClick(tabIndex);
-        }}>
+        }}
+      >
         {name}
       </a>
     </li>

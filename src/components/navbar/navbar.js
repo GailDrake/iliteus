@@ -95,6 +95,7 @@ class Navbar extends Component {
           to="/"
           className="navigation__logo"
           onClick={() => this.closeAllDropdowns()}
+          onKeyPress={this.handleKeyPress}
         />
         <ul className="navigation__list">
           <li onClick={() => this.closeAllDropdowns()}>
