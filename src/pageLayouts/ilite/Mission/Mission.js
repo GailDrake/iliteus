@@ -56,14 +56,15 @@ const Mission = props => {
             <div className="mission__stay">
               <img
                 className="mission__image mission__stay"
+                alt=""
                 src={haymarketday}
               />
             </div>
             <div className="mission__remove">
-              <img className="mission__image mission__remove" src={stemexpo1} />
+              <img className="mission__image mission__remove" src={stemexpo1} alt="" />
             </div>
             <div className="mission__remove">
-              <img className="mission__image mission__remove" src={teddy} />
+              <img className="mission__image mission__remove" src={teddy} alt="" />
             </div>
           </div>
           <p className="mission__greybox">
@@ -83,13 +84,13 @@ const Mission = props => {
           <h1 className="mission__subheader">Our Vision:</h1>
           <div className="mission__image-container">
             <div className="mission__remove">
-              <img className="mission__image mission__remove" src={books} />
+              <img className="mission__image mission__remove" src={books} alt="" />
             </div>
             <div className="mission__stay">
-              <img className="mission__image mission__stay" src={stemexpo2} />
+              <img className="mission__image mission__stay" src={stemexpo2} alt="" />
             </div>
             <div className="mission__remove">
-              <img className="mission__image mission__remove" src={ussstem} />
+              <img className="mission__image mission__remove" src={ussstem} alt="" />
             </div>
           </div>
           <p className="mission__greybox">
@@ -107,14 +108,15 @@ const Mission = props => {
           <h1 className="mission__subheader">ILITE-ism:</h1>
           <div className="mission__image-container">
             <div className="mission__remove">
-              <img className="mission__image mission__remove" src={stemexpo3} />
+              <img className="mission__image mission__remove" src={stemexpo3} alt="" />
             </div>
             <div className="mission__stay">
-              <img className="mission__image mission__stay" src={gather} />
+              <img className="mission__image mission__stay" src={gather} alt="" />
             </div>
             <div className="mission__remove">
               <img
                 className="mission__image mission__remove"
+                alt=""
                 src={experiment}
               />
             </div>
@@ -138,13 +140,13 @@ const Mission = props => {
           <p className="mission__text"></p>
           <div className="mission__image-container">
             <div className="mission__remove">
-              <img className="mission__image mission__remove" src={trophy} />
+              <img className="mission__image mission__remove" src={trophy} alt="" />
             </div>
             <div className="mission__remove">
-              <img className="mission__image mission__remove" src={pits} />
+              <img className="mission__image mission__remove" src={pits} alt="" />
             </div>
             <div className="mission__stay">
-              <img className="mission__image mission__stay" src={history} />
+              <img className="mission__image mission__stay" src={history} alt="" />
             </div>
           </div>
           <p className="mission__text">

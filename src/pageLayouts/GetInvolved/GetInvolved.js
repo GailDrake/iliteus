@@ -183,6 +183,7 @@ const GetInvolved = props => {
             <div className="get-involved__food-container">
               <img
                 src={require("../../assets/images/frc/fuel__potluck.jpg")}
+                alt="Food"
                 className="get-involved__img"
               />
               <p>

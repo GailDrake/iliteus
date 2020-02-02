@@ -7,7 +7,7 @@ const Members = ({ name, year, fact, memory, image, leader, mentor, subteam, old
   return (
     <div className="member">
       <div className={`member__img ${oldPhoto} ${!image ? "noImage" : ""}`}>
-        <img src={image || userIcon} alt="Member Image" />
+        <img src={image || userIcon} alt="Member" />
       </div>
       <div className="member__content">
         <h3 className="member__title">{name}</h3>

@@ -51,6 +51,7 @@ const History = () => {
 
               <img
                 src={require("../../../assets/images/outreach/chairmans/history_2020_banner.jpg")}
+                alt="2020 Banner"
                 className="history__image"
               />
 
@@ -98,6 +99,7 @@ const History = () => {
 
               <img
                 src={require("../../../assets/images/outreach/chairmans/history_2019_banner.jpg")}
+                alt="2019 Banner"
                 className="history__image"
               />
 
@@ -159,6 +161,7 @@ const History = () => {
 
               <img
                 src={require("../../../assets/images/outreach/chairmans/history_2018_banner.jpg")}
+                alt="2018 Banner"
                 className="history__image"
               />
 
@@ -225,6 +228,7 @@ const History = () => {
 
               <img
                 src={require("../../../assets/images/outreach/chairmans/history_2017_banner.jpg")}
+                alt="2017 Banner"
                 className="history__image"
               />
 
@@ -296,6 +300,7 @@ const History = () => {
 
               <img
                 src={require("../../../assets/images/outreach/chairmans/history_2016_banner.jpg")}
+                alt="2016 Banner"
                 className="history__image"
               />
 
@@ -350,6 +355,7 @@ const History = () => {
 
               <img
                 src={require("../../../assets/images/outreach/chairmans/history_2015_banner.jpg")}
+                alt="2015 Banner"
                 className="history__image"
               />
 

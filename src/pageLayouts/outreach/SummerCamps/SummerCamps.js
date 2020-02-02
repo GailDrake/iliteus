@@ -200,6 +200,7 @@ const SummerCamps = props => {
             </p>
             <img
               src={require("../../../assets/images/outreach/summercamps/lego1.jpg")}
+              alt="EV3 Robot"
             />
           </div>
           <div className="summercamps__box">
@@ -217,6 +218,7 @@ const SummerCamps = props => {
             </p>
             <img
               src={require("../../../assets/images/outreach/summercamps/lego2.jpg")}
+              alt="EV3 Sensors"
             />
           </div>
           <div className="summercamps__box">
@@ -234,6 +236,7 @@ const SummerCamps = props => {
             </p>
             <img
               src={require("../../../assets/images/outreach/summercamps/stem1.jpg")}
+              alt="Matter Hackers Experiment"
             />
           </div>
           <div className="summercamps__box">
@@ -250,6 +253,7 @@ const SummerCamps = props => {
             </p>
             <img
               src={require("../../../assets/images/outreach/summercamps/stem2.jpg")}
+              alt="Imagination Infusion Experiment"
             />
           </div>
           <div className="summercamps__box">
@@ -264,6 +268,7 @@ const SummerCamps = props => {
             </p>
             <img
               src={require("../../../assets/images/outreach/summercamps/cyber.png")}
+              alt="Cyber Patriot Logo"
             />
           </div>
           <div className="summercamps__box">
@@ -277,6 +282,7 @@ const SummerCamps = props => {
             </p>
             <img
               src={require("../../../assets/images/outreach/summercamps/girls.png")}
+              alt="Girls in STEM Logo"
             />
           </div>
           <div className="summercamps__box">
@@ -294,6 +300,7 @@ const SummerCamps = props => {
             </p>
             <img
               src={require("../../../assets/images/outreach/summercamps/boe.png")}
+              alt="Boe-Bot Robot"
             />
           </div>
           <div className="summercamps__box">
@@ -307,6 +314,7 @@ const SummerCamps = props => {
             </p>
             <img
               src={require("../../../assets/images/outreach/summercamps/programming.jpg")}
+              alt="Scratch Programming"
             />
           </div>
         </div>

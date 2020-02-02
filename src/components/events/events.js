@@ -28,7 +28,7 @@ class Events extends Component {
     return (
       <div className="event">
         <div className="event__image-holder">
-          <img className={path} src={require(`../../assets/${image}`)} />
+          <img className={path} src={require(`../../assets/${image}`)} alt="Event" />
         </div>
         <div className="event__details">
           <h3 className="event__header">{name}</h3>

@@ -2,9 +2,6 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 
 class Dropdown extends Component {
-  constructor(props) {
-    super(props)
-  }
 
   render() {
     const title = this.props.title
