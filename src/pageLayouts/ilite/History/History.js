@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 
 import LayoutWrapper from "../../../components/LayoutWrapper"
 import Container from "../../../templates/container"
@@ -26,6 +25,7 @@ const History = () => {
                 </h1>
                 <div className="history__embed">
                   <iframe
+                    title="Infinite Recharge Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/gmiYWTmFRVE"
@@ -51,6 +51,7 @@ const History = () => {
 
               <img
                 src={require("../../../assets/images/outreach/chairmans/history_2020_banner.jpg")}
+                alt="2020 Banner"
                 className="history__image"
               />
 
@@ -64,6 +65,7 @@ const History = () => {
                 </h1>
                 <div className="history__embed">
                   <iframe
+                    title="Destination: Deep Space Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/Mew6G_og-PI"
@@ -98,6 +100,7 @@ const History = () => {
 
               <img
                 src={require("../../../assets/images/outreach/chairmans/history_2019_banner.jpg")}
+                alt="2019 Banner"
                 className="history__image"
               />
 
@@ -109,6 +112,7 @@ const History = () => {
                 <h1 className="history__event-header">2018 - Power Up</h1>
                 <div className="history__embed">
                   <iframe
+                    title="Power Up Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/HZbdwYiCY74"
@@ -159,6 +163,7 @@ const History = () => {
 
               <img
                 src={require("../../../assets/images/outreach/chairmans/history_2018_banner.jpg")}
+                alt="2018 Banner"
                 className="history__image"
               />
 
@@ -170,6 +175,7 @@ const History = () => {
                 <h1 className="history__event-header">2017 - Steamworks</h1>
                 <div className="history__embed">
                   <iframe
+                    title="Steamworks Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/EMiNmJW7enI"
@@ -225,6 +231,7 @@ const History = () => {
 
               <img
                 src={require("../../../assets/images/outreach/chairmans/history_2017_banner.jpg")}
+                alt="2017 Banner"
                 className="history__image"
               />
 
@@ -236,6 +243,7 @@ const History = () => {
                 <h1 className="history__event-header">2016 - Stronghold</h1>
                 <div className="history__embed">
                   <iframe
+                    title="Stronghold Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/VqOKzoHJDjA"
@@ -296,6 +304,7 @@ const History = () => {
 
               <img
                 src={require("../../../assets/images/outreach/chairmans/history_2016_banner.jpg")}
+                alt="2016 Banner"
                 className="history__image"
               />
 
@@ -307,6 +316,7 @@ const History = () => {
                 <h1 className="history__event-header">2015 - Recycle Rush</h1>
                 <div className="history__embed">
                   <iframe
+                    title="Recycle Rush Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/W6UYFKNGHJ8"
@@ -350,6 +360,7 @@ const History = () => {
 
               <img
                 src={require("../../../assets/images/outreach/chairmans/history_2015_banner.jpg")}
+                alt="2015 Banner"
                 className="history__image"
               />
 
@@ -361,6 +372,7 @@ const History = () => {
                 <h1 className="history__event-header">2014 - Aerial Assist</h1>
                 <div className="history__embed">
                   <iframe
+                    title="Aerial Assist Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/oxp4dkMQ1Vo"
@@ -412,6 +424,7 @@ const History = () => {
                 </h1>
                 <div className="history__embed">
                   <iframe
+                    title="Ultimate Ascent Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/wa5MGEZNrf0"
@@ -451,6 +464,7 @@ const History = () => {
                 <h1 className="history__event-header">2012 - Rebound Rumble</h1>
                 <div className="history__embed">
                   <iframe
+                    title="Rebound Rumble Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/-bRXOTLQvoE"
@@ -490,6 +504,7 @@ const History = () => {
                 <h1 className="history__event-header">2011 - Logomotion</h1>
                 <div className="history__embed">
                   <iframe
+                    title="Logomotion Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/aH_9QHZpsfs"
@@ -530,6 +545,7 @@ const History = () => {
                 <h1 className="history__event-header">2010 - Breakaway</h1>
                 <div className="history__embed">
                   <iframe
+                    title="Breakaway Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/Bb1P43OSfOU"
@@ -574,6 +590,7 @@ const History = () => {
                 <h1 className="history__event-header">2009 - Lunacy</h1>
                 <div className="history__embed">
                   <iframe
+                    title="Lunacy Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/nEh3Wzd1jDI"
@@ -609,6 +626,7 @@ const History = () => {
                 <h1 className="history__event-header">2008 - Overdrive</h1>
                 <div className="history__embed">
                   <iframe
+                    title="Overdrive Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/D5oL7aLH0T4"
@@ -647,6 +665,7 @@ const History = () => {
                 <h1 className="history__event-header">2007 - Rack n' Roll</h1>
                 <div className="history__embed">
                   <iframe
+                    title="Rack n' Roll Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/khTGSKvDyS4"
@@ -686,6 +705,7 @@ const History = () => {
                 <h1 className="history__event-header">2006 - Aim High</h1>
                 <div className="history__embed">
                   <iframe
+                    title="Aim High Video"
                     width="100%"
                     height="315"
                     src="https://www.youtube.com/embed/1Vuwjse90AA"

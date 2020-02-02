@@ -24,7 +24,7 @@ const HostedEvents = () => (
             <div>
               <img
                 src={require("../../../assets/images/logos/IROC_Logo.jpg")}
-                alt=""
+                alt="IROC Logo"
                 style={{ height: "190px" }}
               />
             </div>
@@ -57,7 +57,7 @@ const HostedEvents = () => (
             <div>
               <img
                 src={require("../../../assets/images/outreach/steamexpo/expo.jpg")}
-                alt=""
+                alt="Steam Expo"
               />
             </div>
             <div>
@@ -90,7 +90,7 @@ const HostedEvents = () => (
             <div>
               <img
                 src={require("../../../assets/images/logos/infinite-recharge.png")}
-                alt=""
+                alt="Infinite Recharge Logo"
               />
             </div>
             <div>
@@ -127,7 +127,7 @@ const HostedEvents = () => (
             <div>
               <img
                 src={require("../../../assets/images/outreach/fll11.jpg")}
-                alt=""
+                alt="Summer Camps"
               />
             </div>
             <div>

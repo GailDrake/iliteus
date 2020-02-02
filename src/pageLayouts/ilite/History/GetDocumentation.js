@@ -19,7 +19,7 @@ const GetDocumentation = (year) => {
 
 function getEvents(year) {
   return documentation.map(event => {
-    if (event.year == year) {
+    if (event.year === year) {
       return (
         <tr>
           <td>{event.eventName}</td>
@@ -30,13 +30,16 @@ function getEvents(year) {
         </tr>
       );
     }
+    else {
+      return null;
+    }
   });
 }
 
 function getLinks(links) {
   return links.map(link => {
     return (
-      <a href={link.linkURL} target="_blank" className="history__documentation__link">{link.linkName}</a>
+      <a href={link.linkURL} target="_blank" rel="noopener noreferrer" className="history__documentation__link">{link.linkName}</a>
     );
   });
 }

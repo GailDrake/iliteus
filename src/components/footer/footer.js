@@ -20,7 +20,7 @@ const Footer = () => (
         <a
           className="footer__link"
           href="https://www.google.com/maps/place/ILITE+Robotics/@38.8268178,-77.663642,12.57z/data=!4m5!3m4!1s0x89b668950b37d0bb:0x94045c6b6225ce3c!8m2!3d38.8453222!4d-77.6301669"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           Map &amp; Directions
         </a>
@@ -39,7 +39,7 @@ const Footer = () => (
         <a
           className="footer__social"
           href="https://www.facebook.com/iliterobotics/"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <i className="fa fa-facebook">
             <Facebook fill="#F3FDFF" />
@@ -48,7 +48,7 @@ const Footer = () => (
         <a
           className="footer__social"
           href="https://www.twitter.com/team1885"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <i className="fa fa-twitter">
             <Twitter fill="#F3FDFF" />
@@ -57,7 +57,7 @@ const Footer = () => (
         <a
           className="footer__social"
           href="https://www.youtube.com/channel/UCCWs22DHGwRloB613zOJ9UA"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <i className="fa fa-youtube">
             <Youtube fill="#F3FDFF" />
@@ -66,7 +66,7 @@ const Footer = () => (
         <a
           className="footer__social"
           href="https://www.instagram.com/team1885"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
         >
           <i className="fa fa-instagram">
             <Instagram fill="#F3FDFF" />

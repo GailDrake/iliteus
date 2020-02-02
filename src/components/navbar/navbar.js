@@ -75,7 +75,6 @@ class Navbar extends Component {
   }
 
   render() {
-    console.log(this.state.iliteDropdown + " " + this.state.outreachDropdown)
     const backgroundOpen =
       this.state.iliteDropdown || this.state.outreachDropdown
         ? "dropdown__background--open"
@@ -86,48 +85,63 @@ class Navbar extends Component {
         <div
           className={`dropdown__background--main ${backgroundOpen}`}
           onClick={() => this.closeAllDropdowns()}
+          role="button"
+          tabIndex={0}
+          onKeyPress={this.handleKeyPress}
         ></div>
         <div
           className={`dropdown__background--nav ${backgroundOpen}`}
           onClick={() => this.closeAllDropdowns()}
+          role="button"
+          tabIndex={0}
+          onKeyPress={this.handleKeyPress}
         ></div>
         <Link
           to="/"
           className="navigation__logo"
           onClick={() => this.closeAllDropdowns()}
+          onKeyPress={this.handleKeyPress}
         />
         <ul className="navigation__list">
-          <li onClick={() => this.closeAllDropdowns()}>
-            <Link
-              to="/getinvolved"
-              activeClassName="navigation--underlined"
-              className="navigation__list-item"
-            >
-              Get Involved
-            </Link>
+          <li>
+            <div onClick={() => this.closeAllDropdowns()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
+              <Link
+                to="/getinvolved"
+                activeClassName="navigation--underlined"
+                className="navigation__list-item"
+              >
+                Get Involved
+              </Link>
+            </div>
           </li>
-          <li onClick={() => this.closeAllDropdowns()}>
-            <Link
-              to="/sponsors"
-              activeClassName="navigation--underlined"
-              className="navigation__list-item"
-            >
-              Sponsors
-            </Link>
+          <li>
+            <div onClick={() => this.closeAllDropdowns()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
+              <Link
+                to="/sponsors"
+                activeClassName="navigation--underlined"
+                className="navigation__list-item"
+              >
+                Sponsors
+              </Link>
+            </div>
           </li>
-          <li onClick={() => this.toggleOutreachDropdown()}>
-            <Dropdown
-              title="Outreach"
-              links={outreachLinks}
-              extended={this.state.outreachDropdown}
-            />
+          <li>
+            <div onClick={() => this.toggleOutreachDropdown()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
+              <Dropdown
+                title="Outreach"
+                links={outreachLinks}
+                extended={this.state.outreachDropdown}
+              />
+            </div>
           </li>
-          <li onClick={() => this.toggleIliteDropdown()}>
-            <Dropdown
-              title="About ILITE"
-              links={iliteLinks}
-              extended={this.state.iliteDropdown}
-            />
+          <li>
+            <div onClick={() => this.toggleIliteDropdown()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
+              <Dropdown
+                title="About ILITE"
+                links={iliteLinks}
+                extended={this.state.iliteDropdown}
+              />
+            </div>
           </li>
         </ul>
         <div className="navigation__sidemenu">

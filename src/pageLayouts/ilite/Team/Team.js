@@ -47,6 +47,7 @@ const Team = ({ teamList }) => {
               </div>
               <img
                 src={require("../../../assets/images/frc/members/Build/Build.jpg")}
+                alt="Build Subteam"
                 className="team__img"
               />
               <p>
@@ -135,6 +136,7 @@ const Team = ({ teamList }) => {
               </div>
               <img
                 src={require("../../../assets/images/frc/members/Electronics/Electronics.jpg")}
+                alt="Electronics Subteam"
                 className="team__img"
               />
               <p>
@@ -213,6 +215,7 @@ const Team = ({ teamList }) => {
               </div>
               <img
                 src={require("../../../assets/images/frc/members/Programming/Pro Team.png")}
+                alt="Programming Subteam"
                 className="team__img"
               />
               <p>
@@ -276,6 +279,7 @@ const Team = ({ teamList }) => {
               </div>
               <img
                 src={require("../../../assets/images/frc/members/Sponsorship/Sponsorship.png")}
+                alt="Sponsorship Subteam"
                 className="team__img"
               />
               <p>
@@ -327,6 +331,7 @@ const Team = ({ teamList }) => {
               </div>
               <img
                 src={require("../../../assets/images/frc/members/Outreach/Outreach.png")}
+                alt="Outreach Subteam"
                 className="team__img"
               />
               <p>
@@ -434,6 +439,7 @@ const Team = ({ teamList }) => {
               </div>
               <img
                 src={require("../../../assets/images/frc/members/Web/Web Team Photo.jpg")}
+                alt="Web Subteam"
                 className="team__img"
               />
               <p>
@@ -504,6 +510,7 @@ const Team = ({ teamList }) => {
               </div>
               <img
                 src={require("../../../assets/images/frc/members/Graphics/Graphics Team.jpg")}
+                alt="Graphics Subteam"
                 className="team__img"
               />
               <p>
@@ -569,6 +576,7 @@ const Team = ({ teamList }) => {
               </div>
               <img
                 src={require("../../../assets/images/frc/members/3D Printing/3DPrinting.jpg")}
+                alt="3D Printing Subteam"
                 className="team__img"
               />
               <p>

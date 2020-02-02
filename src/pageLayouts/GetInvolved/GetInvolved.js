@@ -109,6 +109,7 @@ const GetInvolved = props => {
 
           <div className="get-involved__embed">
             <iframe
+              title="Application Form"
               src="https://docs.google.com/forms/d/e/1FAIpQLSfg_Sj-Qll756OI8xsEGsGt88tlN35RGYYX8tk15tU3ziTLJg/viewform?embedded=true"
               width="640"
               height="640"
@@ -148,7 +149,7 @@ const GetInvolved = props => {
           <p>
             <b>
               Become a sponsor now by{" "}
-              <a href="https://usstem.org" target="_blank">
+              <a href="https://usstem.org" target="_blank" rel="noopener noreferrer">
                 clicking here
               </a>
               . Donate through the US STEM Foundation at the bottom of their
@@ -183,6 +184,7 @@ const GetInvolved = props => {
             <div className="get-involved__food-container">
               <img
                 src={require("../../assets/images/frc/fuel__potluck.jpg")}
+                alt="Food"
                 className="get-involved__img"
               />
               <p>
