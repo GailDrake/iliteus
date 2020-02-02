@@ -148,7 +148,7 @@ const GetInvolved = props => {
           <p>
             <b>
               Become a sponsor now by{" "}
-              <a href="https://usstem.org" target="_blank">
+              <a href="https://usstem.org" target="_blank" rel="noopener noreferrer">
                 clicking here
               </a>
               . Donate through the US STEM Foundation at the bottom of their

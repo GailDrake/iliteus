@@ -36,7 +36,7 @@ function getEvents(year) {
 function getLinks(links) {
   return links.map(link => {
     return (
-      <a href={link.linkURL} target="_blank" className="history__documentation__link">{link.linkName}</a>
+      <a href={link.linkURL} target="_blank" rel="noopener noreferrer" className="history__documentation__link">{link.linkName}</a>
     );
   });
 }

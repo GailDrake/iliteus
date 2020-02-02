@@ -34,7 +34,7 @@ const SummerCamps = props => {
             <tbody>
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54084" target="_blank">
+                  <a href="https://gofan.co/app/events/54084" target="_blank" rel="noopener noreferrer">
                     EV3 Robotics 1
                   </a>
                 </td>
@@ -44,7 +44,7 @@ const SummerCamps = props => {
               </tr>
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54085" target="_blank">
+                  <a href="https://gofan.co/app/events/54085" target="_blank" rel="noopener noreferrer">
                     Matter Hackers
                   </a>
                 </td>
@@ -55,7 +55,7 @@ const SummerCamps = props => {
 
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54086" target="_blank">
+                  <a href="https://gofan.co/app/events/54086" target="_blank" rel="noopener noreferrer">
                     <span>BUNDLE</span> EV3 Robotics 1 & Matter Hackers
                   </a>
                 </td>
@@ -65,7 +65,7 @@ const SummerCamps = props => {
               </tr>
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54087" target="_blank">
+                  <a href="https://gofan.co/app/events/54087" target="_blank" rel="noopener noreferrer">
                     Girls in STEM
                   </a>
                 </td>
@@ -75,7 +75,7 @@ const SummerCamps = props => {
               </tr>
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54088" target="_blank">
+                  <a href="https://gofan.co/app/events/54088" target="_blank" rel="noopener noreferrer">
                     EV3 Robotics 2
                   </a>
                 </td>
@@ -85,7 +85,7 @@ const SummerCamps = props => {
               </tr>
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54089" target="_blank">
+                  <a href="https://gofan.co/app/events/54089" target="_blank" rel="noopener noreferrer">
                     <span>BUNDLE</span> Girls in STEM & EV3 Robotics 2
                   </a>
                 </td>
@@ -95,7 +95,7 @@ const SummerCamps = props => {
               </tr>
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54090" target="_blank">
+                  <a href="https://gofan.co/app/events/54090" target="_blank" rel="noopener noreferrer">
                     Cyber Defense
                   </a>
                 </td>
@@ -116,7 +116,7 @@ const SummerCamps = props => {
             <tbody>
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54091" target="_blank">
+                  <a href="https://gofan.co/app/events/54091" target="_blank" rel="noopener noreferrer">
                     EV3 Robotics 2
                   </a>
                 </td>
@@ -126,7 +126,7 @@ const SummerCamps = props => {
               </tr>
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54092" target="_blank">
+                  <a href="https://gofan.co/app/events/54092" target="_blank" rel="noopener noreferrer">
                     Imagination Infusion
                   </a>
                 </td>
@@ -136,7 +136,7 @@ const SummerCamps = props => {
               </tr>
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54093" target="_blank">
+                  <a href="https://gofan.co/app/events/54093" target="_blank" rel="noopener noreferrer">
                     <span>BUNDLE</span> EV3 Robotics 2 & Imagination Infusion
                   </a>
                 </td>
@@ -146,7 +146,7 @@ const SummerCamps = props => {
               </tr>
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54094" target="_blank">
+                  <a href="https://gofan.co/app/events/54094" target="_blank" rel="noopener noreferrer">
                     Boe-Bots
                   </a>
                 </td>
@@ -156,7 +156,7 @@ const SummerCamps = props => {
               </tr>
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54095" target="_blank">
+                  <a href="https://gofan.co/app/events/54095" target="_blank" rel="noopener noreferrer">
                     Introduction to Programming
                   </a>
                 </td>
@@ -166,7 +166,7 @@ const SummerCamps = props => {
               </tr>
               <tr>
                 <td className="summercamps__table--camps">
-                  <a href="https://gofan.co/app/events/54096" target="_blank">
+                  <a href="https://gofan.co/app/events/54096" target="_blank" rel="noopener noreferrer">
                     <span>BUNDLE</span> Boe-Bots & Introduction to Programming
                   </a>
                 </td>

@@ -13,7 +13,7 @@ class Events extends Component {
       return eventLink.substring(0, 4) === 'http'
         ?
         <li>
-          <a href={eventLink} className="event__url" target="_blank">
+          <a href={eventLink} className="event__url" target="_blank" rel="noopener noreferrer">
             Learn More
           </a>
         </li>
@@ -39,7 +39,7 @@ class Events extends Component {
           <hr className="event__divider" />
           <div className="event__links">
             {getEventLinks()}
-            <a className="event__location" href="https://www.google.com/maps/dir/''/battlefield+high+school/@38.8449798,-77.7005067,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89b668be1850b531:0x54b85e4d7455f560!2m2!1d-77.6304667!2d38.8450007" target="_blank">
+            <a className="event__location" href="https://www.google.com/maps/dir/''/battlefield+high+school/@38.8449798,-77.7005067,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89b668be1850b531:0x54b85e4d7455f560!2m2!1d-77.6304667!2d38.8450007" target="_blank" rel="noopener noreferrer">
               Google Map
               </a>
           </div>

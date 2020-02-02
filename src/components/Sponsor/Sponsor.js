@@ -6,7 +6,7 @@ const Sponsor = ({ children, large, image, url, name }) => {
   return (
     <div className="sponsor">
       <div className="sponsor__image-holder">
-        <a href={url} className="sponsor__image" target="_blank">
+        <a href={url} className="sponsor__image" target="_blank" rel="noopener noreferrer">
           <img src={renderedImage} alt={name} />
         </a>
       </div>
