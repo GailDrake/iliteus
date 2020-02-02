@@ -109,6 +109,7 @@ const GetInvolved = props => {
 
           <div className="get-involved__embed">
             <iframe
+              title="Application Form"
               src="https://docs.google.com/forms/d/e/1FAIpQLSfg_Sj-Qll756OI8xsEGsGt88tlN35RGYYX8tk15tU3ziTLJg/viewform?embedded=true"
               width="640"
               height="640"

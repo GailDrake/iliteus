@@ -19,7 +19,7 @@ const GetDocumentation = (year) => {
 
 function getEvents(year) {
   return documentation.map(event => {
-    if (event.year == year) {
+    if (event.year === year) {
       return (
         <tr>
           <td>{event.eventName}</td>
@@ -29,6 +29,9 @@ function getEvents(year) {
           </td>
         </tr>
       );
+    }
+    else {
+      return null;
     }
   });
 }
