@@ -47,13 +47,13 @@ class SideMenu extends Component {
               <Link onClick={() => this.closeSideMenu()} to="/ilite/team"><span>Team</span></Link>
               <Link onClick={() => this.closeSideMenu()} to="/ilite/media"><span>Media</span></Link>
               <Link onClick={() => this.closeSideMenu()} to="/ilite/calendar"><span>Calendar</span></Link>
-              <Link onClick={() => this.closeSideMenu()} to="/ilite/competition"><span>Competitions</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/ilite/history"><span>History</span></Link>
               <Link onClick={() => this.closeSideMenu()} to="/ilite/mission"><span>Mission</span></Link>
             </div>
             <p className="sidemenu__heading"><span>Outreach</span></p>
             <div className="sidemenu__sublinks">
-              <Link onClick={() => this.closeSideMenu()} to="/outreach/HostedEvents"><span>Hosted Events</span></Link>
-              <Link onClick={() => this.closeSideMenu()} to="/outreach/SummerCamps"><span>Summer Camps</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/outreach/hostedevents"><span>Hosted Events</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/outreach/summercamps"><span>Summer Camps</span></Link>
             </div>
             <Link onClick={() => this.closeSideMenu()} to="/sponsors" className="sidemenu__link"><span>Sponsors</span></Link>
             <Link onClick={() => this.closeSideMenu()} to="/getinvolved" className="sidemenu__link"><span>Get Involved</span></Link>
