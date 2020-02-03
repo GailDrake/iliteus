@@ -6,11 +6,8 @@ import GetDocumentation from './GetDocumentation';
 
 const History = () => {
   return (
-<<<<<<< HEAD
-    <Container division="frc" title="History" subtitle="See how 90,000+ minds are reached" id="top">
-=======
-    <Container division="frc" title="History" subtitle="See all of our activities from throughout our history" id="top" bannerImage="history__banner">
->>>>>>> master
+    <Container division="frc" title="History" subtitle="See how 90,000+ minds are reached" bannerImage="history__banner" id="top">
+
       <div className="history">
         <Tabs>
           {/* 2020 - Infinite Recharge */}

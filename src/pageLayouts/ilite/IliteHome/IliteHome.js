@@ -38,12 +38,12 @@ const IliteHome = (props) => {
         <h1 className="iliteHome__news-header">News</h1>
         <br />
         <div className="iliteHome__news-container">
-          <NewsCard title="ILITE hosts FRC 2020 Kickoff" image={require('../../../assets/images/frc/kickoff-2020.jpg')}>
-            ILITE opened their doors to local FRC teams to kickoff the 2020 FRC season! We started off the season with over 10 FRC
-            teams. We were joined by Team 3373 for a post-kickoff strategy session where we discussed various game aspects and possible
-            play methods! ILITE is pumped for INFINITE RECHARGE 2020 and cannot wait to see what the game will bring us this season.
+          <NewsCard title="ILITE hosts FRC 2020 Kickoff" image={require('../../../assets/images/frc/kickoff-2020.png')}>
+            On January 4th, 2020, ILITE opened their doors to local FRC teams to kickoff the 2020 FRC season! We experienced the unvieling of
+            the game with over 10 FRC teams. We were joined by Team 3373 for a post-kickoff strategy session where we discussed various game
+            aspects and possible play methods! ILITE is pumped for the 2020 game, INFINITE RECHARGE, and cannot wait to see what the game will bring us this season.
           </NewsCard>
-          <NewsCard title="ILITE hosts 6th Annual Haymaker STEAM Expo" image={require('../../../assets/images/outreach/STEAM.hostedevents.jpg')}>
+          <NewsCard title="ILITE hosts 6th Annual Haymaker STEAM Expo" image={require('../../../assets/images/outreach/STEAM.hostedevents.png')}>
             On January 25th, 2020, ILITE welcomed over 2,700+ attendees into our building for our 6th Annual Haymaker STEAM Expo. At this year's event
             we were joined by NASA, the FBI, and our local Fire Departments! Contuining last year's addition, a majority of booths were tailored towards
             Girl Scouts of all levels to earn badges from. We would like to extend our gratitude to all the volunteers and booth hosts
