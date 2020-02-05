@@ -424,6 +424,14 @@
       "year": 2019,
       "fact": "I love reading books "
     },
+    "Faris Syed": {
+      "name": "Faris Syed",
+      "subteam": "Programming",
+      "memory": "Seeing the Burj Khalifa light show during New Year.",
+      "year": 2018,
+      "fact": "I am going to be majoring in Computer Science!",
+      "image": "Syed,Faris.png"
+    },
     "Ibrahim Abbasi": {
       "name": "Ibrahim Abbasi",
       "subteam": "Programming",
@@ -719,14 +727,6 @@
       "year": 2018,
       "fact": "I’m proud to have been the Ultimate Scouter.",
       "image": "Patel,Pushp.jpg"
-    },
-    "Faris Syed": {
-      "name": "Faris Syed",
-      "subteam": "Programming",
-      "memory": "Seeing the Burj Khalifa light show during New Year.",
-      "year": 2018,
-      "fact": "I am going to be majoring in Computer Science!",
-      "image": "Syed,Faris.png"
     }
   }
 }
