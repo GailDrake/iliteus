@@ -12,7 +12,7 @@ const Team = ({ teamList }) => {
     <LayoutWrapper>
       <Container
         title="Team"
-        subtitle="ILITE has a team structure that emphasizes student leadership and mentorship."
+        subtitle="ILITE has a team structure that emphasizes student leadership and mentorship"
         bannerImage="team__banner"
       >
         <div className="team">

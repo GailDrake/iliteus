@@ -204,8 +204,9 @@ const HostedEvents = () => (
         </div>
       </div>*/}
         </div>
+      </div>
     </Container>
   </LayoutWrapper>
-    )
-    
-    export default HostedEvents
+)
+
+export default HostedEvents
