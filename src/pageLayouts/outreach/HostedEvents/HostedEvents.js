@@ -74,7 +74,7 @@ const HostedEvents = () => (
             </p>
               <div className="button_contain">
                 <br />
-                <Button division="frc" link="http://www.ilite.info/">
+                <Button division="frc" link="https://drakegd.wixsite.com/steamexpo">
                   Learn More!
               </Button>
               </div>
