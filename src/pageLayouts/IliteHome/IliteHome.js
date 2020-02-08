@@ -62,7 +62,7 @@ const IliteHome = props => {
           <div className="iliteHome__news-container">
             <NewsCard
               title="ILITE Hosts Kickoff 2020 for Local FRC Teams"
-              image={require("../../assets/images/frc/kickoff-2020.png")}
+              image={require("../../assets/images/frc/kickoff-2020.jpg")}
             >
               On January 4th, 2020, ILITE opened their doors to local FRC teams to
               kickoff the 2020 FRC season! We experienced the unvieling of the game
