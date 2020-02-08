@@ -34,9 +34,8 @@ constructor(props) {
 Then a *function* called `toggle` is defined that is responsible for changing the *state* variable's value.
 ```JS
 toggle = () => {
-  const value = this.state.clicked ? false : true;
   this.setState({
-    clicked: value
+    clicked: !this.state.clicked
   })
 }
 ```

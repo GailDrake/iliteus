@@ -55,14 +55,14 @@ class Navbar extends Component {
 
   toggleIliteDropdown = () => {
     this.setState({
-      iliteDropdown: this.state.iliteDropdown ? false : true,
+      iliteDropdown: !this.state.iliteDropdown,
       outreachDropdown: false,
     })
   }
 
   toggleOutreachDropdown = () => {
     this.setState({
-      outreachDropdown: this.state.outreachDropdown ? false : true,
+      outreachDropdown: !this.state.outreachDropdown,
       iliteDropdown: false,
     })
   }
@@ -126,7 +126,7 @@ class Navbar extends Component {
             </div>
           </li>
           <li>
-            <div onClick={() => this.toggleOutreachDropdown()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
+            <div onClick={() => this.toggleOutreachDropdown()} onMouseEnter={() => this.toggleOutreachDropdown()} onMouseLeave={() => this.closeAllDropdowns()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
               <Dropdown
                 title="Outreach"
                 links={outreachLinks}
@@ -135,7 +135,7 @@ class Navbar extends Component {
             </div>
           </li>
           <li>
-            <div onClick={() => this.toggleIliteDropdown()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
+            <div onClick={() => this.toggleIliteDropdown()} onMouseEnter={() => this.toggleIliteDropdown()} onMouseLeave={() => this.closeAllDropdowns()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
               <Dropdown
                 title="About ILITE"
                 links={iliteLinks}
