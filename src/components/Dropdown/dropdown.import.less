@@ -1,0 +1,74 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  @media screen and (max-width: 950px) {
+    display: none;
+  }
+
+  .dropdown__button {
+    display: inline;
+    color: #fcfdff;
+    font-family: 'Lato',
+      sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover,
+    &:focus {
+      padding-bottom: 10px;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  .dropdown__content {
+    display: block;
+    position: absolute;
+    background-color: @off-white;
+    white-space: nowrap;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 0.2);
+    z-index: 4;
+    max-height: 0;
+    overflow-y: hidden;
+
+    transition: all 0.3s ease-in-out;
+
+    .dropdown__item {
+      color: black;
+      padding: 12px 12px;
+      text-decoration: none;
+      display: block;
+      font-size: 18px;
+      min-width: 124px;
+
+      &:hover {
+        background-color: @gray-3;
+      }
+    }
+
+    .dropdown__item--active {
+      background-color: @purple-7;
+      color: @off-white;
+    }
+  }
+
+  .show {
+    max-height: 300px;
+
+    transition: all 0.3s ease-in-out;
+  }
+
+  i {
+    border: solid #fcfdff;
+    border-width: 0px 3px 3px 0px;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .fa-caret-down {
+    transform: rotate(45deg) translateY(-5px);
+  }
+}

@@ -20,6 +20,7 @@ export default class Tabs extends React.Component {
     return React.Children.map(this.props.children, (child, index) => {
       return React.cloneElement(child, {
         onClick: this.handleTabClick,
+        onKeyPressCapture: this.handleTabClick,
         tabIndex: index,
         isActive: index === this.state.activeTabIndex
       });

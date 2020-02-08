@@ -3,13 +3,20 @@ import React from 'react';
 export const Tab = ({ name, isActive, tabIndex, onClick }) => {
   return (
     <li className="tab">
-      <a className={`tab__link ${isActive ? 'tab__link--active' : ''}`}
+      <div className={`tab__link ${isActive ? 'tab__link--active' : ''}`}
         onClick={(event) => {
           event.preventDefault();
           onClick(tabIndex);
-        }}>
+        }}
+        onKeyPress={(event) => {
+          event.preventDefault();
+          onClick(tabIndex);
+        }}
+        role="button"
+        tabIndex={0}
+      >
         {name}
-      </a>
+      </div>
     </li>
   )
 }

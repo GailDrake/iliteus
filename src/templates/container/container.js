@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
-import Banner from '../../components/banner';
+import React, { Component } from "react"
+import Banner from "../../components/banner"
 
 class Container extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { title, subtitle, bannerImage, children } = this.props;
 
@@ -13,12 +9,10 @@ class Container extends Component {
       <div className="container" >
         <Banner title={title} bannerImage={bannerImage}>{subtitle}</Banner>
         <div className="container__bar"></div>
-        <div className="container__content">
-          {children}
-        </div>
-      </div >
-    );
-  };
+        <div className="container__content">{children}</div>
+      </div>
+    )
+  }
 }
 
-export default Container;
+export default Container

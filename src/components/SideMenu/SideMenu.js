@@ -29,38 +29,34 @@ class SideMenu extends Component {
     return (
       <div className="sidemenu" >
         <span className="sidemenu__burger">
-          <div onClick={() => this.openSideMenu()}>
+          <div onClick={() => this.openSideMenu()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
             <svg width="30" height="30">
-              <path d="M0,5 30,5" stroke="#000" strokeWidth="5" />
-              <path d="M0,14 30,14" stroke="#000" strokeWidth="5" />
-              <path d="M0,23 30,23" stroke="#000" strokeWidth="5" />
+              <path d="M0,5 30,5" stroke="#fff" strokeWidth="5" />
+              <path d="M0,14 30,14" stroke="#fff" strokeWidth="5" />
+              <path d="M0,23 30,23" stroke="#fff" strokeWidth="5" />
             </svg>
           </div>
         </span>
 
-        <div className={`sidemenu__background ${backgroundFade}`} onClick={() => this.closeSideMenu()}></div>
+        <div className={`sidemenu__background ${backgroundFade}`} onClick={() => this.closeSideMenu()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}></div>
         <div className={`sidemenu__nav ${sidemenuSlide}`}>
-          <span className="sidemenu__close" onClick={() => this.closeSideMenu()}>&times;</span>
+          <span className="sidemenu__close" onClick={() => this.closeSideMenu()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>&times;</span>
           <div className="sidemenu__list">
-            <Link onClick={() => this.closeSideMenu()} to="/ilite" className="sidemenu__link"><span>About ILITE</span></Link>
+            <p className="sidemenu__heading"><span>About ILITE</span></p>
             <div className="sidemenu__sublinks">
-              <Link onClick={() => this.closeSideMenu()} to="/ilite/about"><span>About</span></Link>
-              <Link onClick={() => this.closeSideMenu()} to="/ilite/sponsors"><span>Sponsors</span></Link>
-              <Link onClick={() => this.closeSideMenu()} to="/ilite/getinvolved"><span>Get Involved</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/ilite/team"><span>Team</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/ilite/media"><span>Media</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/ilite/calendar"><span>Calendar</span></Link>
               <Link onClick={() => this.closeSideMenu()} to="/ilite/history"><span>History</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/ilite/mission"><span>Mission</span></Link>
             </div>
-            <Link onClick={() => this.closeSideMenu()} to="/frc" className="sidemenu__link"><span>FRC Robotics</span></Link>
+            <p className="sidemenu__heading"><span>Outreach</span></p>
             <div className="sidemenu__sublinks">
-              <Link onClick={() => this.closeSideMenu()} to="/frc/team"><span>Team</span></Link>
-              <Link onClick={() => this.closeSideMenu()} to="/frc/media"><span>Media</span></Link>
-              <Link onClick={() => this.closeSideMenu()} to="/frc/calendar"><span>Calendar</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/outreach/hostedevents"><span>Hosted Events</span></Link>
+              <Link onClick={() => this.closeSideMenu()} to="/outreach/summercamps"><span>Summer Camps</span></Link>
             </div>
-            <Link onClick={() => this.closeSideMenu()} to="/outreach" className="sidemenu__link"><span>Outreach</span></Link>
-            <div className="sidemenu__sublinks">
-              <Link onClick={() => this.closeSideMenu()} to="/outreach/HostedEvents"><span>Hosted Events</span></Link>
-              <Link onClick={() => this.closeSideMenu()} to="/outreach/SummerCamps"><span>Summer Camps</span></Link>
-            </div>
-            <a href="http://ilite.info" className="sidemenu__link" target="_blank"><span>STEAM Expo</span></a>
+            <Link onClick={() => this.closeSideMenu()} to="/sponsors" className="sidemenu__link"><span>Sponsors</span></Link>
+            <Link onClick={() => this.closeSideMenu()} to="/getinvolved" className="sidemenu__link"><span>Get Involved</span></Link>
           </div>
         </div>
       </div>
