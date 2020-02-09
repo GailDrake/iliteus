@@ -81,7 +81,79 @@ class Navbar extends Component {
         : ""
 
     return (
-      <nav className="navigation">
+      <nav className="navigation" tabIndex={-1}>
+        <Link
+          to="/"
+          className="navigation__logo"
+          onClick={() => this.closeAllDropdowns()}
+          onKeyPress={this.handleKeyPress}
+          tabIndex={0}
+        />
+        <ul className="navigation__list">
+          <li>
+            <Link
+              to="/getinvolved"
+              activeClassName="navigation--underlined"
+              className="navigation__list-item"
+              onClick={() => this.closeAllDropdowns()}
+              tabIndex={0}
+            >
+              <span className="navigation__listitem--focus" tabIndex={-1}>Get Involved</span>
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/sponsors"
+              activeClassName="navigation--underlined"
+              className="navigation__list-item"
+              onClick={() => this.closeAllDropdowns()}
+              tabIndex={0}
+            >
+              <span className="navigation__listitem--focus" tabIndex={-1}>Sponsors</span>
+            </Link>
+          </li>
+          <li>
+            <div
+              onClick={() => this.toggleOutreachDropdown()}
+              onMouseEnter={() => this.toggleOutreachDropdown()}
+              onMouseLeave={() => this.closeAllDropdowns()}
+              onKeyPress={(event) => {
+                const keyCode = event.key || event.keyCode;
+                if (keyCode === "Enter" || keyCode === 13) {
+                  this.toggleOutreachDropdown();
+                }
+              }}
+              role="button"
+              tabIndex={0}>
+              <Dropdown
+                title="Outreach"
+                links={outreachLinks}
+                extended={this.state.outreachDropdown}
+                tabIndex={-1}
+              />
+            </div>
+          </li>
+          <li>
+            <div
+              onClick={() => this.toggleIliteDropdown()}
+              onMouseEnter={() => this.toggleIliteDropdown()}
+              onMouseLeave={() => this.closeAllDropdowns()}
+              onKeyPress={(event) => {
+                const keyCode = event.key || event.keyCode;
+                if (keyCode === "Enter" || keyCode === 13) {
+                  this.toggleIliteDropdown();
+                }
+              }}
+              role="button"
+              tabIndex={0}>
+              <Dropdown
+                title="About ILITE"
+                links={iliteLinks}
+                extended={this.state.iliteDropdown}
+              />
+            </div>
+          </li>
+        </ul>
         <div
           className={`dropdown__background--main ${backgroundOpen}`}
           onClick={() => this.closeAllDropdowns()}
@@ -96,58 +168,10 @@ class Navbar extends Component {
           tabIndex={0}
           onKeyPress={this.handleKeyPress}
         ></div>
-        <Link
-          to="/"
-          className="navigation__logo"
-          onClick={() => this.closeAllDropdowns()}
-          onKeyPress={this.handleKeyPress}
-        />
-        <ul className="navigation__list">
-          <li>
-            <div onClick={() => this.closeAllDropdowns()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
-              <Link
-                to="/getinvolved"
-                activeClassName="navigation--underlined"
-                className="navigation__list-item"
-              >
-                Get Involved
-              </Link>
-            </div>
-          </li>
-          <li>
-            <div onClick={() => this.closeAllDropdowns()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
-              <Link
-                to="/sponsors"
-                activeClassName="navigation--underlined"
-                className="navigation__list-item"
-              >
-                Sponsors
-              </Link>
-            </div>
-          </li>
-          <li>
-            <div onClick={() => this.toggleOutreachDropdown()} onMouseEnter={() => this.toggleOutreachDropdown()} onMouseLeave={() => this.closeAllDropdowns()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
-              <Dropdown
-                title="Outreach"
-                links={outreachLinks}
-                extended={this.state.outreachDropdown}
-              />
-            </div>
-          </li>
-          <li>
-            <div onClick={() => this.toggleIliteDropdown()} onMouseEnter={() => this.toggleIliteDropdown()} onMouseLeave={() => this.closeAllDropdowns()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
-              <Dropdown
-                title="About ILITE"
-                links={iliteLinks}
-                extended={this.state.iliteDropdown}
-              />
-            </div>
-          </li>
-        </ul>
         <div className="navigation__sidemenu">
           <SideMenu />
         </div>
-      </nav>
+      </nav >
     )
   }
 }
