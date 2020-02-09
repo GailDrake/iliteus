@@ -8,7 +8,7 @@ const SummerCamps = props => {
     <LayoutWrapper>
       <Container
         title="Summer Camps"
-        subtitle="Check out our STEAM-themed summer camps below."
+        subtitle="Check out our STEAM-themed summer camps below"
         bannerImage="summercamps__banner"
       >
         <div className="summercamps">
