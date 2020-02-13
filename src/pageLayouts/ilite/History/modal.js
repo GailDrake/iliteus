@@ -1,133 +1,73 @@
-import ReactModal from 'react-modal';
-import React from "react"
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Modal from 'react-modal';
 
-const Modal = () => {
-  return (
-    <ReactModal
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)'
+  }
+};
 
-      isOpen={
-        false
-  /* Boolean describing if the modal should be shown or not. */}
+// Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
+Modal.setAppElement('#yourAppElement')
 
-      onAfterOpen={
-        handleAfterOpenFunc
-  /* Function that will be run after the modal has opened. */}
+class App extends React.Component {
+  constructor() {
+    super();
 
-      onAfterClose={
-        handleAfterCloseFunc
-  /* Function that will be run after the modal has closed. */}
+    this.state = {
+      modalIsOpen: false
+    };
 
-      onRequestClose={
-        handleRequestCloseFunc
-  /* Function that will be run when the modal is requested
-     to be closed (either by clicking on overlay or pressing ESC).
-     Note: It is not called if isOpen is changed by other means. */}
+    this.openModal = this.openModal.bind(this);
+    this.afterOpenModal = this.afterOpenModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
+  }
 
-      closeTimeoutMS={
-        0
-  /* Number indicating the milliseconds to wait before closing
-     the modal. */}
+  openModal() {
+    this.setState({ modalIsOpen: true });
+  }
 
-      style={
-        { overlay: {}, content: {} }
-  /* Object indicating styles to be used for the modal.
-     It has two keys, `overlay` and `content`.
-     See the `Styles` section for more details. */}
+  afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    this.subtitle.style.color = '#f000000';
+  }
 
-      contentLabel={
-        "Example Modal"
-  /* String indicating how the content container should be announced
-     to screenreaders */}
+  closeModal() {
+    this.setState({ modalIsOpen: false });
+  }
 
-      portalClassName={
-        "ReactModalPortal"
-  /* String className to be applied to the portal.
-     See the `Styles` section for more details. */}
+  render() {
+    return (
+      <div>
+        <button onClick={this.openModal}>Open Modal</button>
+        <Modal
+          isOpen={this.state.modalIsOpen}
+          onAfterOpen={this.afterOpenModal}
+          onRequestClose={this.closeModal}
+          style={customStyles}
+          contentLabel="Example Modal"
+        >
 
-      overlayClassName={
-        "ReactModal__Overlay"
-  /* String className to be applied to the overlay.
-     See the `Styles` section for more details. */}
-
-      id={
-        "some-id"
-  /* String id to be applied to the content div. */}
-
-      className={
-        "ReactModal__Content"
-  /* String className to be applied to the modal content.
-     See the `Styles` section for more details. */}
-
-      bodyOpenClassName={
-        "ReactModal__Body--open"
-  /* String className to be applied to the document.body 
-     (must be a constant string).
-     This attribute when set as `null` doesn't add any class 
-     to document.body.
-     See the `Styles` section for more details. */}
-
-      htmlOpenClassName={
-        "ReactModal__Html--open"
-  /* String className to be applied to the document.html
-     (must be a constant string).
-     This attribute is `null` by default.
-     See the `Styles` section for more details. */}
-
-      ariaHideApp={
-        true
-  /* Boolean indicating if the appElement should be hidden */}
-
-      shouldFocusAfterRender={
-        true
-  /* Boolean indicating if the modal should be focused after render. */}
-
-      shouldCloseOnOverlayClick={
-        true
-  /* Boolean indicating if the overlay should close the modal */}
-
-      shouldCloseOnEsc={
-        true
-  /* Boolean indicating if pressing the esc key should close the modal
-     Note: By disabling the esc key from closing the modal
-     you may introduce an accessibility issue. */}
-
-      shouldReturnFocusAfterClose={
-        true
-  /* Boolean indicating if the modal should restore focus to the element
-     that had focus prior to its display. */}
-
-      role={
-        "dialog"
-  /* String indicating the role of the modal, allowing the 'dialog' role
-     to be applied if desired.
-     This attribute is `dialog` by default. */}
-
-      parentSelector={
-        () => document.body
-  /* Function that will be called to get the parent element
-     that the modal will be attached to. */}
-
-      aria={
-        {
-          labelledby: "heading",
-          describedby: "full_description"
-        }
-  /* Additional aria attributes (optional). */}
-
-      data={
-        { background: "green" }
-  /* Additional data attributes (optional). */}
-
-      overlayRef={
-        setOverlayRef
-  /* Overlay ref callback. */}
-
-      contentRef={
-        setContentRef
-  /* Content ref callback. */}>
-      <p>Modal Content</p>
-    </ReactModal>
-  )
+          <h2 ref={subtitle => this.subtitle = subtitle}>Hello</h2>
+          <button onClick={this.closeModal}>close</button>
+          <div>I am a modal</div>
+          <form>
+            <input />
+            <button>tab navigation</button>
+            <button>stays</button>
+            <button>inside</button>
+            <button>the modal</button>
+          </form>
+        </Modal>
+      </div>
+    );
+  }
 }
 
-export default <ReactModal />
+ReactDOM.render(<App />, appElement);
