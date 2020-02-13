@@ -1,4 +1,4 @@
-import React from 'react';
-import SummerCamps from '../../pageLayouts/outreach/SummerCamps';
+import React from "react"
+import SummerCamps from "../../pageLayouts/outreach/SummerCamps"
 
 export default () => <SummerCamps />

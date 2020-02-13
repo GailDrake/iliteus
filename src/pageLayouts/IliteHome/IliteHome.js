@@ -33,7 +33,6 @@ const IliteHome = props => {
             events that we will be hosting in the near future.
           </p>
           <div className="iliteHome__events-container">
-
             <Events
               name="FRC Week 1"
               date="February 28th, 2020"
@@ -51,7 +50,7 @@ const IliteHome = props => {
             <Events
               name="Summer Camps"
               date="June, 2020"
-              eventLink="/outreach/SummerCamps"
+              eventLink="/outreach/summercamps"
               image="images/outreach/summercamps/lego3.jpg"
             />
           </div>
@@ -64,32 +63,38 @@ const IliteHome = props => {
               title="ILITE Hosts Kickoff 2020 for Local FRC Teams"
               image={require("../../assets/images/frc/kickoff-2020.jpg")}
             >
-              On January 4th, 2020, ILITE opened their doors to local FRC teams to
-              kickoff the 2020 FRC season! We experienced the unvieling of the game
-              with over 10 FRC teams. We were joined by Team 3373 for a post-kickoff
-              strategy session where we discussed various game aspects and possible play
-              methods! ILITE is pumped for the 2020 game, INFINITE RECHARGE, and cannot
-              wait to see what the game will bring us this season.
+              On January 4th, 2020, ILITE opened their doors to local FRC teams
+              to kickoff the 2020 FRC season! We experienced the unvieling of
+              the game with over 10 FRC teams. We were joined by Team 3373 for a
+              post-kickoff strategy session where we discussed various game
+              aspects and possible play methods! ILITE is pumped for the 2020
+              game, INFINITE RECHARGE, and cannot wait to see what the game will
+              bring us this season.
             </NewsCard>
             <NewsCard
               title="ILITE Hosts 6th Annual Haymaker STEAM Expo"
               image={require("../../assets/images/outreach/STEAM.hostedevents.jpg")}
             >
-              On January 25th, 2020, ILITE welcomed over 2,700+ attendees into our building
-              for our 6th Annual Haymaker STEAM Expo. At this year's event we were joined by
-              NASA, the FBI, and our local Fire Departments! Contuining last year's addition,
-              a majority of booths were tailored towards Girl Scouts of all levels to earn
-              badges from. We would like to extend our gratitude to all the volunteers and
-              booth hosts.
+              On January 25th, 2020, ILITE welcomed over 2,700+ attendees into
+              our building for our 6th Annual Haymaker STEAM Expo. At this
+              year's event we were joined by NASA, the FBI, and our local Fire
+              Departments! Contuining last year's addition, a majority of booths
+              were tailored towards Girl Scouts of all levels to earn badges
+              from. We would like to extend our gratitude to all the volunteers
+              and booth hosts.
             </NewsCard>
             <NewsCard
               title="ILITE at Bunny Bots 2019"
               image={require("../../assets/images/frc/bunnybots.jpg")}
             >
-              ILITE participated in the offseason event, BunnyBots, which was hosted by team 449 at Montgomery Blair High School.
-              With our robot, "JuiceBx", we made a formidable presence, ultimately finishing out in the semifinals. We strongly felt
-              that it was a marvelous learning opportunity for the students to prepare for the 2020 build season, and we're eager to
-              apply the skills that we've learned! We would also like to give a big thank you to team 449 for hosting this great event!
+              ILITE participated in the offseason event, BunnyBots, which was
+              hosted by team 449 at Montgomery Blair High School. With our
+              robot, "JuiceBx", we made a formidable presence, ultimately
+              finishing out in the semifinals. We strongly felt that it was a
+              marvelous learning opportunity for the students to prepare for the
+              2020 build season, and we're eager to apply the skills that we've
+              learned! We would also like to give a big thank you to team 449
+              for hosting this great event!
             </NewsCard>
           </div>
           <div className="iliteHome__news-button">
