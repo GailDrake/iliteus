@@ -91,10 +91,14 @@
       @media screen and (max-width: 950px) {
         display: none;
       }
+    }
 
-      .navigation__listitem--focus:focus {
-        outline: 1px solid aqua;
-      }
+    .navigation__focus-item--inner:focus {
+      outline: none;
+    }
+
+    .navigation__focus-item--outer:focus {
+      box-shadow: 0 0 2px 2px #51a7e8;
     }
   }
 

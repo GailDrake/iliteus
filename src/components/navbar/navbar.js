@@ -82,34 +82,36 @@ class Navbar extends Component {
 
     return (
       <nav className="navigation" tabIndex={-1}>
-        <Link
-          to="/"
-          className="navigation__logo"
-          onClick={() => this.closeAllDropdowns()}
-          onKeyPress={this.handleKeyPress}
-          tabIndex={0}
-        />
+        <div className="navigation__focus-item--outer" tabIndex={0}>
+          <Link
+            to="/"
+            className="navigation__logo navigation__focus-item--inner"
+            onClick={() => this.closeAllDropdowns()}
+            onKeyPress={this.handleKeyPress}
+            tabIndex={-1}
+          />
+        </div>
         <ul className="navigation__list">
           <li>
             <Link
               to="/getinvolved"
               activeClassName="navigation--underlined"
-              className="navigation__list-item"
+              className="navigation__list-item navigation__focus-item--outer"
               onClick={() => this.closeAllDropdowns()}
               tabIndex={0}
             >
-              <span className="navigation__listitem--focus" tabIndex={-1}>Get Involved</span>
+              <span className="navigation__focus-item--inner" tabIndex={-1}>Get Involved</span>
             </Link>
           </li>
           <li>
             <Link
               to="/sponsors"
               activeClassName="navigation--underlined"
-              className="navigation__list-item"
+              className="navigation__list-item navigation__focus-item--outer"
               onClick={() => this.closeAllDropdowns()}
               tabIndex={0}
             >
-              <span className="navigation__listitem--focus" tabIndex={-1}>Sponsors</span>
+              <span className="navigation__focus-item--inner" tabIndex={-1}>Sponsors</span>
             </Link>
           </li>
           <li>
