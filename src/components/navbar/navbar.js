@@ -35,12 +35,12 @@ const outreachLinks = [
   {
     name: "Hosted Events",
     section: "outreach",
-    file: "hostedevents",
+    file: "hostevents",
   },
   {
     name: "Summer Camps",
     section: "outreach",
-    file: "summercamps",
+    file: "summercamp",
   },
 ]
 

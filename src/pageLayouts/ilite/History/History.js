@@ -11,7 +11,7 @@ const History = () => {
       <Container
         division="frc"
         title="History"
-        subtitle="See all of our activities from throughout our history"
+        subtitle="See how 90,000+ minds are reached"
         id="top"
         bannerImage="history__banner"
       >

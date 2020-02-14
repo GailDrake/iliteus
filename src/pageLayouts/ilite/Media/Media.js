@@ -8,7 +8,7 @@ const Media = props => {
     <LayoutWrapper>
       <Container
         title="Media"
-        subtitle="Pictures for all ILITE events."
+        subtitle="Pictures for all ILITE events"
         bannerImage="media__banner"
       >
         <div className="media">

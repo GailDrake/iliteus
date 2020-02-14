@@ -34,13 +34,6 @@ const IliteHome = props => {
           </p>
           <div className="iliteHome__events-container">
             <Events
-              name="STEAM Expo"
-              date="January 25th, 2020"
-              eventLink="http://ilite.info"
-              image="images/outreach/steamexpo/expo.jpg"
-            />
-
-            <Events
               name="FRC Week 1"
               date="February 28th, 2020"
               eventLink="https://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va"
@@ -48,10 +41,17 @@ const IliteHome = props => {
             />
 
             <Events
+              name="Girl Scout Day at Udvar Hazy"
+              date="March 14th, 2020"
+              eventLink="https://airandspace.si.edu/events/women-aviation-space-family-day-2020"
+              image="images/outreach/girlscouts.jpg"
+            />
+
+            <Events
               name="Summer Camps"
               date="June, 2020"
-              eventLink="/outreach/SummerCamps"
-              image="images/outreach/summercamps/group_summercamps.jpg"
+              eventLink="/outreach/summercamp"
+              image="images/outreach/summercamps/lego3.jpg"
             />
           </div>
         </div>
@@ -60,7 +60,31 @@ const IliteHome = props => {
           <br />
           <div className="iliteHome__news-container">
             <NewsCard
-              title="ILITE at BunnyBots 2019"
+              title="ILITE Hosts Kickoff 2020 for Local FRC Teams"
+              image={require("../../assets/images/frc/kickoff-2020.jpg")}
+            >
+              On January 4th, 2020, ILITE opened their doors to local FRC teams
+              to kickoff the 2020 FRC season! We experienced the unvieling of
+              the game with over 10 FRC teams. We were joined by Team 3373 for a
+              post-kickoff strategy session where we discussed various game
+              aspects and possible play methods! ILITE is pumped for the 2020
+              game, INFINITE RECHARGE, and cannot wait to see what the game will
+              bring us this season.
+            </NewsCard>
+            <NewsCard
+              title="ILITE Hosts 6th Annual Haymaker STEAM Expo"
+              image={require("../../assets/images/outreach/STEAM.hostedevents.jpg")}
+            >
+              On January 25th, 2020, ILITE welcomed over 2,700+ attendees into
+              our building for our 6th Annual Haymaker STEAM Expo. At this
+              year's event we were joined by NASA, the FBI, and our local Fire
+              Departments! Contuining last year's addition, a majority of booths
+              were tailored towards Girl Scouts of all levels to earn badges
+              from. We would like to extend our gratitude to all the volunteers
+              and booth hosts.
+            </NewsCard>
+            <NewsCard
+              title="ILITE at Bunny Bots 2019"
               image={require("../../assets/images/frc/bunnybots.jpg")}
             >
               ILITE participated in the offseason event, BunnyBots, which was
@@ -71,30 +95,6 @@ const IliteHome = props => {
               2020 build season, and we're eager to apply the skills that we've
               learned! We would also like to give a big thank you to team 449
               for hosting this great event!
-            </NewsCard>
-            <NewsCard
-              title="ILITE hosts ILITE Robotics Offseason Challenge"
-              image={require("../../assets/images/outreach/IROC.hostedevents.jpg")}
-            >
-              ILITE welcomed local robotics teams to the ILITE Robotics
-              Offseason Challenge (otherwise known as IROC) on October 26, 2019
-              at our home- Battlefield High School. Competitors united to show
-              off their robots and driver skills in the 2019's FIRST Robotics
-              Competition, Destination: Deep Space. We are so thankful for all
-              the wonderful teams who attended and wish everyone a good season.
-            </NewsCard>
-            <NewsCard
-              title="ILITE at Rumble in the Roads"
-              image={require("../../assets/images/frc/rumble_in_the_roads.jpg")}
-            >
-              ILITE competed at the Rumble in the Roads off-season event and won
-              with teams 401 and 2028 on November 2nd. Rumble in the Roads is an
-              annual off-season FIRST Robotics Competition event held by teams
-              1610, 2363, 5957 and is hosted in Newport News at Heritage High
-              School. The competition followed modified rules of the 2019 game
-              DESTINATION: DEEP SPACE. Rumble in the Roads was a great
-              opportunity to get in practice before the new season begins in
-              2020.
             </NewsCard>
           </div>
           <div className="iliteHome__news-button">

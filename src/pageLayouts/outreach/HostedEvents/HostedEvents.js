@@ -57,7 +57,7 @@ const HostedEvents = () => (
             <div>
               <img
                 src={require("../../../assets/images/outreach/steamexpo/expo.jpg")}
-                alt="Steam Expo"
+                alt=""
               />
             </div>
             <div>
@@ -67,91 +67,92 @@ const HostedEvents = () => (
                 A unique opportunity to explore the various aspects of science,
                 technology, engineering, art, and mathematics. In this annual
                 event, we invite a variety of companies, both small and large,
-                to share their knowledge with the community. Activities include,
-                but are not limited to, logic puzzles, simulations, arts and
-                crafts, and technological demonstrations that are sure to teach
-                everyone something new. The event will be hosted on January 25th
-                this year.
+                to share their knowledge with the community each year.
+                Activities include, but are not limited to, logic puzzles,
+                simulations, arts and crafts, and technological demonstrations
+                that are sure to teach everyone something new.
               </p>
               <div className="button_contain">
                 <br />
-                <Button division="frc" link="http://www.ilite.info/">
+                <Button
+                  division="frc"
+                  link="https://drakegd.wixsite.com/steamexpo"
+                >
                   Learn More!
                 </Button>
               </div>
             </div>
           </div>
-        </div>
 
-        <hr className="hostedevents__hr" />
+          <hr className="hostedevents__hr" />
 
-        <div className="event">
-          <div className="event__description">
-            <div>
-              <img
-                src={require("../../../assets/images/logos/infinite-recharge.png")}
-                alt="Infinite Recharge Logo"
-              />
-            </div>
-            <div>
-              <h1 className="hostedevents__subheader">
-                FRC Week 1 District Event
-              </h1>
-              <hr />
-              <p>
-                ILITE will be hosting a Week 1 FRC District event once again
-                this year. Hosted February 28th to March 1st 2020, this event
-                will compose of FRC teams from all around the Chesapeake
-                District competing with gracious professionalism. FIRST's new
-                game for this season, Infinite Recharge, will be featured as the
-                mode of competition. We are incredibly excited to see and play
-                this new game along with all our fellow teams.
-              </p>
-              <div className="button_contain">
-                <br />
-                <Button
-                  link="https://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va"
-                  division="frc"
-                >
-                  Learn More
-                </Button>
+          <div className="event">
+            <div className="event__description">
+              <div>
+                <img
+                  src={require("../../../assets/images/logos/infinite-recharge.png")}
+                  alt="Infinite Recharge Logo"
+                />
+              </div>
+              <div>
+                <h1 className="hostedevents__subheader">
+                  FRC Week 1 District Event
+                </h1>
+                <hr />
+                <p>
+                  ILITE will be hosting a Week 1 FRC District event once again
+                  this year. Hosted February 28th to March 1st 2020, this event
+                  will compose of FRC teams from all around the Chesapeake
+                  District competing with gracious professionalism. FIRST's new
+                  game for this season, Infinite Recharge, will be featured as
+                  the mode of competition. We are incredibly excited to see and
+                  play this new game along with all our fellow teams.
+                </p>
+                <div className="button_contain">
+                  <br />
+                  <Button
+                    link="https://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va"
+                    division="frc"
+                  >
+                    Learn More
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <hr className="hostedevents__hr" />
+          <hr className="hostedevents__hr" />
 
-        <div className="event">
-          <div className="event__description">
-            <div>
-              <img
-                src={require("../../../assets/images/outreach/fll11.jpg")}
-                alt="Summer Camps"
-              />
-            </div>
-            <div>
-              <h1 className="hostedevents__subheader">Summer Camps</h1>
-              <hr />
-              <p>
-                We here at ILITE firmly believe that all children deserve to
-                learn about the wonders of the world around us through the
-                exploration of STEM. We offer a variety of STEM summer camps, in
-                areas such as cyber security, FLL, and engineering. The camps
-                are taught and run by ILITE students. We hope you enjoy our
-                camps!
-              </p>
-              <div className="button_contain">
-                <br />
-                <Button division="frc" link="/outreach/SummerCamps">
-                  Learn More
-                </Button>
+          <div className="event">
+            <div className="event__description">
+              <div>
+                <img
+                  src={require("../../../assets/images/outreach/fll11.jpg")}
+                  alt="Summer Camps"
+                />
+              </div>
+              <div>
+                <h1 className="hostedevents__subheader">Summer Camps</h1>
+                <hr />
+                <p>
+                  We here at ILITE firmly believe that all children deserve to
+                  learn about the wonders of the world around us through the
+                  exploration of STEM. We offer a variety of STEM summer camps,
+                  in areas such as cyber security, FLL, and engineering. The
+                  camps are taught and run by ILITE students. We hope you enjoy
+                  our camps!
+                </p>
+                <div className="button_contain">
+                  <br />
+                  <Button division="frc" link="/outreach/summercamp">
+                    Learn More
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        {/*<hr className="hostedevents__hr" />
+          {/*<hr className="hostedevents__hr" />
 
       <div className="event">
         <div className="event__description">
@@ -205,6 +206,7 @@ const HostedEvents = () => (
           </div>
         </div>
       </div>*/}
+        </div>
       </div>
     </Container>
   </LayoutWrapper>
