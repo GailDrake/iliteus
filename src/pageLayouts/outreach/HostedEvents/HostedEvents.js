@@ -144,7 +144,7 @@ const HostedEvents = () => (
                 </p>
                 <div className="button_contain">
                   <br />
-                  <Button division="frc" link="/outreach/summercamps">
+                  <Button division="frc" link="/outreach/summercamp">
                     Learn More
                   </Button>
                 </div>

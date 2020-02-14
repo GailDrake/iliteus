@@ -63,7 +63,7 @@ const OutreachHome = props => {
             <Events
               name="FRC Week 1"
               date="July, 2020"
-              eventLink="/outreach/hostedevents"
+              eventLink="/outreach/hostevents"
               image="images/frc/week_one.jpg"
             />
           </div>
@@ -84,7 +84,7 @@ const OutreachHome = props => {
 						<Events
 							name="Summer Camps"
 							date="Our Summer Camps offer a large variety of STEAM related camps. The camps include everything from science-based arts and crafts to cyber defense, introducing kids of a wide range of ages and interests to STEAM."
-							eventLink="/outreach/summercamps"
+							eventLink="/outreach/summercamp"
 							image="images/outreach/summercamps/stem1.jpg" />
 
 
@@ -99,7 +99,7 @@ const OutreachHome = props => {
 							name="Summer Camps"
 							description="Our Summer Camps offer a large variety of STEAM related camps. The camps include everything from science-based arts and crafts to cyber defense, introducing kids of a wide range of ages and interests to STEAM."
 							image="images/outreach/summercamps/stem1.jpg" 
-							link="/outreach/summercamps" />
+							link="/outreach/summercamp" />
 
 			</div>
 

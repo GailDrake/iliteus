@@ -50,7 +50,7 @@ const IliteHome = props => {
             <Events
               name="Summer Camps"
               date="June, 2020"
-              eventLink="/outreach/summercamps"
+              eventLink="/outreach/summercamp"
               image="images/outreach/summercamps/lego3.jpg"
             />
           </div>

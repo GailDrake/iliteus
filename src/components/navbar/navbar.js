@@ -35,12 +35,12 @@ const outreachLinks = [
   {
     name: "Hosted Events",
     section: "outreach",
-    file: "hostedevents",
+    file: "hostevents",
   },
   {
     name: "Summer Camps",
     section: "outreach",
-    file: "summercamps",
+    file: "summercamp",
   },
 ]
 
@@ -104,7 +104,12 @@ class Navbar extends Component {
         />
         <ul className="navigation__list">
           <li>
-            <div onClick={() => this.closeAllDropdowns()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
+            <div
+              onClick={() => this.closeAllDropdowns()}
+              onKeyPress={this.handleKeyPress}
+              role="button"
+              tabIndex={0}
+            >
               <Link
                 to="/getinvolved"
                 activeClassName="navigation--underlined"
@@ -115,7 +120,12 @@ class Navbar extends Component {
             </div>
           </li>
           <li>
-            <div onClick={() => this.closeAllDropdowns()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
+            <div
+              onClick={() => this.closeAllDropdowns()}
+              onKeyPress={this.handleKeyPress}
+              role="button"
+              tabIndex={0}
+            >
               <Link
                 to="/sponsors"
                 activeClassName="navigation--underlined"
@@ -126,7 +136,12 @@ class Navbar extends Component {
             </div>
           </li>
           <li>
-            <div onClick={() => this.toggleOutreachDropdown()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
+            <div
+              onClick={() => this.toggleOutreachDropdown()}
+              onKeyPress={this.handleKeyPress}
+              role="button"
+              tabIndex={0}
+            >
               <Dropdown
                 title="Outreach"
                 links={outreachLinks}
@@ -135,7 +150,12 @@ class Navbar extends Component {
             </div>
           </li>
           <li>
-            <div onClick={() => this.toggleIliteDropdown()} onKeyPress={this.handleKeyPress} role="button" tabIndex={0}>
+            <div
+              onClick={() => this.toggleIliteDropdown()}
+              onKeyPress={this.handleKeyPress}
+              role="button"
+              tabIndex={0}
+            >
               <Dropdown
                 title="About ILITE"
                 links={iliteLinks}
