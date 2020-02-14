@@ -1,4 +1,4 @@
 import React from 'react';
-import Modal from '../../pageLayouts/ilite/history/modal.js';
+import ModalPage from '../../pageLayouts/ilite/history/modal.js';
 
-export default () => <Modal />
+export default () => <ModalPage />

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 
 const customStyles = {
@@ -13,10 +12,7 @@ const customStyles = {
   }
 };
 
-// Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
-Modal.setAppElement('#yourAppElement')
-
-class App extends React.Component {
+class ModalPage extends React.Component {
   constructor() {
     super();
 
@@ -70,4 +66,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, appElement);
+export default ModalPage;
