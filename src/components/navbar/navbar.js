@@ -78,7 +78,7 @@ class Navbar extends Component {
     const backgroundOpen =
       this.state.iliteDropdown || this.state.outreachDropdown
         ? "dropdown__background--open"
-        : ""
+        : "";
 
     return (
       <nav className="navigation" tabIndex={-1}>
@@ -91,71 +91,78 @@ class Navbar extends Component {
         >
           <div className="navigation__focus-item--inner" tabIndex={-1}></div>
         </Link>
-        <ul className="navigation__list">
-          <li>
-            <Link
-              to="/getinvolved"
-              activeClassName="navigation--underlined"
-              className="navigation__list-item navigation__focus-item--outer"
-              onClick={() => this.closeAllDropdowns()}
-              tabIndex={0}
-            >
-              <span className="navigation__focus-item--inner" tabIndex={-1}>Get Involved</span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/sponsors"
-              activeClassName="navigation--underlined"
-              className="navigation__list-item navigation__focus-item--outer"
-              onClick={() => this.closeAllDropdowns()}
-              tabIndex={0}
-            >
-              <span className="navigation__focus-item--inner" tabIndex={-1}>Sponsors</span>
-            </Link>
-          </li>
-          <li>
-            <div
-              onClick={() => this.toggleOutreachDropdown()}
-              onMouseEnter={() => this.toggleOutreachDropdown()}
-              onMouseLeave={() => this.closeAllDropdowns()}
-              onKeyPress={(event) => {
-                const keyCode = event.key || event.keyCode;
-                if (keyCode === "Enter" || keyCode === 13) {
-                  this.toggleOutreachDropdown();
-                }
-              }}
-              role="button"
-              tabIndex={0}>
-              <Dropdown
-                title="Outreach"
-                links={outreachLinks}
-                extended={this.state.outreachDropdown}
-                tabIndex={-1}
-              />
-            </div>
-          </li>
-          <li>
-            <div
-              onClick={() => this.toggleIliteDropdown()}
-              onMouseEnter={() => this.toggleIliteDropdown()}
-              onMouseLeave={() => this.closeAllDropdowns()}
-              onKeyPress={(event) => {
-                const keyCode = event.key || event.keyCode;
-                if (keyCode === "Enter" || keyCode === 13) {
-                  this.toggleIliteDropdown();
-                }
-              }}
-              role="button"
-              tabIndex={0}>
-              <Dropdown
-                title="About ILITE"
-                links={iliteLinks}
-                extended={this.state.iliteDropdown}
-              />
-            </div>
-          </li>
-        </ul>
+        <div className="navigation__list">
+          <ul>
+            <li>
+              <div
+                onClick={() => this.toggleIliteDropdown()}
+                onMouseEnter={() => this.toggleIliteDropdown()}
+                onMouseLeave={() => this.closeAllDropdowns()}
+                onKeyPress={(event) => {
+                  const keyCode = event.key || event.keyCode;
+                  if (keyCode === "Enter" || keyCode === 13) {
+                    this.toggleIliteDropdown();
+                  }
+                }}
+                role="button"
+                tabIndex={0}
+                className="navigation__focus-item--outer">
+                <div className="navigation__focus-item--inner" tabIndex={-1}>
+                  <Dropdown
+                    title="About ILITE"
+                    links={iliteLinks}
+                    extended={this.state.iliteDropdown}
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                onClick={() => this.toggleOutreachDropdown()}
+                onMouseEnter={() => this.toggleOutreachDropdown()}
+                onMouseLeave={() => this.closeAllDropdowns()}
+                onKeyPress={(event) => {
+                  const keyCode = event.key || event.keyCode;
+                  if (keyCode === "Enter" || keyCode === 13) {
+                    this.toggleOutreachDropdown();
+                  }
+                }}
+                role="button"
+                tabIndex={0}
+                className="navigation__focus-item--outer">
+                <div className="navigation__focus-item--inner" id="navigation__outreachDropdown" tabIndex={-1}>
+                  <Dropdown
+                    title="Outreach"
+                    links={outreachLinks}
+                    extended={this.state.outreachDropdown}
+                  />
+                </div>
+              </div>
+            </li>
+            <li>
+              <Link
+                to="/sponsors"
+                activeClassName="navigation--underlined"
+                className="navigation__list-item navigation__focus-item--outer"
+                onClick={() => this.closeAllDropdowns()}
+                tabIndex={0}
+              >
+                <span className="navigation__focus-item--inner" tabIndex={-1}>Sponsors</span>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/getinvolved"
+                activeClassName="navigation--underlined"
+                className="navigation__list-item navigation__focus-item--outer"
+                onClick={() => this.closeAllDropdowns()}
+                tabIndex={0}
+              >
+                <span className="navigation__focus-item--inner" tabIndex={-1}>Get Involved</span>
+              </Link>
+            </li>
+          </ul>
+        </div>
         <div
           className={`dropdown__background--main ${backgroundOpen}`}
           onClick={() => this.closeAllDropdowns()}

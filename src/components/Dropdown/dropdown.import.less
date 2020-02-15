@@ -75,4 +75,14 @@
   .fa-caret-down {
     transform: rotate(45deg) translateY(-5px);
   }
+
+  .dropdown__focus-item--inner:focus {
+    outline: none;
+  }
+
+  .dropdown__focus-item--outer:focus {
+    box-shadow: 0 0 2px 2px #51a7e8;
+    background-color: @gray-3;
+    transition: 350ms ease-out 50ms;
+  }
 }

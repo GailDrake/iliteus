@@ -4,9 +4,10 @@ import { Link } from "gatsby"
 class Dropdown extends Component {
 
   render() {
-    const title = this.props.title
-    const extended = this.props.extended ? "show" : ""
-    const { links } = this.props
+    const title = this.props.title;
+    const itemTabIndex = this.props.extended ? 0 : -1;
+    const extended = this.props.extended ? "show" : "";
+    const { links } = this.props;
 
     return (
       <div className="dropdown">
@@ -20,10 +21,11 @@ class Dropdown extends Component {
             return (
               <Link
                 to={filePath}
-                className="dropdown__item"
+                className="dropdown__item dropdown__focus-item--outer"
                 activeClassName="dropdown__item--active"
+                tabIndex={itemTabIndex}
               >
-                {link.name}
+                <span className="dropdown__focus-item--inner" tabIndex={-1}>{link.name}</span>
               </Link>
             )
           })}
