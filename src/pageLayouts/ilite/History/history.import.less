@@ -1,125 +1,127 @@
-.history {
-  .history__tabs {
-    display: flex;
-    width: 100%;
-    list-style-type: none;
-    justify-content: space-around;
-    border-bottom: 1px solid @purple-ws-2;
-    margin-bottom: 30px;
+ .history {
+   .history__tabs {
+     display: flex;
+     width: 100%;
+     list-style-type: none;
+     justify-content: space-around;
+     border-bottom: 1px solid @purple-ws-2;
+     margin-bottom: 30px;
 
-    li {
-      width: 100%;
-      text-align: center;
-      padding: 10px 15px;
+     li {
+       width: 100%;
+       text-align: center;
+       padding: 10px 15px;
 
-      a {
-        color: @text-1;
-        text-decoration: none;
-        transition: all 0.4s;
+       a {
+         color: @text-1;
+         text-decoration: none;
+         transition: all 0.4s;
 
-        &:hover {
-          color: @purple-ws-2;
-        }
-      }
-    }
+         &:hover {
+           color: @purple-ws-2;
+         }
+       }
+     }
 
-    @media screen and (max-width: 600px) {
-      display: none;
-    }
-  }
+     @media screen and (max-width: 600px) {
+       display: none;
+     }
+   }
 
-  .history__event {
+   .history__event {
 
-    .history__event-container {
-      display: flex;
-      flex: 1;
-      width: 100%;
-      margin-top: 20px;
-      margin-bottom: 50px;
-      flex-direction: row;
+     .history__event-container {
+       display: flex;
+       flex: 1;
+       width: 100%;
+       margin-top: 20px;
+       margin-bottom: 50px;
+       flex-direction: row;
 
-      .history__awards {
-        margin-right: 5px;
-      }
+       .history__awards {
+         margin-right: 5px;
+       }
 
-      .history__attended {
-        margin-left: 5px;
-      }
+       .history__attended {
+         margin-left: 5px;
+       }
 
-      div {
-        flex: 2;
-        text-align: center;
-      }
+       div {
+         flex: 2;
+         text-align: center;
+       }
 
-      li {
-        text-align: center;
-        list-style-type: none;
-      }
+       li {
+         text-align: center;
+         list-style-type: none;
+       }
 
-      @media screen and (max-width: 600px) {
-        ul {
-          display: block;
-          width: 100%;
-        }
-      }
+       @media screen and (max-width: 600px) {
+         ul {
+           display: block;
+           width: 100%;
+         }
+       }
 
-      @media (max-width: 850px) {
-        flex-direction: column;
-      }
-    }
+       @media (max-width: 850px) {
+         flex-direction: column;
+       }
+     }
 
-    .history__event-header {
-      .title();
-    }
+     .history__event-header {
+       .title();
+     }
 
-    .history__event-subheader {
-      margin-top: 20px;
-      margin-bottom: 15px;
-      font-size: 24px;
-      font-weight: 450;
-      color: @text-2;
-    }
-  }
+     .history__event-subheader {
+       margin-top: 20px;
+       margin-bottom: 15px;
+       font-size: 24px;
+       font-weight: 450;
+       color: @text-2;
+     }
+   }
 
-  .history__top {
-    color: @text-1;
-    transition: all 0.4s;
+   .history__top {
+     color: @text-1;
+     transition: all 0.4s;
 
-    &:hover {
-      color: @purple-ws-2;
-    }
-  }
+     &:hover {
+       color: @purple-ws-2;
+     }
+   }
 
-  .history__documentation {
-    border: 3px solid black;
-    max-width: 1000px;
-    margin: 0 auto;
+   .history__documentation {
+     border: 3px solid black;
+     max-width: 1000px;
+     margin: 0 auto;
 
-    th,
-    td {
-      border: 1px solid black;
-      padding: 15px;
-    }
+     th,
+     td {
+       border: 1px solid black;
+       padding: 15px;
+     }
 
-    .history__documentation__link {
-      display: inline-block;
-      width: 100%;
-      height: auto;
-      text-decoration: none;
-    }
-  }
+     .history__documentation__link {
+       display: inline-block;
+       width: 100%;
+       height: auto;
+       text-decoration: none;
+     }
+   }
 
-  .history__image {
-    display: block;
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
-    margin: 30px auto;
-  }
+   .history__image {
+     display: block;
+     width: 100%;
+     max-width: 1000px;
+     height: auto;
+     margin: 30px auto;
+   }
 
-  .history__embed {
-    width: 100%;
-    max-width: 560px;
-    margin: 0 auto;
-  }
-}
+   .history__embed {
+     width: 100%;
+     max-width: 560px;
+     height: 200px;
+     margin: 0 auto;
+     border: 1px solid black
+   }
+ }
