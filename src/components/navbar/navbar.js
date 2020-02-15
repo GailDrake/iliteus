@@ -82,15 +82,15 @@ class Navbar extends Component {
 
     return (
       <nav className="navigation" tabIndex={-1}>
-        <div className="navigation__focus-item--outer" tabIndex={0}>
-          <Link
-            to="/"
-            className="navigation__logo navigation__focus-item--inner"
-            onClick={() => this.closeAllDropdowns()}
-            onKeyPress={this.handleKeyPress}
-            tabIndex={-1}
-          />
-        </div>
+        <Link
+          to="/"
+          className="navigation__logo navigation__focus-item--outer"
+          onClick={() => this.closeAllDropdowns()}
+          onKeyPress={this.handleKeyPress}
+          tabIndex={0}
+        >
+          <div className="navigation__focus-item--inner" tabIndex={-1}></div>
+        </Link>
         <ul className="navigation__list">
           <li>
             <Link
