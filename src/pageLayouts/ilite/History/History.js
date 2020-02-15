@@ -8,16 +8,17 @@ import GetDocumentation from "./GetDocumentation"
 
 const customStyles = {
   content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
     transform: 'translate(-50%,Close -50%)',
     zindex: '4'
   },
   overlay: { zIndex: 100 }
 };
+
+const closeStyles = {
+  content: {
+    fontSize: 40
+  }
+}
 
 class History extends React.Component {
   constructor() {
@@ -67,9 +68,9 @@ class History extends React.Component {
                 </h1>
                     <div className="history__embed">
                       <img
-                        src={require("../../../assets/images/outreach/chairmans/history_2020_banner.jpg")}
-                        alt="2020 Banner"
-                        className="history__image"
+                        src={require("../../../assets/images/outreach/youtubes/history_2020_youtube_video_banner.png")}
+                        alt="2020 Youtube Banner"
+                        className="history__youtube_image"
                         onClick={this.openModal}
                       />
                     </div>
@@ -789,7 +790,7 @@ class History extends React.Component {
         >
 
           <h2 ref={subtitle => this.subtitle = subtitle}></h2>
-          <button onClick={this.closeModal}>close</button>
+          <section styles={{ 'transform': [{ 'rotate': '90deg' }] }} onClick={this.closeModal}>+</section>
           <div className="history__embed">
             <iframe
               title="Infinite Recharge Video"
