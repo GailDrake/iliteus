@@ -1,0 +1,10 @@
+{
+  "newsData": {
+    "template": {
+      "newsName": "Sample Unique Name",
+      "newsImage": "Sample Image URL",
+      "newsTitle": "Sample title",
+      "newsDescription": "Sample Description"
+    }
+  }
+}

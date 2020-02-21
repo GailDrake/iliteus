@@ -1,0 +1,12 @@
+{
+  "upcomingEvents": {
+    "template": {
+      "eventImage": "Sample Image URL",
+      "eventName": "Sample Event Name",
+      "eventDate": "Sample Date",
+      "eventLocation": "Sample Address",
+      "learnAboutLink": "Sample URL to other website",
+      "googleMapsAddress": "Sample URL to Google Maps directions"
+    }
+  }
+}
