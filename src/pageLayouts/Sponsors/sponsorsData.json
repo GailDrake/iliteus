@@ -1,0 +1,11 @@
+{
+  "SponsorsData": {
+    "template": {
+      "sponsorName": "",
+      "sponsorURL": "",
+      "sponsorImage": "",
+      "sponsorDescription": "",
+      "isCurrentSponsor": "yes or no"
+    }
+  }
+}
