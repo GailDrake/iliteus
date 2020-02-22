@@ -1,8 +1,76 @@
 {
   "sponsorsData": {
-    "template": {
-      "sponsorsImage": "",
-      "sonsorsURL": ""
+    "US STEM": {
+      "sponsorsImage": "../../assets/images/sponsors/usstem.png",
+      "sonsorsURL": "http://www.usstem.org"
+    },
+    "Aurora Flight Science": {
+      "sponsorsImage": "../../assets/images/sponsors/aurora.png",
+      "sonsorsURL": "https://www.aurora.aero"
+    },
+    "Microsoft": {
+      "sponsorsImage": "../../assets/images/sponsors/microsoft.png",
+      "sonsorsURL": "https://www.microsoft/com/"
+    },
+    "Air Force Association": {
+      "sponsorsImage": "../../assets/images/sponsors/afa.png",
+      "sonsorsURL": "http://www.afa.org/"
+    },
+    "Booz Allen Hamilton": {
+      "sponsorsImage": "../../assets/images/sponsors/bah/png",
+      "sonsorsURL": "https://www.boozallen.com/"
+    },
+    "Micron": {
+      "sponsorsImage": "../../assets/images/sponsors/micron.png",
+      "sonsorsURL": "https://www.micron.com/"
+    },
+    "SPARK": {
+      "sponsorsImage": "../../assets/images/sponsors/spark.png",
+      "sonsorsURL": "http://www.poweredbyspark.org/"
+    },
+    "Sabel Systems": {
+      "sponsorsImage": "../../assets/images/sponsors/sabel.jpg",
+      "sonsorsURL": "http://sabelsystems.com/"
+    },
+    "Lockheed Martin": {
+      "sponsorsImage": "../../assets/images/sponsors/lockheedmartin.png",
+      "sonsorsURL": "https://www.lockheedmartin.com/us.html"
+    },
+    "Prince William County Schools": {
+      "sponsorsImage": "../../assets/images/sponsors/pwcs.png",
+      "sonsorsURL": "https://www.pwcs.edu/"
+    },
+    "Macedon Technologies": {
+      "sponsorsImage": "../../assets/images/sponsors/macedontechnologies.png",
+      "sonsorsURL": "https://www.macedontechnologies.com/"
+    },
+    "Incadence": {
+      "sponsorsImage": "../../assets/images/sponsors/incandence.png",
+      "sonsorsURL": "https://www.incadencecorp.com/"
+    },
+    "ASCo": {
+      "sponsorsImage": "../../assets/images/sponsors/asco.png",
+      "sonsorsURL": "https://www.ascoweb.com/"
+    },
+    "Able": {
+      "sponsorsImage": "../../assets/images/sponsors/ABLE.png",
+      "sonsorsURL": "https://www.ablemoving.com/"
+    },
+    "Intufo": {
+      "sponsorsImage": "../../assets/images/sponsors/intufologo.png",
+      "sonsorsURL": "http://www.intufo.com/"
+    },
+    "Google": {
+      "sponsorsImage": "../../assets/images/sponsors/googlelogo.png",
+      "sonsorsURL": "https://about.google/"
+    },
+    "Comcast": {
+      "sponsorsImage": "../../assets/images/sponsors/comcast.png",
+      "sonsorsURL": "https://corporate.comcast.com/"
+    },
+    "Battlefield": {
+      "sponsorsImage": "../../assets/images/sponsors/battlefieldhighschool.jpg",
+      "sonsorsURL": "http://battlefieldhs.pwcs.edu/"
     }
   }
 }

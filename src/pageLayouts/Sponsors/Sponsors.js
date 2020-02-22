@@ -52,7 +52,7 @@ const Sponsors = () => {
               each student has the opportunity to reach his or her potential.
               Guided by our School Board and supported by our dedicated staff,
               PWCS strives to meet the individual needs of students to support
-              their success.{" "}
+              their success{" "}
             </p>
           </Sponsor>
 
