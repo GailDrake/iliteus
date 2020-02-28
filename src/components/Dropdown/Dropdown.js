@@ -17,17 +17,27 @@ class Dropdown extends Component {
         <div className={`dropdown__content ${extended}`}>
           {links.map(link => {
             let filePath = `/${link.section}/${link.file}`
-
-            return (
-              <Link
+            let path = (link.section === 'external')
+              ? <a
+                href={link.file}
+                className="dropdown__item dropdown__focus-item--outer"
+                activeClassName="dropdown__item--active"
+                target="_blank"
+                rel="noopener noreferrer"
+                tabIndex={itemTabIndex}
+              >
+                <span className="dropdown__focus-item--inner" tabIndex={-1}>{link.name}</span>
+              </a>
+              : <Link
                 to={filePath}
                 className="dropdown__item dropdown__focus-item--outer"
                 activeClassName="dropdown__item--active"
                 tabIndex={itemTabIndex}
               >
                 <span className="dropdown__focus-item--inner" tabIndex={-1}>{link.name}</span>
-              </Link>
-            )
+              </Link>;
+
+            return path;
           })}
         </div>
       </div>

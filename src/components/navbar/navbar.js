@@ -42,6 +42,21 @@ const outreachLinks = [
     section: "outreach",
     file: "summercamp",
   },
+  {
+    name: "STEAM Expo",
+    section: "external",
+    file: "https://drakegd.wixsite.com/steamexpo"
+  },
+  {
+    name: "Week 1",
+    section: "external",
+    file: "https://www.ilite.info"
+  },
+  {
+    name: "IROC",
+    section: "external",
+    file: "http://irocoffseason.org/"
+  }
 ]
 
 class Navbar extends Component {
