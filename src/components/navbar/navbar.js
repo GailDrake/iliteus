@@ -119,6 +119,7 @@ class Navbar extends Component {
                     this.toggleIliteDropdown();
                   }
                 }}
+                onFocusOut={() => this.toggleIliteDropdown()}
                 role="button"
                 tabIndex={0}
                 className="navigation__focus-item--outer">
