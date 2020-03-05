@@ -609,13 +609,31 @@
   {
     "eventName": "Summer Camps 2017",
     "mindsReached": 155,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Class Demonstration Photo",
+        "linkURL": "https://drive.google.com/file/d/16Ecow2PBxEuWjzYHdsoELG10FvJiZcIH/view?usp=sharing"
+      },
+      {
+        "linkName": "Kids Driving the Lego Bots",
+        "linkURL": "https://drive.google.com/file/d/1ofTVOma63TvGnpdc0J0_5c_4olYiUVSj/view?usp=sharing"
+      }
+    ],
     "year": 2018
   },
   {
     "eventName": "Payton's Walk",
     "mindsReached": 100,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Demonstration for the students",
+        "linkURL": "https://drive.google.com/file/d/1q0VhkRxvwDyNR5Y4IiISImi3Cfct-UE4/view?usp=sharing"
+      },
+      {
+        "linkName": "Fire Fighter Demonstration",
+        "linkURL": "https://drive.google.com/file/d/1Dcj0bXQgKKyQc6K42oMSY_mchQk5yWFN/view?usp=sharing"
+      }
+    ],
     "year": 2018
   },
   {
@@ -662,7 +680,12 @@
   {
     "eventName": "FLL Workshops",
     "mindsReached": 57,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "FLL Workshop Picture",
+        "linkURL": "https://docs.google.com/document/d/11SdDXg8MTYY_tBfe7x7PO95bQEomdd1XO1ZtFnRARTI/edit?usp=sharing"
+      }
+    ],
     "year": 2018
   },
   {
@@ -691,7 +714,16 @@
   {
     "eventName": "Superintendent Breakfast",
     "mindsReached": 120,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Presentation to the Superintendent",
+        "linkURL": "https://drive.google.com/file/d/1Tj8OQPXLWjJ6nWiW7aBjzHs-kGtKKAi7/view?usp=sharing"
+      },
+      {
+        "linkName": "FRC 1885 Robotics Stand",
+        "linkURL": "https://drive.google.com/file/d/1PBGI15MGws84AaRAsvnkmWDqfzxGNhU3/view?usp=sharing"
+      }
+    ],
     "year": 2018
   },
   {
@@ -721,7 +753,12 @@
   {
     "eventName": "Gravely Pi Night",
     "mindsReached": 300,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Gravely Pi Night Plan Document",
+        "linkURL": "https://docs.google.com/document/d/1wdw_OmB5WWfCYIhyDhBaORasssw5e3AJmYRGo0E3eUE/edit?usp=sharing"
+      }
+    ],
     "year": 2018
   },
   {
@@ -779,6 +816,20 @@
     "year": 2018
   },
   {
+    "eventName": "Youtube Views",
+    "mindsReached": null,
+    "Links": [
+      {
+        "linkName": "Youtube Picture",
+        "linkURL": "https://drive.google.com/file/d/1d--7mTHp3ZZz-UaKS4LoP3bwCBgnxLhV/view?usp=sharing"
+      },
+      {
+        "linkName": "Youtube Photo",
+        "linkURL": "https://drive.google.com/file/d/1S0GEv1qEzCVzGHjY5yxPhQa-z-6zSjPo/view?usp=sharing"
+      }
+    ]
+  },
+  {
     "eventName": "Summer Camps 2018",
     "mindsReached": 223,
     "Links": [],
@@ -787,7 +838,12 @@
   {
     "eventName": "Girls in Aviation Day",
     "mindsReached": 63,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Girls in Aviation Day Photos",
+        "linkURL": "https://docs.google.com/document/d/1PwviW0XDMoJRCzmR_na1IKBGa1SQ2H5qz3gStiOCmLU/edit?usp=sharing"
+      }
+    ],
     "year": 2019
   },
   {
@@ -814,7 +870,12 @@
   {
     "eventName": "FLL Workshops",
     "mindsReached": 65,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "FLL Workshops Document",
+        "linkURL": "https://drive.google.com/open?id=1iuKLHfpnvnqIcBQEZPKQSByn7XiFqpVqsobcsZlGPtY"
+      }
+    ],
     "year": 2019
   },
   {
@@ -850,7 +911,12 @@
   {
     "eventName": "Compass Pre-School",
     "mindsReached": 125,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Compass Pre-school Document",
+        "linkURL": "https: //drive.google.com/open?id=15qE0Qvi6n57RAx4SDiwpxrhrUmzsbx4IihPrrDcGQRk"
+      }
+    ],
     "year": 2019
   },
   {
@@ -862,25 +928,81 @@
   {
     "eventName": "Association of Old Crows",
     "mindsReached": 200,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "AOC Document",
+        "linkURL": "https://drive.google.com/open?id=1-Wup-Zpdlu73kWqqyNyv_dZbrdEs077T2vUG-hSE1hg"
+      }
+    ],
     "year": 2019
   },
   {
     "eventName": "Malaysia",
     "mindsReached": 40,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Movie",
+        "linkURL": "https://drive.google.com/file/d/14ihoJlkfTuJZWn9Y5-lIRsoo8tj6uZTW/view?usp=sharing"
+      },
+      {
+        "linkName": "Soundbyte",
+        "linkURL": "https://drive.google.com/open?id=1F1LJXsn_SMXSbSSqnRQ1WP5hMkIptutm"
+      },
+      {
+        "linkName": "Movie",
+        "linkURL": "https://drive.google.com/file/d/14ihoJlkfTuJZWn9Y5-lIRsoo8tj6uZTW/view?usp=sharing"
+      },
+      {
+        "linkName": "Documentation",
+        "linkURL": "https://drive.google.com/open?id=1tjIGM3lA606eFe4mdWuq_YHD6qPPDn83eag9fg_Nrr8"
+      }
+    ],
     "year": 2019
   },
   {
     "eventName": "Haymarket Day",
     "mindsReached": 500,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Team Photo at Haymarket Day",
+        "linkURL": "https://drive.google.com/open?id=19biKk0zicA22eQ19uijPxVH3w8_VK7wb"
+      }
+    ],
     "year": 2019
   },
   {
     "eventName": "Kickoff",
     "mindsReached": 127,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Kickoff Video 1",
+        "linkURL": "https://drive.google.com/open?id=1fvH5lOTi4gJv6bvS_z95DrjDtzsPBwyQ"
+      },
+      {
+        "linkName": "Kickoff Video 2",
+        "linkURL": "https://drive.google.com/open?id=1PVqs1VIHXp0UvR8aS5NRCezfOItYmYnk"
+      },
+      {
+        "linkName": "Kickoff Photo 1",
+        "linkURL": "https://drive.google.com/open?id=1jqxmsKP8CGuRHSMA9S80gohdalF_mDh4"
+      },
+      {
+        "linkName": "Kickoff Photo 2",
+        "linkURL": "https://drive.google.com/open?id=1YoXXHRA6pPccsDwGU2E2NMzatJW6c_BY"
+      },
+      {
+        "linkName": "Kickoff Photo 3",
+        "linkURL": "https://drive.google.com/open?id=1UZo9YiNIrxp6WAyvLut_FTdeVprCX3wz"
+      },
+      {
+        "linkName": "Kickoff Photo 4",
+        "linkURL": "https://drive.google.com/open?id=1IDM9V5TSxRHQwCZm7ZlWBoMx1a2eRADi"
+      },
+      {
+        "linkName": "Kickoff Photo 5",
+        "linkURL": "https://drive.google.com/open?id=1-GCX4A5XdzpJcjcU3J4S3sHU1ntFAvk3"
+      }
+    ],
     "year": 2019
   },
   {
@@ -950,6 +1072,10 @@
       {
         "linkName": "Picture from Summer Camps",
         "linkURL": "https://drive.google.com/file/d/11nE6L389Qq3Erc4g9K88i_vkOYgTstvW/view?usp=sharing"
+      },
+      {
+        "linkName": "Summer Camps Documentation",
+        "linkURL": "https://docs.google.com/document/d/18p4Tpj_bMoBgWegZbnoN29NU3p_XRvuG4Xx8En5qrSI/edit?usp=sharing"
       }
     ],
     "year": 2020
@@ -957,7 +1083,12 @@
   {
     "eventName": "Girls in Aviation Day",
     "mindsReached": 63,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Demonstration Photo",
+        "linkURL": "https://drive.google.com/file/d/1l00bYx2DMDK5kEYK_Uc2dqlwiw2wLk9N/view?usp=sharing"
+      }
+    ],
     "year": 2020
   },
   {
@@ -967,6 +1098,30 @@
       {
         "linkName": "Pictures from STEAM Expo",
         "linkURL": "https://www.dropbox.com/sh/ohvodgq6xfchm4v/AAAaojfyTOMb2wnPMS7NYzE5a?dl=0"
+      },
+      {
+        "linkName": "NASA Demonstration",
+        "linkURL": "https://drive.google.com/file/d/1FehP3Yz7MtbICXSAi_UkASM4c5mSYuM-/view?usp=sharing"
+      },
+      {
+        "linkName": "Thank You E-mail",
+        "linkURL": "https://drive.google.com/file/d/1HYRYt22sswtfuoqAyif8KmEEdjkstwt3/view?usp=sharing"
+      },
+      {
+        "linkName": "Balloon Demonstration",
+        "linkURL": "https://drive.google.com/file/d/1erv39aL9Bi09LITRpYxoqkuyydywo-sd/view?usp=sharing"
+      },
+      {
+        "linkName": "3D Printing Demonstration",
+        "linkURL": "https://drive.google.com/file/d/1RurmZAaZIV_6Rh5QDPs9GM3dVMS-2cRy/view?usp=sharing"
+      },
+      {
+        "linkName": "Bot Demonstration with Gym View",
+        "linkURL": "https://drive.google.com/file/d/18Dl2ceO1UtPuNjYrijCf_gA6WOvsKYHf/view?usp=sharing"
+      },
+      {
+        "linkName": "Minds Reached Total",
+        "linkURL": "https://drive.google.com/open?id=19wN5PghWlV9ktsRTX7_Xm5J1np36iNWx"
       }
     ],
     "year": 2020
@@ -980,19 +1135,34 @@
   {
     "eventName": "FTC Program",
     "mindsReached": 50,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "FTC Program Picture",
+        "linkURL": "https://drive.google.com/open?id=1XAWDv6boKjOwIXQzxfOjENG60cHq0n3z"
+      }
+    ],
     "year": 2020
   },
   {
     "eventName": "NOVEC Meeting",
     "mindsReached": 300,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Presenting the Bot Picture",
+        "linkURL": "https://drive.google.com/open?id=0B0dT4PSpj-LpZUpZcDhHb05WT0c5ZFFpdU95QkxhV0ZvMUw4"
+      }
+    ],
     "year": 2020
   },
   {
     "eventName": "Freshmen Orientation",
     "mindsReached": 900,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Firing the Spirit Bot during Freshmen Orientation Video",
+        "linkURL": "https://drive.google.com/file/d/1l5_ldSRzCp5pRrTMLAxvLUCe1hf-pOSg/view?usp=sharing"
+      }
+    ],
     "year": 2020
   },
   {
@@ -1009,13 +1179,31 @@
   {
     "eventName": "Battlefield's clubs meetings",
     "mindsReached": 35,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Battlefield Club Email",
+        "linkURL": "https://drive.google.com/file/d/1PuifAtXCkQsqxmZSpFkxDDx1f8KGACNw/view?usp=sharing"
+      },
+      {
+        "linkName": "Battlefield Club Meeting Documentation",
+        "linkURL": "https://docs.google.com/document/d/1gbpyL6pkGpnJKGGHfFJJHjL1n4EvdDOpCL7YTkLCp8U/edit?usp=sharing"
+      },
+      {
+        "linkName": "List of All Participating Clubs",
+        "linkURL": "https://drive.google.com/file/d/12NCXW8CwjVCSLarechTPj0_AymA_eo8c/view?usp=sharing"
+      }
+    ],
     "year": 2020
   },
   {
     "eventName": "Association of Old Crows",
     "mindsReached": 200,
-    "Links": [],
+    "Links": [
+      {
+        "linkName": "Association of Old Crows Thank You Letter",
+        "linkURL": "https://drive.google.com/file/d/1diGIh0qN0d_5Uqgo7AvA3jKu_BKZyROa/view?usp=sharing"
+      }
+    ],
     "year": 2020
   },
   {
@@ -1036,25 +1224,10 @@
       {
         "linkName": "Partnership Email",
         "linkURL": "https://drive.google.com/file/d/1gKy0BII5GzGMsxI00nXBFvXaN9nwsOaS/view?usp=sharing"
-      }
-    ],
-    "year": 2020
-  },
-  {
-    "eventName": "Spirit Bot Football Games",
-    "mindsReached": 3162,
-    "Links": [
-      {
-        "linkName": "Email from the League",
-        "linkURL": "https://docs.google.com/document/d/1Xg3FNCz-1h4ERkG7CI8Gg7SpYgoS8uZOK0_qL_g_T3U/edit?usp=sharing"
       },
       {
-        "linkName": "Receipt 1",
-        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpdzBGaHRJTDJXNnJqRTBGQnRlTEQwSjVwTE1v/view?usp=sharing"
-      },
-      {
-        "linkName": "Receipt 2",
-        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpUk1wVi0ybTZ2S0hEdEdQQlV0ZHg3Rm9ZLUdR/view?usp=sharing"
+        "linkName": "Photo from the Event",
+        "linkURL": "https://drive.google.com/file/d/1diGIh0qN0d_5Uqgo7AvA3jKu_BKZyROa/view?usp=sharing"
       }
     ],
     "year": 2020
@@ -1103,15 +1276,455 @@
     "year": 2020
   },
   {
+    "eventName": "Girl scout Presentation to Leaders",
+    "mindsReached": null,
+    "Links": [
+      {
+        "linkName": "Girl Scout Presentation Photo",
+        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpanF4TmRNeTROYXFTNU50NTEta1VPQXBBZUhr/view?usp=sharing"
+      },
+      {
+        "linkName": "Girl Scout Presentation Photo 2",
+        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpT1RqbEs1Y3V2MW1MeDhLWmlIX3p0Wk9nS1Vz/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "PWC Haymaker STEAM Expo",
+    "mindsReached": 2703,
+    "Links": [
+      {
+        "linkName": "PWC Haymaker STEAM Expo NASA Demonstration",
+        "linkURL": "https://drive.google.com/file/d/1FehP3Yz7MtbICXSAi_UkASM4c5mSYuM-/view?usp=sharing"
+      },
+      {
+        "linkName": "Thank you email",
+        "linkURL": "https://drive.google.com/file/d/1HYRYt22sswtfuoqAyif8KmEEdjkstwt3/view?usp=sharing"
+      },
+      {
+        "linkName": "Student Stalls",
+        "linkURL": "https://drive.google.com/file/d/1erv39aL9Bi09LITRpYxoqkuyydywo-sd/view?usp=sharing"
+      },
+      {
+        "linkName": "3D Printing Stall",
+        "linkURL": "https://drive.google.com/file/d/1RurmZAaZIV_6Rh5QDPs9GM3dVMS-2cRy/view?usp=sharing"
+      },
+      {
+        "linkName": "Bot Demonstration",
+        "linkURL": "https://drive.google.com/file/d/18Dl2ceO1UtPuNjYrijCf_gA6WOvsKYHf/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Cyber Program",
+    "mindsReached": 68,
+    "Links": [
+      {}
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "FTC Program",
+    "mindsReached": 50,
+    "Links": [
+      {
+        "linkName": "FTC Program Photo",
+        "linkURL": "https://drive.google.com/file/d/1XAWDv6boKjOwIXQzxfOjENG60cHq0n3z/view?usp=sharing"
+      },
+      {
+        "linkName": "FTC Program Trophy Photo",
+        "linkURL": "https://drive.google.com/file/d/1qwQaTAyLGdpeQbUc4xt0x1iD8gMz8-HS/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "NOVEC Meeting",
+    "mindsReached": 300,
+    "Links": [
+      {
+        "linkName": "NOVEC Photo",
+        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpZUpZcDhHb05WT0c5ZFFpdU95QkxhV0ZvMUw4/view?usp=sharing"
+      },
+      {
+        "linkName": "NOVEC Photo Number 2",
+        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpbTlNS0E0Q0lOOU00U0ZacEo3R1hyYlVYTHlJ/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Freshman Orientation",
+    "mindsReached": 900,
+    "Links": [
+      {
+        "linkName": "Freshman Orientation 1",
+        "linkURL": "https://drive.google.com/file/d/1l5_ldSRzCp5pRrTMLAxvLUCe1hf-pOSg/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "IROC hosting oct 2019",
+    "mindsReached": null,
+    "Links": [
+      {
+        "linkName": "IROC Photo",
+        "linkURL": "https://drive.google.com/file/d/1bPbgSNdb_-hoihoMAoGvHCx0m5Pz4JNw/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Battlefield's clubs meetings",
+    "mindsReached": 35,
+    "Links": [
+      {
+        "linkName": "Club Email",
+        "linkURL": "https://drive.google.com/file/d/1sdpNTHSjZTqXoof1FbpdGbJqnm0x-Rbl/view?usp=sharing"
+      },
+      {
+        "linkName": "Club List",
+        "linkURL": "https://docs.google.com/document/d/1gbpyL6pkGpnJKGGHfFJJHjL1n4EvdDOpCL7YTkLCp8U/edit?usp=sharing"
+      },
+      {
+        "linkName": "Club List continued",
+        "linkURL": "https://drive.google.com/file/d/12NCXW8CwjVCSLarechTPj0_AymA_eo8c/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Association of Old Crows",
+    "mindsReached": 200,
+    "Links": [
+      {
+        "linkName": "AOC Letter of Thanks",
+        "linkURL": "https://drive.google.com/file/d/1diGIh0qN0d_5Uqgo7AvA3jKu_BKZyROa/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Spirit Bot Pep Rally",
+    "mindsReached": 2400,
+    "Links": [
+      {
+        "linkName": "Spirit Bot Pep Rally Fall Video",
+        "linkURL": "https://drive.google.com/file/d/1diGIh0qN0d_5Uqgo7AvA3jKu_BKZyROa/view?usp=sharing"
+      },
+      {
+        "linkName": "Spirit Bot Pep Rally Fall Photo with the Superintendent",
+        "linkURL": "https://drive.google.com/file/d/1qDQ6aP4WCbRYu6L9jNGPTwesA82IORV2/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Association of Old Crows",
+    "mindsReached": 200,
+    "Links": [
+      {
+        "linkName": "AOC Letter of Thanks",
+        "linkURL": "https://drive.google.com/file/d/1diGIh0qN0d_5Uqgo7AvA3jKu_BKZyROa/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Girl Scout Nation’s Capital Program Partners and Girl Scout Programming Lesson 1",
+    "mindsReached": 18,
+    "Links": [
+      {
+        "linkName": "Girl Scout Email",
+        "linkURL": "https://drive.google.com/file/d/1re1FNsr9ALWSKo7MCtxfBARVGprf45Fu/view?usp=sharing"
+      },
+      {
+        "linkName": "Email Follow Up",
+        "linkURL": "https://docs.google.com/document/d/1YCRfReT8AblgPfZyg1NT3GJbaahc4hSvFAacHM4o1J0/edit?usp=sharing"
+      },
+      {
+        "linkName": "Thank You Email",
+        "linkURL": "https://drive.google.com/file/d/1gKy0BII5GzGMsxI00nXBFvXaN9nwsOaS/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Girl Scout Programming Lesson 2",
+    "mindsReached": 7,
+    "Links": [
+      {
+        "linkName": "Girl Scout Lesson Plan",
+        "linkURL": "https://docs.google.com/document/d/1OIQxaec4nGez7C4trBwSX2UE2w-QS0_9S2aL8ZFX8VA/edit?usp=sharing"
+      },
+      {
+        "linkName": "Girl Scout Lesson Photo",
+        "linkURL": "https://docs.google.com/document/d/1UmRA57-R3_ksGoGQnkxpzlv8TVHQa15xQC1L-3IPy1I/edit?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Spirit Bot Football Game Homecoming",
+    "mindsReached": 1867,
+    "Links": [
+      {
+        "linkName": "Spirit Bot Football Game Homecoming Thank You Email",
+        "linkURL": "https://docs.google.com/document/d/1Xg3FNCz-1h4ERkG7CI8Gg7SpYgoS8uZOK0_qL_g_T3U/edit?usp=sharing"
+      },
+      {
+        "linkName": "Spirit Bot Firing the T shirts into the Crowd Photo",
+        "linkURL": "https://drive.google.com/file/d/1gq7n7u6IT3n953IdmZKSOvq1dG3zk82X/view?usp=sharing"
+      },
+      {
+        "linkName": "Football Game Sales Reciept Photo",
+        "linkURL": "https://drive.google.com/file/d/0B0dT4PSpj-LpdzBGaHRJTDJXNnJqRTBGQnRlTEQwSjVwTE1v/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Spirit Bot Football Game Pink Out",
+    "mindsReached": 1295,
+    "Links": [
+      {
+        "linkName": "Spirit Bot Football Game Pink Out",
+        "linkURL": "https://drive.google.com/file/d/1diGIh0qN0d_5Uqgo7AvA3jKu_BKZyROa/view?usp=sharing"
+      },
+      {
+        "linkName": "Spirit Bot Football Photo with the Superintendent",
+        "linkURL": "https://drive.google.com/file/d/1qDQ6aP4WCbRYu6L9jNGPTwesA82IORV2/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
     "eventName": "Kickoff",
+    "mindsReached": 2400,
+    "Links": [
+      {
+        "linkName": "Kickoff Photo",
+        "linkURL": "https://drive.google.com/file/d/1bPbgSNdb_-hoihoMAoGvHCx0m5Pz4JNw/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Spirit Bot Pep Rally Fall",
+    "mindsReached": 2400,
+    "Links": [
+      {
+        "linkName": "Spirit Bot Pep Rally Fall Video",
+        "linkURL": "https://drive.google.com/file/d/1U_OoaTzd49J6hmR8azaNmNavPU7_yEbi/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Spirit Bot Pep Rally Winter",
+    "mindsReached": 2400,
+    "Links": [
+      {
+        "linkName": "Spirit Bot Pep Rally Winter Video",
+        "linkURL": "https://drive.google.com/file/d/16HTI8jQZLmJk9kcx56abyMSIBtIuXG4e/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Spirit Bot Pep Rally Winter",
+    "mindsReached": 2400,
+    "Links": [
+      {
+        "linkName": "Spirit Bot Pep Rally Winter Video",
+        "linkURL": "https://drive.google.com/file/d/16HTI8jQZLmJk9kcx56abyMSIBtIuXG4e/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Spirit Bot Pep Rally Winter",
+    "mindsReached": 2400,
+    "Links": [
+      {
+        "linkName": "Spirit Bot Pep Rally Winter Video",
+        "linkURL": "https://drive.google.com/file/d/16HTI8jQZLmJk9kcx56abyMSIBtIuXG4e/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Spirit Bot Pep Rally Winter",
+    "mindsReached": 2400,
+    "Links": [
+      {
+        "linkName": "Spirit Bot Pep Rally Winter Video",
+        "linkURL": "https://drive.google.com/file/d/16HTI8jQZLmJk9kcx56abyMSIBtIuXG4e/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Spirit Bot Pep Rally Winter",
+    "mindsReached": 2400,
+    "Links": [
+      {
+        "linkName": "Spirit Bot Pep Rally Winter Video",
+        "linkURL": "https://drive.google.com/file/d/16HTI8jQZLmJk9kcx56abyMSIBtIuXG4e/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Team 1418 FRC Training Event, Chairman’s Round table discussion ",
+    "mindsReached": 10,
+    "Links": [
+      {
+        "linkName": "Roundtable Discussion Word Document",
+        "linkURL": "https://docs.google.com/document/d/1Iv2roFqKlL_uByj-OfMwH7mdCh2XdqdDxZ9F6GODXKQ/edit?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Occupy Mars Journey",
+    "mindsReached": 25,
+    "Links": [
+      {
+        "linkName": "Occupy Mars Journey Interest Email",
+        "linkURL": "https://drive.google.com/file/d/1_ED82hiaXW6eBLcy5QKxzgJVxKSexAMW/view?usp=sharing"
+      },
+      {
+        "linkName": "Starting the Journey Photo",
+        "linkURL": "https://drive.google.com/file/d/1gsLD3VHizgJLjtsGc7BLP92SVN-FS9vD/view?usp=sharing"
+      },
+      {
+        "linkName": "Thank You Email",
+        "linkURL": "https://drive.google.com/file/d/1hiBBkvaCY4SJoj9a8nR0VBl9017Vi0sW/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "US Department of Education",
+    "mindsReached": 4,
+    "Links": [
+      {
+        "linkName": "US Department of Education Photo",
+        "linkURL": "https://drive.google.com/file/d/1oDPis4kNslyAeI4jk-z4H8JZB_UYC4q8/view?usp=sharing"
+      },
+      {
+        "linkName": "US Department of Education Photo Showing off the Robot",
+        "linkURL": "https://drive.google.com/file/d/1nsdcPDO1rpxJH92zWrqXMWd907cGG3_T/view?usp=sharing"
+      },
+      {
+        "linkName": "US Department of Education Student Presentation Photo",
+        "linkURL": "https://drive.google.com/file/d/1JyrrbgYC561URwVsoLrpjt-1PQHMNd2h/view?usp=sharing"
+      },
+      {
+        "linkName": "Final Thoughts Photo",
+        "linkURL": "https://drive.google.com/file/d/1irOxQ0Wi_wC385_Jpmyyp0rtTG6ahwjx/view?usp=sharing"
+      },
+      {
+        "linkName": "US Department of Education Photo",
+        "linkURL": "https://drive.google.com/file/d/1irOxQ0Wi_wC385_Jpmyyp0rtTG6ahwjx/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Udvar Hazy Girl Scout Day",
     "mindsReached": null,
     "Links": [],
     "year": 2020
   },
   {
-    "eventName": "Girl scout Presentation to Leaders",
+    "eventName": "CASIIT Holiday Party",
+    "mindsReached": 40,
+    "Links": [],
+    "year": 2020
+  },
+  {
+    "eventName": "Social Media",
+    "mindsReached": null,
+    "Links": [
+      {
+        "linkName": "Social Media Instagram Profile Screenshot",
+        "linkURL": "https://drive.google.com/file/d/1KBjeXncLWimXiD7G8jTSYgfKGiUaJyGz/view?usp=sharing"
+      },
+      {
+        "linkName": "Social Media Twitter Profile Screenshot",
+        "linkURL": "https://drive.google.com/file/d/1adnuaNi3X4VciJEy_OhwbgNWWB14IB4L/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "eventName": "Girl Scout Space Science Event",
+    "mindsReached": 1110,
+    "Links": [
+      {
+        "linkName": "Girl Scout Space Science Event Photo",
+        "linkURL": "https://drive.google.com/file/d/1AdzLrP0K3HO73cyuryZ0tAqeYE0uVCdW/view?usp=sharing"
+      },
+      {
+        "linkName": "Girl Scout Space Science Event Arts and Craft Photo",
+        "linkURL": "https://drive.google.com/file/d/12fYp-sNunoExlb_d2hqkBt0IGQ5MSvTr/view?usp=sharing"
+      },
+      {
+        "linkName": "Girl Scout Space Science Event Helping the Students Photo",
+        "linkURL": "https://drive.google.com/file/d/12fYp-sNunoExlb_d2hqkBt0IGQ5MSvTr/view?usp=sharing"
+      },
+      {
+        "linkName": "Girl Scout Space Science Event Thank You Email",
+        "linkURL": "https://drive.google.com/file/d/14COgeEgU71DhNKYFiYjEO4ssKTiOnIxg/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Bull Run Observer Article STEAM EXPO",
+    "mindsReached": null,
+    "Links": [
+      {
+        "linkName": "Article",
+        "linkURL": "https://drive.google.com/file/d/16awQkR46F3L8VJ_g77i_OTrHWvdhN6F1/view?usp=sharing"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "eventName": "Bull Run Observer Article Teacher of the year",
     "mindsReached": null,
     "Links": [],
     "year": 2020
+  },
+  {
+    "eventName": "Girl Scout Programming Lesson 3",
+    "mindsReached": 12,
+    "Links": [
+      {
+        "linkName": "Interest Email",
+        "linkURL": "https://drive.google.com/file/d/15MmM-m7fiFcA7DHm8rra_8Gd22KCagxN/view?usp=sharing"
+      },
+      {
+        "linkName": "Girl Scout Programming Photo",
+        "linkURL": "https://drive.google.com/file/d/1rTlMPQ_whXKcULMz_hYUvZ9Wt_CQ-fug/view?usp=sharing"
+      },
+      {
+        "linkName": "Girl Scout Programming Bee Bots Photo",
+        "linkURL": "https://drive.google.com/file/d/1BZ3ySuZd0YINafl3FpwwDR2XWRtQoAfA/view?usp=sharing"
+      },
+      {
+        "linkName": "Girl Scout Programming Presentation Photo",
+        "linkURL": "https://drive.google.com/file/d/1DcWyfHWDAjwNBypZSpEFoIyaiakjmbgy/view?usp=sharing"
+      },
+      {
+        "linkName": "Girl Scout Programming Group Photo",
+        "linkURL": "https://drive.google.com/file/d/1Mf_YnOEx6fbcBAZAItBIyHEqL1AqK9U4/view?usp=sharing"
+      }
+    ]
   }
 ]
