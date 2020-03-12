@@ -60,41 +60,35 @@ const IliteHome = props => {
           <br />
           <div className="iliteHome__news-container">
             <NewsCard
-              title="ILITE Hosts Kickoff 2020 for Local FRC Teams"
-              image={require("../../assets/images/frc/kickoff-2020.jpg")}
+              title="ILITE hosts Week 1"
+              image={require("../../assets/images/frc/week1-2020.png")}
             >
-              On January 4th, 2020, ILITE opened their doors to local FRC teams
-              to kickoff the 2020 FRC season! We experienced the unvieling of
-              the game with over 10 FRC teams. We were joined by Team 3373 for a
-              post-kickoff strategy session where we discussed various game
-              aspects and possible play methods! ILITE is pumped for the 2020
-              game, INFINITE RECHARGE, and cannot wait to see what the game will
-              bring us this season.
+              From February 28th to March 1st, ILITE hosted over forty teams for
+              the Week 1 Chesapeake District Qualifier. We also saw over ten FLL Jr.
+              teams participate in our FLL Jr. Expo event. We would like to express a
+              our gratitude for all the marvelous volunteers that helped make the event
+              a success! We ran on time and smoothly. We saw an intense and amazing set
+              of matches played out with the utmost gracious professionalism. Great Job
+              to everyone who participated.
             </NewsCard>
             <NewsCard
-              title="ILITE Hosts 6th Annual Haymaker STEAM Expo"
-              image={require("../../assets/images/outreach/STEAM.hostedevents.jpg")}
+              title="ILITE competes at Week 2 in Bethesda"
+              image={require("../../assets/images/frc/week2-2020.png")}
             >
-              On January 25th, 2020, ILITE welcomed over 2,700+ attendees into
-              our building for our 6th Annual Haymaker STEAM Expo. At this
-              year's event we were joined by NASA, the FBI, and our local Fire
-              Departments! Contuining last year's addition, a majority of booths
-              were tailored towards Girl Scouts of all levels to earn badges
-              from. We would like to extend our gratitude to all the volunteers
-              and booth hosts.
+              ILITE competed March 7th-8th at Walt Whitman High school in Bethesda, Maryland.
+              We played strong all the way to quaterfinals with an amazing alliance with Team 8217
+              and Team 449. We were given the honor of moving on to the District Level to compete
+              for the Chairman's Award. We are incredibly grateful for all the wonderful volunteers
+              that gave us their time to put together a safe and enjoyable event for all.
             </NewsCard>
             <NewsCard
-              title="ILITE at Bunny Bots 2019"
-              image={require("../../assets/images/frc/bunnybots.jpg")}
+              title="COVID-19 Update and Response"
+              image={require("../../assets/images/frc/spirit-2020.png")}
             >
-              ILITE participated in the offseason event, BunnyBots, which was
-              hosted by team 449 at Montgomery Blair High School. With our
-              robot, "JuiceBx", we made a formidable presence, ultimately
-              finishing out in the semifinals. We strongly felt that it was a
-              marvelous learning opportunity for the students to prepare for the
-              2020 build season, and we're eager to apply the skills that we've
-              learned! We would also like to give a big thank you to team 449
-              for hosting this great event!
+              As news of cancellations are sent out due to COVID-19, ILITE has decided to take action
+              and not let the suspension of the FIRST Robotics Season to drag us down.
+              We are using this time of dismay as an opportunity for improvement and
+              further development on our efforts as an FRC team. Stay Safe Everyone!
             </NewsCard>
           </div>
           <div className="iliteHome__news-button">
