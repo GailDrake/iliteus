@@ -5,6 +5,25 @@ import Button from "../../components/Button"
 import Events from "../../components/events"
 import NewsCard from "../../components/newscard"
 import SponsorTag from "../../components/SponsorTag/SponsorTag"
+import newsData from "../../lib/iliteHome/newsData.json"
+import eventsData from "../../lib/iliteHome/eventsData.json"
+import image1 from "../../assets/images/frc/kickoff.jpg"
+
+function buildEvents() {
+  return (eventsData.upcomingEvents.map(event => 
+    <Events
+      name={event.name} date={event.date} eventLink={event.learnAboutLink} image={event.image}
+    /> 
+    ));
+}
+
+function buildNews() {
+  return (newsData.News.map(news =>
+    <NewsCard title={news.title} image={news.image} >
+      {news.description}
+    </NewsCard >
+  ));
+}
 
 const IliteHome = props => {
   return (
@@ -33,7 +52,8 @@ const IliteHome = props => {
             events that we will be hosting in the near future.
           </p>
           <div className="iliteHome__events-container">
-            <Events
+            {buildEvents()}
+            {/* <Events
               name="FRC Week 1"
               date="February 28th, 2020"
               eventLink="https://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va"
@@ -52,14 +72,14 @@ const IliteHome = props => {
               date="June, 2020"
               eventLink="/outreach/summercamp"
               image="images/outreach/summercamps/lego3.jpg"
-            />
+            /> */}
           </div>
         </div>
         <div className="iliteHome__news">
           <h1 className="iliteHome__news-header">News</h1>
           <br />
           <div className="iliteHome__news-container">
-            <NewsCard
+             {/* <NewsCard
               title="ILITE Hosts Kickoff 2020 for Local FRC Teams"
               image={require("../../assets/images/frc/kickoff-2020.jpg")}
             >
@@ -95,7 +115,8 @@ const IliteHome = props => {
               2020 build season, and we're eager to apply the skills that we've
               learned! We would also like to give a big thank you to team 449
               for hosting this great event!
-            </NewsCard>
+            </NewsCard> */}
+            {buildNews()}
           </div>
           <div className="iliteHome__news-button">
             <Button link="https://www.smore.com/u/team1885iliterobotics">

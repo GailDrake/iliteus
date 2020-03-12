@@ -1,19 +1,19 @@
 {
-  "newsData": {
-    "Kickoff": {
-      "newsImage": "../../assets/images/frc/kickoff-2020.jpg",
-      "newsTitle": "ILITE Hosts Kickoff 2020 for Local FRC Teams",
-      "newsDescription": "On January 4th, 2020, ILITE opened their doors to local FRC teams to kickoff the 2020 FRC season! We experienced the unvieling of the game with over 10 FRC teams. We were joined by Team 3373 for a post-kickoff strategy session where we discussed various game aspects and possible play methods! ILITE is pumped for the 2020 game, INFINITE RECHARGE, and cannot wait to see what the game will   bring us this season."
+  "News": [
+    {
+      "image": "images/frc/kickoff-2020.jpg",
+      "title": "ILITE Hosts Kickoff 2020 for Local FRC Teams",
+      "description": "On January 4th, 2020, ILITE opened their doors to local FRC teams to kickoff the 2020 FRC season! We experienced the unvieling of the game with over 10 FRC teams. We were joined by Team 3373 for a post-kickoff strategy session where we discussed various game aspects and possible play methods! ILITE is pumped for the 2020 game, INFINITE RECHARGE, and cannot wait to see what the game will   bring us this season."
     },
-    "STEAM Expo": {
-      "newsImage": "../../assets/images/outreach/STEAM.hostedevents.jpg",
-      "newsTitle": "ILITE Hosts 6th Annual Haymaker STEAM Expo",
-      "newsDescription": "On January 25th, 2020, ILITE welcomed over 2,700+ attendees into our building for our 6th Annual Haymaker STEAM Expo. At this year's event we were joined by NASA, the FBI, and our local Fire Departments! Contuining last year's addition, a majority of booths were tailored towards Girl Scouts of all levels to earn badges from. We would like to extend our gratitude to all the volunteers and booth hosts."
+    {
+      "image": "images/outreach/STEAM.hostedevents.jpg",
+      "title": "ILITE Hosts 6th Annual Haymaker STEAM Expo",
+      "description": "On January 25th, 2020, ILITE welcomed over 2,700+ attendees into our building for our 6th Annual Haymaker STEAM Expo. At this year's event we were joined by NASA, the FBI, and our local Fire Departments! Contuining last year's addition, a majority of booths were tailored towards Girl Scouts of all levels to earn badges from. We would like to extend our gratitude to all the volunteers and booth hosts."
     },
-    "BunnyBots": {
-      "newsImage": "../../assets/images/frc/bunnybots.jpg",
-      "newsTitle": "ILITE at Bunny Bots 2019",
-      "newsDescription": "ILITE participated in the offseason event, BunnyBots, which was hosted by team 449 at Montgomery Blair High School. With our robot, \"JuiceBx\", we made a formidable presence, ultimately finishing out in the semifinals. We strongly felt that it was a marvelous learning opportunity for the students to prepare for the 2020 build season, and we're eager to apply the skills that we've learned! We would also like to give a big thank you to team 449 for hosting this great event!"
+    {
+      "image": "images/frc/bunnybots.jpg",
+      "title": "ILITE at Bunny Bots 2019",
+      "description": "ILITE participated in the offseason event, BunnyBots, which was hosted by team 449 at Montgomery Blair High School. With our robot, \"JuiceBx\", we made a formidable presence, ultimately finishing out in the semifinals. We strongly felt that it was a marvelous learning opportunity for the students to prepare for the 2020 build season, and we're eager to apply the skills that we've learned! We would also like to give a big thank you to team 449 for hosting this great event!"
     }
-  }
+  ]
 }
