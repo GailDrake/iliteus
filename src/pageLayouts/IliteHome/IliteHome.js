@@ -7,6 +7,7 @@ import NewsCard from "../../components/newscard"
 import SponsorTag from "../../components/SponsorTag/SponsorTag"
 import newsData from "../../lib/iliteHome/newsData.json"
 import eventsData from "../../lib/iliteHome/eventsData.json"
+import sponsorsData from "../../lib/iliteHome/sponsorsData.json"
 import image1 from "../../assets/images/frc/kickoff.jpg"
 
 function buildEvents() {
@@ -22,6 +23,16 @@ function buildNews() {
     <NewsCard title={news.title} image={news.image} >
       {news.description}
     </NewsCard >
+  ));
+}
+
+function buildSponsors() {
+  return (sponsorsData.sponsors.map(sponsor => 
+    <SponsorTag
+      image={sponsor.image}
+      url={sponsor.url}
+    >
+    </SponsorTag>
   ));
 }
 
@@ -131,7 +142,7 @@ const IliteHome = props => {
           </p>
           <br />
           <div className="iliteHome__sponsors-container">
-            <SponsorTag
+            {/* <SponsorTag
               image={require("../../assets/images/sponsors/usstem.png")}
               url="http://www.usstem.org"
             >
@@ -238,7 +249,8 @@ const IliteHome = props => {
               url="http://battlefieldhs.pwcs.edu/"
             >
               Battlefield
-            </SponsorTag>
+            </SponsorTag> */}
+            {buildSponsors()}
           </div>
         </div>
       </div>

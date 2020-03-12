@@ -1,76 +1,76 @@
 {
-  "sponsorsData": [
+  "sponsors": [
     {
-      "sponsorsImage": "../../assets/images/sponsors/usstem.png",
-      "sonsorsURL": "http://www.usstem.org"
+      "image": "images/sponsors/usstem.png",
+      "url": "http://www.usstem.org"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/aurora.png",
-      "sonsorsURL": "https://www.aurora.aero"
+      "image": "images/sponsors/aurora.png",
+      "url": "https://www.aurora.aero"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/microsoft.png",
-      "sonsorsURL": "https://www.microsoft/com/"
+      "image": "images/sponsors/microsoft.png",
+      "url": "https://www.microsoft/com/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/afa.png",
-      "sonsorsURL": "http://www.afa.org/"
+      "image": "images/sponsors/afa.png",
+      "url": "http://www.afa.org/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/bah/png",
-      "sonsorsURL": "https://www.boozallen.com/"
+      "image": "images/sponsors/bah.png",
+      "url": "https://www.boozallen.com/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/micron.png",
-      "sonsorsURL": "https://www.micron.com/"
+      "image": "images/sponsors/micron.png",
+      "url": "https://www.micron.com/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/spark.png",
-      "sonsorsURL": "http://www.poweredbyspark.org/"
+      "image": "images/sponsors/spark.png",
+      "url": "http://www.poweredbyspark.org/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/sabel.jpg",
-      "sonsorsURL": "http://sabelsystems.com/"
+      "image": "images/sponsors/sabel.jpg",
+      "url": "http://sabelsystems.com/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/lockheedmartin.png",
-      "sonsorsURL": "https://www.lockheedmartin.com/us.html"
+      "image": "images/sponsors/lockheedmartin.png",
+      "url": "https://www.lockheedmartin.com/us.html"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/pwcs.png",
-      "sonsorsURL": "https://www.pwcs.edu/"
+      "image": "images/sponsors/pwcs.png",
+      "url": "https://www.pwcs.edu/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/macedontechnologies.png",
-      "sonsorsURL": "https://www.macedontechnologies.com/"
+      "image": "images/sponsors/macedontechnologies.png",
+      "url": "https://www.macedontechnologies.com/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/incandence.png",
-      "sonsorsURL": "https://www.incadencecorp.com/"
+      "image": "images/sponsors/incadence.png",
+      "url": "https://www.incadencecorp.com/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/asco.png",
-      "sonsorsURL": "https://www.ascoweb.com/"
+      "image": "images/sponsors/asco.png",
+      "url": "https://www.ascoweb.com/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/ABLE.png",
-      "sonsorsURL": "https://www.ablemoving.com/"
+      "image": "images/sponsors/ABLE.png",
+      "url": "https://www.ablemoving.com/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/intufologo.png",
-      "sonsorsURL": "http://www.intufo.com/"
+      "image": "images/sponsors/intufologo.png",
+      "url": "http://www.intufo.com/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/googlelogo.png",
-      "sonsorsURL": "https://about.google/"
+      "image": "images/sponsors/googlelogo.png",
+      "url": "https://about.google/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/comcast.png",
-      "sonsorsURL": "https://corporate.comcast.com/"
+      "image": "images/sponsors/comcast.png",
+      "url": "https://corporate.comcast.com/"
     },
     {
-      "sponsorsImage": "../../assets/images/sponsors/battlefieldhighschool.jpg",
-      "sonsorsURL": "http://battlefieldhs.pwcs.edu/"
+      "image": "images/sponsors/battlefieldhighschool.jpg",
+      "url": "http://battlefieldhs.pwcs.edu/"
     }
   ]
 }
