@@ -9,7 +9,6 @@ const History = () => {
   return (
     <LayoutWrapper>
       <Container
-        division="frc"
         title="History"
         subtitle="See how 90,000+ minds are reached"
         id="top"

@@ -29,6 +29,11 @@ const iliteLinks = [
     section: "ilite",
     file: "mission",
   },
+  {
+    name: "Resources",
+    section: "ilite",
+    file: "resources"
+  }
 ]
 
 const outreachLinks = [
