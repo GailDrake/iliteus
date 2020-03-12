@@ -1,44 +1,44 @@
 {
-  "summerCampsSessionData": {
-    "robotics1": {
+  "summerCampsSessionData": [
+    {
       "title": "EV3 Robotics 1",
       "description": "Students who attend ILITE’s LEGO EV3 Summer Camp design, build, and program awesome robots using state-of-the-art LEGO robotics technology: the powerful MINDSTORMS EV3 system. This beginners camp focuses on the fundamentals of robotics and programming to move the robots. The capstone of the camp is a mini competition. ILITE’s LEGO EV3 Camp gives students the opportunity to learn and have fun at the same time.",
       "image": "../../../assets/images/outreach/summercamps/lego1.png"
     },
-    "robotics2": {
+    {
       "title": "EV3 Robotics 2",
       "description": "Students who attend ILITE’s LEGO EV3 Summer Camp design, build, and program awesome robots using state-of-the-art LEGO robotics technology: the powerful MINDSTORMS EV3 system. This advanced camp focuses on the integration of sensors, more advanced programming techniques, and the relationship between programming and the robot. The capstone of the camp is a mini competition. ILITE’s LEGO EV3 Camp gives students the opportunity to learn and have fun at the same time. This exciting robotics camp challenges students to push robots to the limits by completing various tasks.",
       "image": "../../../assets/images/outreach/summercamps/lego2.jpg"
     },
-    "matterHackers": {
+    {
       "title": "Matter Hackers",
       "description": "Through this introductory STEM camp, young students learn the basics of simple machines and states of matter through a variety of creative, hands-on activities. Students also have the opportunity to learn teamwork, problem solving, and real life application of everyday science through exciting experiments and interactive lessons. This camp is perfect for all kinds of students, from those who already have a passion for STEM, to students who are just enthusiastic to have fun and learn at the same time!",
       "image": "../../../assets/images/outreach/summercamps/stem1.png"
     },
-    "imaginationInfusion": {
+    {
       "title": "Imagination Infusion",
       "description": "Student minds will come alive with the hands-on learning in Imagination Infusion as they are submerged into exciting and fun STEM experiments. Students will learn the basics of engineering, physics, and energy. Projects range from designing and racing solar powered cars and an egg drop cradle to creating Alka-Seltzer rockets. This camp is a favorite for both the students, parents, and mentors. Don’t miss out on your child’s imagination coming alive!",
       "image": "../../../assets/images/outreach/summercamps/stem2.jpg"
     },
-    "cyberDefense": {
+    {
       "title": "Cyber Defense",
       "description": "ILITE’s Cyber camp puts middle and high school students in the position of newly hired IT professionals tasked with managing the network of a small company. Students are given a set of virtual images that represent operating systems and are tasked with finding cyber security vulnerabilities within the images and hardening the system while maintaining critical services.",
       "image": "../../../assets/images/outreach/summercamps/cyber.png"
     },
-    "girlsInSTEM": {
+    {
       "title": "Girls in STEM",
       "description": "ILITE's Girls in STEM summer camp helps girls discover the world of STEM through hands on activities filled with exciting experiments. This year, girls will get to create stunning digital art by learning graphic design skills and will also craft unique objects using 3D printing and laser engraving technology.",
       "image": "../../../assets/images/outreach/summercamps/girls.png"
     },
-    "boeBots": {
+    {
       "title": "Boe-Bots",
       "description": "Our Boe-Bot Camp challenges older students to learn a basic robot works, introducing them to the vast world of electronics in a prototyping format and how to program a robot in BASIC. Students will be taught and build their own sensory arrays to help their robot navigate the environment, running on code they write. Electrical components include infrared range finders, tactile whisker sensors, servo motors and LEDs. This class is perfect for EV3 pros that want a challenge or learners that want to explore how programming and electronics interact in the real world.",
       "image": "../../../assets/images/outreach/summercamps/boe.png"
     },
-    "programming": {
+    {
       "title": "Basics of Programming",
       "description": "This camp is for beginner programmers or anyone who wishes to learn how programming works. This would involve graphical drag-and-drop programming to develop basic programming knowledge and logic and build a link between the writing of text-based programs.",
       "image": "../../../assets/images/outreach/summercamps/programming.jpg"
     }
-  }
+  ]
 }
