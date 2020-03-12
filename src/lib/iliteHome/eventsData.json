@@ -1,22 +1,22 @@
 {
-  "upcomingEvents": {
-    "WeekOne": {
-      "eventImage": "images/frc/week_one.jpg",
-      "eventName": "FRC Week 1",
-      "eventDate": "Feburary 28th, 2020",
+  "upcomingEvents": [
+    {
+      "image": "images/frc/week_one.jpg",
+      "name": "FRC Week 1",
+      "date": "Feburary 28th, 2020",
       "learnAboutLink": "https://www.firstchesapeake.org/first-programs/frc/first-chesapeake-events/northern-va"
     },
-    "GirlScoutDay": {
-      "eventImage": "images/outreach.girlscouts.jpg",
-      "eventName": "Girl Scout Day at Udvar Hazy",
-      "eventDate": "March 14th, 2020",
+    {
+      "image": "images/outreach/girlscouts.jpg",
+      "name": "Girl Scout Day at Udvar Hazy",
+      "date": "March 14th, 2020",
       "learnAboutLink": "https://airandspace.si.edu/events/women-aviation-space-family-day-2020"
     },
-    "SummerCamps": {
-      "eventImage": "images/outreach/summercamps/lego3.jpg",
-      "eventName": "Summer Camps",
-      "eventDate": "June, 2020",
+    {
+      "image": "images/outreach/summercamps/lego3.jpg",
+      "name": "Summer Camps",
+      "date": "June, 2020",
       "learnAboutLink": "/outreach/summercamp"
     }
-  }
+  ]
 }
