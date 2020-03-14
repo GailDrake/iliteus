@@ -10,7 +10,7 @@ import eventsData from "../../lib/iliteHome/eventsData.json"
 import sponsorsData from "../../lib/iliteHome/sponsorsData.json"
 import image1 from "../../assets/images/frc/kickoff.jpg"
 
-function buildEvents() {
+const buildEvents = () => {
   return (eventsData.upcomingEvents.map(event => 
     <Events
       name={event.name} date={event.date} eventLink={event.learnAboutLink} image={event.image}
@@ -18,7 +18,7 @@ function buildEvents() {
     ));
 }
 
-function buildNews() {
+const buildNews = () => {
   return (newsData.News.map(news =>
     <NewsCard title={news.title} image={news.image} >
       {news.description}
@@ -26,7 +26,7 @@ function buildNews() {
   ));
 }
 
-function buildSponsors() {
+const buildSponsors = () => {
   return (sponsorsData.sponsors.map(sponsor => 
     <SponsorTag
       image={sponsor.image}
