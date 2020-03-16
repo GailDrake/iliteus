@@ -1,43 +1,82 @@
 {
-  "historyData": {
-    "2020": {
+  "historyData": [
+    {
       "year": "2020",
       "header": "2020 - Infinite Recharge",
       "video": "https://www.youtube.com/embed/gmiYWTmFRVE",
-      "image": "../../assets/images/outreach/chairmans/history_2020_banner.jpg"
+      "image": "images/outreach/chairmans/history_2020_banner.jpg"
     },
-    "2019": {
+    {
       "year": "2019",
       "header": "2019 - Destination: Deep Space",
       "video": "https://www.youtube.com/embed/Mew6G_og-PI",
-      "subheader1": "Awards",
-      "award1": "FIRST World Championship, Daly Division: Quarterfinalist",
-      "award2": "CHS District Championship: Chairman's Award",
-      "award3": "CHS District Championship: Quarterfinalist",
-      "award4": "CHS District Oxon Hill Event: Imagery Award",
-      "award5": "CHS District Oxon Hill Event: Semifinalist",
-      "award6": "CHS District Bethesda Event: Chairman's Award",
-      "award7": "CHS District Bethesda Event: Event Winner",
-      "award8": "CHS District Bethesda Event: Finalist",
-      "award9": "Battle O' Baltimore: Quarterfinalist",
-      "award10": "IROC: Semifinalist",
-      "award11": "Rumble in the Roads: Winner",
-      "subheader2": "Competitions Attended",
-      "competition1": "FIRST World Championship, Daly Division",
-      "competition2": "FIRST Chesapeake District Championship",
-      "competition3": "FIRST Chesapeake District Oxon Hill MD Event",
-      "competition4": "FIRST Chesapeake District Bethesda MD Event",
-      "competition5": "BunnyBots",
-      "competition6": "Battle O' Baltimore",
-      "competition7": "IROC",
-      "competition8": "Rumble in the Roads",
-      "image": "../../assets/images/outreach/chairmans/history_2019_banner.jpg"
+      "awards": [
+        {
+          "name": "FIRST World Championship, Daly Division: Quarterfinalist"
+        },
+        {
+          "name": "CHS District Championship: Chairman's Award"
+        },
+        {
+          "name": "CHS District Championship: Quarterfinalist"
+        },
+        {
+          "name": "CHS District Oxon Hill Event: Imagery Award"
+        },
+        {
+          "name": "CHS District Oxon Hill Event: Semifinalist"
+        },
+        {
+          "name": "CHS District Bethesda Event: Chairman's Award"
+        },
+        {
+          "name": "CHS District Bethesda Event: Event Winner"
+        },
+        {
+          "name": "CHS District Bethesda Event: Finalist"
+        },
+        {
+          "name": "Battle O' Baltimore: Quarterfinalist"
+        },
+        {
+          "name": "IROC: Semifinalist"
+        },
+        {
+          "name": "Rumble in the Roads: Winner"
+        }
+      ],
+      "competitions": [
+        {
+          "name": "FIRST World Championship, Daly Division"
+        },
+        {
+          "name": "FIRST Chesapeake District Championship"
+        },
+        {
+          "name": "FIRST Chesapeake District Oxon Hill MD Event"
+        },
+        {
+          "name": "FIRST Chesapeake District Bethesda MD Event"
+        },
+        {
+          "name": "BunnyBots"
+        },
+        {
+          "name": "Battle O' Baltimore"
+        },
+        {
+          "name": "IROC"
+        },
+        {
+          "name": "Rumble in the Roads"
+        }
+      ],
+      "image": "images/outreach/chairmans/history_2019_banner.jpg"
     },
-    "2018": {
+    {
       "year": "2018",
       "header": "2018 - Power Up",
       "video": "https://www.youtube.com/embed/HZbdwYiCY74",
-      "subheader1": "Awards",
       "award1": "FIRST World Championship: Woodie Flowers Award(Gail Drake)",
       "award2": "FIRST World Championship: Quarterfinalist",
       "award3": "CHS District Championship: Regional Chairman's Award",
@@ -47,7 +86,6 @@
       "award7": "CHS Southern Maryland District: Excellence in Engineering Award",
       "award8": "CHS Southern Maryland District: Semifinalist",
       "award9": "IROC: Quarterfinalist",
-      "subheader2": "Competitions Attended",
       "competition1": "FIRST World Championship, Carson Division",
       "competition2": "Einstein Field (Houston)",
       "competition3": "Einstein Field (Detroit)",
@@ -55,13 +93,12 @@
       "competition5": "First Chesapeake District Championship",
       "competition6": "Rumble in the Roads",
       "competition7": "IROC",
-      "image": "../../assets/images/outreach/chairmans/history_2018_banner.jpg"
+      "image": "images/outreach/chairmans/history_2018_banner.jpg"
     },
-    "2017": {
+    {
       "year": "2017",
       "header": "2017 - Steamworks",
       "video": "https://www.youtube.com/embed/EMiNmJW7enI",
-      "subheader1": "Awards",
       "award1": "FIRST World Championship: Chairman's Award Finalist",
       "award2": "FIRST World Championship: Semifinalist",
       "award3": "CHS District Championship: Regional Chairman's Award",
@@ -73,7 +110,6 @@
       "award9": "Indiana Robotics Invitational: Semifinalist",
       "award10": "IROC: Semifinalist",
       "award11": "Rumble in the Roads: Finalist",
-      "subheader2": "Competitions Attended",
       "competition1": "FIRST World Championship, Darwin Division",
       "competition2": "CHS Greater DC District",
       "competition3": "CHS Central Virginia District",
@@ -82,13 +118,12 @@
       "competition6": "Indiana Robotics Invitational",
       "competition7": "Rumble in the Roads",
       "competition8": "IROC",
-      "image": "../../assets/images/outreach/chairmans/history_2017_banner.jpg"
+      "image": "images/outreach/chairmans/history_2017_banner.jpg"
     },
-    "2016": {
+    {
       "year": "2016",
       "header": "2016 - Stronghold",
       "video": "https://www.youtube.com/embed/VqOKzoHJDjA",
-      "subheader1": "Awards",
       "award1": "FIRST World Championship Curie Division: Industrial Design Award",
       "award2": "CHS District Championship: Regional Chairman's Award",
       "award3": "CHS District Championship: Woodie Flowers Finalist Award (Jesse Knight)",
@@ -100,7 +135,6 @@
       "award9": "Battle O' Baltimore: Quarterfinalist",
       "award10": "IROC: Semifinalist",
       "award11": "Rumble in the Roads: Quarterfinalist",
-      "subheader2": "Competitions Attended",
       "competition1": "CHS District Greater DC",
       "competition2": "CHS District Hampton Roads",
       "competition3": "FIRST Chesapeake District Championship",
@@ -108,13 +142,12 @@
       "competition5": "Battle O' Baltimore",
       "competition6": "IROC",
       "competition7": "Rumble in the Roads",
-      "image": "../../assets/images/outreach/chairmans/history_2016_banner.jpg"
+      "image": "images/outreach/chairmans/history_2016_banner.jpg"
     },
-    "2015": {
+    {
       "year": "2015",
       "header": "2015 - Recycle Rush",
       "video": "https://www.youtube.com/embed/W6UYFKNGHJ8",
-      "subheader1": "Awards",
       "award1": "FIRST Word Championship: Quarterfinalist",
       "award2": "Greater DC Regional: Regional Chairman's Award",
       "award3": "Greater DC Regional: Semifinalist",
@@ -122,18 +155,16 @@
       "award5": "Greater DC Regional: Safety Hard Hat Award",
       "award6": "Greater Pittsburgh Regional: Imagery Award in honor of Jack Kamen",
       "award7": "Greater Pittsburgh Regional: Quarterfinalist",
-      "subheader2": "Competitions Attended",
       "competition1": "FIRST World Championship, Carson Division",
       "competition2": "CHS Greater DC Regional",
       "competition3": "Greater Pittsburgh Regional",
       "competition4": "Rumble in the Roads",
-      "image": "../../assets/images/outreach/chairmans/history_2015_banner.jpg"
+      "image": "images/outreach/chairmans/history_2015_banner.jpg"
     },
-    "2014": {
+    {
       "year": "2014",
       "header": "2014 - Aerial Assist",
       "video": "https://www.youtube.com/embed/oxp4dkMQ1Vo",
-      "subheader1": "Awards",
       "award1": "FIRST World Championship Galileo Division: Innovation in Control Award",
       "award2": "Greater DC Regional: Regional Chairman's Award",
       "award3": "Greater DC Regional: Regional Finalist",
@@ -141,116 +172,98 @@
       "award5": "Chesapeake Regional: Volunteer of the Year (Gail Drake)",
       "award6": "Chesapeake Regional: Creativity Award",
       "award7": "Chesapeake Regional: Quarterfinalist",
-      "subheader2": "Competitions Attended",
       "competition1": "FIRST World Championship: Galileo Division",
       "competition2": "Greater DC Regional",
-      "competition3": "Chesapeake Regional",
-      "image": "../../assets/images/outreach/chairmans/history_2014_banner.jpg"
+      "competition3": "Chesapeake Regional"
     },
-    "2013": {
+    {
       "year": "2013",
       "header": "2013 - Ultimate Ascent",
       "video": "https://www.youtube.com/embed/wa5MGEZNrf0",
-      "subheader1": "Awards",
       "award1": "Washington DC Regional: Regional Chairman's Award",
       "award2": "Washington DC Regional: Dean's List Finalist (David Powell)",
       "award3": "Washington DC Regional: Quarterfinalist",
       "award4": "Chesapeake Regional: Quarterfinalist",
-      "subheader2": "Competitions Attended",
       "competition1": "Washington DC Regional",
       "competition2": "Chesapeake Regional",
       "competition3": "Newton Division"
     },
-    "2012": {
+    {
       "year": "2012",
       "header": "2012 - Rebound Rumble",
       "video": "https://www.youtube.com/embed/-bRXOTLQvoE",
-      "subheader1": "Awards",
       "award1": "FIRST World Championship: Semifinalist",
       "award2": "Washington DC Regional: Engineering Inspiration Award",
       "award3": "Virginia Regional: Regional Chairman's Award",
       "award4": "Virginia Regional: Website Award",
       "award5": "Virginia Regional: Quarterfinalist",
-      "subheader2": "Competitions Attended",
       "competition1": "Virginia Regional",
       "competition2": "Washington DC Regional",
       "competition3": "FIRST World Championship, Curie Division"
     },
-    "2011": {
+    {
       "year": "2011",
       "header": "2011 - Logomotion",
       "video": "https://www.youtube.com/embed/aH_9QHZpsfs",
-      "subheader1": "Awards",
       "award1": "Virginia Regional: Engineering Inspiration Award",
       "award2": "Virginia Regional: Finalist",
       "award3": "Washington DC Regional: Engineering Inspiration Award",
       "award4": "Washington DC Regional: Woodie Flowers Award (Gail Drake)",
       "award5": "Washington DC Regional: Finalist",
-      "subheader2": "Competitions Attended",
       "competition1": "Virginia Regional",
       "competition2": "Washington DC Regional",
       "competition3": "FIRST World Championship, Galileo Division"
     },
-    "2010": {
+    {
       "year": "2010",
       "header": "2010 - Breakaway",
       "video": "https://www.youtube.com/embed/Bb1P43OSfOU",
-      "subheader1": "Awards",
       "award1": "Washington DC Regional: Quarterfinalist",
-      "subheader2": "Competitions Attended",
       "competition1": "Washington DC Regional"
     },
-    "2009": {
+    {
       "year": "2009",
       "header": "2009 - Lunacy",
       "video": "https://www.youtube.com/embed/nEh3Wzd1jDI",
-      "subheader1": "Awards",
       "award1": "Florida Regional: Imagery Award",
       "award2": "Florida Regional: Quarterfinalist",
       "award3": "Washington DC Regional: Engineering Inspiration Award",
-      "subheader2": "Competitions Attended",
       "competition1": "Washington DC Regional",
       "competition2": "Florida Regional",
       "competition3": "FIRST World Championship, Galileo Division"
     },
-    "2008": {
+    {
       "year": "2008",
       "header": "2008 - Overdrive",
       "video": "https://www.youtube.com/embed/D5oL7aLH0T4",
-      "subheader1": "Awards",
       "award1": "NASA/VCU Regional: Regional Engineering Inspiration Award",
       "award2": "NASA/VCU Regional: Quarterfinalist",
-      "subheader2": "Competitions Attended",
       "competition1": "NASA/VCU Regional",
       "competition2": "Philadelphia Regional",
       "competition3": "FIRST World Championship, Galileo Division"
     },
-    "2007": {
+    {
       "year": "2007",
       "header": "2007 - Rack n' Roll",
       "video": "https://www.youtube.com/embed/khTGSKvDyS4",
-      "subheader1": "Awards",
       "award1": "NASA/VCU Regional: Quarterfinalist",
       "award2": "Las Vegas Regional: Best Website Award",
       "award3": "Las Vegas Regional: Quarterfinalist",
-      "subheader2": "Competitions Attended",
       "competition1": "NASA/VCU Regional",
       "competition2": "Las Vegas Regional",
       "competition3": "FIRST World Championship, Newton Division"
     },
-    "2006": {
+    {
       "year": "2006",
       "header": "2006 - Aim High",
       "video": "https://www.youtube.com/embed/1Vuwjse90AA",
-      "subheader1": "Awards",
       "award1": "NASA/VCU Regional: Rookie All-Star Award",
       "award2": "Palmetto Regional: Rookie All-Star Award",
       "award3": "FIRST World CHampionship: Rookie All-Star Award",
-      "subheader2": "Competitions Attended",
       "competition1": "NASA/VCU Regional",
       "competition2": "Palmetto Regional",
       "competition3": "FIRST World Championship, Curie Division",
       "competition4": "Einstein Field (Atlanta)"
     }
-  }
+  ]
 }
