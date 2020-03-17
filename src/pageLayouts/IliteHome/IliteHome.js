@@ -61,7 +61,7 @@ const IliteHome = props => {
           <div className="iliteHome__news-container">
             <NewsCard
               title="ILITE hosts Week 1"
-              image={require("../../assets/images/frc/week1-2020.png")}
+              image={require("../../assets/images/frc/week1-2020.jpg")}
             >
               From February 28th to March 1st, ILITE hosted over forty teams for
               the Week 1 Chesapeake District Qualifier. We also saw over ten FLL Jr.
@@ -73,7 +73,7 @@ const IliteHome = props => {
             </NewsCard>
             <NewsCard
               title="ILITE competes at Week 2 in Bethesda"
-              image={require("../../assets/images/frc/week2-2020.png")}
+              image={require("../../assets/images/frc/week2-2020.jpg")}
             >
               ILITE competed March 7th-8th at Walt Whitman High school in Bethesda, Maryland.
               We played strong all the way to quaterfinals with an amazing alliance with Team 8217
@@ -83,12 +83,14 @@ const IliteHome = props => {
             </NewsCard>
             <NewsCard
               title="COVID-19 Update and Response"
-              image={require("../../assets/images/frc/spirit-2020.png")}
+              image={require("../../assets/images/frc/spirit-2020.jpg")}
             >
               As news of cancellations are sent out due to COVID-19, ILITE has decided to take action
-              and not let the suspension of the FIRST Robotics Season to drag us down.
-              We are using this time of dismay as an opportunity for improvement and
-              further development on our efforts as an FRC team. Stay Safe Everyone!
+              and not let the suspension of the FIRST Robotics Season to drag us down or
+              stop us in our tracks. We are using this time as an opportunity for improvement and
+              further development on our efforts as an FRC team. We hope to continue our efforts
+              towards helping the community and bringing the joy of STEAM to every corner in new ways.
+              Stay Safe Everyone!
             </NewsCard>
           </div>
           <div className="iliteHome__news-button">
