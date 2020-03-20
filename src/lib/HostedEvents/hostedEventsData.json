@@ -1,25 +1,25 @@
 {
   "hostedEventsData": [
     {
-      "image": "../../../assets/images/logos/IROC_Logo.jpg",
+      "image": "images/logos/IROC_Logo.jpg",
       "eventName": "IROC",
       "eventDescription": "This year, ILITE once again hosted their annual IROC competition. On October 26th, teams came together to compete in last year's FRC game, Destination: Deep Space. The IROC offseason challenge brought teams together to learn and have fun before the new season starts.",
       "eventLink": "https://irocoffseason.org"
     },
     {
-      "image": "../../../assets/images/outreach/steamexpo/expo.jpg",
+      "image": "images/outreach/steamexpo/expo.jpg",
       "eventName": "Steam Expo",
       "eventDescription": "A unique opportunity to explore the various aspects of science, technology, engineering, art, and mathematics. In this annual event, we invite a variety of companies, both small and large, to share their knowledge with the community each year. Activities include, but are not limited to, logic puzzles, simulations, arts and crafts, and technological demonstrations that are sure to teach everyone something new.",
       "eventLink": "https://drakegd.wixsite.com/steamexpo"
     },
     {
-      "image": "../../../assets/images/logos/infinite-recharge.png",
+      "image": "images/logos/infinite-recharge.png",
       "eventName": "FRC Week 1 District Event",
       "eventDescription": "ILITE will be hosting a Week 1 FRC District event once again this year. Hosted February 28th to March 1st 2020, this event will compose of FRC teams from all around the Chesapeake District competing with gracious professionalism. FIRST's new game for this season, Infinite Recharge, will be featured as the mode of competition. We are incredibly excited to see and play this new game along with all our fellow teams.",
       "eventLink": "https://www.firstchesapeake.org/first-programs/frc/first-chesapeake-district-events/northern-va"
     },
     {
-      "image": "../../../assets/images/outreach/fll11.jpg",
+      "image": "images/outreach/fll11.jpg",
       "eventName": "Summer Camps",
       "eventDescription": "We here at ILITE firmly believe that all children deserve to learn about the wonders of the world around us through the exploration of STEM. We offer a variety of STEM summer camps, in areas such as cyber security, FLL, and engineering. The camps are taught and run by ILITE students. We hope you enjoy our camps!",
       "eventLink": "/outreach/summercamp"
