@@ -7,32 +7,61 @@ import eventData from "../../../lib/HostedEvents/hostedEventsData.json"
 
 const buildEvents = () => {
   return eventData.hostedEventsData.map((event, index) => {
-    return (
-      <div className="event">
-        <div className="event__description">
-          <div>
-            <ImageObject image={event.image} altText="" className="" />
-          </div>
-          <div>
-            <h1 className="hostedevents__subheader">{event.eventName}</h1>
-            <hr />
-            <p>
-              {event.eventDescription}
-            </p>
-            <div className="button_contain">
-              <br />
-              <Button
-                division="frc"
-                link={event.eventLink}
-              >
-                Learn More!
+    if (index < eventData.hostedEventsData.length - 1) {
+      return (
+        <div className="event">
+          <div className="event__description">
+            <div>
+              <ImageObject image={event.image} altText="" className="" />
+            </div>
+            <div>
+              <h1 className="hostedevents__subheader">{event.eventName}</h1>
+              <hr />
+              <p>
+                {event.eventDescription}
+              </p>
+              <div className="button_contain">
+                <br />
+                <Button
+                  division="frc"
+                  link={event.eventLink}
+                >
+                  Learn More!
                 </Button>
+              </div>
+            </div>
+          </div>
+          <hr className="hostedevents__hr" />
+        </div>
+      )
+    }
+    else {
+      return (
+        <div className="event">
+          <div className="event__description">
+            <div>
+              <ImageObject image={event.image} altText="" className="" />
+            </div>
+            <div>
+              <h1 className="hostedevents__subheader">{event.eventName}</h1>
+              <hr />
+              <p>
+                {event.eventDescription}
+              </p>
+              <div className="button_contain">
+                <br />
+                <Button
+                  division="frc"
+                  link={event.eventLink}
+                >
+                  Learn More!
+                  </Button>
+              </div>
             </div>
           </div>
         </div>
-        <hr className="hostedevents__hr" />
-      </div>
-    )
+      )
+    }
   })
 }
 
