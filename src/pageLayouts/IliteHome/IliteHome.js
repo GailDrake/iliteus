@@ -85,12 +85,7 @@ const IliteHome = props => {
               title="COVID-19 Update and Response"
               image={require("../../assets/images/frc/spirit-2020.jpg")}
             >
-              As news of cancellations are sent out due to COVID-19, ILITE has decided to take action
-              and not let the suspension of the FIRST Robotics Season to drag us down or
-              stop us in our tracks. We are using this time as an opportunity for improvement and
-              further development on our efforts as an FRC team. We hope to continue our efforts
-              towards helping the community and bringing the joy of STEAM to every corner in new ways.
-              Stay Safe Everyone!
+              During the COVID-19 crisis, ILITE Robotics is creating online resources for children and families to continue learning, growing, and creating through interactive STEM activities. From space science to engineering, ILITE is offering students a way to learn about STEM concepts through fun lessons and experiments using common household materials. During these unprecedented times, ILITE hopes to supplement the online learning experience and inspire young minds to explore, build, make, and play from the comfort of their homes. In addition, students from the electronics subteam presented a lesson on “Using EasyEDA to design custom circuit boards” which can be found <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=mBp6GNxnMmg">here</a> and next week students from the scouting and strategy subteam will present an “Intro to Airtable” lesson on the same channel.
             </NewsCard>
           </div>
           <div className="iliteHome__news-button">
