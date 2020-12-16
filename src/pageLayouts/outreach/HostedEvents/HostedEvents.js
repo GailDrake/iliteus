@@ -11,7 +11,7 @@ const HostedEvents = () => (
       bannerImage="hostedevents__banner"
     >
       <div className="hosted-events">
-        <h1 className="hostedevents__header">2020 - 2021 Virtual Season</h1>
+        <h1 className="hostedevents__header">2020 - 2021 Season</h1>
         <p>
           ILITE hosts multiple events during the summer, competition season, and
           during the regular school year. Some of our most famous ones include
@@ -152,6 +152,34 @@ const HostedEvents = () => (
             </div>
           </div>
 
+          <hr className="hostedevents__hr" />
+
+          <div className="event">
+            <div className="event__description">
+              <div>
+                <img
+                  src={require("../../../assets/images/outreach/fll11.jpg")}
+                  alt="Summer Camps"
+                />
+              </div>
+              <div>
+                <h1 className="hostedevents__subheader">Catapult Competition</h1>
+                <hr />
+                <p>
+                  Due to the COVID-19 Pandemic, ILITE was unable to do any offseason events. That being said, ILITE decided to make their 
+                  own event in house. Teams were tasked with building their own catapult. At the event, the team that launched the object
+                  the farthest won.
+                </p>
+                <div className="button_contain">
+                  <br />
+                  <Button division="frc" link="/outreach/summercamp">
+                    Learn More
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/*<hr className="hostedevents__hr" />
 
       <div className="event">
@@ -208,69 +236,6 @@ const HostedEvents = () => (
       </div>*/}
         </div>
       </div>
-
-      <hr className="hostedevents__hr" />
-
-      <div className="event">
-          <div className="event__description">
-            <div>
-              <img
-                src={require("../../../assets/images/logos/IROC_Logo.jpg")}
-                alt="IROC Logo"
-                style={{ height: "190px" }}
-              />
-            </div>
-            <div>
-              <h1 className="hostedevents__subheader" id="iroc">
-                Catapult Competition
-              </h1>
-              <hr />
-              <p>
-                This year was different thanks to COVID. This led ILITE to develop for the 1st time a Catapult Competition.
-              </p>
-              <div className="button_contain">
-                <br />
-                <Button link="https://irocoffseason.org" division="frc">
-                  Learn More
-                </Button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <hr className="hostedevents__hr" />
-
-        <div className="event">
-          <div className="event__description">
-            <div>
-              <img
-                src={require("../../../assets/images/outreach/steamexpo/expo.jpg")}
-                alt=""
-              />
-            </div>
-            <div>
-              <h1 className="hostedevents__subheader">Steam Expo</h1>
-              <hr />
-              <p>
-                A unique opportunity to explore the various aspects of science,
-                technology, engineering, art, and mathematics. In this annual
-                event, we invite a variety of companies, both small and large,
-                to share their knowledge with the community each year.
-                Activities include, but are not limited to, logic puzzles,
-                simulations, arts and crafts, and technological demonstrations
-                that are sure to teach everyone something new.
-              </p>
-              <div className="button_contain">
-                <br />
-                <Button
-                  division="frc"
-                  link="https://drakegd.wixsite.com/steamexpo"
-                >
-                  Learn More!
-                </Button>
-              </div>
-            </div>
-          </div>
     </Container>
   </LayoutWrapper>
 )
