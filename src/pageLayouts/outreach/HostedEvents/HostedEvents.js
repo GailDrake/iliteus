@@ -159,7 +159,7 @@ const HostedEvents = () => (
               <div>
                 <img
                   src={require("../../../assets/images/outreach/fll11.jpg")}
-                  alt="Summer Camps"
+                  alt="Catapult Competition"
                 />
               </div>
               <div>
@@ -167,15 +167,9 @@ const HostedEvents = () => (
                 <hr />
                 <p>
                   Due to the COVID-19 Pandemic, ILITE was unable to do any offseason events. That being said, ILITE decided to make their 
-                  own event in house. Teams were tasked with building their own catapult. At the event, the team that launched the object
+                  own event in house. Teams were tasked with building their own catapult. At the event, the team that launched the designated object
                   the farthest won.
                 </p>
-                <div className="button_contain">
-                  <br />
-                  <Button division="frc" link="/outreach/summercamp">
-                    Learn More
-                  </Button>
-                </div>
               </div>
             </div>
           </div>
