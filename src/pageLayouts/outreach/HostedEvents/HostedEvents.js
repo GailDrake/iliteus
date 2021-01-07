@@ -158,7 +158,7 @@ const HostedEvents = () => (
             <div className="event__description">
               <div>
                 <img
-                  src={require("../../../assets/images/outreach/fll11.jpg")}
+                  src={require("../../../assets/images/outreach/catapultcompetition/catapultcomp.jpg")}
                   alt="Catapult Competition"
                 />
               </div>
