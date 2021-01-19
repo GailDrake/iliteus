@@ -10,8 +10,31 @@ const HostedEvents = () => (
       subtitle="Check out all of the events hosted by ILITE"
       bannerImage="hostedevents__banner"
     >
+      <h1>2020 - 2021 Virtual Season</h1>
+      <hr className="hostedevents__hr" />
+
+          <div className="event">
+            <div className="event__description">
+              <div>
+                <img
+                  src={require("../../../assets/images/outreach/catapultcompetition/imagetwo.jpeg")}
+                  alt="Catapult Competition"
+                />
+              </div>
+              <div>
+                <h1 className="hostedevents__subheader">Catapult Competition</h1>
+                <hr />
+                <p>
+                  Due to the COVID-19 Pandemic, ILITE was unable to do any offseason events. That being said, ILITE decided to make their 
+                  own event in house. Teams were tasked with building their own catapult. At the event, the team that launched the designated object
+                  the farthest won.
+                </p>
+              </div>
+            </div>
+          </div>
+      
       <div className="hosted-events">
-        <h1 className="hostedevents__header">2020 - 2021 Virtual Season</h1>
+        <h1 className="hostedevents__header">Other events</h1>
         <p>
           ILITE hosts multiple events during the summer, competition season, and
           during the regular school year. Some of our most famous ones include
