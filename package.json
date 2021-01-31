@@ -41,7 +41,7 @@
     "serve": "gatsby serve",
     "deploy-staging": "aws s3 rm s3://ilite-staging --recursive && aws s3 cp --cache-control max-age=31536000 public s3://ilite-staging --recursive",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
