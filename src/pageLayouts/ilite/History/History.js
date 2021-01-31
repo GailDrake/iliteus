@@ -5,6 +5,23 @@ import Container from "../../../templates/container"
 import Tabs, { Tab } from "../../../components/Tabs"
 import GetDocumentation from "./GetDocumentation"
 
+const getVideoFrame = (title, video_url) => {
+  return (
+    <div className="history__embed">
+      <iframe
+        title={title}
+        width="100%"
+        height="315"
+        src={video_url}
+        frameborder="0"
+        gesture="media"
+        allow="encrypted-media"
+        allowfullscreen={true}
+      />
+    </div>
+  )
+}
+
 const History = () => {
   return (
     <LayoutWrapper>
@@ -23,18 +40,7 @@ const History = () => {
                 <h1 className="history__event-header">
                   2020 - Infinite Recharge
                 </h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Infinite Recharge Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/gmiYWTmFRVE"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Infinite Recharge Video', 'https://www.youtube.com/embed/gmiYWTmFRVE')}
                 <div className="history__event-container">
                   {/* <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -63,18 +69,7 @@ const History = () => {
                 <h1 className="history__event-header">
                   2019 - Destination: Deep Space
                 </h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Destination: Deep Space Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/Mew6G_og-PI"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Destination: Deep Space Video','https://www.youtube.com/embed/Mew6G_og-PI')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -110,18 +105,7 @@ const History = () => {
             <Tab name="2018">
               <div className="history__event" id="tab13">
                 <h1 className="history__event-header">2018 - Power Up</h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Power Up Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/HZbdwYiCY74"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Power Up Video','https://www.youtube.com/embed/HZbdwYiCY74')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -173,18 +157,7 @@ const History = () => {
             <Tab name="2017">
               <div className="history__event" id="tab12">
                 <h1 className="history__event-header">2017 - Steamworks</h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Steamworks Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/EMiNmJW7enI"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Steamworks Video','https://www.youtube.com/embed/EMiNmJW7enI')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -241,18 +214,7 @@ const History = () => {
             <Tab name="2016">
               <div className="history__event" id="tab11">
                 <h1 className="history__event-header">2016 - Stronghold</h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Stronghold Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/VqOKzoHJDjA"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Stronghold Video','https://www.youtube.com/embed/VqOKzoHJDjA')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -314,18 +276,7 @@ const History = () => {
             <Tab name="2015">
               <div className="history__event" id="tab10">
                 <h1 className="history__event-header">2015 - Recycle Rush</h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Recycle Rush Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/W6UYFKNGHJ8"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Recycle Rush Video','https://www.youtube.com/embed/W6UYFKNGHJ8')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -370,18 +321,7 @@ const History = () => {
             <Tab name="2014">
               <div className="history__event" id="tab9">
                 <h1 className="history__event-header">2014 - Aerial Assist</h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Aerial Assist Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/oxp4dkMQ1Vo"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Aerial Assist Video','https://www.youtube.com/embed/oxp4dkMQ1Vo')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -422,18 +362,7 @@ const History = () => {
                 <h1 className="history__event-header">
                   2013 - Ultimate Ascent
                 </h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Ultimate Ascent Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/wa5MGEZNrf0"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Ultimate Ascent Video','https://www.youtube.com/embed/wa5MGEZNrf0')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -462,18 +391,7 @@ const History = () => {
             <Tab name="2012">
               <div className="history__event" id="tab7">
                 <h1 className="history__event-header">2012 - Rebound Rumble</h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Rebound Rumble Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/-bRXOTLQvoE"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Rebound Rumble Video','https://www.youtube.com/embed/-bRXOTLQvoE')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -502,18 +420,7 @@ const History = () => {
             <Tab name="2011">
               <div className="history__event" id="tab6">
                 <h1 className="history__event-header">2011 - Logomotion</h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Logomotion Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/aH_9QHZpsfs"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Logomotion Video','https://www.youtube.com/embed/aH_9QHZpsfs')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -543,18 +450,7 @@ const History = () => {
             <Tab name="2010">
               <div className="history__event" id="tab5">
                 <h1 className="history__event-header">2010 - Breakaway</h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Breakaway Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/Bb1P43OSfOU"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Breakaway Video','https://www.youtube.com/embed/Bb1P43OSfOU')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -588,18 +484,7 @@ const History = () => {
             <Tab name="2009">
               <div className="history__event" id="tab4">
                 <h1 className="history__event-header">2009 - Lunacy</h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Lunacy Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/nEh3Wzd1jDI"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Lunacy Video','https://www.youtube.com/embed/nEh3Wzd1jDI')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -624,18 +509,7 @@ const History = () => {
             <Tab name="2008">
               <div className="history__event" id="tab3">
                 <h1 className="history__event-header">2008 - Overdrive</h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Overdrive Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/D5oL7aLH0T4"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame('Overdrive Video','https://www.youtube.com/embed/D5oL7aLH0T4')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -663,18 +537,7 @@ const History = () => {
             <Tab name="2007">
               <div className="history__event" id="tab2">
                 <h1 className="history__event-header">2007 - Rack n' Roll</h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Rack n' Roll Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/khTGSKvDyS4"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame("Rack n' Roll Video",'https://www.youtube.com/embed/khTGSKvDyS4')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
@@ -703,18 +566,7 @@ const History = () => {
             <Tab name="2006">
               <div className="history__event" id="tab2">
                 <h1 className="history__event-header">2006 - Aim High</h1>
-                <div className="history__embed">
-                  <iframe
-                    title="Aim High Video"
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/1Vuwjse90AA"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  />
-                </div>
+                {getVideoFrame("Aim High Video",'https://www.youtube.com/embed/1Vuwjse90AA')}
                 <div className="history__event-container">
                   <div className="history__awards">
                     <h3 className="history__event-subheader">Awards</h3>
