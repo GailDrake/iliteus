@@ -9,14 +9,14 @@ const getVideoFrame = (title, video_url) => {
   return (
     <div className="history__embed">
       <iframe
-        title={title}
+        title={"bob"+title}
         width="100%"
         height="315"
         src={video_url}
         frameborder="0"
         gesture="media"
         allow="encrypted-media"
-        allowfullscreen={true}
+        allowfullscreen="true"
       />
     </div>
   )
