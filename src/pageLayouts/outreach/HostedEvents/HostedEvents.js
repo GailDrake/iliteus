@@ -38,7 +38,7 @@ const HostedEvents = () => (
       </div>
       
       <div className="hosted-events">
-        <h1 className="hostedevents__header">Other events</h1>
+        <h1 className="hostedevents__header">2019 - 2020 Season</h1>
         <p>
           ILITE hosts multiple events during the summer, competition season, and
           during the regular school year. Some of our most famous ones include
