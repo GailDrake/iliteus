@@ -1,0 +1,1838 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`History Renders correctly 1`] = `
+<div>
+  <nav
+    className="navigation"
+  >
+    <div
+      className="dropdown__background--main "
+      onClick={[Function]}
+      role="button"
+      tabIndex={0}
+    />
+    <div
+      className="dropdown__background--nav "
+      onClick={[Function]}
+      role="button"
+      tabIndex={0}
+    />
+    <a
+      className="navigation__logo"
+      href="/"
+      onClick={[Function]}
+    />
+    <ul
+      className="navigation__list"
+    >
+      <li>
+        <div
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <a
+            className="navigation__list-item"
+            href="/getinvolved"
+          >
+            Get Involved
+          </a>
+        </div>
+      </li>
+      <li>
+        <div
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <a
+            className="navigation__list-item"
+            href="/sponsors"
+          >
+            Sponsors
+          </a>
+        </div>
+      </li>
+      <li>
+        <div
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="dropdown"
+          >
+            <div
+              className="dropdown__button"
+            >
+              Outreach
+               
+              <i
+                className="fa fa-caret-down"
+              />
+            </div>
+            <div
+              className="dropdown__content "
+            >
+              <a
+                className="dropdown__item"
+                href="/outreach/hostevents"
+              >
+                Hosted Events
+              </a>
+              <a
+                className="dropdown__item"
+                href="/outreach/summercamp"
+              >
+                Summer Camps
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="dropdown"
+          >
+            <div
+              className="dropdown__button"
+            >
+              About ILITE
+               
+              <i
+                className="fa fa-caret-down"
+              />
+            </div>
+            <div
+              className="dropdown__content "
+            >
+              <a
+                className="dropdown__item"
+                href="/ilite/team"
+              >
+                Team
+              </a>
+              <a
+                className="dropdown__item"
+                href="/ilite/media"
+              >
+                Media
+              </a>
+              <a
+                className="dropdown__item"
+                href="/ilite/calendar"
+              >
+                Calendar
+              </a>
+              <a
+                className="dropdown__item"
+                href="/ilite/history"
+              >
+                History
+              </a>
+              <a
+                className="dropdown__item"
+                href="/ilite/mission"
+              >
+                Mission
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div
+      className="navigation__sidemenu"
+    >
+      <div
+        className="sidemenu"
+      >
+        <span
+          className="sidemenu__burger"
+        >
+          <div
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <svg
+              height="30"
+              width="30"
+            >
+              <path
+                d="M0,5 30,5"
+                stroke="#fff"
+                strokeWidth="5"
+              />
+              <path
+                d="M0,14 30,14"
+                stroke="#fff"
+                strokeWidth="5"
+              />
+              <path
+                d="M0,23 30,23"
+                stroke="#fff"
+                strokeWidth="5"
+              />
+            </svg>
+          </div>
+        </span>
+        <div
+          className="sidemenu__background "
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+        />
+        <div
+          className="sidemenu__nav "
+        >
+          <span
+            className="sidemenu__close"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            ×
+          </span>
+          <div
+            className="sidemenu__list"
+          >
+            <p
+              className="sidemenu__heading"
+            >
+              <span>
+                About ILITE
+              </span>
+            </p>
+            <div
+              className="sidemenu__sublinks"
+            >
+              <a
+                href="/ilite/team"
+                onClick={[Function]}
+              >
+                <span>
+                  Team
+                </span>
+              </a>
+              <a
+                href="/ilite/media"
+                onClick={[Function]}
+              >
+                <span>
+                  Media
+                </span>
+              </a>
+              <a
+                href="/ilite/calendar"
+                onClick={[Function]}
+              >
+                <span>
+                  Calendar
+                </span>
+              </a>
+              <a
+                href="/ilite/history"
+                onClick={[Function]}
+              >
+                <span>
+                  History
+                </span>
+              </a>
+              <a
+                href="/ilite/mission"
+                onClick={[Function]}
+              >
+                <span>
+                  Mission
+                </span>
+              </a>
+            </div>
+            <p
+              className="sidemenu__heading"
+            >
+              <span>
+                Outreach
+              </span>
+            </p>
+            <div
+              className="sidemenu__sublinks"
+            >
+              <a
+                href="/outreach/hostevents"
+                onClick={[Function]}
+              >
+                <span>
+                  Hosted Events
+                </span>
+              </a>
+              <a
+                href="/outreach/summercamp"
+                onClick={[Function]}
+              >
+                <span>
+                  Summer Camps
+                </span>
+              </a>
+            </div>
+            <a
+              className="sidemenu__link"
+              href="/sponsors"
+              onClick={[Function]}
+            >
+              <span>
+                Sponsors
+              </span>
+            </a>
+            <a
+              className="sidemenu__link"
+              href="/getinvolved"
+              onClick={[Function]}
+            >
+              <span>
+                Get Involved
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div>
+    <div
+      className="container"
+    >
+      <div
+        className="banner history__banner"
+      >
+        <div
+          className="banner__text"
+        >
+          <div
+            className="banner__title"
+          >
+            History
+          </div>
+          <div
+            className="banner__subtitle"
+          >
+            <p>
+              See how 90,000+ minds are reached
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="container__bar"
+      />
+      <div
+        className="container__content"
+      >
+        <div
+          className="history"
+        >
+          <div
+            className="tabs"
+          >
+            <ul
+              className="tabs__ul"
+            >
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link tab__link--active"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2020
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2019
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2018
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2017
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2016
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2015
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2014
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2013
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2012
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2011
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2010
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2009
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2008
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2007
+                </div>
+              </li>
+              <li
+                className="tab"
+              >
+                <div
+                  className="tab__link "
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  2006
+                </div>
+              </li>
+            </ul>
+            <ul
+              className="tabs-active-content"
+            >
+              <div
+                className="history__event"
+                id="tab15"
+              >
+                <h1
+                  className="history__event-header"
+                >
+                  2020 - Infinite Recharge
+                </h1>
+                <div
+                  className="history__embed"
+                >
+                  <iframe
+                    allow="encrypted-media"
+                    allowfullscreen={true}
+                    frameborder="0"
+                    gesture="media"
+                    height="315"
+                    src="https://www.youtube.com/embed/gmiYWTmFRVE"
+                    title="Infinite Recharge Video"
+                    width="100%"
+                  />
+                </div>
+                <div
+                  className="history__event-container"
+                />
+              </div>
+              <img
+                alt="2020 Banner"
+                className="history__image"
+                src="test-file-stub"
+              />
+              <table
+                className="history__documentation"
+              >
+                <tr>
+                  <th>
+                    Event Name
+                  </th>
+                  <th>
+                    Minds Reached
+                  </th>
+                  <th>
+                    Resources
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    Summer Camps 2019
+                  </td>
+                  <td>
+                    200
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/11nE6L389Qq3Erc4g9K88i_vkOYgTstvW/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Picture from Summer Camps
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://docs.google.com/document/d/18p4Tpj_bMoBgWegZbnoN29NU3p_XRvuG4Xx8En5qrSI/edit?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Summer Camps Documentation
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Girls in Aviation Day
+                  </td>
+                  <td>
+                    63
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1l00bYx2DMDK5kEYK_Uc2dqlwiw2wLk9N/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Demonstration Photo
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    PWC Haymaker STEAM Expo 2020
+                  </td>
+                  <td>
+                    2703
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://www.dropbox.com/sh/ohvodgq6xfchm4v/AAAaojfyTOMb2wnPMS7NYzE5a?dl=0"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Pictures from STEAM Expo
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1FehP3Yz7MtbICXSAi_UkASM4c5mSYuM-/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      NASA Demonstration
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1HYRYt22sswtfuoqAyif8KmEEdjkstwt3/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Thank You E-mail
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1erv39aL9Bi09LITRpYxoqkuyydywo-sd/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Balloon Demonstration
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1RurmZAaZIV_6Rh5QDPs9GM3dVMS-2cRy/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      3D Printing Demonstration
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/18Dl2ceO1UtPuNjYrijCf_gA6WOvsKYHf/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Bot Demonstration with Gym View
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/open?id=19wN5PghWlV9ktsRTX7_Xm5J1np36iNWx"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Minds Reached Total
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Cyber Program
+                  </td>
+                  <td>
+                    68
+                  </td>
+                  <td />
+                </tr>
+                <tr>
+                  <td>
+                    FTC Program
+                  </td>
+                  <td>
+                    50
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/open?id=1XAWDv6boKjOwIXQzxfOjENG60cHq0n3z"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      FTC Program Picture
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    NOVEC Meeting
+                  </td>
+                  <td>
+                    300
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/open?id=0B0dT4PSpj-LpZUpZcDhHb05WT0c5ZFFpdU95QkxhV0ZvMUw4"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Presenting the Bot Picture
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Freshmen Orientation
+                  </td>
+                  <td>
+                    900
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1l5_ldSRzCp5pRrTMLAxvLUCe1hf-pOSg/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Firing the Spirit Bot during Freshmen Orientation Video
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    IROC hosting Oct 2019
+                  </td>
+                  <td>
+                    750
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1PuifAtXCkQsqxmZSpFkxDDx1f8KGACNw/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Picture from IROC
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Battlefield's clubs meetings
+                  </td>
+                  <td>
+                    35
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1PuifAtXCkQsqxmZSpFkxDDx1f8KGACNw/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Battlefield Club Email
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://docs.google.com/document/d/1gbpyL6pkGpnJKGGHfFJJHjL1n4EvdDOpCL7YTkLCp8U/edit?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Battlefield Club Meeting Documentation
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/12NCXW8CwjVCSLarechTPj0_AymA_eo8c/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      List of All Participating Clubs
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Association of Old Crows
+                  </td>
+                  <td>
+                    200
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1diGIh0qN0d_5Uqgo7AvA3jKu_BKZyROa/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Association of Old Crows Thank You Letter
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Girl Scout Programming Lesson 1
+                  </td>
+                  <td>
+                    18
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1re1FNsr9ALWSKo7MCtxfBARVGprf45Fu/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Welcoming Email
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Girl Scout Programming Lesson 2
+                  </td>
+                  <td>
+                    7
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1gKy0BII5GzGMsxI00nXBFvXaN9nwsOaS/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Partnership Email
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1diGIh0qN0d_5Uqgo7AvA3jKu_BKZyROa/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Photo from the Event
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    FLL Elementary School Mentoring
+                  </td>
+                  <td>
+                    40
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/0B0dT4PSpj-LpMW9YWTFVaGdRdmtFYktucnZVM1YzZF90Ny1R/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Thank You letters from the Elementary Students
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/0B0dT4PSpj-LpcnBqX3NYVjUtRERLdEZOeWszWDlwRW5UN2Nv/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Thank You Note
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/11lM9EoE0WVZclVtb_UdXfn_o0JS1FPv9/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Thank You Email
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    FRC District 2020
+                  </td>
+                  <td>
+                    1500
+                  </td>
+                  <td />
+                </tr>
+                <tr>
+                  <td>
+                    Mentor Celebration at District Champs
+                  </td>
+                  <td>
+                    200
+                  </td>
+                  <td />
+                </tr>
+                <tr>
+                  <td>
+                    Leadership Conference (FIRST CMP 2020)
+                  </td>
+                  <td />
+                  <td />
+                </tr>
+                <tr>
+                  <td>
+                    Malaysia
+                  </td>
+                  <td />
+                  <td />
+                </tr>
+                <tr>
+                  <td>
+                    Girl scout Presentation to Leaders
+                  </td>
+                  <td />
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/0B0dT4PSpj-LpanF4TmRNeTROYXFTNU50NTEta1VPQXBBZUhr/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Girl Scout Presentation Photo
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/0B0dT4PSpj-LpT1RqbEs1Y3V2MW1MeDhLWmlIX3p0Wk9nS1Vz/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Girl Scout Presentation Photo 2
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    PWC Haymaker STEAM Expo
+                  </td>
+                  <td>
+                    2703
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1FehP3Yz7MtbICXSAi_UkASM4c5mSYuM-/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      PWC Haymaker STEAM Expo NASA Demonstration
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1HYRYt22sswtfuoqAyif8KmEEdjkstwt3/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Thank you email
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1erv39aL9Bi09LITRpYxoqkuyydywo-sd/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Student Stalls
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1RurmZAaZIV_6Rh5QDPs9GM3dVMS-2cRy/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      3D Printing Stall
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/18Dl2ceO1UtPuNjYrijCf_gA6WOvsKYHf/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Bot Demonstration
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Cyber Program
+                  </td>
+                  <td>
+                    68
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    FTC Program
+                  </td>
+                  <td>
+                    50
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1XAWDv6boKjOwIXQzxfOjENG60cHq0n3z/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      FTC Program Photo
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1qwQaTAyLGdpeQbUc4xt0x1iD8gMz8-HS/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      FTC Program Trophy Photo
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    NOVEC Meeting
+                  </td>
+                  <td>
+                    300
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/0B0dT4PSpj-LpZUpZcDhHb05WT0c5ZFFpdU95QkxhV0ZvMUw4/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      NOVEC Photo
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/0B0dT4PSpj-LpbTlNS0E0Q0lOOU00U0ZacEo3R1hyYlVYTHlJ/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      NOVEC Photo Number 2
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Freshman Orientation
+                  </td>
+                  <td>
+                    900
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1l5_ldSRzCp5pRrTMLAxvLUCe1hf-pOSg/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Freshman Orientation 1
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    IROC hosting oct 2019
+                  </td>
+                  <td />
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1bPbgSNdb_-hoihoMAoGvHCx0m5Pz4JNw/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      IROC Photo
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Battlefield's clubs meetings
+                  </td>
+                  <td>
+                    35
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1sdpNTHSjZTqXoof1FbpdGbJqnm0x-Rbl/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Club Email
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://docs.google.com/document/d/1gbpyL6pkGpnJKGGHfFJJHjL1n4EvdDOpCL7YTkLCp8U/edit?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Club List
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/12NCXW8CwjVCSLarechTPj0_AymA_eo8c/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Club List continued
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Association of Old Crows
+                  </td>
+                  <td>
+                    200
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1diGIh0qN0d_5Uqgo7AvA3jKu_BKZyROa/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      AOC Letter of Thanks
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Spirit Bot Pep Rally
+                  </td>
+                  <td>
+                    2400
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1diGIh0qN0d_5Uqgo7AvA3jKu_BKZyROa/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Spirit Bot Pep Rally Fall Video
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1qDQ6aP4WCbRYu6L9jNGPTwesA82IORV2/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Spirit Bot Pep Rally Fall Photo with the Superintendent
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Association of Old Crows
+                  </td>
+                  <td>
+                    200
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1diGIh0qN0d_5Uqgo7AvA3jKu_BKZyROa/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      AOC Letter of Thanks
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Girl Scout Nation’s Capital Program Partners and Girl Scout Programming Lesson 1
+                  </td>
+                  <td>
+                    18
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1re1FNsr9ALWSKo7MCtxfBARVGprf45Fu/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Girl Scout Email
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://docs.google.com/document/d/1YCRfReT8AblgPfZyg1NT3GJbaahc4hSvFAacHM4o1J0/edit?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Email Follow Up
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1gKy0BII5GzGMsxI00nXBFvXaN9nwsOaS/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Thank You Email
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Girl Scout Programming Lesson 2
+                  </td>
+                  <td>
+                    7
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://docs.google.com/document/d/1OIQxaec4nGez7C4trBwSX2UE2w-QS0_9S2aL8ZFX8VA/edit?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Girl Scout Lesson Plan
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://docs.google.com/document/d/1UmRA57-R3_ksGoGQnkxpzlv8TVHQa15xQC1L-3IPy1I/edit?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Girl Scout Lesson Photo
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Spirit Bot Football Game Homecoming
+                  </td>
+                  <td>
+                    1867
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://docs.google.com/document/d/1Xg3FNCz-1h4ERkG7CI8Gg7SpYgoS8uZOK0_qL_g_T3U/edit?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Spirit Bot Football Game Homecoming Thank You Email
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1gq7n7u6IT3n953IdmZKSOvq1dG3zk82X/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Spirit Bot Firing the T shirts into the Crowd Photo
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/0B0dT4PSpj-LpdzBGaHRJTDJXNnJqRTBGQnRlTEQwSjVwTE1v/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Football Game Sales Reciept Photo
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Spirit Bot Football Game Pink Out
+                  </td>
+                  <td>
+                    1295
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1diGIh0qN0d_5Uqgo7AvA3jKu_BKZyROa/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Spirit Bot Football Game Pink Out
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1qDQ6aP4WCbRYu6L9jNGPTwesA82IORV2/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Spirit Bot Football Photo with the Superintendent
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Kickoff
+                  </td>
+                  <td>
+                    2400
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1bPbgSNdb_-hoihoMAoGvHCx0m5Pz4JNw/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Kickoff Photo
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Spirit Bot Pep Rally Fall
+                  </td>
+                  <td>
+                    2400
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1U_OoaTzd49J6hmR8azaNmNavPU7_yEbi/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Spirit Bot Pep Rally Fall Video
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Spirit Bot Pep Rally Winter
+                  </td>
+                  <td>
+                    2400
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/16HTI8jQZLmJk9kcx56abyMSIBtIuXG4e/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Spirit Bot Pep Rally Winter Video
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Spirit Bot Pep Rally Winter
+                  </td>
+                  <td>
+                    2400
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/16HTI8jQZLmJk9kcx56abyMSIBtIuXG4e/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Spirit Bot Pep Rally Winter Video
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Spirit Bot Pep Rally Winter
+                  </td>
+                  <td>
+                    2400
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/16HTI8jQZLmJk9kcx56abyMSIBtIuXG4e/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Spirit Bot Pep Rally Winter Video
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Spirit Bot Pep Rally Winter
+                  </td>
+                  <td>
+                    2400
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/16HTI8jQZLmJk9kcx56abyMSIBtIuXG4e/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Spirit Bot Pep Rally Winter Video
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Spirit Bot Pep Rally Winter
+                  </td>
+                  <td>
+                    2400
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/16HTI8jQZLmJk9kcx56abyMSIBtIuXG4e/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Spirit Bot Pep Rally Winter Video
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Team 1418 FRC Training Event, Chairman’s Round table discussion 
+                  </td>
+                  <td>
+                    10
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://docs.google.com/document/d/1Iv2roFqKlL_uByj-OfMwH7mdCh2XdqdDxZ9F6GODXKQ/edit?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Roundtable Discussion Word Document
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Occupy Mars Journey
+                  </td>
+                  <td>
+                    25
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1_ED82hiaXW6eBLcy5QKxzgJVxKSexAMW/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Occupy Mars Journey Interest Email
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1gsLD3VHizgJLjtsGc7BLP92SVN-FS9vD/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Starting the Journey Photo
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1hiBBkvaCY4SJoj9a8nR0VBl9017Vi0sW/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Thank You Email
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    US Department of Education
+                  </td>
+                  <td>
+                    4
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1oDPis4kNslyAeI4jk-z4H8JZB_UYC4q8/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      US Department of Education Photo
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1nsdcPDO1rpxJH92zWrqXMWd907cGG3_T/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      US Department of Education Photo Showing off the Robot
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1JyrrbgYC561URwVsoLrpjt-1PQHMNd2h/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      US Department of Education Student Presentation Photo
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1irOxQ0Wi_wC385_Jpmyyp0rtTG6ahwjx/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Final Thoughts Photo
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1irOxQ0Wi_wC385_Jpmyyp0rtTG6ahwjx/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      US Department of Education Photo
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Udvar Hazy Girl Scout Day
+                  </td>
+                  <td />
+                  <td />
+                </tr>
+                <tr>
+                  <td>
+                    CASIIT Holiday Party
+                  </td>
+                  <td>
+                    40
+                  </td>
+                  <td />
+                </tr>
+                <tr>
+                  <td>
+                    Girl Scout Space Science Event
+                  </td>
+                  <td>
+                    1110
+                  </td>
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/1AdzLrP0K3HO73cyuryZ0tAqeYE0uVCdW/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Girl Scout Space Science Event Photo
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/12fYp-sNunoExlb_d2hqkBt0IGQ5MSvTr/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Girl Scout Space Science Event Arts and Craft Photo
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/12fYp-sNunoExlb_d2hqkBt0IGQ5MSvTr/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Girl Scout Space Science Event Helping the Students Photo
+                    </a>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/14COgeEgU71DhNKYFiYjEO4ssKTiOnIxg/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Girl Scout Space Science Event Thank You Email
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Bull Run Observer Article STEAM EXPO
+                  </td>
+                  <td />
+                  <td>
+                    <a
+                      className="history__documentation__link"
+                      href="https://drive.google.com/file/d/16awQkR46F3L8VJ_g77i_OTrHWvdhN6F1/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Article
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Bull Run Observer Article Teacher of the year
+                  </td>
+                  <td />
+                  <td />
+                </tr>
+              </table>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer"
+  >
+    <div
+      className="footer__info"
+    >
+      <div
+        className="col"
+      >
+        <h5
+          className="footer__header"
+        >
+          CONTACT US
+        </h5>
+        <a
+          className="footer__link"
+          href="mailto:gddrake@gmail.com"
+        >
+          drakegd@pwcs.edu
+        </a>
+        <p
+          className="footer__text"
+        >
+          Coach Gail Drake
+        </p>
+        <p
+          className="footer__text"
+        >
+          (571) 261-4726
+        </p>
+      </div>
+      <div
+        className="col"
+      >
+        <h5
+          className="footer__header"
+        >
+          LOCATION
+        </h5>
+        <a
+          className="footer__link"
+          href="https://www.google.com/maps/place/ILITE+Robotics/@38.8268178,-77.663642,12.57z/data=!4m5!3m4!1s0x89b668950b37d0bb:0x94045c6b6225ce3c!8m2!3d38.8453222!4d-77.6301669"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Map & Directions
+        </a>
+        <p
+          className="footer__text"
+        >
+          ILITE Robotics
+        </p>
+        <p
+          className="footer__text"
+        >
+          15000 Graduation Drive
+        </p>
+        <p
+          className="footer__text"
+        >
+          Haymarket, VA 20169
+        </p>
+      </div>
+      <div
+        className="col"
+      >
+        <h5
+          className="footer__header"
+        >
+          CALENDAR
+        </h5>
+        <a
+          className="footer__link"
+          href="/ilite/calendar"
+        >
+          <i
+            className="fa fa-calendar-o"
+          />
+          Team Events & Schedule
+        </a>
+      </div>
+      <div
+        className="col"
+      >
+        <h5
+          className="footer__header"
+        >
+          GET CONNECTED
+        </h5>
+        <a
+          className="footer__social"
+          href="https://www.facebook.com/iliterobotics/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <i
+            className="fa fa-facebook"
+          >
+            <svg
+              version="1.1"
+              viewBox="0 0 1792 1792"
+              x="0px"
+              y="0px"
+            >
+              <path
+                d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z"
+                fill="#F3FDFF"
+              />
+            </svg>
+          </i>
+        </a>
+        <a
+          className="footer__social"
+          href="https://www.twitter.com/team1885"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <i
+            className="fa fa-twitter"
+          >
+            <svg
+              version="1.1"
+              viewBox="0 0 1792 1792"
+              x="0px"
+              y="0px"
+            >
+              <path
+                d="M1408 610q-56 25-121 34 68-40 93-117-65 38-134 51-61-66-153-66-87 0-148.5 61.5t-61.5 148.5q0 29 5 48-129-7-242-65t-192-155q-29 50-29 106 0 114 91 175-47-1-100-26v2q0 75 50 133.5t123 72.5q-29 8-51 8-13 0-39-4 21 63 74.5 104t121.5 42q-116 90-261 90-26 0-50-3 148 94 322 94 112 0 210-35.5t168-95 120.5-137 75-162 24.5-168.5q0-18-1-27 63-45 105-109zm256-194v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"
+                fill="#F3FDFF"
+              />
+            </svg>
+          </i>
+        </a>
+        <a
+          className="footer__social"
+          href="https://www.youtube.com/channel/UCCWs22DHGwRloB613zOJ9UA"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <i
+            className="fa fa-youtube"
+          >
+            <svg
+              version="1.1"
+              viewBox="0 0 1792 1792"
+              x="0px"
+              y="0px"
+            >
+              <path
+                d="M1047 1303v-157q0-50-29-50-17 0-33 16v224q16 16 33 16 29 0 29-49zm184-122h66v-34q0-51-33-51t-33 51v34zm-571-266v70h-80v423h-74v-423h-78v-70h232zm201 126v367h-67v-40q-39 45-76 45-33 0-42-28-6-17-6-54v-290h66v270q0 24 1 26 1 15 15 15 20 0 42-31v-280h67zm252 111v146q0 52-7 73-12 42-53 42-35 0-68-41v36h-67v-493h67v161q32-40 68-40 41 0 53 42 7 21 7 74zm251 129v9q0 29-2 43-3 22-15 40-27 40-80 40-52 0-81-38-21-27-21-86v-129q0-59 20-86 29-38 80-38t78 38q21 29 21 86v76h-133v65q0 51 34 51 24 0 30-26 0-1 .5-7t.5-16.5v-21.5h68zm-451-824v156q0 51-32 51t-32-51v-156q0-52 32-52t32 52zm533 713q0-177-19-260-10-44-43-73.5t-76-34.5q-136-15-412-15-275 0-411 15-44 5-76.5 34.5t-42.5 73.5q-20 87-20 260 0 176 20 260 10 43 42.5 73t75.5 35q137 15 412 15t412-15q43-5 75.5-35t42.5-73q20-84 20-260zm-755-651l90-296h-75l-51 195-53-195h-78q7 23 23 69l24 69q35 103 46 158v201h74v-201zm289 81v-130q0-58-21-87-29-38-78-38-51 0-78 38-21 29-21 87v130q0 58 21 87 27 38 78 38 49 0 78-38 21-27 21-87zm181 120h67v-370h-67v283q-22 31-42 31-15 0-16-16-1-2-1-26v-272h-67v293q0 37 6 55 11 27 43 27 36 0 77-45v40zm503-304v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"
+                fill="#F3FDFF"
+              />
+            </svg>
+          </i>
+        </a>
+        <a
+          className="footer__social"
+          href="https://www.instagram.com/team1885"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <i
+            className="fa fa-instagram"
+          >
+            <svg
+              version="1.1"
+              viewBox="0 0 1792 1792"
+              x="0px"
+              y="0px"
+            >
+              <path
+                d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z"
+                fill="#F3FDFF"
+              />
+            </svg>
+          </i>
+        </a>
+      </div>
+    </div>
+    <div
+      className="footer__copyright"
+    >
+      <p>
+        © 2020 ILITE. All rights reserved.
+      </p>
+    </div>
+  </div>
+</div>
+`;
