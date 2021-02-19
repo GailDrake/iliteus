@@ -146,6 +146,7 @@ class Navbar extends Component {
                 title="Outreach"
                 links={outreachLinks}
                 extended={this.state.outreachDropdown}
+                toggleExtended={this.toggleOutreachDropdown}
               />
             </div>
           </li>
