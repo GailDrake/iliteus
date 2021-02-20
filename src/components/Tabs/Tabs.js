@@ -4,7 +4,8 @@ export default class Tabs extends React.Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
-      activeTabIndex: 0
+      activeTabIndex: 0,
+      horizontalLineWidth: undefined
     };
     this.handleTabClick = this.handleTabClick.bind(this);
   }
@@ -30,22 +31,54 @@ export default class Tabs extends React.Component {
   // Render current active tab content
   renderActiveTabContent() {
     const { children } = this.props;
-    const { activeTabIndex } = this.state;
+    const { activeTabIndex, horizontalLineWidth } = this.state;
     if (children[activeTabIndex]) {
-      return children[activeTabIndex].props.children;
+
+      let newChildren = [];
+      for (let i = 0; i < children[activeTabIndex].props.children.length; i++) {
+        let child = children[activeTabIndex].props.children[i];
+        console.log(child);
+        if (child.props.className && child.props.className.includes("centered_elements")) {
+          let newChild = React.cloneElement(child, {
+            style: {
+              maxWidth: horizontalLineWidth
+            }
+          });
+          newChildren.push(newChild);
+        }
+
+        else {
+          newChildren.push(child);
+        }
+      }
+      return newChildren;
     }
   }
 
   render() {
     return (
       <div className="tabs">
-        <ul className='tabs__ul'>
+        <div className="tabs__ul">
+
           {this.renderChildrenWithTabsApiAsProps()}
-        </ul>
+        </div>
         <ul className="tabs-active-content">
           {this.renderActiveTabContent()}
         </ul>
       </div>
     );
+  }
+
+  updateLineWidth() {
+    let buttons = Array.from(document.getElementsByClassName("tab"));
+    let width = 0;
+    buttons.forEach(b => {
+      width += b.clientWidth;
+    });
+    this.setState({ horizontalLineWidth: width + "px" });
+  }
+
+  componentDidMount() {
+    this.updateLineWidth();
   }
 };
