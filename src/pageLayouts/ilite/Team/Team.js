@@ -18,7 +18,7 @@ const Team = ({ teamList }) => {
         <div className="team">
           <Tabs>
             <Tab name="Leadership">
-              <p className="centered_elements">
+              <p className="centeredLeadershipMentors">  {/*903*/}
                 ILITE understands that a team structure is a well-defined
                 organizational structure that promotes good communication and is
                 the key to any successful FIRST Robotics team. A very important
@@ -34,15 +34,16 @@ const Team = ({ teamList }) => {
               </div>
             </Tab>
             <Tab name="Build">
+
               <div className="centered_elements">
-                <h1>Build</h1>
+               
 
                 <div className="team__greybox">
                   <h2>Subteam Specific Mission Statement</h2>
                   <QuoteRight fill="grey" />
                 To be able to create an efficient and robust robot that
                 represents the whole of our abilities and capabilities as a
-                subteam and serves as a base for other subteamsâ€™ work. In the
+                subteam and serves as a base for other subteams' work. In the
                 process, we would like to maintain a priority for safety,
                 control, and an appreciation for quality design.
                 <QuoteLeft fill="grey" />
@@ -58,15 +59,15 @@ const Team = ({ teamList }) => {
                   the subteam has split into several smaller branches: the Drive
                   Train Team, Manipulator Team, and CAD and Integration Team. The
                   Drive Train Team takes on the role of developing the foundation
-                  of the teamâ€™s robot each season. This includes responsibility
+                  of the team's robot each season. This includes responsibility
                   for all major structural members as well as the design and
-                  construction of a drive train layout optimized for that seasonâ€™s
+                  construction of a drive train layout optimized for that season's
                   FRC challenge. Students and mentors work side by side discussing
                   game strategies and best practices to ensure a successful robot
                   which will last through an entire season. The Manipulator Team
                   is responsible for the design of complex components such as
                   arms, claws, and shooters that attach to the drivetrain to allow
-                  the robot to successfully tackle the teamâ€™s goals each year as
+                  the robot to successfully tackle the team's goals each year as
                   either an offensive, defensive, or equally-balanced robot. This
                   team undergoes a long process of prototyping and experimentation
                   before settling on the final product which they execute with
@@ -80,12 +81,13 @@ const Team = ({ teamList }) => {
                   together in a seamless package which adheres to FIRST design
                   regulations.
               </p>
+
                 <div className="team__greybox">
                   <h2>Goals</h2>
                   <ol>
                     <li>
                       To develop a seasonal drivetrain as the foundation of the
-                      teamâ€™s robot
+                      team's robot
                   </li>
                     <li>
                       To design complex components such as arms, claws, and
@@ -128,8 +130,8 @@ const Team = ({ teamList }) => {
               </div>
             </Tab>
             <Tab name="Electronics">
+
               <div className="centered_elements">
-                <h1>Electronics</h1>
 
                 <div className="team__greybox">
                   <h2>Subteam Specific Mission Statement</h2>
@@ -145,7 +147,7 @@ const Team = ({ teamList }) => {
                   className="team__img"
                 />
                 <p>
-                  The Electronics subteamâ€™s main task is to efficiently route and
+                  The Electronics subteam's main task is to efficiently route and
                   connect the necessary components needed for the robot to
                   function. These include talons, roboRIO, power distribution
                   panel (PDP), and the voltage regulator module (VRM). Other
@@ -209,9 +211,9 @@ const Team = ({ teamList }) => {
               </div>
             </Tab>
             <Tab name="Programming">
-              <div className="centered_elements">
-                <h1>Programming</h1>
 
+              <div className="centered_elements">
+                
                 <div className="team__greybox">
                   <h2>Subteam Specific Mission Statement</h2>
                   <QuoteRight fill="grey" />
@@ -237,7 +239,7 @@ const Team = ({ teamList }) => {
                   from both analog and digital inputs, and outputting the proper
                   data to the robot for actions independent of human interaction
                   and to provide clean and consistent movements that the drivers
-                  can always rely on. Over the years, ILITEâ€™s robot code has
+                  can always rely on. Over the years, ILITE's robot code has
                   garnered respect and acknowledgement for the successful code
                   structure. All in all, the Programming Team has a long history
                   of pushing the bounds of what a robot can achieve.
@@ -277,8 +279,8 @@ const Team = ({ teamList }) => {
               </div>
             </Tab>
             <Tab name="Sponsorship">
+
               <div className="centered_elements">
-                <h1>Sponsorship</h1>
 
                 <div className="team__greybox">
                   <h2>Subteam Specific Mission Statement</h2>
@@ -330,8 +332,8 @@ const Team = ({ teamList }) => {
               </div>
             </Tab>
             <Tab name="Outreach">
+
               <div className="centered_elements">
-                <h1>Outreach</h1>
 
                 <div className="team__greybox">
                   <h2>Subteam Specific Mission Statement</h2>
@@ -409,20 +411,20 @@ const Team = ({ teamList }) => {
                     <li>
                       2012 Washington DC Regional: Engineering Inspiration Award
                   </li>
-                    <li>2012 Virginia Regional: Regional Chairmanâ€™s Award</li>
+                    <li>2012 Virginia Regional: Regional Chairman's Award</li>
                     <li>
-                      2013 Washington DC Regional: Regional Chairmanâ€™s Award
+                      2013 Washington DC Regional: Regional Chairman's Award
                   </li>
                     <li>
-                      2013 Washington DC Regional: FIRST Deanâ€™s List Finalist
+                      2013 Washington DC Regional: FIRST Dean's List Finalist
                       Award
                   </li>
-                    <li>2014 Greater DC Regional: Regional Chairmanâ€™s Award</li>
+                    <li>2014 Greater DC Regional: Regional Chairman's Award</li>
                     <li>
-                      2014 Greater DC Regional: FIRST Deanâ€™s List Finalist Award
+                      2014 Greater DC Regional: FIRST Dean's List Finalist Award
                   </li>
-                    <li>2015 Greater DC Regional: Regional Chairmanâ€™s Award</li>
-                    <li>2016 Greater DC District: District Chairmanâ€™s Award</li>
+                    <li>2015 Greater DC Regional: Regional Chairman's Award</li>
+                    <li>2016 Greater DC District: District Chairman's Award</li>
                     <li>
                       2016 Hampton Roads District Event: Entrepreneurship Award
                   </li>
@@ -443,8 +445,9 @@ const Team = ({ teamList }) => {
               </div>
             </Tab>
             <Tab name="Website">
+
               <div className="centered_elements">
-                <h1>Website</h1>
+                
 
                 <div className="team__greybox">
                   <h2>Subteam Specific Mission Statement</h2>
@@ -516,8 +519,9 @@ const Team = ({ teamList }) => {
               <div className="team__members">{GetMember("Web", teamList)}</div>
             </Tab>
             <Tab name="Graphics">
+
               <div className="centered_elements">
-                <h1>Graphics</h1>
+                
 
                 <div className="team__greybox">
                   <h2>Subteam Specific Mission Statement</h2>
@@ -537,10 +541,10 @@ const Team = ({ teamList }) => {
                   Graphic Design gives life to ILITE through detailed and creative
                   imagery including thematically appropriate designs. Graphics
                   continuously collaborates with other subteams, including but not
-                  limited to, Build, Chairmanâ€™s, its own branch of
+                  limited to, Build, Chairman's, its own branch of
                   photography/videography, and Web Design. Along with the creation
                   of many logos and posters, the Graphics team designs a yearly
-                  summary of our organizationâ€™s accomplishments, history, and the
+                  summary of our organization's accomplishments, history, and the
                   progress of our robot, called the annual report. Finding the
                   inspiration and motivation behind a design is not always easy,
                   but the members of our brilliant Graphics Design team seem to be
@@ -550,8 +554,8 @@ const Team = ({ teamList }) => {
                   endeavor, whether big or small, simple or complex. One word that
                   the Graphics team unequivocally embodies above all else is
                   â€œdedicationâ€. The Graphics team strives to apply maximum effort
-                  in every task in order to effectively communicate a designâ€™s
-                  message. Itâ€™s easy to see how much passion and zeal the Graphics
+                  in every task in order to effectively communicate a design's
+                  message. It's easy to see how much passion and zeal the Graphics
                   team translates from imaginative ideas to a vast array of
                   gorgeous projects, displayed with pride and a sense of
                   accomplishment.
@@ -586,8 +590,9 @@ const Team = ({ teamList }) => {
               </div>
             </Tab>
             <Tab name="3D Printing">
+
               <div className="centered_elements">
-                <h1>3D Printing</h1>
+                
 
                 <div className="team__greybox">
                   <h2>Subteam Specific Mission Statement</h2>
@@ -613,7 +618,7 @@ const Team = ({ teamList }) => {
                   select items, such as trophies and gearbox plates.
               </p>
                 <div className="team__greybox">
-                  <h2>Goals</h2>
+                  
                   <ol>
                     <li>
                       To create 3D prints that will assist other subteams in their
@@ -631,8 +636,8 @@ const Team = ({ teamList }) => {
               </div>
             </Tab>
             <Tab name="Mentors">
-              <div className="centered_elements">
-                <h1>Mentors</h1>
+              <div className="centeredLeadershipMentors">
+              
                 <p> The mentors are a group of volunteers who contribute to the
                 team. They are responsible for supporting and assisting the team
                 members in their respective subteams throughout the season.
