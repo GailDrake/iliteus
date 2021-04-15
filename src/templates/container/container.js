@@ -8,7 +8,6 @@ class Container extends Component {
     return (
       <div className="container" >
         <Banner title={title} bannerImage={bannerImage}>{subtitle}</Banner>
-        <div className="container__bar"></div>
         <div className="container__content">{children}</div>
       </div>
     )
