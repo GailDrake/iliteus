@@ -146,6 +146,7 @@ class Navbar extends Component {
                 title="Outreach"
                 links={outreachLinks}
                 extended={this.state.outreachDropdown}
+                toggleExtended={this.toggleOutreachDropdown}
               />
             </div>
           </li>
@@ -153,6 +154,7 @@ class Navbar extends Component {
             <div
               onClick={() => this.toggleIliteDropdown()}
               onKeyPress={this.handleKeyPress}
+              toggleExtended={this.toggleIliteDropdown}
               role="button"
               tabIndex={0}
             >
@@ -160,6 +162,8 @@ class Navbar extends Component {
                 title="About ILITE"
                 links={iliteLinks}
                 extended={this.state.iliteDropdown}
+                toggleExtended={this.toggleIliteDropdown}
+                onfocusout={()=>console.log("Focus out!")}
               />
             </div>
           </li>

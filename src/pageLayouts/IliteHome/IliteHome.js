@@ -26,7 +26,7 @@ const IliteHome = props => {
           </div>
         </div>
         <div className="iliteHome__events">
-          <h1 className="iliteHome__events-header">Upcoming Events</h1>
+          <h1 className="iliteHome__events-header">Recent Events</h1>
           <p className="iliteHome__events-subheader">
             We host a multitude of events throughout the year ranging from
             robotics competitions to summer camps to expos. Below are listed

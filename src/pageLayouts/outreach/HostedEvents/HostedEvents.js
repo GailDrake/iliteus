@@ -11,6 +11,33 @@ const HostedEvents = () => (
       bannerImage="hostedevents__banner"
     >
       <div className="hosted-events">
+        <h1 className = "hostedevents__header">2020 - 2021 Virtual Season</h1>
+        <hr className="hostedevents__hr" />
+
+          <div className="event">
+            <div className="event__description">
+              <div>
+                <img
+                  src={require("../../../assets/images/outreach/catapultcompetition/imagetwo.jpeg")}
+                  alt="Catapult Competition"
+                  style = {{height: "300px"}}
+                />
+              </div>
+              <div>
+                <h1 className="hostedevents__subheader">Catapult Competition</h1>
+                <hr />
+                <p>
+                  Due to the COVID-19 Pandemic, ILITE was unable to do any offseason events. That being said, ILITE decided to make their 
+                  own event in house. Teams were tasked with building their own catapult. At the event, the team that launched the designated object
+                  the farthest won.
+                </p>
+                <br/>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+      <div className="hosted-events">
         <h1 className="hostedevents__header">2019 - 2020 Season</h1>
         <p>
           ILITE hosts multiple events during the summer, competition season, and
@@ -152,6 +179,7 @@ const HostedEvents = () => (
             </div>
           </div>
 
+          
           {/*<hr className="hostedevents__hr" />
 
       <div className="event">
