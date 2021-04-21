@@ -12,7 +12,7 @@ const NotFoundPage = () => {
                 bannerImage="not__found_banner"
             >
                 <div className="page-not-found"> 
-                    <h1 className="page-not-found__header">Please refer to the top right of the page to relocate to the correct page</h1>
+                    <h1 className="page-not-found__header">Please refer to the top right to relocate to the correct page</h1>
                     <p className="page-not-found__p">
                         Here are some other links that may be helpful
                         <ul>
