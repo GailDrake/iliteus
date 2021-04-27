@@ -81,41 +81,6 @@
       "mentor": true,
       "image": "Knight,Jesse.jpg"
     },
-    "Kimberly Strong": {
-      "name": "Kimberly Strong",
-      "subteam": "Outreach",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": 2014,
-      "mentor": true,
-      "image": "Strong,Kimberly.jpg"
-    },
-    "Nicholas Lechner": {
-      "name": "Nicholas Lechner",
-      "subteam": "Build",
-      "memory": "During build season, when we pulled an all nighter on Presidents day.",
-      "year": 2013,
-      "fact": "Robotics is Life.",
-      "mentor": true,
-      "image": "Lechner,Nicholas.jpg"
-    },
-    "Noah Lechner": {
-      "name": "Noah Lechner",
-      "subteam": "Build",
-      "memory": "Teaching the scrubs.",
-      "fact": "I like John Deer",
-      "year": "N/A",
-      "mentor": true,
-      "image": "Lechner,Noah.jpg"
-    },
-    "Richard Bailey": {
-      "name": "Richard Bailey",
-      "subteam": "N/A",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
-      "mentor": true
-    },
     "Stan Balint": {
       "name": "Stan Balint",
       "subteam": "Build",
@@ -125,14 +90,6 @@
       "image": "Balint,Stan.png",
       "mentor": true
     },
-    "David Boyd": {
-      "name": "David Boyd",
-      "subteam": "3D Printing",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
-      "mentor": true
-    },
     "Paul Desautels": {
       "name": "Paul Desautels",
       "subteam": "Sponsorship",
@@ -140,30 +97,6 @@
       "fact": "N/A",
       "year": "N/A",
       "image": "Desautels,Paul.png",
-      "mentor": true
-    },
-    "Karyn Kraft": {
-      "name": "Karyn Kraft",
-      "subteam": "Finance",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
-      "mentor": true
-    },
-    "Jeff Shapiro": {
-      "name": "Jeff Shapiro",
-      "subteam": "Programming",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
-      "mentor": true
-    },
-    "Mark Ward": {
-      "name": "Mark Ward",
-      "subteam": "Build",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
       "mentor": true
     },
     "Rahul Yarlagadda": {
@@ -183,15 +116,6 @@
       "year": "N/A",
       "mentor": true,
       "image": "Laverty,Larry.jpg"
-    },
-    "Stephan Lechner": {
-      "name": "Stephan Lechner",
-      "subteam": "Build",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
-      "mentor": true,
-      "image": "Lechner,Stephan.jpg"
     },
     "Daniel Tolbert": {
       "name": "Daniel Tolbert",
