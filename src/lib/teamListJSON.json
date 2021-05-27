@@ -12,8 +12,8 @@
     "Lakshmi Meyappan": {
       "name": "Lakshmi Meyappan",
       "subteam": "Outreach",
-      "memory": "N/A",
-      "fact": "N/A",
+      "memory": "",
+      "fact": "",
       "year": 2014,
       "mentor": true,
       "image": "Meyappan,Lakshmi.jpg"
@@ -21,9 +21,9 @@
     "Chris O'Connell": {
       "name": "Chris O'Connell",
       "subteam": "Programming",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
+      "memory": "",
+      "fact": "",
+      "year": "",
       "mentor": true,
       "image": "O'Connell,Chris.jpg"
     },
@@ -48,8 +48,8 @@
     "Gloria Desautels": {
       "name": "Gloria Desautels",
       "subteam": "Outreach",
-      "memory": "N/A",
-      "fact": "N/A",
+      "memory": "",
+      "fact": "",
       "year": 2014,
       "mentor": true,
       "image": "Desautels,Gloria.png"
@@ -57,17 +57,17 @@
     "Greg Morton": {
       "name": "Greg Morton",
       "subteam": "Build",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
+      "memory": "",
+      "fact": "",
+      "year": "",
       "mentor": true,
       "image": "Morton,Greg.jpg"
     },
     "Jamie Lechner": {
       "name": "Jamie Lechner",
       "subteam": "Outreach",
-      "memory": "N/A",
-      "fact": "N/A",
+      "memory": "",
+      "fact": "",
       "year": 2013,
       "mentor": true,
       "image": "Lechner,Jamie.jpg"
@@ -84,8 +84,8 @@
     "Kimberly Strong": {
       "name": "Kimberly Strong",
       "subteam": "Outreach",
-      "memory": "N/A",
-      "fact": "N/A",
+      "memory": "",
+      "fact": "",
       "year": 2014,
       "mentor": true,
       "image": "Strong,Kimberly.jpg"
@@ -104,92 +104,92 @@
       "subteam": "Build",
       "memory": "Teaching the scrubs.",
       "fact": "I like John Deer",
-      "year": "N/A",
+      "year": "",
       "mentor": true,
       "image": "Lechner,Noah.jpg"
     },
     "Richard Bailey": {
       "name": "Richard Bailey",
-      "subteam": "N/A",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
+      "subteam": "",
+      "memory": "",
+      "fact": "",
+      "year": "",
       "mentor": true
     },
     "Stan Balint": {
       "name": "Stan Balint",
       "subteam": "Build",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
+      "memory": "",
+      "fact": "",
+      "year": "",
       "image": "Balint,Stan.png",
       "mentor": true
     },
     "David Boyd": {
       "name": "David Boyd",
       "subteam": "3D Printing",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
+      "memory": "",
+      "fact": "",
+      "year": "",
       "mentor": true
     },
     "Paul Desautels": {
       "name": "Paul Desautels",
       "subteam": "Sponsorship",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
+      "memory": "",
+      "fact": "",
+      "year": "",
       "image": "Desautels,Paul.png",
       "mentor": true
     },
     "Karyn Kraft": {
       "name": "Karyn Kraft",
       "subteam": "Finance",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
+      "memory": "",
+      "fact": "",
+      "year": "",
       "mentor": true
     },
     "Jeff Shapiro": {
       "name": "Jeff Shapiro",
       "subteam": "Programming",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
+      "memory": "",
+      "fact": "",
+      "year": "",
       "mentor": true
     },
     "Mark Ward": {
       "name": "Mark Ward",
       "subteam": "Build",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
+      "memory": "",
+      "fact": "",
+      "year": "",
       "mentor": true
     },
     "Rahul Yarlagadda": {
       "name": "Rahul Yarlagadda",
       "subteam": "Build",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
+      "memory": "",
+      "fact": "",
+      "year": "",
       "image": "Yarlagadda,Rahul.png",
       "mentor": true
     },
     "Larry Laverty": {
       "name": "Larry Laverty",
       "subteam": "Build",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
+      "memory": "",
+      "fact": "",
+      "year": "",
       "mentor": true,
       "image": "Laverty,Larry.jpg"
     },
     "Stephan Lechner": {
       "name": "Stephan Lechner",
       "subteam": "Build",
-      "memory": "N/A",
-      "fact": "N/A",
-      "year": "N/A",
+      "memory": "",
+      "fact": "",
+      "year": "",
       "mentor": true,
       "image": "Lechner,Stephan.jpg"
     },
@@ -499,7 +499,7 @@
     "Chase Miller": {
       "name": "Chase Miller",
       "subteam": "Build",
-      "memory": "N/A",
+      "memory": "",
       "year": 2019,
       "fact": "I can fix just about anything in a car. ",
       "image": "Miller,Chase.jpg"
@@ -704,8 +704,8 @@
       "fact": "I play 3 sports!",
       "image": "Haddadin,Daniel.png"
     },
-    "Sadie Sahlberg ": {
-      "name": "Sadie Sahlberg ",
+    "Eli Sahlberg ": {
+      "name": "Eli Sahlberg ",
       "subteam": "Build",
       "memory": "The IROC competition where I got to introduce new members to FRC and what it means to be on the team",
       "year": 2018,
