@@ -2,15 +2,18 @@
   margin: 20px auto;
   border: none;
   box-shadow: 0px 5px 25px #DDD;
+  display: flex;
   width: 100%;
 
   @media all and (max-width: 990px) {
+    display: block;
     overflow: hidden;
     max-width: 300px;
   }
 
   .member__img {
     display: block;
+    margin-right: 15px;
     max-height: 200px;
     max-width: 300px;
     float: left;
@@ -32,8 +35,9 @@
   }
 
   .member__content {
-    margin-left: 310px;
-    padding-top: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: calc(100% - 330px);
 
     @media all and (max-width: 990px) {
       float: left;
