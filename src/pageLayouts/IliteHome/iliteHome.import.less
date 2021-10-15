@@ -27,6 +27,7 @@ html {
     @media (max-width: 650px) {
       padding: 0 5%;
       position: relative;
+
     }
 
     @media (max-height: 650px) {
@@ -50,6 +51,7 @@ html {
 
         @media (max-width: 468px) {
           font-size: 40px;
+          
         }
       }
 
@@ -116,16 +118,25 @@ html {
     }
 
     .iliteHome__events-subheader {
+
       color: @text-1;
       width: 90%;
       margin-left: auto;
       margin-right: auto;
       text-align: center;
-      padding-right: 5vw;
-      padding-left: 5vw;
+      padding-right: 50;
+      padding-left: 50;
       padding-top: 5vh;
       padding-bottom: 5vh;
+      max-width: 700px;
+
+      @media all and (min-width: 700px) {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        max-width: 600px;
+      }
     }
+
   }
 
   .iliteHome__news {
